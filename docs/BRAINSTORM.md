@@ -168,6 +168,8 @@ This is the architecture that maximises elegance and power while minimising the 
 
 ## 8. Refined questions for direction
 
+> **Resolved 7 July 2026** — all eight questions were put to the project owner and locked. See [DECISIONS.md](./DECISIONS.md) for the outcomes; the questions below are retained for context.
+
 1. **Governance & identity** — official SWSLHD-endorsed site (slow, permanent, design-system-bound) or independent clinician-led pilot à la LibGuides/Ingham (fast, endorsement later)? **Who specifically is the sponsor** — do you have a champion in the Campbelltown research office / SWSLHD Research Directorate / comms who would put their name on a domain application or endorse a pilot? And what domain: e.g. `campbelltownresearch.org.au`-style, a LibGuides-like subdomain, or pursue `health.nsw.gov.au` real estate?
 2. **Scope boundary** — Campbelltown only, Campbelltown+Camden (Macarthur), or all SWSLHD? How do we relate to Ingham Institute (partner/link/ignore) and the existing SWIRL publications database (integrate/supersede)?
 3. **Editors** — who actually edits (names/roles/count), and would they rather edit in a friendly web CMS or in SharePoint/Excel-like lists? This decides Option A vs C for each content type.
