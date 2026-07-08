@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Content Manager — Campbelltown Hospital Research</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <!--
+      This is the editors-only content management screen for the site (see docs/EDITING.md).
+      It is not linked from the public site's navigation and is not indexed by search engines.
+
+      Sveltia CMS is loaded here from the public unpkg CDN rather than vendored into this repo.
+      That is an intentional, scoped exception to the site's "no runtime CDN dependency" rule:
+      this page is editor tooling, not part of what the public visits, and every editor who
+      needs it already has internet access and a GitHub account (see config.yml). If CDN
+      reliance ever becomes a problem (offline editing, outage, supply-chain concerns), vendor
+      it by downloading the dist/sveltia-cms.js bundle into this folder (e.g.
+      public/admin/sveltia-cms.js) and pointing the <script src> below at the local copy —
+      no other change is required.
+    -->
+    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+  </body>
+</html>

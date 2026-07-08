@@ -1,0 +1,184 @@
+# Sveltia CMS configuration.
+#
+# Sveltia CMS reads the same config.yml format as Decap CMS (it's a drop-in replacement), so
+# this file is compatible with either — see docs/EDITING.md for the non-technical editor guide
+# and docs/DECISIONS.md D3 for why a Git-backed CMS was chosen.
+
+backend:
+  name: github
+  # TODO: replace with the real "org/repo" once the GitHub organisation from DECISIONS.md D8
+  # has been created and this repository has migrated into it. Until that happens this admin
+  # screen will fail to authenticate against the placeholder repo below.
+  repo: PLACEHOLDER-ORG/CTN_Research_Website
+  branch: main
+
+# Uploaded images/files land in public/uploads and are served from /uploads.
+media_folder: public/uploads
+public_folder: /uploads
+
+# Slugs are generated from each collection's identifier_field, lower-cased and hyphenated.
+slug:
+  encoding: unicode
+  clean_accents: true
+
+collections:
+  - name: news
+    label: News
+    label_singular: News post
+    description: 'Short updates from the research office — announcements, milestones, calls for expressions of interest.'
+    folder: src/content/news
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    summary: '{{date}} — {{title}}'
+    sortable_fields: [date, title]
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        hint: 'The headline shown on the News page and in the post itself.'
+      - label: Date
+        name: date
+        widget: date
+        format: 'YYYY-MM-DD'
+        hint: 'Publish date. Posts are listed newest first.'
+      - label: Summary
+        name: summary
+        widget: text
+        hint: 'One or two sentences shown on the News listing card — this is the "teaser", not the full story.'
+      - label: Author
+        name: author
+        widget: string
+        required: false
+        hint: 'Optional byline, e.g. "Research Office" or a person''s name.'
+      - label: Body
+        name: body
+        widget: markdown
+        hint: 'The full post. Plain paragraphs are fine — no need for headings on a short update.'
+
+  - name: projects
+    label: 'Students & JMOs: Projects'
+    label_singular: Project
+    description: 'The project noticeboard — audits, QI projects, case reports and studies open to students and JMOs.'
+    folder: src/content/projects
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    summary: '{{title}} — {{department}}'
+    sortable_fields: [title, department, expiryDate]
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        hint: 'A specific, descriptive project title — this is what students search and scan.'
+      - label: Department
+        name: department
+        widget: string
+        hint: 'e.g. Cardiology, Respiratory & Sleep, Paediatrics, Emergency, General Medicine, Mental Health, Surgery, Nursing & Midwifery research.'
+      - label: Supervisor
+        name: supervisor
+        widget: string
+        hint: 'Name and title of the supervising clinician, e.g. "Dr Jordan Rivers" or "A/Prof Jordan Rivers".'
+      - label: Project type
+        name: type
+        widget: select
+        hint: 'Pick the closest match — this drives the filter on the noticeboard.'
+        options:
+          - { label: Audit, value: audit }
+          - { label: Quality improvement, value: qi }
+          - { label: Case report, value: case-report }
+          - { label: Retrospective study, value: retrospective }
+          - { label: Prospective study, value: prospective }
+          - { label: Systematic review, value: systematic-review }
+          - { label: Other, value: other }
+      - label: Commitment
+        name: commitment
+        widget: string
+        hint: 'A plain-language time budget, e.g. "One term", "6+ months", "Ongoing". Free text, not a fixed list.'
+      - label: Skills gained
+        name: skills
+        widget: list
+        default: []
+        required: false
+        hint: 'One skill per line, e.g. "REDCap data entry", "Ethics submission experience".'
+        field: { label: Skill, name: skill, widget: string }
+      - label: Recruiting students now?
+        name: recruitingNow
+        widget: boolean
+        default: false
+        hint: 'Turn this on to show the "Recruiting students now" badge on the noticeboard.'
+      - label: Contact email
+        name: contactEmail
+        widget: string
+        required: false
+        pattern: ['^[^@\s]+@[^@\s]+\.[^@\s]+$', 'Enter a valid email address, e.g. name@health.nsw.gov.au']
+        hint: 'Optional — where a student should send an expression of interest, if not via the main EOI form.'
+      - label: Expiry date
+        name: expiryDate
+        widget: date
+        format: 'YYYY-MM-DD'
+        required: false
+        hint: 'Listing disappears from the noticeboard after this date. Leave blank for an open-ended listing you will remove manually.'
+      - label: Example / seed content
+        name: example
+        widget: boolean
+        default: false
+        hint: 'Leave OFF for real listings. Only used to mark demo content seeded for the pilot build — do not turn this on for a genuine project.'
+      - label: Body
+        name: body
+        widget: markdown
+        hint: 'What the student would actually do, what they would learn, and the expected output (e.g. a conference abstract, a written report, first-author opportunity). Aim for 2-3 short paragraphs.'
+
+  - name: people
+    label: People
+    label_singular: Profile
+    description: 'Researcher profiles. See the Consent status hint below before publishing — this is decision D4 in docs/DECISIONS.md.'
+    folder: src/content/people
+    create: true
+    delete: true
+    identifier_field: name
+    slug: '{{slug}}'
+    summary: '{{name}} — {{role}} ({{consent}})'
+    sortable_fields: [name, department]
+    fields:
+      - label: Name
+        name: name
+        widget: string
+        hint: 'Full name as the person wants it displayed, e.g. "Dr Priya Chandrasekaran".'
+      - label: Role
+        name: role
+        widget: string
+        hint: 'e.g. Staff Specialist, Clinical Nurse Consultant, Clinical Trials Coordinator, Registrar, Academic GP.'
+      - label: Department
+        name: department
+        widget: string
+      - label: Research themes
+        name: themes
+        widget: list
+        default: []
+        required: false
+        hint: 'One theme per line, e.g. "COPD", "Telehealth pulmonary rehabilitation".'
+        field: { label: Theme, name: theme, widget: string }
+      - label: ORCID
+        name: orcid
+        widget: string
+        required: false
+        pattern: ['^\d{4}-\d{4}-\d{4}-\d{3}[0-9X]$', 'Format: 0000-0000-0000-0000']
+        hint: 'Format 0000-0000-0000-0000. Leave blank if the researcher does not have one on file.'
+      - label: Consent status
+        name: consent
+        widget: select
+        default: pending
+        options:
+          - { label: Pending — not yet confirmed, value: pending }
+          - { label: Granted — confirmed, safe to publish, value: granted }
+        hint: 'Decision D4: a profile is only published on the public site once the researcher has confirmed they are happy to appear. Leave this as "Pending" until you have that confirmation in writing — a pending profile will not go live.'
+      - label: Example / seed content
+        name: example
+        widget: boolean
+        default: false
+        hint: 'Leave OFF for real people. Only used to mark demo profiles seeded for the pilot build. Note: example profiles are visible regardless of consent status, purely to show the page design — never turn this on for a real person''s profile as a way to skip the consent step.'
+      - label: Body
+        name: body
+        widget: markdown
+        hint: 'A short bio — 1-2 paragraphs. What they research and why it matters is more useful here than a full CV.'
