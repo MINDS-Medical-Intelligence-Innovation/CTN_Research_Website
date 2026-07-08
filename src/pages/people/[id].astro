@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { withBase } from '../../utils/base';
+
+export async function getStaticPaths() {
+  const allPeople = await getCollection('people');
+  const visiblePeople = allPeople.filter((p) => p.data.consent === 'granted' || p.data.example);
+  return visiblePeople.map((person) => ({
+    params: { id: person.id },
+    props: { person },
+  }));
+}
+
+const { person } = Astro.props;
+const { name, role, department, themes, orcid, example } = person.data;
+const { Content } = await render(person);
+---
+
+<BaseLayout title={name} description={`${role}, ${department} — Campbelltown Hospital Research.`}>
+  <div class="page-header">
+    <div class="wrap page-header__inner" data-pagefind-body>
+      <p class="eyebrow"><a href={withBase('/people/')}>&larr; All people</a></p>
+      {example && <span class="badge badge--example">Example profile</span>}
+      <h1>{name}</h1>
+      <p class="lede">{role} &middot; {department}</p>
+      {themes.length > 0 && (
+        <ul class="tag-list" aria-label="Research themes">
+          {themes.map((t: string) => <li class="badge badge--dept">{t}</li>)}
+        </ul>
+      )}
+      {orcid && (
+        <p class="card-meta">
+          ORCID: <a href={`https://orcid.org/${orcid}`} target="_blank" rel="noopener noreferrer">{orcid}</a>
+        </p>
+      )}
+    </div>
+  </div>
+
+  <section class="section wrap-narrow" data-pagefind-body>
+    <Content />
+  </section>
+</BaseLayout>

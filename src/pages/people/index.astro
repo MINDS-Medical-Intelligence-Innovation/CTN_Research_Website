@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../utils/base';
+
+const allPeople = await getCollection('people');
+const visiblePeople = allPeople
+  .filter((p) => p.data.consent === 'granted' || p.data.example)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout
+  title="People"
+  description="Researcher profiles from Campbelltown Hospital — browse by department and research theme."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">People</p>
+      <h1>Researchers at Campbelltown Hospital</h1>
+      <p class="lede">
+        Profiles are published with each researcher's consent. Auto-generated stubs (see
+        <a href={withBase('/about/')}>About</a>) only go live once a
+        researcher has confirmed they're happy to appear.
+      </p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      <p class="results-count">{visiblePeople.length} profile{visiblePeople.length === 1 ? '' : 's'}</p>
+      {visiblePeople.length > 0 ? (
+        <div class="grid grid--3">
+          {visiblePeople.map((person) => <PersonCard person={person} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No published profiles yet — check back soon.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

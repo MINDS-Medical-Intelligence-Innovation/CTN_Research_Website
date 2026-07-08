@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About"
+  description="About Campbelltown Hospital Research — mission, how the site works, and governance links."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">About</p>
+      <h1>About this site</h1>
+    </div>
+  </div>
+
+  <section class="section wrap-narrow" data-pagefind-body>
+    <h2>Mission</h2>
+    <p>
+      Campbelltown Hospital Research exists to be a single, elegant, always-current home for
+      research at Campbelltown Hospital: a public showcase of publications, clinical trials,
+      research groups and news, and a discovery engine for students and JMOs looking for a
+      topic, a supervisor and a project that fits their term, their skills and their time
+      budget.
+    </p>
+    <p>
+      The publication wall, trial listings and researcher profiles are designed to update
+      themselves from authoritative sources — PubMed and ClinicalTrials.gov today, with ORCID
+      and other registries under consideration — so the site stays current without relying on
+      anyone remembering to hand-edit a page. Humans curate: adding narrative, reviewing
+      auto-drafted content, and deciding what's ready to publish.
+    </p>
+    <p>
+      This is an independent, clinician-led pilot, not an official SWSLHD website. It follows
+      the precedent set by other SWSLHD-adjacent resources hosted outside core NSW Health web
+      infrastructure (the Clinical Library's LibGuides site, the Ingham Institute's own
+      website): build something useful quickly, demonstrate its value, and pursue formal
+      endorsement with a working product in hand.
+    </p>
+
+    <h2>How the site works</h2>
+    <p>
+      The site is a static website: every page is generated at build time from structured
+      content and data files, then published as plain HTML, CSS and a small amount of
+      JavaScript for filtering and search. There is no database and no server to maintain.
+    </p>
+    <ul>
+      <li>
+        <strong>Publications</strong> are harvested from PubMed by an automated pipeline that
+        searches for Campbelltown Hospital affiliations, normalises the metadata, and tags
+        each paper by department. Papers with a Campbelltown-based first, last or
+        corresponding author are badged "Campbelltown-led".
+      </li>
+      <li>
+        <strong>Clinical trials</strong> are synced from the ClinicalTrials.gov v2 API,
+        filtered to trials with a Campbelltown Hospital facility.
+      </li>
+      <li>
+        <strong>Researcher profiles</strong> are auto-stubbed from public PubMed data, then
+        only published once the researcher has confirmed — a quick consent step — that they're
+        happy to appear.
+      </li>
+      <li>
+        <strong>News and student projects</strong> are curated directly by the research office
+        and supervisors.
+      </li>
+    </ul>
+    <p>
+      Every automated update arrives as a reviewable change, not a silent one — nothing
+      publishes without a clear audit trail.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      <em>
+        Placeholder — a research office contact point (email or SharePoint contact form) will
+        be added here once confirmed.
+      </em>
+    </p>
+
+    <h2>Related links</h2>
+    <ul>
+      <li>
+        <a href="https://www.swslhd.health.nsw.gov.au/research.html" target="_blank" rel="noopener noreferrer">
+          SWSLHD Research Directorate
+        </a>
+      </li>
+      <li>
+        <a href="https://inghaminstitute.org.au/" target="_blank" rel="noopener noreferrer">
+          Ingham Institute for Applied Medical Research
+        </a>
+      </li>
+      <li>
+        <em>SWSLHD ethics — placeholder link, to be confirmed with the Research Directorate.</em>
+      </li>
+    </ul>
+  </section>
+</BaseLayout>

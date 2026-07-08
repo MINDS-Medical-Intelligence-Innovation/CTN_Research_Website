@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrialCard from '../../components/TrialCard.astro';
+import trialsData from '../../data/trials.json';
+
+const statusOrder: Record<string, number> = {
+  RECRUITING: 0,
+  ACTIVE_NOT_RECRUITING: 1,
+  ENROLLING_BY_INVITATION: 1,
+  NOT_YET_RECRUITING: 1,
+  COMPLETED: 2,
+  TERMINATED: 3,
+  WITHDRAWN: 3,
+};
+
+const trials = [...(trialsData.items ?? [])].sort(
+  (a, b) => (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9),
+);
+
+const recruitingCount = trials.filter((t) => t.status === 'RECRUITING').length;
+---
+
+<BaseLayout
+  title="Clinical Trials"
+  description="Clinical trials running at Campbelltown Hospital, auto-synced from ClinicalTrials.gov."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">Clinical Trials</p>
+      <h1>Clinical trials at Campbelltown Hospital</h1>
+      <p class="lede">
+        {recruitingCount} trial{recruitingCount === 1 ? '' : 's'} currently recruiting, out of
+        {trials.length} tracked. Data auto-synced from ClinicalTrials.gov.
+      </p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      {trials.length > 0 ? (
+        <div class="grid grid--3">
+          {trials.map((trial) => <TrialCard trial={trial} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No trials indexed yet. Check back soon.</p>
+      )}
+
+      <hr class="divider" />
+      <p class="muted">Trial data sourced from ClinicalTrials.gov.</p>
+    </div>
+  </section>
+</BaseLayout>

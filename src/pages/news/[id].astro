@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { withBase } from '../../utils/base';
+import { formatDate } from '../../utils/format';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('news');
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { title, date, summary, author } = post.data;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={title} description={summary}>
+  <div class="page-header">
+    <div class="wrap page-header__inner" data-pagefind-body>
+      <p class="eyebrow"><a href={withBase('/news/')}>&larr; All news</a></p>
+      <h1>{title}</h1>
+      <p class="card-meta">
+        <time datetime={date.toISOString()}>{formatDate(date)}</time>
+        {author && <Fragment> &middot; {author}</Fragment>}
+      </p>
+    </div>
+  </div>
+
+  <section class="section wrap-narrow" data-pagefind-body>
+    <Content />
+  </section>
+</BaseLayout>

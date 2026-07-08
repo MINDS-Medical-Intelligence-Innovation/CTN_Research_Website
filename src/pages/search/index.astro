@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../utils/base';
+
+const pagefindCss = withBase('/pagefind/pagefind-ui.css');
+const pagefindJs = withBase('/pagefind/pagefind-ui.js');
+---
+
+<BaseLayout title="Search" description="Search Campbelltown Hospital Research: publications, trials, people, projects and news.">
+  <link rel="stylesheet" href={pagefindCss} slot="head" />
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">Search</p>
+      <h1>Search the site</h1>
+      <p class="lede">
+        Search across publications, clinical trials, researcher profiles, student projects and
+        news.
+      </p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap-narrow">
+      <p class="dev-note" id="search-dev-note">
+        Search is powered by <a href="https://pagefind.app/" target="_blank" rel="noopener noreferrer">Pagefind</a>,
+        which indexes the built site. It only works after running <code>npm run build</code>
+        (and <code>npm run preview</code> to view the result) — it will not return results
+        while running <code>npm run dev</code>.
+      </p>
+      <div id="search"></div>
+    </div>
+  </section>
+
+  <script define:vars={{ pagefindJs }}>
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = pagefindJs;
+    script.onload = () => {
+      const note = document.getElementById('search-dev-note');
+      if (note) note.style.display = 'none';
+      // eslint-disable-next-line no-undef
+      new PagefindUI({ element: '#search', showSubResults: true });
+    };
+    script.onerror = () => {
+      const note = document.getElementById('search-dev-note');
+      if (note) {
+        note.textContent =
+          'Search assets were not found. Run "npm run build" to generate the Pagefind search index (this page does not work in "npm run dev").';
+      }
+    };
+    document.head.appendChild(script);
+  </script>
+</BaseLayout>

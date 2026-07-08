@@ -1,0 +1,77 @@
+{
+  "generated": "2026-07-08T00:00:00Z",
+  "source": "pubmed",
+  "items": [
+    {
+      "pmid": "38812345",
+      "doi": "10.1016/j.example.2026.01.001",
+      "title": "Outcomes of a nurse-led rapid chest pain pathway in a South Western Sydney emergency department",
+      "journal": "Emergency Medicine Australasia",
+      "journalAbbrev": "Emerg Med Australas",
+      "year": 2026,
+      "month": 3,
+      "authors": [
+        { "name": "Nguyen T", "campbelltown": true },
+        { "name": "Farrell K", "campbelltown": true },
+        { "name": "Osei-Bonsu M", "campbelltown": false },
+        { "name": "Chowdhury R", "campbelltown": true }
+      ],
+      "campbelltownLed": true,
+      "departments": ["Emergency Medicine", "Cardiology"],
+      "keywords": ["chest pain", "emergency department", "rapid pathway", "triage"],
+      "abstract": "A retrospective cohort study evaluating time-to-disposition and safety outcomes following introduction of a nurse-led rapid assessment pathway for low-risk chest pain presentations at Campbelltown Hospital."
+    },
+    {
+      "pmid": "38899012",
+      "doi": "10.1002/example.2026.5521",
+      "title": "Prevalence of frailty among older adults admitted under general medicine at a Western Sydney hospital",
+      "journal": "Internal Medicine Journal",
+      "journalAbbrev": "Intern Med J",
+      "year": 2026,
+      "month": 2,
+      "authors": [
+        { "name": "Petrovic A", "campbelltown": true },
+        { "name": "Lindqvist S", "campbelltown": false },
+        { "name": "Yousif H", "campbelltown": false }
+      ],
+      "campbelltownLed": false,
+      "departments": ["General Medicine", "Geriatrics"],
+      "keywords": ["frailty", "geriatrics", "hospital admission"],
+      "abstract": "A cross-sectional study of frailty prevalence and its association with length of stay among patients aged 65 and over admitted to general medicine."
+    },
+    {
+      "pmid": "37765432",
+      "doi": "10.1111/example.2025.9981",
+      "title": "Feasibility of a group-based pulmonary rehabilitation program delivered via telehealth for COPD patients in South Western Sydney",
+      "journal": "Respirology",
+      "journalAbbrev": "Respirology",
+      "year": 2025,
+      "month": 11,
+      "authors": [
+        { "name": "Bianchi L", "campbelltown": true },
+        { "name": "Okafor C", "campbelltown": true }
+      ],
+      "campbelltownLed": true,
+      "departments": ["Respiratory Medicine"],
+      "keywords": ["COPD", "telehealth", "pulmonary rehabilitation"],
+      "abstract": "This pilot study assessed feasibility, adherence and patient-reported outcomes for a telehealth-delivered pulmonary rehabilitation program for patients with chronic obstructive pulmonary disease."
+    },
+    {
+      "pmid": "37650098",
+      "doi": "10.1016/j.example.2025.03.014",
+      "title": "Antimicrobial stewardship audit of empirical sepsis prescribing in a South Western Sydney emergency department",
+      "journal": "Australian Prescriber",
+      "journalAbbrev": "Aust Prescr",
+      "year": 2025,
+      "month": 6,
+      "authors": [
+        { "name": "Rahman S", "campbelltown": true },
+        { "name": "Devine P", "campbelltown": false }
+      ],
+      "campbelltownLed": true,
+      "departments": ["Emergency Medicine", "Infectious Diseases"],
+      "keywords": ["antimicrobial stewardship", "sepsis", "audit"],
+      "abstract": "A clinical audit of guideline concordance for empirical antibiotic selection in suspected sepsis presentations, with recommendations for prescribing pathway redesign."
+    }
+  ]
+}

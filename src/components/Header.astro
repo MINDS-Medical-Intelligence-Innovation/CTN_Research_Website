@@ -1,0 +1,53 @@
+---
+import { withBase } from '../utils/base';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+  { href: '/', label: 'Home' },
+  { href: '/research/', label: 'Research' },
+  { href: '/people/', label: 'People' },
+  { href: '/publications/', label: 'Publications' },
+  { href: '/trials/', label: 'Clinical Trials' },
+  { href: '/students/', label: 'Students & JMOs' },
+  { href: '/news/', label: 'News' },
+  { href: '/about/', label: 'About' },
+];
+
+function isCurrent(href: string) {
+  if (href === '/') return currentPath === '/';
+  return currentPath.startsWith(href);
+}
+---
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="site-brand" href={withBase('/')}>
+      <strong>Campbelltown Hospital Research</strong>
+      <span>Research at Campbelltown Hospital, South Western Sydney</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {navItems.map((item) => (
+          <li>
+            <a
+              href={withBase(item.href)}
+              aria-current={isCurrent(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a href={withBase('/search/')} aria-current={currentPath.startsWith('/search/') ? 'page' : undefined}>
+            Search
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../utils/base';
+import publicationsData from '../../data/publications.json';
+
+const publications = publicationsData.items ?? [];
+
+const deptCounts = new Map<string, number>();
+for (const pub of publications) {
+  for (const dept of pub.departments ?? []) {
+    deptCounts.set(dept, (deptCounts.get(dept) ?? 0) + 1);
+  }
+}
+
+const departments = [...deptCounts.entries()]
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+---
+
+<BaseLayout
+  title="Research"
+  description="Research at Campbelltown Hospital organised by department and theme, derived automatically from the publications wall."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">Research</p>
+      <h1>Research by department</h1>
+      <p class="lede">
+        Departments below are derived automatically from the publications wall — each card
+        links through to a filtered view of that department's papers.
+      </p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      {departments.length > 0 ? (
+        <div class="grid grid--3">
+          {departments.map((dept) => (
+            <a
+              class="card"
+              href={withBase(`/publications/?dept=${encodeURIComponent(dept.name)}`)}
+            >
+              <h3>{dept.name}</h3>
+              <p class="card-meta">
+                {dept.count} publication{dept.count === 1 ? '' : 's'}
+              </p>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="empty-state">
+          No departments to show yet — departments appear automatically once publications are
+          indexed.
+        </p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

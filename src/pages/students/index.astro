@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getCollection } from 'astro:content';
+import { projectTypeLabel } from '../../utils/format';
+import { withBase } from '../../utils/base';
+
+const now = new Date();
+const allProjects = await getCollection(
+  'projects',
+  ({ data }) => !data.expiryDate || data.expiryDate >= now,
+);
+const projects = allProjects.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const departments = [...new Set(projects.map((p) => p.data.department))].sort((a, b) =>
+  a.localeCompare(b),
+);
+const types = [...new Set(projects.map((p) => p.data.type))];
+const commitments = [...new Set(projects.map((p) => p.data.commitment))];
+const recruitingCount = projects.filter((p) => p.data.recruitingNow).length;
+
+// TODO: replace with the real MS Forms EOI link once the research office provisions it.
+const EOI_FORM_URL = 'https://forms.office.com/PLACEHOLDER-EOI';
+---
+
+<BaseLayout
+  title="Students & JMOs"
+  description="Find a research project, a supervisor, and a research community at Campbelltown Hospital — the project noticeboard for students and JMOs."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">Students &amp; JMOs</p>
+      <h1>Find a project, find a supervisor</h1>
+      <p class="lede">
+        {recruitingCount} of {projects.length} listed project{projects.length === 1 ? '' : 's'}{' '}
+        {recruitingCount === 1 ? 'is' : 'are'} recruiting students right now. Listings expire
+        automatically once a project closes.
+      </p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      <h2>Project noticeboard</h2>
+      <form class="filter-bar" id="project-filters" aria-label="Filter projects">
+        <div class="filter-field">
+          <label for="filter-project-dept">Department</label>
+          <select id="filter-project-dept" name="department">
+            <option value="">All departments</option>
+            {departments.map((d) => <option value={d}>{d}</option>)}
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-project-type">Project type</label>
+          <select id="filter-project-type" name="type">
+            <option value="">All types</option>
+            {types.map((t) => <option value={t}>{projectTypeLabel(t)}</option>)}
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-project-commitment">Commitment</label>
+          <select id="filter-project-commitment" name="commitment">
+            <option value="">Any commitment</option>
+            {commitments.map((c) => <option value={c}>{c}</option>)}
+          </select>
+        </div>
+        <label class="filter-checkbox">
+          <input type="checkbox" id="filter-project-recruiting" name="recruiting" />
+          Recruiting now only
+        </label>
+      </form>
+
+      <p class="results-count" id="project-results-count" aria-live="polite">
+        Showing {projects.length} of {projects.length} projects
+      </p>
+
+      {projects.length > 0 ? (
+        <div class="grid grid--3" id="project-grid">
+          {projects.map((project) => <ProjectCard project={project} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No projects listed right now. Check back next term.</p>
+      )}
+
+      <p id="project-empty-filtered" class="empty-state" hidden>
+        No projects match these filters.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap-narrow">
+      <h2>How to get started</h2>
+      <ol class="step-list">
+        <li>
+          <span class="step-number" aria-hidden="true">1</span>
+          <div>
+            <strong>Pick an area that interests you.</strong>
+            <p>Browse the noticeboard above, or look through <a href={withBase('/research/')}>Research by department</a> to see what's active.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-number" aria-hidden="true">2</span>
+          <div>
+            <strong>Read the group's recent papers.</strong>
+            <p>Check the <a href={withBase('/publications/')}>publications wall</a> filtered to that department so you understand the group's current questions before you reach out.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-number" aria-hidden="true">3</span>
+          <div>
+            <strong>Contact the supervisor.</strong>
+            <p>A short, specific email works best: who you are, your rotation/availability, and why the project interests you.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-number" aria-hidden="true">4</span>
+          <div>
+            <strong>Submit an expression of interest.</strong>
+            <p>Use the EOI form below so the research office can track interest and help match you if your first choice is full.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--tight" id="eoi">
+    <div class="wrap">
+      <div class="callout">
+        <div>
+          <h2 style="color:#fff">Ready to express interest?</h2>
+          <p>Tell us your area of interest and availability — we'll match you to a project and supervisor.</p>
+        </div>
+        <a class="btn btn-accent" href={EOI_FORM_URL} target="_blank" rel="noopener noreferrer">
+          Submit an EOI
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+  function initProjectFilters() {
+    const grid = document.getElementById('project-grid');
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>('.project-card'));
+    const deptSelect = document.getElementById('filter-project-dept') as HTMLSelectElement | null;
+    const typeSelect = document.getElementById('filter-project-type') as HTMLSelectElement | null;
+    const commitmentSelect = document.getElementById(
+      'filter-project-commitment',
+    ) as HTMLSelectElement | null;
+    const recruitingCheckbox = document.getElementById(
+      'filter-project-recruiting',
+    ) as HTMLInputElement | null;
+    const countEl = document.getElementById('project-results-count');
+    const emptyEl = document.getElementById('project-empty-filtered');
+
+    function applyFilters() {
+      const dept = deptSelect?.value ?? '';
+      const type = typeSelect?.value ?? '';
+      const commitment = commitmentSelect?.value ?? '';
+      const recruitingOnly = recruitingCheckbox?.checked ?? false;
+      let visible = 0;
+
+      for (const card of cards) {
+        const matchesDept = !dept || card.dataset.department === dept;
+        const matchesType = !type || card.dataset.type === type;
+        const matchesCommitment = !commitment || card.dataset.commitment === commitment;
+        const matchesRecruiting = !recruitingOnly || card.dataset.recruiting === '1';
+        const show = matchesDept && matchesType && matchesCommitment && matchesRecruiting;
+
+        card.style.display = show ? '' : 'none';
+        if (show) visible += 1;
+      }
+
+      if (countEl) {
+        countEl.textContent = `Showing ${visible} of ${cards.length} projects`;
+      }
+      if (emptyEl) {
+        emptyEl.hidden = visible !== 0;
+      }
+    }
+
+    deptSelect?.addEventListener('change', applyFilters);
+    typeSelect?.addEventListener('change', applyFilters);
+    commitmentSelect?.addEventListener('change', applyFilters);
+    recruitingCheckbox?.addEventListener('change', applyFilters);
+
+    applyFilters();
+  }
+
+  initProjectFilters();
+  document.addEventListener('astro:page-load', initProjectFilters);
+  </script>
+</BaseLayout>

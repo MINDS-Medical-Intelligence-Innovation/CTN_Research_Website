@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { withBase } from '../utils/base';
+import { projectTypeLabel } from '../utils/format';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, department, supervisor, type, commitment, skills, recruitingNow, example } =
+  project.data;
+---
+
+<article
+  class="card project-card"
+  data-department={department}
+  data-type={type}
+  data-commitment={commitment}
+  data-recruiting={recruitingNow ? '1' : '0'}
+>
+  <div class="project-card__badges">
+    {recruitingNow && <span class="badge badge--recruiting-project">Recruiting students now</span>}
+    {example && <span class="badge badge--example">Example project</span>}
+  </div>
+  <h3>{title}</h3>
+  <p class="card-meta">{department} &middot; Supervisor: {supervisor}</p>
+  <ul class="tag-list" aria-label="Project details">
+    <li class="chip chip--amber-text">{projectTypeLabel(type)}</li>
+    <li class="badge badge--dept">{commitment}</li>
+  </ul>
+  {skills.length > 0 && (
+    <div class="project-card__skills">
+      <p class="card-meta" style="margin-bottom:0.25rem">Skills gained</p>
+      <ul class="tag-list" aria-label="Skills gained">
+        {skills.map((s: string) => <li class="badge badge--dept">{s}</li>)}
+      </ul>
+    </div>
+  )}
+  <p class="project-card__cta">
+    <a href={withBase(`/students/#eoi`)}>Express interest &rarr;</a>
+  </p>
+</article>
+
+<style>
+  .project-card__badges:empty {
+    display: none;
+  }
+  .project-card__cta {
+    margin-top: auto;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--color-border);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>

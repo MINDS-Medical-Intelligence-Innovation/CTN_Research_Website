@@ -1,0 +1,90 @@
+---
+import { formatMonthYear } from '../utils/format';
+
+interface Author {
+  name: string;
+  campbelltown?: boolean;
+}
+
+interface Publication {
+  pmid: string;
+  doi?: string;
+  title: string;
+  journal?: string;
+  journalAbbrev?: string;
+  year?: number;
+  month?: number;
+  authors?: Author[];
+  campbelltownLed?: boolean;
+  departments?: string[];
+  keywords?: string[];
+  abstract?: string;
+}
+
+interface Props {
+  publication: Publication;
+}
+
+const { publication } = Astro.props;
+const authors = publication.authors ?? [];
+const departments = publication.departments ?? [];
+const primaryLink = publication.doi
+  ? `https://doi.org/${publication.doi}`
+  : `https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}/`;
+const dateLabel = formatMonthYear(publication.month, publication.year);
+---
+
+<article
+  class="card pub-card"
+  data-year={publication.year ?? ''}
+  data-departments={departments.join('|')}
+  data-led={publication.campbelltownLed ? '1' : '0'}
+>
+  <div class="pub-card__badges">
+    {publication.campbelltownLed && <span class="badge badge--led">Campbelltown-led</span>}
+  </div>
+  <h3><a href={primaryLink} target="_blank" rel="noopener noreferrer">{publication.title}</a></h3>
+  {authors.length > 0 && (
+    <p class="card-meta pub-card__authors">
+      {authors.map((author, i) => (
+        <Fragment>
+          {author.campbelltown ? <strong>{author.name}</strong> : <span>{author.name}</span>}
+          {i < authors.length - 1 ? ', ' : ''}
+        </Fragment>
+      ))}
+    </p>
+  )}
+  <p class="card-meta">
+    <em>{publication.journal ?? publication.journalAbbrev}</em>
+    {dateLabel && <Fragment> &middot; {dateLabel}</Fragment>}
+  </p>
+  {departments.length > 0 && (
+    <ul class="tag-list" aria-label="Departments">
+      {departments.map((d) => <li class="badge badge--dept">{d}</li>)}
+    </ul>
+  )}
+  <p class="pub-card__links">
+    {publication.doi && (
+      <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer">DOI</a>
+    )}
+    {publication.doi && ' · '}
+    <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}/`} target="_blank" rel="noopener noreferrer">
+      PubMed
+    </a>
+  </p>
+</article>
+
+<style>
+  .pub-card__badges:empty {
+    display: none;
+  }
+  .pub-card__authors strong {
+    color: var(--color-charcoal);
+  }
+  .pub-card__links {
+    margin-top: auto;
+    font-size: 0.85rem;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--color-border);
+  }
+</style>

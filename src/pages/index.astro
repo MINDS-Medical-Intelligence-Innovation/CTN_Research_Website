@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StatTile from '../components/StatTile.astro';
+import PublicationCard from '../components/PublicationCard.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { withBase } from '../utils/base';
+import { getCollection } from 'astro:content';
+import publicationsData from '../data/publications.json';
+import trialsData from '../data/trials.json';
+
+const currentYear = new Date().getFullYear();
+
+const publications = publicationsData.items ?? [];
+const trials = trialsData.items ?? [];
+
+const pubsThisYear = publications.filter((p) => p.year === currentYear).length;
+const totalPubs = publications.length;
+const recruitingTrials = trials.filter((t) => t.status === 'RECRUITING').length;
+
+const allProjects = await getCollection('projects');
+const now = new Date();
+const activeProjects = allProjects.filter(
+  (p) => !p.data.expiryDate || p.data.expiryDate >= now,
+).length;
+
+const latestPublications = [...publications]
+  .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.month ?? 0) - (a.month ?? 0))
+  .slice(0, 6);
+
+const newsPosts = (await getCollection('news'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout title="Campbelltown Hospital Research">
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <p class="eyebrow">Campbelltown Hospital &middot; South Western Sydney</p>
+      <h1>Research at Campbelltown Hospital, South Western Sydney</h1>
+      <p class="lede">
+        A single, always-current home for publications, clinical trials, researcher profiles
+        and student projects — kept fresh automatically, curated by the people doing the work.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="grid grid--4">
+        <StatTile number={pubsThisYear} label={`Publications in ${currentYear}`} />
+        <StatTile number={totalPubs} label="Total publications tracked" />
+        <StatTile number={recruitingTrials} label="Trials recruiting now" />
+        <StatTile number={activeProjects} label="Active student projects" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-heading">
+        <h2>Find your way in</h2>
+      </div>
+      <div class="grid grid--3">
+        <a class="pathway-card" href={withBase('/students/')}>
+          <h3>I'm a student or JMO</h3>
+          <p>
+            Browse the project noticeboard, find a supervisor, and learn how to get your
+            first research project off the ground.
+          </p>
+          <span class="btn btn-accent">Find a project</span>
+        </a>
+        <a class="pathway-card" href={withBase('/people/')}>
+          <h3>I'm a researcher</h3>
+          <p>
+            See who's working on what across Campbelltown Hospital, browse by department and
+            theme, and connect with collaborators.
+          </p>
+          <span class="btn btn-accent">Browse people</span>
+        </a>
+        <a class="pathway-card" href={withBase('/research/')}>
+          <h3>Our research</h3>
+          <p>
+            For the community and referrers: what Campbelltown Hospital is researching, and
+            what trials are open now.
+          </p>
+          <span class="btn btn-accent">Explore research</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-heading">
+        <h2>Latest news</h2>
+        <a href={withBase('/news/')}>All news &rarr;</a>
+      </div>
+      {newsPosts.length > 0 ? (
+        <div class="grid grid--3">
+          {newsPosts.map((post) => <NewsCard post={post} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No news yet — check back soon.</p>
+      )}
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="section-heading">
+        <h2>Latest publications</h2>
+        <a href={withBase('/publications/')}>All publications &rarr;</a>
+      </div>
+      {latestPublications.length > 0 ? (
+        <div class="grid grid--3">
+          {latestPublications.map((pub) => <PublicationCard publication={pub} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No publications indexed yet.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

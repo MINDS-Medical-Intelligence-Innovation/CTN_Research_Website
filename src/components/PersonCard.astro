@@ -1,0 +1,23 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { withBase } from '../utils/base';
+
+interface Props {
+  person: CollectionEntry<'people'>;
+}
+
+const { person } = Astro.props;
+const { name, role, department, themes, example } = person.data;
+---
+
+<article class="card person-card">
+  {example && <span class="badge badge--example">Example profile</span>}
+  <h3><a href={withBase(`/people/${person.id}/`)}>{name}</a></h3>
+  <p class="card-meta">{role}</p>
+  <p class="card-meta">{department}</p>
+  {themes.length > 0 && (
+    <ul class="tag-list" aria-label="Research themes">
+      {themes.map((t: string) => <li class="badge badge--dept">{t}</li>)}
+    </ul>
+  )}
+</article>

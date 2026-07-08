@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { withBase } from '../utils/base';
+import { formatDate } from '../utils/format';
+
+interface Props {
+  post: CollectionEntry<'news'>;
+}
+
+const { post } = Astro.props;
+const { title, date, summary, author } = post.data;
+---
+
+<article class="card news-card">
+  <p class="card-meta">
+    <time datetime={date.toISOString()}>{formatDate(date)}</time>
+    {author && <Fragment> &middot; {author}</Fragment>}
+  </p>
+  <h3><a href={withBase(`/news/${post.id}/`)}>{title}</a></h3>
+  <p>{summary}</p>
+  <p class="news-card__link"><a href={withBase(`/news/${post.id}/`)}>Read more &rarr;</a></p>
+</article>
+
+<style>
+  .news-card__link {
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>

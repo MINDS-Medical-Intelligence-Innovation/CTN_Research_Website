@@ -1,0 +1,51 @@
+---
+import { phaseLabel, statusLabel } from '../utils/format';
+
+interface Trial {
+  nctId: string;
+  title: string;
+  status: string;
+  phase?: string;
+  conditions?: string[];
+  facility?: string;
+  url: string;
+  briefSummary?: string;
+}
+
+interface Props {
+  trial: Trial;
+}
+
+const { trial } = Astro.props;
+const conditions = trial.conditions ?? [];
+const isRecruiting = trial.status === 'RECRUITING';
+---
+
+<article class="card trial-card" data-status={trial.status}>
+  <span class:list={["chip", isRecruiting ? "chip--recruiting" : "chip--neutral"]}>
+    {statusLabel(trial.status)}
+  </span>
+  <h3><a href={trial.url} target="_blank" rel="noopener noreferrer">{trial.title}</a></h3>
+  {conditions.length > 0 && (
+    <p class="card-meta">Condition{conditions.length > 1 ? 's' : ''}: {conditions.join(', ')}</p>
+  )}
+  <p class="card-meta">
+    Phase: {phaseLabel(trial.phase)}
+    {trial.facility && <Fragment> &middot; {trial.facility}</Fragment>}
+  </p>
+  {trial.briefSummary && <p>{trial.briefSummary}</p>}
+  <p class="trial-card__link">
+    <a href={trial.url} target="_blank" rel="noopener noreferrer">
+      View on ClinicalTrials.gov ({trial.nctId})
+    </a>
+  </p>
+</article>
+
+<style>
+  .trial-card__link {
+    margin-top: auto;
+    font-size: 0.9rem;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--color-border);
+  }
+</style>

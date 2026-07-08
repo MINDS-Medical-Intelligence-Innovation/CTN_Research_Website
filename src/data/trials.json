@@ -1,0 +1,36 @@
+{
+  "generated": "2026-07-08T00:00:00Z",
+  "source": "clinicaltrials.gov",
+  "items": [
+    {
+      "nctId": "NCT06012345",
+      "title": "A Study of Early Mobilisation Following Emergency Abdominal Surgery",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": ["Postoperative Recovery", "Abdominal Surgery"],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06012345",
+      "briefSummary": "This trial evaluates whether a structured early-mobilisation protocol reduces postoperative complications and length of stay after emergency abdominal surgery."
+    },
+    {
+      "nctId": "NCT05987654",
+      "title": "Comparing Two Insulin Titration Strategies in Hospitalised Patients With Type 2 Diabetes",
+      "status": "RECRUITING",
+      "phase": "PHASE4",
+      "conditions": ["Type 2 Diabetes Mellitus"],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05987654",
+      "briefSummary": "A pragmatic randomised trial comparing basal-bolus versus basal-plus insulin titration strategies for glycaemic control during hospital admission."
+    },
+    {
+      "nctId": "NCT05876543",
+      "title": "Long-Term Outcomes Registry for Percutaneous Coronary Intervention in South Western Sydney",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "NA",
+      "conditions": ["Coronary Artery Disease"],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05876543",
+      "briefSummary": "An observational registry tracking long-term cardiovascular outcomes following percutaneous coronary intervention across South Western Sydney sites."
+    }
+  ]
+}

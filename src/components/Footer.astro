@@ -1,0 +1,48 @@
+---
+import { withBase } from '../utils/base';
+
+const buildDate = new Date();
+const buildDateLabel = buildDate.toLocaleDateString('en-AU', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+
+const navItems = [
+  { href: '/', label: 'Home' },
+  { href: '/research/', label: 'Research' },
+  { href: '/people/', label: 'People' },
+  { href: '/publications/', label: 'Publications' },
+  { href: '/trials/', label: 'Clinical Trials' },
+  { href: '/students/', label: 'Students & JMOs' },
+  { href: '/news/', label: 'News' },
+  { href: '/about/', label: 'About' },
+];
+
+// Placeholder staff-area link — replace with the real SharePoint "Staff area" site
+// once the companion SharePoint structure (see docs/DECISIONS.md D6) is provisioned.
+const STAFF_AREA_URL = 'https://PLACEHOLDER.sharepoint.com/sites/ctn-research';
+---
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        {navItems.map((item) => (
+          <li><a href={withBase(item.href)}>{item.label}</a></li>
+        ))}
+        <li><a href={STAFF_AREA_URL}>Staff area</a></li>
+      </ul>
+    </nav>
+
+    <p class="footer-disclaimer">
+      An independent research-community initiative at Campbelltown Hospital. Not an official
+      SWSLHD website.
+    </p>
+
+    <p class="footer-meta">
+      <span>Publication data from PubMed &middot; Trial data from ClinicalTrials.gov</span>
+      <span>Site last built {buildDateLabel}</span>
+    </p>
+  </div>
+</footer>

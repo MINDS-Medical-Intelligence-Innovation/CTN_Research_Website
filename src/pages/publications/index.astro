@@ -1,0 +1,139 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PublicationCard from '../../components/PublicationCard.astro';
+import publicationsData from '../../data/publications.json';
+
+const publications = [...(publicationsData.items ?? [])].sort(
+  (a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.month ?? 0) - (a.month ?? 0),
+);
+
+const years = [...new Set(publications.map((p) => p.year).filter(Boolean))].sort(
+  (a, b) => (b as number) - (a as number),
+);
+
+const departments = [
+  ...new Set(publications.flatMap((p) => p.departments ?? [])),
+].sort((a, b) => a.localeCompare(b));
+
+const ledCount = publications.filter((p) => p.campbelltownLed).length;
+---
+
+<BaseLayout
+  title="Publications"
+  description="The Campbelltown Hospital publications wall, auto-updated from PubMed. Filter by year, department, and Campbelltown-led status."
+>
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">Publications</p>
+      <h1>Publications wall</h1>
+      <p class="lede">
+        {publications.length} publications with a Campbelltown Hospital affiliation,
+        {ledCount} of them Campbelltown-led (first, last or corresponding author).
+        Updated automatically from PubMed.
+      </p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      <form class="filter-bar" id="pub-filters" aria-label="Filter publications">
+        <div class="filter-field">
+          <label for="filter-year">Year</label>
+          <select id="filter-year" name="year">
+            <option value="">All years</option>
+            {years.map((y) => <option value={y}>{y}</option>)}
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-dept">Department</label>
+          <select id="filter-dept" name="dept">
+            <option value="">All departments</option>
+            {departments.map((d) => <option value={d}>{d}</option>)}
+          </select>
+        </div>
+        <label class="filter-checkbox">
+          <input type="checkbox" id="filter-led" name="led" />
+          Campbelltown-led only
+        </label>
+      </form>
+
+      <p class="results-count" id="pub-results-count" aria-live="polite">
+        Showing {publications.length} of {publications.length} publications
+      </p>
+
+      {publications.length > 0 ? (
+        <div class="grid grid--3" id="pub-grid">
+          {publications.map((pub) => <PublicationCard publication={pub} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No publications indexed yet. Check back soon.</p>
+      )}
+
+      <p id="pub-empty-filtered" class="empty-state" hidden>
+        No publications match these filters.
+      </p>
+
+      <hr class="divider" />
+      <p class="muted">Publication data sourced from PubMed.</p>
+    </div>
+  </section>
+
+  <script>
+  function initPublicationFilters() {
+    const grid = document.getElementById('pub-grid');
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>('.pub-card'));
+    const yearSelect = document.getElementById('filter-year') as HTMLSelectElement | null;
+    const deptSelect = document.getElementById('filter-dept') as HTMLSelectElement | null;
+    const ledCheckbox = document.getElementById('filter-led') as HTMLInputElement | null;
+    const countEl = document.getElementById('pub-results-count');
+    const emptyEl = document.getElementById('pub-empty-filtered');
+
+    // Pre-select department from ?dept= query param (set by /research/ department cards)
+    const params = new URLSearchParams(window.location.search);
+    const deptParam = params.get('dept');
+    if (deptParam && deptSelect) {
+      const match = Array.from(deptSelect.options).find((o) => o.value === deptParam);
+      if (match) deptSelect.value = deptParam;
+    }
+
+    function applyFilters() {
+      const year = yearSelect?.value ?? '';
+      const dept = deptSelect?.value ?? '';
+      const ledOnly = ledCheckbox?.checked ?? false;
+      let visible = 0;
+
+      for (const card of cards) {
+        const cardYear = card.dataset.year ?? '';
+        const cardDepts = (card.dataset.departments ?? '').split('|').filter(Boolean);
+        const cardLed = card.dataset.led === '1';
+
+        const matchesYear = !year || cardYear === year;
+        const matchesDept = !dept || cardDepts.includes(dept);
+        const matchesLed = !ledOnly || cardLed;
+        const show = matchesYear && matchesDept && matchesLed;
+
+        card.style.display = show ? '' : 'none';
+        if (show) visible += 1;
+      }
+
+      if (countEl) {
+        countEl.textContent = `Showing ${visible} of ${cards.length} publications`;
+      }
+      if (emptyEl) {
+        emptyEl.hidden = visible !== 0;
+      }
+    }
+
+    yearSelect?.addEventListener('change', applyFilters);
+    deptSelect?.addEventListener('change', applyFilters);
+    ledCheckbox?.addEventListener('change', applyFilters);
+
+    applyFilters();
+  }
+
+  initPublicationFilters();
+  document.addEventListener('astro:page-load', initPublicationFilters);
+  </script>
+</BaseLayout>

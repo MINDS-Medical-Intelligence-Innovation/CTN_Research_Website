@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('news')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<BaseLayout title="News" description="News and updates from Campbelltown Hospital Research.">
+  <div class="page-header">
+    <div class="wrap page-header__inner">
+      <p class="eyebrow">News</p>
+      <h1>News &amp; updates</h1>
+      <p class="lede">Updates from the research office and the wider Campbelltown research community.</p>
+    </div>
+  </div>
+
+  <section class="section" data-pagefind-body>
+    <div class="wrap">
+      {posts.length > 0 ? (
+        <div class="grid grid--3">
+          {posts.map((post) => <NewsCard post={post} />)}
+        </div>
+      ) : (
+        <p class="empty-state">No news posts yet. Check back soon.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>
