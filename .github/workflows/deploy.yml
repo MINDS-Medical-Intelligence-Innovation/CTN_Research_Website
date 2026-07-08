@@ -1,0 +1,80 @@
+name: Deploy to GitHub Pages
+
+# Builds the Astro site and publishes it via GitHub Pages.
+#
+# ONE-TIME SETUP (repo owner): go to Settings -> Pages -> Source, and choose
+# "GitHub Actions". Without that, this workflow will run but Pages will not
+# actually serve the result.
+#
+# BRANCH NOTE: this repo is currently developed on a feature branch
+# (see docs/DECISIONS.md — the site hasn't merged to `main` yet). The trigger
+# below targets `main` as the eventual default branch. Until this merges,
+# `push` events on this feature branch will NOT trigger a deploy — use the
+# "Run workflow" button (workflow_dispatch) to test deploys in the meantime,
+# and revisit this trigger when the branch actually merges to `main`.
+#
+# BASE_PATH NOTE (see docs/DECISIONS.md D8 — custom domain approved but not
+# yet chosen):
+#   - No custom domain (current default): GitHub Pages serves project sites
+#     at https://<org>.github.io/<repo-name>/, so the site must be built with
+#     base: "/<repo-name>/" (astro.config.mjs reads this from BASE_PATH).
+#     This workflow sets BASE_PATH="/${{ github.event.repository.name }}"
+#     unconditionally below.
+#   - Once a custom domain is registered and a CNAME is configured in Pages
+#     settings, the site is served from the domain root instead, and this
+#     line must change to BASE_PATH="/" (or the BASE_PATH env step removed
+#     entirely, since astro.config.mjs already defaults to '/' when
+#     BASE_PATH is unset). Forgetting this step after adding a custom domain
+#     will break every internal link and asset path.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        env:
+          # See the BASE_PATH note at the top of this file: flip this to "/"
+          # once a custom domain is live (D8).
+          BASE_PATH: /${{ github.event.repository.name }}
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

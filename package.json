@@ -9,7 +9,10 @@
     "build": "astro build",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "harvest:pubmed": "node scripts/harvest-pubmed.mjs",
+    "harvest:trials": "node scripts/sync-trials.mjs",
+    "harvest:all": "npm run harvest:pubmed && npm run harvest:trials"
   },
   "dependencies": {
     "astro": "^5.0.0"

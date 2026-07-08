@@ -1,0 +1,99 @@
+name: Weekly data harvest
+
+# Runs the PubMed + ClinicalTrials.gov pipelines on a schedule and commits the
+# refreshed data files straight to the branch this workflow runs on.
+#
+# Tiered autonomy (docs/DECISIONS.md D7):
+#   - Bibliographic facts (title, authors, journal, DOI, dates) and trial
+#     statuses are auto-publish tier — they are objective, sourced facts with
+#     no editorial judgement involved, so this job commits them directly.
+#   - AI-drafted lay summaries and department tags are the *future*
+#     human-gated tier (see the TODO block at the bottom of this file) — not
+#     implemented yet. The `departments` field this pipeline currently writes
+#     is a mechanical regex parse of author affiliation strings, not an AI
+#     summary, so it stays in the auto-publish tier alongside the other facts.
+#
+# NOTE: this repo is currently on a feature branch, not `main`. The schedule
+# below runs regardless of branch (GitHub Actions schedules only fire on the
+# repository's default branch), so double-check the default branch is set
+# correctly once this merges — see .github/workflows/deploy.yml for the same
+# caveat on the push trigger.
+
+on:
+  schedule:
+    # '0 23 * * 5' = Friday 23:00 UTC = Saturday 09:00 AEST (AEST = UTC+10,
+    # no daylight saving in NSW during winter; during AEDT this becomes 10am).
+    - cron: '0 23 * * 5'
+  workflow_dispatch: {}
+
+concurrency:
+  group: data-harvest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Harvest PubMed publications
+        env:
+          # Optional: set an NCBI_API_KEY repo/org secret to raise the request
+          # rate ceiling from 3rps to 10rps. The script works fine without it.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: node scripts/harvest-pubmed.mjs
+
+      - name: Sync ClinicalTrials.gov trials
+        run: node scripts/sync-trials.mjs
+
+      - name: Commit data changes (auto-publish tier — see D7 above)
+        run: |
+          git config user.name "ctn-research-bot"
+          git config user.email "ctn-research-bot@users.noreply.github.com"
+          git add src/data/publications.json src/data/trials.json
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: weekly data harvest"
+          git push
+
+      # ---------------------------------------------------------------------
+      # TODO (future tier, see docs/DECISIONS.md D7 "Human-gated"): once the
+      # pipeline grows an AI-curation step (lay summaries of abstracts,
+      # AI-suggested department/theme tags beyond the mechanical regex parse
+      # above), that step must NOT commit straight to the branch. Instead:
+      #   1. Run the AI drafting step on a dedicated branch
+      #      (e.g. `data/lay-summaries-<run-id>`).
+      #   2. Open a PR from that branch with the drafted content clearly
+      #      labelled "auto-generated — needs review".
+      #   3. Require human approval to merge, OR auto-merge after a grace
+      #      period (default 14 days per D7 — tune later) with the
+      #      "auto-generated" flag left visible on the published content if
+      #      it merges unreviewed.
+      # Sketch (disabled until the AI-curation step exists):
+      #
+      # - name: Draft lay summaries (human-gated — DO NOT auto-commit)
+      #   if: false
+      #   run: node scripts/draft-lay-summaries.mjs --out-branch
+      #
+      # - name: Open review PR for drafted content
+      #   if: false
+      #   uses: peter-evans/create-pull-request@v6
+      #   with:
+      #     branch: data/lay-summaries-${{ github.run_id }}
+      #     title: "Lay summaries + department tags for review (auto-generated)"
+      #     commit-message: "chore: AI-drafted lay summaries (needs review)"
+      # ---------------------------------------------------------------------
