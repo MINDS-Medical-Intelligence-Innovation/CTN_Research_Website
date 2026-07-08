@@ -6,38 +6,55 @@
  * E-utilities (https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) and upserts them into
  * src/data/publications.json.
  *
- * Zero npm dependencies — Node 22's global `fetch` only.
+ * Zero npm dependencies — Node 22's global `fetch` only (shares scripts/lib.mjs with
+ * scripts/sync-trials.mjs for throttle/retry, file I/O and the Campbelltown matcher).
  *
  * Usage:
  *   node scripts/harvest-pubmed.mjs [--from YYYY-MM-DD] [--dry-run] [--fresh]
  *
  *   --from YYYY-MM-DD   Only search for publications with a publication date on or after
- *                       this date (default: 2020-01-01, see docs/DECISIONS.md D2).
+ *                       this date. Default: derived incrementally from the newest date
+ *                       already in publications.json, minus a 90-day safety overlap (falls
+ *                       back to 2020-01-01 — see docs/DECISIONS.md D2 — when there is no
+ *                       existing data, e.g. --fresh or a first run).
  *   --dry-run           Fetch and print the summary, but do not write publications.json.
  *   --fresh             Ignore the existing publications.json contents and start the merge
  *                       from an empty list (used for the initial seed run — see docs/PIPELINES.md).
  *
  * Env vars:
- *   NCBI_API_KEY   Optional. An NCBI API key raises the request-rate ceiling from 3rps to
- *                  10rps (see https://www.ncbi.nlm.nih.gov/books/NBK25497/). Without it we
- *                  throttle conservatively under the anonymous 3rps limit.
+ *   NCBI_API_KEY        Optional. An NCBI API key raises the request-rate ceiling from 3rps
+ *                       to 10rps (see https://www.ncbi.nlm.nih.gov/books/NBK25497/). Without
+ *                       it we throttle conservatively under the anonymous 3rps limit.
+ *   NCBI_CONTACT_EMAIL  A real, monitored contact address. NCBI's usage policy requires every
+ *                       request to identify a genuine contact in case they need to reach us —
+ *                       see the startup warning below if this is unset.
  *
  * NCBI etiquette (https://www.ncbi.nlm.nih.gov/books/NBK25497/): every request identifies
  * itself with tool= and email= parameters, and requests are throttled and retried with
  * exponential backoff on 429/5xx responses.
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { parseArgs } from 'node:util';
+import {
+  createThrottledFetch,
+  truncate,
+  loadExistingItems,
+  upsertByKey,
+  defaultMerge,
+  writeDataFile,
+  isCampbelltownHospital,
+  applyDeptAlias,
+  PUBMED_AFFILIATION_TERM,
+} from './lib.mjs';
 
 const EUTILS_BASE = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
-const AFFILIATION_TERM = '"Campbelltown Hospital"[Affiliation]';
+const AFFILIATION_TERM = PUBMED_AFFILIATION_TERM;
 const TOOL_NAME = 'ctn-research-site';
-// TODO(owner): replace with a real, monitored contact address before relying on the
-// scheduled GitHub Actions harvest (.github/workflows/harvest.yml) — NCBI's usage
-// policy requires a genuine contact email in case they need to reach us.
-const CONTACT_EMAIL = 'REPLACE@example.com';
+const PLACEHOLDER_CONTACT_EMAIL = 'REPLACE@example.com';
+const CONTACT_EMAIL = process.env.NCBI_CONTACT_EMAIL || PLACEHOLDER_CONTACT_EMAIL;
 
 const DEFAULT_FROM_DATE = '2020-01-01';
+const INCREMENTAL_OVERLAP_DAYS = 90;
 const OUT_FILE = new URL('../src/data/publications.json', import.meta.url);
 
 const API_KEY = process.env.NCBI_API_KEY || '';
@@ -47,79 +64,75 @@ const ESEARCH_PAGE_SIZE = 500;
 const EFETCH_BATCH_SIZE = 200;
 const MAX_RETRIES = 3;
 
+const fetchWithRetry = createThrottledFetch({ minIntervalMs: MIN_INTERVAL_MS, maxRetries: MAX_RETRIES });
+
 // ---------------------------------------------------------------------------
 // CLI args
 // ---------------------------------------------------------------------------
 
-function parseArgs(argv) {
-  const args = { from: DEFAULT_FROM_DATE, dryRun: false, fresh: false };
-  for (let i = 0; i < argv.length; i += 1) {
-    const arg = argv[i];
-    if (arg === '--from') {
-      args.from = argv[i + 1];
-      i += 1;
-    } else if (arg.startsWith('--from=')) {
-      args.from = arg.slice('--from='.length);
-    } else if (arg === '--dry-run') {
-      args.dryRun = true;
-    } else if (arg === '--fresh') {
-      args.fresh = true;
-    } else if (arg === '--help' || arg === '-h') {
-      printHelp();
-      process.exit(0);
-    }
+function parseCliArgs(argv) {
+  let values;
+  try {
+    ({ values } = parseArgs({
+      args: argv,
+      options: {
+        from: { type: 'string' },
+        'dry-run': { type: 'boolean', default: false },
+        fresh: { type: 'boolean', default: false },
+        help: { type: 'boolean', short: 'h', default: false },
+      },
+      allowPositionals: false,
+    }));
+  } catch (err) {
+    console.error(err.message);
+    printHelp();
+    process.exit(1);
   }
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(args.from)) {
-    throw new Error(`--from must be YYYY-MM-DD, got "${args.from}"`);
+  if (values.help) {
+    printHelp();
+    process.exit(0);
   }
-  return args;
+  if (values.from !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(values.from)) {
+    throw new Error(`--from must be YYYY-MM-DD, got "${values.from}"`);
+  }
+  return { from: values.from, dryRun: values['dry-run'], fresh: values.fresh };
 }
 
 function printHelp() {
-  console.log(`Usage: node scripts/harvest-pubmed.mjs [--from YYYY-MM-DD] [--dry-run] [--fresh]`);
+  console.log('Usage: node scripts/harvest-pubmed.mjs [--from YYYY-MM-DD] [--dry-run] [--fresh]');
 }
 
 // ---------------------------------------------------------------------------
-// Networking: throttle + retry
+// Incremental default --from: derive from the newest (year, month) already
+// stored, minus a safety overlap, so the weekly cron doesn't re-fetch the
+// entire 2020-01-01-to-date window every run.
 // ---------------------------------------------------------------------------
 
-let lastRequestAt = 0;
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function throttle() {
-  const now = Date.now();
-  const wait = lastRequestAt + MIN_INTERVAL_MS - now;
-  if (wait > 0) await sleep(wait);
-  lastRequestAt = Date.now();
-}
-
-async function fetchWithRetry(url, options = {}, attempt = 1) {
-  await throttle();
-  let res;
-  try {
-    res = await fetch(url, options);
-  } catch (err) {
-    if (attempt >= MAX_RETRIES) throw err;
-    await sleep(2 ** attempt * 1000);
-    return fetchWithRetry(url, options, attempt + 1);
-  }
-  if (res.status === 429 || res.status >= 500) {
-    if (attempt >= MAX_RETRIES) {
-      throw new Error(`Request failed after ${attempt} attempts: ${res.status} ${res.statusText} — ${url}`);
+function deriveIncrementalFromDate(existingItems) {
+  let latestYear = null;
+  let latestMonth = null;
+  for (const item of existingItems) {
+    if (!item.year) continue;
+    // Unknown month is treated as January (the most conservative choice —
+    // it widens the recomputed window rather than narrowing it).
+    const month = item.month && item.month >= 1 && item.month <= 12 ? item.month : 1;
+    if (latestYear === null || item.year > latestYear || (item.year === latestYear && month > latestMonth)) {
+      latestYear = item.year;
+      latestMonth = month;
     }
-    const retryAfter = Number(res.headers.get('retry-after'));
-    const backoff = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 2 ** attempt * 1000;
-    await sleep(backoff);
-    return fetchWithRetry(url, options, attempt + 1);
   }
-  if (!res.ok) {
-    throw new Error(`Request failed: ${res.status} ${res.statusText} — ${url}`);
-  }
-  return res;
+  if (latestYear === null) return null;
+  const latestDate = new Date(Date.UTC(latestYear, latestMonth - 1, 1));
+  latestDate.setUTCDate(latestDate.getUTCDate() - INCREMENTAL_OVERLAP_DAYS);
+  return {
+    from: latestDate.toISOString().slice(0, 10),
+    latestLabel: `${latestYear}-${String(latestMonth).padStart(2, '0')}`,
+  };
 }
+
+// ---------------------------------------------------------------------------
+// Networking helpers built on the shared throttled fetch
+// ---------------------------------------------------------------------------
 
 function buildEutilsUrl(endpoint, params) {
   const url = new URL(`${EUTILS_BASE}/${endpoint}`);
@@ -203,6 +216,11 @@ async function efetchBatch(pmids) {
   return res.text();
 }
 
+async function efetchBatchArticles(pmids) {
+  const xml = await efetchBatch(pmids);
+  return matchAll(xml, 'PubmedArticle');
+}
+
 function chunk(arr, size) {
   const out = [];
   for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
@@ -264,16 +282,6 @@ function getAttr(attrStr, name) {
   return m ? decodeEntities(m[1]) : null;
 }
 
-function truncate(str, maxLen) {
-  if (!str) return '';
-  const clean = str.replace(/\s+/g, ' ').trim();
-  if (clean.length <= maxLen) return clean;
-  const cut = clean.slice(0, maxLen);
-  const lastSpace = cut.lastIndexOf(' ');
-  const trimmed = lastSpace > maxLen * 0.6 ? cut.slice(0, lastSpace) : cut;
-  return `${trimmed.trimEnd()}…`;
-}
-
 const MONTH_LOOKUP = {
   jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6,
   jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12,
@@ -320,32 +328,62 @@ const DEPT_PATTERNS = [
   /([A-Z][\w&'\-/ ]{2,60}?(?:Unit|Ward|Service|Clinic|Program|Institute|Centre|Center))(?=\s*[,;.]|\s+Campbelltown|$)/,
 ];
 
+// Small words stay lowercase in title case (except as the first word); a
+// short acronym allowlist stays fully uppercase regardless of position.
+const SMALL_WORDS = new Set(['of', 'and', 'the', 'for', 'in']);
+const PRESERVE_ACRONYMS = new Set(['ICU', 'ED', 'GP', 'ENT']);
+
+// B4b: real title-case — lowercase the rest of each word (not just skip it),
+// so "EMERGENCY MEDICINE" -> "Emergency Medicine" instead of staying
+// uppercase after the first letter. Operates per contiguous letter-run
+// (rather than per whitespace-split word) so punctuation-joined compounds
+// like "Immunology/Allergy" or "Diabetes & Endocrinology" title-case each
+// side correctly, and so "MacArthur"/"MACARTHUR"/"macarthur" all collapse to
+// the single correct "Macarthur" spelling (one unbroken letter-run titled
+// the same way regardless of input casing).
 function normaliseDeptName(raw) {
   const cleaned = raw.replace(/\s+/g, ' ').trim().replace(/^[,;.\s]+|[,;.\s]+$/g, '');
   if (!cleaned) return '';
-  return cleaned
-    .split(' ')
-    .map((w) => (w.length ? w[0].toUpperCase() + w.slice(1) : w))
-    .join(' ');
+  let isFirstWord = true;
+  return cleaned.replace(/[A-Za-z]+(?:['-][A-Za-z]+)*/g, (word) => {
+    const isFirst = isFirstWord;
+    isFirstWord = false;
+    const upper = word.toUpperCase();
+    if (PRESERVE_ACRONYMS.has(upper)) return upper;
+    const lower = word.toLowerCase();
+    if (!isFirst && SMALL_WORDS.has(lower)) return lower;
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
+  });
 }
 
-function isCampbelltownAffiliation(aff) {
-  return /campbelltown/i.test(aff);
+// B4a: split a raw <Affiliation> string into segments so a department phrase
+// found near a DIFFERENT institution (e.g. "Department of Cardiology,
+// Liverpool Hospital; Department of Medicine, Campbelltown Hospital") can't
+// bleed into the Campbelltown department list. NLM affiliation strings that
+// concatenate more than one institution typically join them with "; ", so
+// splitting on semicolons and only searching segments that actually mention
+// Campbelltown Hospital (via the canonical isCampbelltownHospital matcher,
+// not the loose bare-word check) anchors extraction to the right segment.
+function splitAffiliationSegments(aff) {
+  const segments = aff.split(';').map((s) => s.trim()).filter(Boolean);
+  return segments.length > 0 ? segments : [aff];
 }
 
 function deriveDepartments(rawAuthors) {
   const found = new Set();
   for (const author of rawAuthors) {
     for (const aff of author.affiliations) {
-      if (!isCampbelltownAffiliation(aff)) continue;
-      for (const pattern of DEPT_PATTERNS) {
-        const m = aff.match(pattern);
-        if (m && m[1]) {
-          const name = normaliseDeptName(m[1]);
-          if (name && name.length >= 3 && name.length <= 60 && !/^\d+$/.test(name)) {
-            found.add(name);
+      for (const segment of splitAffiliationSegments(aff)) {
+        if (!isCampbelltownHospital(segment)) continue;
+        for (const pattern of DEPT_PATTERNS) {
+          const m = segment.match(pattern);
+          if (m && m[1]) {
+            const name = applyDeptAlias(normaliseDeptName(m[1]));
+            if (name && name.length >= 3 && name.length <= 60 && !/^\d+$/.test(name)) {
+              found.add(name);
+            }
+            break; // first matching pattern wins for this segment
           }
-          break; // first matching pattern wins for this affiliation string
         }
       }
     }
@@ -355,10 +393,10 @@ function deriveDepartments(rawAuthors) {
 
 // D5: badge "Campbelltown-led" when the first author, last author, or any
 // author whose affiliation string flags them as corresponding has a
-// Campbelltown affiliation.
+// Campbelltown Hospital affiliation.
 function computeCampbelltownLed(rawAuthors) {
   if (rawAuthors.length === 0) return false;
-  const isCampbelltownAuthor = (a) => a.affiliations.some(isCampbelltownAffiliation);
+  const isCampbelltownAuthor = (a) => a.affiliations.some(isCampbelltownHospital);
   const first = rawAuthors[0];
   const last = rawAuthors[rawAuthors.length - 1];
   if (isCampbelltownAuthor(first) || isCampbelltownAuthor(last)) return true;
@@ -422,14 +460,17 @@ function parsePublication(articleXml) {
   }
 
   // Abstract: concatenate structured sections, label-prefixed if labelled.
+  // B1: only compose "Label: text" when text is non-empty — a Label with no
+  // text must not survive as a dangling "LABEL: " fragment.
   const abstractBlock = matchFirst(articleXml, 'Abstract');
   let abstract = '';
   if (abstractBlock) {
     const parts = matchAllWithAttrs(abstractBlock, 'AbstractText');
     abstract = parts
       .map(({ attrs, content }) => {
-        const label = getAttr(attrs, 'Label');
         const text = stripTags(content);
+        if (!text) return '';
+        const label = getAttr(attrs, 'Label');
         return label ? `${label}: ${text}` : text;
       })
       .filter(Boolean)
@@ -454,7 +495,7 @@ function parsePublication(articleXml) {
 
   const authors = rawAuthors.map((a) => ({
     name: a.name,
-    campbelltown: a.affiliations.some(isCampbelltownAffiliation),
+    campbelltown: a.affiliations.some(isCampbelltownHospital),
   }));
 
   return {
@@ -474,89 +515,120 @@ function parsePublication(articleXml) {
 }
 
 // ---------------------------------------------------------------------------
-// Merge: upsert by pmid, never delete, sort by (year, month) desc
-// ---------------------------------------------------------------------------
-
-function loadExisting(fresh) {
-  if (fresh) return { items: [] };
-  try {
-    const raw = readFileSync(OUT_FILE, 'utf8');
-    const data = JSON.parse(raw);
-    return { items: Array.isArray(data.items) ? data.items : [] };
-  } catch {
-    return { items: [] };
-  }
-}
-
-function mergePublications(existingItems, fetchedItems) {
-  const byPmid = new Map(existingItems.map((p) => [p.pmid, p]));
-  let added = 0;
-  let updated = 0;
-  for (const pub of fetchedItems) {
-    if (byPmid.has(pub.pmid)) {
-      updated += 1;
-    } else {
-      added += 1;
-    }
-    byPmid.set(pub.pmid, pub);
-  }
-  const merged = [...byPmid.values()].sort(
-    (a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.month ?? 0) - (a.month ?? 0),
-  );
-  return { merged, added, updated };
-}
-
-// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const args = parseArgs(process.argv.slice(2));
+  const args = parseCliArgs(process.argv.slice(2));
   const toDate = new Date().toISOString().slice(0, 10);
 
-  console.log(`Searching PubMed for "${AFFILIATION_TERM}" from ${args.from} to ${toDate}...`);
+  if (CONTACT_EMAIL === PLACEHOLDER_CONTACT_EMAIL) {
+    console.warn('!'.repeat(78));
+    console.warn('WARNING: NCBI_CONTACT_EMAIL is not set — requests are identifying as');
+    console.warn(`"${PLACEHOLDER_CONTACT_EMAIL}". NCBI's usage policy requires a real, monitored`);
+    console.warn('contact address. Set the NCBI_CONTACT_EMAIL environment variable (repo');
+    console.warn('variable "NCBI_CONTACT_EMAIL" in .github/workflows/harvest.yml) before relying');
+    console.warn('on the scheduled harvest.');
+    console.warn('!'.repeat(78));
+  }
+
+  const existing = loadExistingItems(OUT_FILE, { fresh: args.fresh });
+
+  let fromDate = args.from;
+  if (fromDate) {
+    console.log(`Using explicit --from ${fromDate}.`);
+  } else if (args.fresh) {
+    // B3 scope: incremental derivation only applies when NOT --fresh — a
+    // fresh run has (by definition) nothing stored to derive a window from.
+    fromDate = DEFAULT_FROM_DATE;
+    console.log(`--fresh set with no --from — using default window start ${fromDate}.`);
+  } else {
+    const derived = deriveIncrementalFromDate(existing.items);
+    if (derived) {
+      fromDate = derived.from;
+      console.log(
+        `No --from given — deriving incremental window from existing data (latest stored ` +
+          `publication date ~${derived.latestLabel}, minus ${INCREMENTAL_OVERLAP_DAYS}-day overlap): --from ${fromDate}.`,
+      );
+    } else {
+      fromDate = DEFAULT_FROM_DATE;
+      console.log(`No --from given and no existing data found — using default window start ${fromDate}.`);
+    }
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fromDate)) {
+    throw new Error(`Derived --from is not YYYY-MM-DD: "${fromDate}"`);
+  }
+
+  console.log(`Searching PubMed for ${AFFILIATION_TERM} from ${fromDate} to ${toDate}...`);
   if (!API_KEY) {
     console.log('No NCBI_API_KEY set — throttling to the anonymous 3 req/s limit.');
   }
 
-  const pmids = await esearchAllPmids(AFFILIATION_TERM, args.from, toDate);
+  const pmids = await esearchAllPmids(AFFILIATION_TERM, fromDate, toDate);
   console.log(`ESearch matched ${pmids.length} PMIDs.`);
 
   const batches = chunk(pmids, EFETCH_BATCH_SIZE);
   const fetched = [];
+  const shortfalls = [];
   for (let i = 0; i < batches.length; i += 1) {
     console.log(`EFetch batch ${i + 1}/${batches.length} (${batches[i].length} PMIDs)...`);
-    const xml = await efetchBatch(batches[i]);
-    const articleBlocks = matchAll(xml, 'PubmedArticle');
+    let articleBlocks = await efetchBatchArticles(batches[i]);
+    // B2: EFetch occasionally returns fewer <PubmedArticle> records than PMIDs
+    // requested (transient upstream issue). Retry the batch once; if still
+    // short, warn loudly and carry on rather than failing the whole run.
+    if (articleBlocks.length !== batches[i].length) {
+      console.warn(
+        `WARNING: batch ${i + 1} returned ${articleBlocks.length}/${batches[i].length} ` +
+          'articles — retrying this batch once...',
+      );
+      articleBlocks = await efetchBatchArticles(batches[i]);
+      if (articleBlocks.length !== batches[i].length) {
+        const shortfall = batches[i].length - articleBlocks.length;
+        console.warn(
+          `WARNING: batch ${i + 1} still short by ${shortfall} article(s) after retry ` +
+            `(requested ${batches[i].length}, got ${articleBlocks.length}). Continuing.`,
+        );
+        shortfalls.push({ batch: i + 1, requested: batches[i].length, got: articleBlocks.length, shortfall });
+      }
+    }
     for (const block of articleBlocks) {
       const pub = parsePublication(block);
       if (pub) fetched.push(pub);
     }
   }
 
-  const existing = loadExisting(args.fresh);
-  const { merged, added, updated } = mergePublications(existing.items, fetched);
+  const { items: merged, added, updated } = upsertByKey(
+    existing.items,
+    fetched,
+    (p) => p.pmid,
+    defaultMerge,
+  );
+  merged.sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || (b.month ?? 0) - (a.month ?? 0));
 
   console.log('--- Summary ---');
   console.log(`Fetched from PubMed : ${fetched.length}`);
   console.log(`New                 : ${added}`);
-  console.log(`Updated (refreshed) : ${updated}`);
+  console.log(`Updated (changed)   : ${updated}`);
   console.log(`Total in file       : ${merged.length}`);
   const ledCount = merged.filter((p) => p.campbelltownLed).length;
   console.log(`Campbelltown-led    : ${ledCount}`);
+  const deptCount = new Set(merged.flatMap((p) => p.departments ?? [])).size;
+  console.log(`Unique departments  : ${deptCount}`);
+  const noDeptCount = merged.filter((p) => (p.departments ?? []).length === 0).length;
+  console.log(`No department parsed: ${noDeptCount}`);
+  if (shortfalls.length > 0) {
+    console.log(`--- EFetch shortfalls (${shortfalls.length} batch(es) — see WARNINGs above) ---`);
+    for (const s of shortfalls) {
+      console.log(`  Batch ${s.batch}: requested ${s.requested}, got ${s.got} (short by ${s.shortfall})`);
+    }
+  }
 
   if (args.dryRun) {
     console.log('Dry run: publications.json was not written.');
     return;
   }
 
-  const output = {
-    generated: new Date().toISOString(),
-    source: 'pubmed',
-    items: merged,
-  };
-  writeFileSync(OUT_FILE, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Wrote ${merged.length} publications to ${OUT_FILE.pathname}`);
+  writeDataFile(OUT_FILE, 'pubmed', merged);
 }
 
 main().catch((err) => {

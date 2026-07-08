@@ -52,7 +52,7 @@ npm run preview   # serve the built dist/ locally
 | `src/content/{news,projects,people}/` | Editable Markdown content, validated against the schemas in `src/content.config.ts`. This is what the CMS at `/admin/` edits. |
 | `src/content.config.ts` | The Zod schemas that define and validate every content collection. The CMS config (`public/admin/config.yml`) must match these exactly. |
 | `src/data/*.json` | Generated data consumed by the site (publications, clinical trials) — written by the harvesting pipelines, not edited by hand. |
-| `scripts/` | Data pipeline scripts (e.g. PubMed harvesting) that populate `src/data/*.json`. |
+| `scripts/` | Data pipeline scripts (PubMed harvesting, ClinicalTrials.gov sync) that populate `src/data/*.json`, plus `scripts/lib.mjs`, the shared throttle/retry, file I/O, and Campbelltown-matching helpers both pipeline scripts import — see `docs/PIPELINES.md`. |
 | `src/components/`, `src/layouts/`, `src/utils/` | Shared UI components, page layout, and formatting helpers. |
 | `src/styles/` | Global CSS. |
 | `public/admin/` | The Sveltia CMS editing interface (`index.html` + `config.yml`), served at `/admin/`. |
@@ -96,13 +96,21 @@ source of truth in the meantime.
 
 The site builds to static output in `dist/` (`npm run build`, which also runs the Pagefind
 `postbuild` indexing step) and is designed to be hosted anywhere that serves static files. The
-intended path is a GitHub Actions workflow that builds and deploys `dist/` to GitHub
-Pages (check `.github/workflows/` for the live workflow — it's owned by a separate workstream
-and may not be present in every checkout yet), with a **custom domain added later** once one is
-registered (decision **D8** — small budget approved, domain name not yet chosen; see the
-shortlist note in `docs/DECISIONS.md`). Until a custom domain exists, `astro.config.mjs` builds
-against a placeholder `site` URL and supports an optional `BASE_PATH` environment variable for
-GitHub Pages-style project subpaths (e.g. `BASE_PATH=/ctn-research-website/`).
+intended path is a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and
+deploys `dist/` to GitHub Pages, with a **custom domain added later** once one is registered
+(decision **D8** — small budget approved, domain name not yet chosen; see the shortlist note in
+`docs/DECISIONS.md`). `astro.config.mjs` builds against an optional `SITE_URL` environment
+variable (falling back to a placeholder when unset) for canonical URLs, and supports an optional
+`BASE_PATH` environment variable for GitHub Pages-style project subpaths (e.g.
+`BASE_PATH=/ctn-research-website/`); `deploy.yml` sets both. Both workflows also cache `npm`
+dependencies (`actions/setup-node`'s `cache: 'npm'`) to speed up runs.
+
+**Deploy trigger note (pilot phase):** as of this writing the repo has no `main` branch — the
+only branch is `claude/campbelltown-hospital-research-site-nrs4mq`, which is also where
+`.github/workflows/harvest.yml`'s scheduled data-harvest commits land. `deploy.yml`'s push
+trigger therefore lists that branch alongside `main` so harvest-bot commits and manual pushes
+actually trigger a deploy during the pilot; that entry is commented as pilot-phase and should be
+removed once this repo merges to `main`.
 
 ## Placeholder inventory
 
@@ -115,10 +123,11 @@ so nothing ships silently:
 | **EOI form URL** (`https://forms.office.com/PLACEHOLDER-EOI`) | `src/pages/students/index.astro` (`EOI_FORM_URL`) | Once the research office provisions the real MS Forms expression-of-interest form (see `docs/DECISIONS.md` D3). |
 | **SharePoint "Staff area" URL** (`https://PLACEHOLDER.sharepoint.com/sites/ctn-research`) | `src/components/Footer.astro` (`STAFF_AREA_URL`) | Once the companion SharePoint site for staff-only content is provisioned (decision **D6**). |
 | **CMS repo slug** (`PLACEHOLDER-ORG/CTN_Research_Website`) | `public/admin/config.yml` (`backend.repo`) | Once the dedicated GitHub organisation from decision **D8** exists and this repo has migrated into it. |
-| **Site URL** (`https://example.pages.dev`) | `astro.config.mjs` (`SITE_URL`) | Once real hosting (and later, the custom domain from D8) is chosen. |
+| **Site URL** (`https://example.pages.dev`) | `astro.config.mjs` (`SITE_URL` env var, set by `deploy.yml`) | Once real hosting (and later, the custom domain from D8) is chosen — currently set to `https://techycardiac.github.io` in `deploy.yml`, itself a pilot-phase stand-in until the dedicated GitHub org (D8) exists. |
 | **Ethics / Research Directorate link** | `src/pages/about/index.astro` | Once confirmed with the SWSLHD Research Directorate. |
 | **Research office contact point** | `src/pages/about/index.astro` | Once a public contact email or SharePoint contact form is confirmed. |
 | **Supervisor/contact emails** on seeded example projects (`research.campbelltown@example.health.nsw.gov.au`) | `src/content/projects/*.md` | As each example project is replaced with a real listing carrying a real supervisor contact. |
+| **NCBI contact email** (`REPLACE@example.com`, used as the fallback when unset) | `scripts/harvest-pubmed.mjs` (`NCBI_CONTACT_EMAIL` env var, repo/org **variable** — not a secret — in `.github/workflows/harvest.yml`) | Once a real, monitored contact address is designated for the scheduled harvest — required by [NCBI's usage policy](https://www.ncbi.nlm.nih.gov/books/NBK25497/). The script prints a startup warning while the placeholder is in use. |
 
 All seed content in `src/content/{news,projects,people}/` is clearly fictional and marked
 `example: true` (or, for the two intentionally-unpublished people profiles, described as

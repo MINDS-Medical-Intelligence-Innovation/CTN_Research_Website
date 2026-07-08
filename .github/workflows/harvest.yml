@@ -24,7 +24,12 @@ on:
     # '0 23 * * 5' = Friday 23:00 UTC = Saturday 09:00 AEST (AEST = UTC+10,
     # no daylight saving in NSW during winter; during AEDT this becomes 10am).
     - cron: '0 23 * * 5'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      from:
+        description: 'Optional: harvest-pubmed --from override (YYYY-MM-DD). Leave blank to use the incremental default.'
+        required: false
+        type: string
 
 concurrency:
   group: data-harvest
@@ -44,6 +49,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -53,7 +59,17 @@ jobs:
           # Optional: set an NCBI_API_KEY repo/org secret to raise the request
           # rate ceiling from 3rps to 10rps. The script works fine without it.
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-        run: node scripts/harvest-pubmed.mjs
+          # Real, monitored contact address required by NCBI's usage policy —
+          # set the repo/org variable NCBI_CONTACT_EMAIL (Settings -> Secrets
+          # and variables -> Actions -> Variables). Without it, the script
+          # falls back to a placeholder and prints a startup warning.
+          NCBI_CONTACT_EMAIL: ${{ vars.NCBI_CONTACT_EMAIL }}
+        run: |
+          if [ -n "${{ inputs.from }}" ]; then
+            node scripts/harvest-pubmed.mjs --from "${{ inputs.from }}"
+          else
+            node scripts/harvest-pubmed.mjs
+          fi
 
       - name: Sync ClinicalTrials.gov trials
         run: node scripts/sync-trials.mjs
@@ -68,7 +84,21 @@ jobs:
             exit 0
           fi
           git commit -m "chore: weekly data harvest"
-          git push
+
+          # Survive concurrent pushes to the branch (e.g. a manual push landing
+          # mid-run): rebase onto the latest remote state and retry the push a
+          # few times before giving up.
+          attempt=1
+          max_attempts=3
+          until git pull --rebase && git push; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "git push failed after $max_attempts attempts — giving up."
+              exit 1
+            fi
+            attempt=$((attempt + 1))
+            echo "git pull/push failed — retrying ($attempt/$max_attempts) in 10s..."
+            sleep 10
+          done
 
       # ---------------------------------------------------------------------
       # TODO (future tier, see docs/DECISIONS.md D7 "Human-gated"): once the

@@ -6,30 +6,38 @@ name: Deploy to GitHub Pages
 # "GitHub Actions". Without that, this workflow will run but Pages will not
 # actually serve the result.
 #
-# BRANCH NOTE: this repo is currently developed on a feature branch
-# (see docs/DECISIONS.md — the site hasn't merged to `main` yet). The trigger
-# below targets `main` as the eventual default branch. Until this merges,
-# `push` events on this feature branch will NOT trigger a deploy — use the
-# "Run workflow" button (workflow_dispatch) to test deploys in the meantime,
-# and revisit this trigger when the branch actually merges to `main`.
+# PILOT-PHASE BRANCH NOTE (see docs/DECISIONS.md — the site hasn't merged to
+# `main` yet, and as of this writing the repo has no `main` branch at all: the
+# only branch is `claude/campbelltown-hospital-research-site-nrs4mq`, which
+# `.github/workflows/harvest.yml`'s bot commits also land on). Both `main` and
+# that feature branch are listed as push triggers below so harvest-bot commits
+# and manual pushes actually deploy during the pilot. **Remove the feature
+# branch entry once this repo merges to `main`** — GitHub Actions `schedule`
+# triggers only ever fire on the repository's default branch regardless of
+# this list, so double-check the default branch is set to `main` at that
+# point too. Until then, `workflow_dispatch` ("Run workflow" button) also
+# works for an on-demand deploy from any branch.
 #
-# BASE_PATH NOTE (see docs/DECISIONS.md D8 — custom domain approved but not
-# yet chosen):
-#   - No custom domain (current default): GitHub Pages serves project sites
-#     at https://<org>.github.io/<repo-name>/, so the site must be built with
-#     base: "/<repo-name>/" (astro.config.mjs reads this from BASE_PATH).
-#     This workflow sets BASE_PATH="/${{ github.event.repository.name }}"
-#     unconditionally below.
-#   - Once a custom domain is registered and a CNAME is configured in Pages
-#     settings, the site is served from the domain root instead, and this
-#     line must change to BASE_PATH="/" (or the BASE_PATH env step removed
-#     entirely, since astro.config.mjs already defaults to '/' when
-#     BASE_PATH is unset). Forgetting this step after adding a custom domain
-#     will break every internal link and asset path.
+# BASE_PATH / SITE_URL NOTE (see docs/DECISIONS.md D8 — custom domain and
+# GitHub org approved but not yet chosen/created):
+#   - No custom domain, no dedicated org (current default): GitHub Pages
+#     serves project sites at https://<org>.github.io/<repo-name>/, so the
+#     site must be built with base: "/<repo-name>/" (astro.config.mjs reads
+#     this from BASE_PATH, set unconditionally below) and a matching site URL
+#     for canonical links (astro.config.mjs reads this from SITE_URL, also
+#     set below to the current org's github.io host).
+#   - Once the dedicated GitHub org (D8) exists and/or a custom domain is
+#     registered and a CNAME is configured in Pages settings, both env vars
+#     below must change together: BASE_PATH to "/" (or remove the step,
+#     since astro.config.mjs already defaults to '/' when unset) and SITE_URL
+#     to the real domain. Forgetting this after adding a custom domain will
+#     break every internal link, asset path, and canonical URL.
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - claude/campbelltown-hospital-research-site-nrs4mq # pilot-phase entry — remove after merge to main
   workflow_dispatch: {}
 
 permissions:
@@ -52,15 +60,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build
         env:
-          # See the BASE_PATH note at the top of this file: flip this to "/"
-          # once a custom domain is live (D8).
+          # See the BASE_PATH / SITE_URL note at the top of this file: both
+          # change together once the dedicated org / custom domain (D8) lands.
           BASE_PATH: /${{ github.event.repository.name }}
+          SITE_URL: https://techycardiac.github.io
         run: npm run build
 
       - name: Upload Pages artifact

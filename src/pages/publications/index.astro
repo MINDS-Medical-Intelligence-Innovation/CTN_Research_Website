@@ -15,6 +15,8 @@ const departments = [
   ...new Set(publications.flatMap((p) => p.departments ?? [])),
 ].sort((a, b) => a.localeCompare(b));
 
+const unclassifiedCount = publications.filter((p) => (p.departments ?? []).length === 0).length;
+
 const ledCount = publications.filter((p) => p.campbelltownLed).length;
 ---
 
@@ -49,6 +51,11 @@ const ledCount = publications.filter((p) => p.campbelltownLed).length;
           <select id="filter-dept" name="dept">
             <option value="">All departments</option>
             {departments.map((d) => <option value={d}>{d}</option>)}
+            {unclassifiedCount > 0 && (
+              <option value="__unclassified">
+                Unclassified ({unclassifiedCount})
+              </option>
+            )}
           </select>
         </div>
         <label class="filter-checkbox">
@@ -110,7 +117,10 @@ const ledCount = publications.filter((p) => p.campbelltownLed).length;
         const cardLed = card.dataset.led === '1';
 
         const matchesYear = !year || cardYear === year;
-        const matchesDept = !dept || cardDepts.includes(dept);
+        // "__unclassified" is a synthetic dropdown value (not a real department
+        // name) that matches publications with no parsed departments at all.
+        const matchesDept =
+          !dept || (dept === '__unclassified' ? cardDepts.length === 0 : cardDepts.includes(dept));
         const matchesLed = !ledOnly || cardLed;
         const show = matchesYear && matchesDept && matchesLed;
 

@@ -8,9 +8,13 @@ const statusOrder: Record<string, number> = {
   ACTIVE_NOT_RECRUITING: 1,
   ENROLLING_BY_INVITATION: 1,
   NOT_YET_RECRUITING: 1,
-  COMPLETED: 2,
-  TERMINATED: 3,
-  WITHDRAWN: 3,
+  // An unverified status must not silently sort below TERMINATED via the
+  // ??9 fallback below — place it explicitly between the active group and
+  // COMPLETED.
+  UNKNOWN: 2,
+  COMPLETED: 3,
+  TERMINATED: 4,
+  WITHDRAWN: 4,
 };
 
 const trials = [...(trialsData.items ?? [])].sort(

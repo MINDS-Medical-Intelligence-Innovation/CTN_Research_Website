@@ -6,7 +6,8 @@
  * ClinicalTrials.gov v2 API (https://clinicaltrials.gov/api/v2/studies) and
  * upserts them into src/data/trials.json.
  *
- * Zero npm dependencies — Node 22's global `fetch` only.
+ * Zero npm dependencies — Node 22's global `fetch` only (shares scripts/lib.mjs with
+ * scripts/harvest-pubmed.mjs for throttle/retry, file I/O and the Campbelltown matcher).
  *
  * Usage:
  *   node scripts/sync-trials.mjs [--dry-run] [--fresh]
@@ -21,7 +22,17 @@
  * under-represented until a formal ANZCTR data request is pursued.
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { parseArgs } from 'node:util';
+import {
+  createThrottledFetch,
+  truncate,
+  loadExistingItems,
+  upsertByKey,
+  defaultMerge,
+  writeDataFile,
+  isCampbelltownHospital,
+  HOSPITAL_NAME,
+} from './lib.mjs';
 
 const API_BASE = 'https://clinicaltrials.gov/api/v2/studies';
 const OUT_FILE = new URL('../src/data/trials.json', import.meta.url);
@@ -45,63 +56,38 @@ const PAGE_SIZE = 100;
 const MIN_INTERVAL_MS = 250; // be a polite anonymous client; CTG has no published hard cap
 const MAX_RETRIES = 3;
 
+const fetchWithRetry = createThrottledFetch({ minIntervalMs: MIN_INTERVAL_MS, maxRetries: MAX_RETRIES });
+
 // ---------------------------------------------------------------------------
 // CLI args
 // ---------------------------------------------------------------------------
 
-function parseArgs(argv) {
-  const args = { dryRun: false, fresh: false };
-  for (const arg of argv) {
-    if (arg === '--dry-run') args.dryRun = true;
-    else if (arg === '--fresh') args.fresh = true;
-    else if (arg === '--help' || arg === '-h') {
-      console.log('Usage: node scripts/sync-trials.mjs [--dry-run] [--fresh]');
-      process.exit(0);
-    }
-  }
-  return args;
-}
-
-// ---------------------------------------------------------------------------
-// Networking: throttle + retry
-// ---------------------------------------------------------------------------
-
-let lastRequestAt = 0;
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function throttle() {
-  const now = Date.now();
-  const wait = lastRequestAt + MIN_INTERVAL_MS - now;
-  if (wait > 0) await sleep(wait);
-  lastRequestAt = Date.now();
-}
-
-async function fetchWithRetry(url, options = {}, attempt = 1) {
-  await throttle();
-  let res;
+function parseCliArgs(argv) {
+  let values;
   try {
-    res = await fetch(url, options);
+    ({ values } = parseArgs({
+      args: argv,
+      options: {
+        'dry-run': { type: 'boolean', default: false },
+        fresh: { type: 'boolean', default: false },
+        help: { type: 'boolean', short: 'h', default: false },
+      },
+      allowPositionals: false,
+    }));
   } catch (err) {
-    if (attempt >= MAX_RETRIES) throw err;
-    await sleep(2 ** attempt * 1000);
-    return fetchWithRetry(url, options, attempt + 1);
+    console.error(err.message);
+    printHelp();
+    process.exit(1);
   }
-  if (res.status === 429 || res.status >= 500) {
-    if (attempt >= MAX_RETRIES) {
-      throw new Error(`Request failed after ${attempt} attempts: ${res.status} ${res.statusText} — ${url}`);
-    }
-    const retryAfter = Number(res.headers.get('retry-after'));
-    const backoff = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 2 ** attempt * 1000;
-    await sleep(backoff);
-    return fetchWithRetry(url, options, attempt + 1);
+  if (values.help) {
+    printHelp();
+    process.exit(0);
   }
-  if (!res.ok) {
-    throw new Error(`Request failed: ${res.status} ${res.statusText} — ${url}`);
-  }
-  return res;
+  return { dryRun: values['dry-run'], fresh: values.fresh };
+}
+
+function printHelp() {
+  console.log('Usage: node scripts/sync-trials.mjs [--dry-run] [--fresh]');
 }
 
 // ---------------------------------------------------------------------------
@@ -130,34 +116,14 @@ async function fetchAllStudies() {
 // ---------------------------------------------------------------------------
 // Post-filter: only genuine "Campbelltown Hospital" locations, not other
 // Campbelltown-named businesses (e.g. "GenesisCare - Campbelltown",
-// "Campbelltown Medical & Dental Centre").
+// "Campbelltown Medical & Dental Centre"). Uses the same canonical matcher as
+// harvest-pubmed.mjs (see scripts/lib.mjs isCampbelltownHospital) so both
+// pipelines agree on what counts as "Campbelltown Hospital".
 // ---------------------------------------------------------------------------
-
-function isCampbelltownHospitalFacility(facility) {
-  if (!facility) return false;
-  if (/campbelltown hospital/i.test(facility)) return true;
-  // Real-world data-entry quirk: some registrations concatenate the name with
-  // no space (e.g. "CampbelltownHospital") or extra punctuation/hyphens. This
-  // still requires "hospital" to immediately follow "campbelltown" once
-  // whitespace/hyphens are stripped, so it does not match business names like
-  // "GenesisCare - Campbelltown" or "Campbelltown Medical & Dental Centre".
-  const collapsed = facility.toLowerCase().replace(/[^a-z]/g, '');
-  return collapsed.includes('campbelltownhospital');
-}
 
 function studyHasCampbelltownHospital(study) {
   const locations = study.protocolSection?.contactsLocationsModule?.locations ?? [];
-  return locations.some((loc) => isCampbelltownHospitalFacility(loc.facility));
-}
-
-function truncate(str, maxLen) {
-  if (!str) return '';
-  const clean = str.replace(/\s+/g, ' ').trim();
-  if (clean.length <= maxLen) return clean;
-  const cut = clean.slice(0, maxLen);
-  const lastSpace = cut.lastIndexOf(' ');
-  const trimmed = lastSpace > maxLen * 0.6 ? cut.slice(0, lastSpace) : cut;
-  return `${trimmed.trimEnd()}…`;
+  return locations.some((loc) => isCampbelltownHospital(loc.facility));
 }
 
 // ---------------------------------------------------------------------------
@@ -180,58 +146,28 @@ function mapStudy(study) {
     status: status.overallStatus ?? 'UNKNOWN',
     phase,
     conditions: conditionsModule.conditions ?? [],
-    facility: 'Campbelltown Hospital',
+    facility: HOSPITAL_NAME,
     url: `https://clinicaltrials.gov/study/${identification.nctId}`,
     briefSummary: truncate(description.briefSummary ?? '', 600),
-    // Transient — used only to order the merged output, stripped before write.
-    _lastUpdate: status.lastUpdatePostDateStruct?.date ?? '',
+    // B6: persisted (not transient) — the real field trials are sorted on,
+    // so a trial retained from a previous run but absent from the current
+    // fetch keeps its last known update date instead of losing recency.
+    lastUpdate: status.lastUpdatePostDateStruct?.date ?? '',
   };
 }
 
 // ---------------------------------------------------------------------------
-// Merge: upsert by nctId, never delete. Sort RECRUITING first, then by
-// last-update date (most recent first).
+// Sort: RECRUITING first, then by the persisted lastUpdate date (most recent
+// first). No side-Map — sorts directly on the field stored on each record.
 // ---------------------------------------------------------------------------
 
-function loadExisting(fresh) {
-  if (fresh) return { items: [] };
-  try {
-    const raw = readFileSync(OUT_FILE, 'utf8');
-    const data = JSON.parse(raw);
-    return { items: Array.isArray(data.items) ? data.items : [] };
-  } catch {
-    return { items: [] };
-  }
-}
-
-function sortTrials(items, lastUpdateByNctId) {
+function sortTrials(items) {
   const statusRank = (s) => (s === 'RECRUITING' ? 0 : 1);
   return [...items].sort((a, b) => {
     const rankDiff = statusRank(a.status) - statusRank(b.status);
     if (rankDiff !== 0) return rankDiff;
-    const au = lastUpdateByNctId.get(a.nctId) ?? '';
-    const bu = lastUpdateByNctId.get(b.nctId) ?? '';
-    return bu.localeCompare(au);
+    return (b.lastUpdate ?? '').localeCompare(a.lastUpdate ?? '');
   });
-}
-
-function mergeTrials(existingItems, fetchedItems) {
-  const byId = new Map(existingItems.map((t) => [t.nctId, t]));
-  const lastUpdateByNctId = new Map();
-  let added = 0;
-  let updated = 0;
-  for (const trial of fetchedItems) {
-    const { _lastUpdate, ...clean } = trial;
-    lastUpdateByNctId.set(clean.nctId, _lastUpdate ?? '');
-    if (byId.has(clean.nctId)) {
-      updated += 1;
-    } else {
-      added += 1;
-    }
-    byId.set(clean.nctId, clean);
-  }
-  const merged = sortTrials([...byId.values()], lastUpdateByNctId);
-  return { merged, added, updated };
 }
 
 // ---------------------------------------------------------------------------
@@ -239,7 +175,7 @@ function mergeTrials(existingItems, fetchedItems) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const args = parseArgs(process.argv.slice(2));
+  const args = parseCliArgs(process.argv.slice(2));
 
   console.log('Fetching studies with a location near "Campbelltown" from ClinicalTrials.gov...');
   const rawStudies = await fetchAllStudies();
@@ -250,8 +186,9 @@ async function main() {
 
   const fetched = matched.map(mapStudy);
 
-  const existing = loadExisting(args.fresh);
-  const { merged, added, updated } = mergeTrials(existing.items, fetched);
+  const existing = loadExistingItems(OUT_FILE, { fresh: args.fresh });
+  const { items, added, updated } = upsertByKey(existing.items, fetched, (t) => t.nctId, defaultMerge);
+  const merged = sortTrials(items);
 
   const byStatus = new Map();
   for (const t of merged) byStatus.set(t.status, (byStatus.get(t.status) ?? 0) + 1);
@@ -259,7 +196,7 @@ async function main() {
   console.log('--- Summary ---');
   console.log(`Fetched from ClinicalTrials.gov : ${fetched.length}`);
   console.log(`New                              : ${added}`);
-  console.log(`Updated (refreshed)              : ${updated}`);
+  console.log(`Updated (changed)                : ${updated}`);
   console.log(`Total in file                    : ${merged.length}`);
   console.log('By status:');
   for (const [status, count] of [...byStatus.entries()].sort((a, b) => b[1] - a[1])) {
@@ -271,13 +208,7 @@ async function main() {
     return;
   }
 
-  const output = {
-    generated: new Date().toISOString(),
-    source: 'clinicaltrials.gov',
-    items: merged,
-  };
-  writeFileSync(OUT_FILE, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Wrote ${merged.length} trials to ${OUT_FILE.pathname}`);
+  writeDataFile(OUT_FILE, 'clinicaltrials.gov', merged);
 }
 
 main().catch((err) => {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T09:14:44.777Z",
+  "generated": "2026-07-08T09:42:46.814Z",
   "source": "pubmed",
   "items": [
     {
@@ -785,7 +785,8 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Cardiology",
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "cardiopulmonary exercise testing",
@@ -883,7 +884,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Asthma",
@@ -956,7 +957,7 @@
         },
         {
           "name": "Perera K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Simmons D",
@@ -965,10 +966,9 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Diabetes And Endocrinology",
-        "Hepatology And Gastroenterology",
-        "Military Cardiovascular Outcomes Research Program",
-        "Obstetrics And Gynecology"
+        "Diabetes & Endocrinology",
+        "Gastroenterology and Hepatology",
+        "Obstetrics & Gynaecology"
       ],
       "keywords": [
         "Diabetes",
@@ -1019,8 +1019,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Paediatrics",
-        "Paediatrics And Child Health"
+        "Paediatrics"
       ],
       "keywords": [
         "Alkaline urine",
@@ -1279,7 +1278,7 @@
         },
         {
           "name": "Hennessy A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Femia G",
@@ -1336,7 +1335,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [],
       "abstract": ""
@@ -1429,7 +1428,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": "OBJECTIVE: Following the demonstrated improvement in pregnancy glycemia with Control-IQ closed loop in the Closed loop Insulin delivery by glucose Responsive Computer algorithms In Type 1 diabetes pregnancies (CIRCUIT) trial, we compared intrapartum and early postpartum glycemic effectiveness and safety with standard care in type 1 diabetes. RESEARCH DESIGN AND METHODS: The primary outcome of this prespecified analysis was percentage of time in pregnancy-specific glucose range (63-140 mg/dL) during the 24 h prior to childbirth, measured by continuous glucose monitoring. A key secondary outcome was percentage of time at <70 mg/dL in the first postpartum week, with additional secondary outcomes including continuous glucose monitoring metrics through 6 weeks postpartum. Analyses were adjusted for baseline measure, insulin delivery mode, and site. RESULTS: In the intrapartum period (24 h before delivery), 39 of 44 (89%) participants continued closed loop. Intravenous insulin was used intrapartum by one (2%) closed loop participant and 20 (45%) standard care participants (P < 0.001). Intrapartum closed loop users spent more time in pregnancy-specific glucose range (79.6% vs. 64.8%)…"
@@ -1542,7 +1541,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [],
       "abstract": "BACKGROUND: Real-world data on benralizumab in patients with severe eosinophilic asthma-while controlling for confounding factors-is currently lacking. AIM: This real-world controlled multicentre study evaluated asthma outcomes in patients who received benralizumab compared with a severe asthma cohort who did not receive biologic therapy. METHODS: Two years of data from patients with severe eosinophilic asthma in the Australian Benralizumab Registry (ABenRa) and the Australasian Severe Asthma Registry (ASAR) were included in the analysis. Asthma control questionnaire-5 (ACQ-5) scores, asthma-related quality of life (AQLQ) scores, maintenance oral corticosteroid (OCS) dose, annualised exacerbation rate and clinical remission (ACQ-5 ≤ 1, with no asthma attacks or OCS use for 12 months, assessed at the 24-month follow-up) rates were compared between the groups after adjusting for baseline imbalances. RESULTS: A total of 211 participants from ABenRa (64.5% female; mean age 57.4 ± 14.5 years) and 250 from ASAR (63.1% female; mean age 53.7 ± 14.8 years) were included. ACQ and AQLQ improved significantly in both groups. Participants in the ABenRa showed greater improvements in ACQ at 12-…"
@@ -1617,7 +1616,7 @@
         },
         {
           "name": "Brady B",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Chaar B",
@@ -1729,7 +1728,7 @@
         },
         {
           "name": "Si L",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Stevens J",
@@ -1801,7 +1800,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [],
       "abstract": ""
@@ -2313,7 +2312,7 @@
         },
         {
           "name": "Bosi I",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Cheung A",
@@ -2373,7 +2372,7 @@
         },
         {
           "name": "Swamy S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Wainstein BK",
@@ -2390,7 +2389,6 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Allergy And Clinical Immunology",
         "Medicine"
       ],
       "keywords": [
@@ -2442,7 +2440,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [],
       "abstract": ""
@@ -2619,7 +2617,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Biliary",
@@ -2667,7 +2665,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "B-cell lymphoma",
@@ -2729,7 +2727,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": ""
@@ -2745,11 +2743,11 @@
       "authors": [
         {
           "name": "Singh N",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Silburn A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Moore N",
@@ -2779,11 +2777,11 @@
       "authors": [
         {
           "name": "Haider S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hong M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Descallar J",
@@ -2795,7 +2793,7 @@
         },
         {
           "name": "Roberts TL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Keat K",
@@ -2803,10 +2801,10 @@
         },
         {
           "name": "Chua W",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Immunology"
       ],
@@ -3894,7 +3892,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology/Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "angioedema",
@@ -4098,15 +4096,15 @@
       "authors": [
         {
           "name": "Cheng J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "McKay C",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Bray V",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Yip PY",
@@ -4118,10 +4116,10 @@
         },
         {
           "name": "Kok PS",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Macarthur Cancer Therapy Centre"
       ],
@@ -4312,7 +4310,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Body surface gastric mapping",
@@ -4662,7 +4660,7 @@
       "authors": [
         {
           "name": "Lee M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Ho V",
@@ -4670,10 +4668,10 @@
         },
         {
           "name": "Zhou J",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Gastroenterology"
       ],
@@ -4755,7 +4753,7 @@
       "authors": [
         {
           "name": "Fogarty S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Heazell AEP",
@@ -4845,7 +4843,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Gastric Alimetry",
@@ -4896,7 +4894,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Barriers",
@@ -4957,7 +4955,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "dyspnea",
@@ -5222,7 +5220,7 @@
       "authors": [
         {
           "name": "Nindra U",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hong JH",
@@ -5230,7 +5228,7 @@
         },
         {
           "name": "Hong M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Lim SH",
@@ -5274,14 +5272,14 @@
         },
         {
           "name": "Ng W",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Chua W",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Medical Oncology"
       ],
@@ -5434,7 +5432,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": "IMPORTANCE: Hyperglycemia-related pregnancy complications occur in 50% of pregnant women with type 1 diabetes. Closed-loop insulin systems improve glycemia outside of pregnancy but have had limited testing in pregnancy. OBJECTIVE: To assess the efficacy of a closed-loop system in pregnancy. DESIGN, SETTING, AND PARTICIPANTS: Open-label trial enrolling pregnant women with type 1 diabetes at 14 clinical centers in Canada and Australia before 14 weeks' gestation with follow-up until 6 weeks postpartum. Enrollment occurred between June 2021 and July 2024 and follow-up was completed in March 2025. INTERVENTIONS: Participants were randomized 1:1 to closed-loop therapy (n = 46) or standard care (insulin pump or multiple daily insulin injections) (n = 45) with continuous glucose monitoring. MAIN OUTCOMES AND MEASURES: The primary outcome was the percentage of time spent in the pregnancy-specific glucose range (63-140 mg/dL), measured by continuous glucose monitoring from 16 to 34 weeks' gestation. RESULTS: Among 94 enrolled participants, 3 experienced pregnancy loss prior to randomization, 91 were randomized (mean age, 31.7 [SD, 5.2] years; early pregnancy hemoglobin A1c, 7.4% [SD,…"
@@ -5728,7 +5726,7 @@
         },
         {
           "name": "Hennessy A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Femia G",
@@ -6241,7 +6239,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Angiodysplasia",
@@ -6301,7 +6299,7 @@
       "authors": [
         {
           "name": "Nindra U",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Tang J",
@@ -6309,7 +6307,7 @@
         },
         {
           "name": "Hong JH",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Descallar J",
@@ -6317,7 +6315,7 @@
         },
         {
           "name": "Hong M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Killen A",
@@ -6337,15 +6335,15 @@
         },
         {
           "name": "Cooper A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Wilkinson K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Pal A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Teng C",
@@ -6361,7 +6359,7 @@
         },
         {
           "name": "Ng W",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Lemech C",
@@ -6369,13 +6367,12 @@
         },
         {
           "name": "Chua W",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
-        "Medical Oncology",
-        "Medicine"
+        "Medical Oncology"
       ],
       "keywords": [],
       "abstract": "INTRODUCTION: Health-related quality of life (HRQoL) is not routine in early phase clinical trials (EP-CTs), which focus on dose-limiting toxicities and safety. However, for clinicians, understanding the impact of such trials on HRQoL is fundamental to consent patients, especially when the benefits on tumor response may be unknown. AIMS AND METHODS: The PEARLER (Patient diversity And experience in eaRLy phase cancEr clinical tRials) study was conducted with a key aim of focusing on assessing HRQoL in participants undergoing EP-CTs using a multi-center prospective cohort setting. All participants completed a baseline demographic survey on Cycle 1 Day 1 with EORTC-QLQ-C30 on Day 1 of Cycles 1 through 6 or end of treatment (EoT). RESULTS: Overall, 122 participants were recruited with median age 62. Median baseline Global Health Status (GHS) was 67 and remained unchanged throughout EP-CT (P = .188). GHS deterioration occurred in 29/122 (24%) while improvement occurred in 16/122 (13%). Median baseline Physical Function Score (PFS) was 87. PFS deterioration occurred in 30/122 (25%) while improvement occurred in 6/122 (5%). Baseline median CFS was 84. Cognitive Function Score (CFS)…"
@@ -6391,7 +6388,7 @@
       "authors": [
         {
           "name": "Nindra U",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Tang J",
@@ -6399,7 +6396,7 @@
         },
         {
           "name": "Hong JH",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Descallar J",
@@ -6407,7 +6404,7 @@
         },
         {
           "name": "Hong M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Killen A",
@@ -6427,15 +6424,15 @@
         },
         {
           "name": "Cooper A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Wilkinson K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Pal A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Teng C",
@@ -6451,7 +6448,7 @@
         },
         {
           "name": "Ng W",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Lemech C",
@@ -6459,13 +6456,12 @@
         },
         {
           "name": "Chua W",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
-        "Medical Oncology",
-        "Medicine"
+        "Medical Oncology"
       ],
       "keywords": [],
       "abstract": "PURPOSE: Early-phase clinical trials (EP-CTs) provide access to novel therapeutics for patients with limited standard treatment options. Beyond drug-related risks, participants may experience hidden toxicities, including time, financial, and social burdens that often go unmeasured. METHODS: The Patient Experience in Early-Phase Cancer Clinical Trials (PEARLER) study aimed to assess time, financial, and social toxicity (ST) in a prospective, multicenter cohort. Participants completed a time toxicity (TT) survey and the European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire C30 on day 1 of cycles 1-6. Financial toxicity (FT) was assessed using the EORTC scoring manual; ST was evaluated using the social and role functioning domains. Multilevel models examined trends over time. RESULTS: A total of 122 participants (median age 62 years, range, 25-83) were enrolled. Median objective TT was 26%. Only 16% (20/122) reported subjective TT, most commonly during cycles 1-2 (85%). FT was reported by 44% (54/122), but did not significantly change over time ( P = .136). Although 71% (87/122) reported some reduction in social function, social functioning…"
@@ -6851,7 +6847,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Anxiety",
@@ -6960,7 +6956,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Gastric Alimetry",
@@ -7042,7 +7038,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Case report",
@@ -7173,7 +7169,7 @@
       "authors": [
         {
           "name": "Ye T",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "De Silva D",
@@ -7399,7 +7395,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Cancer Center"
+        "Macarthur Cancer Therapy Centre"
       ],
       "keywords": [
         "depression",
@@ -7927,7 +7923,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Continuous glucose monitoring",
@@ -8020,7 +8016,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Endocrinology And Metabolism Service"
+        "Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Alternative Medicine",
@@ -9055,7 +9051,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "Anti-IL-4/13",
@@ -10269,7 +10265,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "BEC",
@@ -10303,7 +10299,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": ""
@@ -10672,7 +10668,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "adverse cardiac event",
@@ -11083,7 +11079,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "asthma",
@@ -11103,7 +11099,7 @@
       "authors": [
         {
           "name": "Mathews KO",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "MacMillan F",
@@ -11123,7 +11119,7 @@
         },
         {
           "name": "Hicks R",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Jones T",
@@ -11143,15 +11139,15 @@
         },
         {
           "name": "Tannous K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Wilson C",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hay P",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Abdo S",
@@ -11167,7 +11163,7 @@
         },
         {
           "name": "Venigalla M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Thomson R",
@@ -11180,7 +11176,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Endocrinology And Metabolism Service"
+        "Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Diabetes",
@@ -11439,7 +11435,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "GDM",
@@ -11646,10 +11642,10 @@
         },
         {
           "name": "Lee CS",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Macarthur Cancer Therapy Centre"
       ],
@@ -11973,7 +11969,7 @@
       "authors": [
         {
           "name": "Clements F",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Vedam H",
@@ -12001,12 +11997,12 @@
         },
         {
           "name": "Makris A",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
-        "Obstetrics And Gynecology"
+        "Obstetrics & Gynaecology"
       ],
       "keywords": [
         "CPAP",
@@ -12069,9 +12065,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "Translational Health Research Institute"
-      ],
+      "departments": [],
       "keywords": [
         "Anorexia",
         "Eating disorder",
@@ -12094,11 +12088,11 @@
       "authors": [
         {
           "name": "Immanuel J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Kongbrailatpam T",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Rajagopal R",
@@ -12106,10 +12100,10 @@
         },
         {
           "name": "Simmons D",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Endocrinology"
       ],
@@ -12708,7 +12702,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [],
       "abstract": "BACKGROUND: We have previously developed Core Outcome Measures sets for Severe Asthma (COMSA) by multi-stakeholder consensus. There are no patient-centred tools to quantify response to biological therapies for severe asthma. We aimed to develop paediatric and adult CompOsite iNdexes For Response in asthMa (CONFiRM) incorporating clinical parameters and patient-reported quality of life. METHODS: International expert healthcare professionals and patients with severe asthma were invited to 1) develop consensus levels of clinically relevant changes for each outcome measure within COMSA, 2) use multicriteria decision analysis to develop the CONFiRM scores and 3) assess their internal validity. A separate group of healthcare professionals evaluated CONFiRM's external validity. RESULTS: Five levels of change for each COMSA outcome were agreed. Severe exacerbations and maintenance oral corticosteroid use were rated as the most important in determining both paediatric and adult CONFiRM scores. There was strong agreement between healthcare professionals and patients, although patients assigned greater importance to quality of life. The CONFiRM score quantified response to a biologic from…"
@@ -13020,7 +13014,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Obstetrics And Gynaecology"
+        "Obstetrics & Gynaecology"
       ],
       "keywords": [
         "Group A Streptococcus pyogenes",
@@ -13570,7 +13564,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Endocrinology And Metabolism Service"
+        "Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "allied health occupations",
@@ -13696,7 +13690,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "education",
@@ -13779,7 +13773,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Allergy And Immunology Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "factor XIIa",
@@ -13870,7 +13864,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Children And Adolescents"
+        "Medicine"
       ],
       "keywords": [],
       "abstract": "BACKGROUND: Hereditary angioedema is a rare genetic disease characterized by severe and unpredictable swelling attacks. NTLA-2002 is an in vivo gene-editing therapy that is based on clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein 9. NTLA-2002 targets the gene encoding kallikrein B1 ( KLKB1 ). A single dose of NTLA-2002 may provide lifelong control of angioedema attacks. METHODS: In this phase 2 portion of a phase 1-2 trial, we randomly assigned adults with hereditary angioedema in a 2:2:1 ratio to receive NTLA-2002 in a single dose of 25 mg or 50 mg or placebo. The primary end point was the number of angioedema attacks per month (the monthly attack rate) from week 1 through week 16. Secondary end points included safety, pharmacokinetics, and pharmacodynamics (i.e., the change from baseline in total plasma kallikrein protein level); exploratory end points included patient-reported outcomes. RESULTS: Of the 27 patients who underwent randomization, 10 received 25 mg of NTLA-2002, 11 received 50 mg, and 6 received placebo. From week 1 through week 16, the estimated mean monthly attack rate was 0.70 (95% confidence interval [CI], 0.25 to…"
@@ -14612,7 +14606,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Amanita phalloides",
@@ -14979,7 +14973,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Obstetrics And Gynaecology"
+        "Obstetrics & Gynaecology"
       ],
       "keywords": [
         "class IV obesity",
@@ -15459,7 +15453,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes And Endocrine Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "case conferencing",
@@ -15772,7 +15766,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Endocrinology And Metabolism Service"
+        "Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "IADPSG",
@@ -15794,7 +15788,7 @@
       "authors": [
         {
           "name": "Fong AT",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Jacob J",
@@ -15810,7 +15804,7 @@
         },
         {
           "name": "Thyer L",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hsu PS",
@@ -15818,10 +15812,10 @@
         },
         {
           "name": "Si L",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [],
       "keywords": [],
       "abstract": ""
@@ -16653,7 +16647,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology/Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Acute generalized exanthematous pustulosis",
@@ -16979,7 +16973,6 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Cancer Therapy Centre",
         "Macarthur Cancer Therapy Centre"
       ],
       "keywords": [
@@ -17493,11 +17486,11 @@
       "authors": [
         {
           "name": "Fatt SJ",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "George E",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hay P",
@@ -17513,13 +17506,11 @@
         },
         {
           "name": "Mitchison D",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
-      "departments": [
-        "Translational Health Research Institute"
-      ],
+      "campbelltownLed": false,
+      "departments": [],
       "keywords": [
         "athletes",
         "body image",
@@ -17634,7 +17625,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "body surface gastric mapping",
@@ -17840,7 +17831,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Endocrinology And Metabolism Service"
+        "Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "acupuncture therapy",
@@ -18102,10 +18093,10 @@
         },
         {
           "name": "Lee CS",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Macarthur Cancer Therapy Centre"
       ],
@@ -18150,7 +18141,7 @@
         },
         {
           "name": "Della-Fiorentina S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Khan S",
@@ -19190,7 +19181,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "M-health",
@@ -19310,7 +19301,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Dyspepsia",
@@ -19501,7 +19492,7 @@
         },
         {
           "name": "Foong D",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Calder S",
@@ -19557,7 +19548,7 @@
         },
         {
           "name": "Fernandes V",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Andrews CN",
@@ -19578,7 +19569,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [],
       "abstract": "INTRODUCTION: Gastric emptying testing (GET) assesses gastric motility, however, is nonspecific and insensitive for neuromuscular disorders. Gastric Alimetry (GA) is a new medical device combining noninvasive gastric electrophysiological mapping and validated symptom profiling. This study assessed patient-specific phenotyping using GA compared with GET. METHODS: Patients with chronic gastroduodenal symptoms underwent simultaneous GET and GA, comprising a 30-minute baseline, 99m TC-labelled egg meal, and 4-hour postprandial recording. Results were referenced to normative ranges. Symptoms were profiled in the validated GA App and phenotyped using rule-based criteria based on their relationships to the meal and gastric activity: (i) sensorimotor, (ii) continuous, and (iii) other. RESULTS: Seventy-five patients were assessed, 77% female. Motility abnormality detection rates were as follows: GET 22.7% (14 delayed, 3 rapid), GA spectral analysis 33.3% (14 low rhythm stability/low amplitude, 5 high amplitude, and 6 abnormal frequency), and combined yield 42.7%. In patients with normal spectral analysis, GA symptom phenotypes included sensorimotor 17% (where symptoms strongly paired with…"
@@ -19711,7 +19702,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "asthma",
@@ -19920,7 +19911,7 @@
         },
         {
           "name": "Rutland T",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Chua W",
@@ -19944,10 +19935,10 @@
         },
         {
           "name": "Lee CS",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Macarthur Cancer Therapy Centre"
       ],
@@ -20115,9 +20106,7 @@
         }
       ],
       "campbelltownLed": false,
-      "departments": [
-        "Medicine"
-      ],
+      "departments": [],
       "keywords": [],
       "abstract": "BACKGROUND: Dupilumab efficacy and safety in children aged 6-11 years with uncontrolled, moderate-to-severe asthma were shown in the VOYAGE study-a 52-week, multinational, multicentre, phase 3 randomised, double-blind, placebo-controlled trial. We aimed to evaluate the long-term safety and efficacy of dupilumab in children with moderate-to-severe asthma who previously participated in the VOYAGE study. METHODS: 365 of 408 children with moderate-to-severe asthma from VOYAGE enrolled in EXCURSION, a 52 week, open-label extension study conducted at 70 centres across 17 countries. 240 children continued with add-on dupilumab (dosed according to bodyweight: 100 mg for those weighing ≤30 kg and 200 mg for those weighing more than 30 kg at EXCURSION baseline) once every 2 weeks administered by subcutaneous injection (dupilumab/dupilumab group) and 125 children on placebo during VOYAGE initiated dupilumab (100 or 200 mg, according to bodyweight), once every 2 weeks administered by subcutaneous injection (placebo/dupilumab group). Following a protocol amendment, for a subset of children weighing 30 kg or less, the dose was changed to 300 mg once every 4 weeks. The primary endpoint for the…"
     },
@@ -20384,7 +20373,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Cancer Therapy Clinic",
+        "Macarthur Cancer Therapy Centre",
         "Urology"
       ],
       "keywords": [
@@ -20804,11 +20793,11 @@
       "authors": [
         {
           "name": "Haider S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Chua W",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Balakrishnar B",
@@ -20820,7 +20809,7 @@
         },
         {
           "name": "Roberts TL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Keat K",
@@ -21105,7 +21094,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [],
       "abstract": "BACKGROUND: Nafamostat mesylate is a potent in vitro antiviral agent that inhibits the host transmembrane protease serine 2 enzyme used by severe acute respiratory syndrome coronavirus 2 for cell entry. METHODS: This open-label, pragmatic, randomized clinical trial in Australia, New Zealand, and Nepal included noncritically ill hospitalized patients with coronavirus disease 2019 (Covid-19). Participants were randomly assigned to usual care or usual care plus nafamostat. The primary end point was death (any cause) or receipt of new invasive or noninvasive ventilation or vasopressor support within 28 days after randomization. Analysis was with a Bayesian logistic model in which an adjusted odds ratio <1.0 indicates improved outcomes with nafamostat. Enrollment was closed due to falling numbers of eligible patients. RESULTS: We screened 647 patients in 21 hospitals (15 in Australia, 4 in New Zealand, and 2 in Nepal) and enrolled 160 participants from May 2021 to August 2022. In the intention-to-treat population, the primary end point occurred in 8 (11%) of 73 patients with usual care and 4 (5%) of 82 with nafamostat. The median adjusted odds ratio for the primary end point for…"
@@ -21525,7 +21514,7 @@
         },
         {
           "name": "Gray PE",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Belot A",
@@ -22247,7 +22236,7 @@
       "authors": [
         {
           "name": "Foong D",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Calder S",
@@ -22286,9 +22275,9 @@
           "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "body surface gastric mapping",
@@ -22710,7 +22699,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Clinical Immunology"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Adrenaline",
@@ -22772,7 +22761,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [],
       "abstract": "Electrogastrography (EGG) non-invasively evaluates gastric motility but is viewed as lacking clinical utility. Gastric Alimetry ® is a new diagnostic test that combines high-resolution body surface gastric mapping (BSGM) with validated symptom profiling, with the goal of overcoming EGG's limitations. This study directly compared EGG and BSGM to define performance differences in spectral analysis. Comparisons between Gastric Alimetry BSGM and EGG were conducted by protocolized retrospective evaluation of 178 subjects [110 controls; 68 nausea and vomiting (NVS) and/or type 1 diabetes (T1D)]. Comparisons followed standard methodologies for each test (pre-processing, post-processing, analysis), with statistical evaluations for group-level differences, symptom correlations, and patient-level classifications. BSGM showed substantially tighter frequency ranges vs EGG in controls. Both tests detected rhythm instability in NVS, but EGG showed opposite frequency effects in T1D. BSGM showed an 8× increase in the number of significant correlations with symptoms. BSGM accuracy for patient-level classification was 0.78 for patients vs controls and 0.96 as compared to blinded consensus panel;…"
@@ -22835,7 +22824,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "diabetes mellitus",
@@ -23431,7 +23420,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Attack",
@@ -23506,7 +23495,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Gastroenterology And Hepatology"
+        "Gastroenterology and Hepatology"
       ],
       "keywords": [
         "Gastrointestinal tumours",
@@ -23614,7 +23603,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Intensive Care"
+        "Intensive Care Unit"
       ],
       "keywords": [
         "Delirium prevention",
@@ -24519,7 +24508,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Comorbidity",
@@ -24582,7 +24571,7 @@
         },
         {
           "name": "Farzin M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Acharya P",
@@ -24594,7 +24583,7 @@
         },
         {
           "name": "Gilmore A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Crane H",
@@ -24602,7 +24591,7 @@
         },
         {
           "name": "Henderson C",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Ng W",
@@ -25595,7 +25584,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Obstetrics & Gynecology"
+        "Obstetrics & Gynaecology"
       ],
       "keywords": [
         "Deep infiltrating endometriosis",
@@ -26052,7 +26041,7 @@
       "authors": [
         {
           "name": "Xu M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Brannan JD",
@@ -26064,10 +26053,10 @@
         },
         {
           "name": "Zhou J",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Gastroenterology"
       ],
@@ -26110,7 +26099,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "MacArthur Cancer Therapy Centre"
+        "Macarthur Cancer Therapy Centre"
       ],
       "keywords": [
         "clinical practice",
@@ -27290,7 +27279,7 @@
         },
         {
           "name": "MacMillan F",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Simmons D",
@@ -27327,8 +27316,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Service",
-        "Translational Health Research Institute"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "cardiometabolic",
@@ -27383,7 +27371,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Clinical Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "atopic dermatitis",
@@ -27516,7 +27504,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "COPD",
@@ -27988,7 +27976,7 @@
         },
         {
           "name": "Vinod S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Canfell K",
@@ -28462,7 +28450,7 @@
         },
         {
           "name": "Swaminathan S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Richardson R",
@@ -28814,7 +28802,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Medical Oncology"
+        "Macarthur Cancer Therapy Centre"
       ],
       "keywords": [
         "Health-related quality of life",
@@ -28835,15 +28823,15 @@
       "authors": [
         {
           "name": "Chau K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Welsh M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Makris A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hennessy A",
@@ -29204,7 +29192,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Orthopedics"
+        "Orthopaedic Surgery"
       ],
       "keywords": [],
       "abstract": "IMPORTANCE: Distal radius fractures are common and are managed with or without surgery. Current evidence indicates surgical treatment is not superior to nonsurgical treatment at 12 months. OBJECTIVE: Does surgical treatment for displaced distal radius fractures in patients 60 years or older provide better patient-reported wrist pain and function outcomes than nonsurgical treatment at 24 months? DESIGN, SETTING, AND PARTICIPANTS: In this secondary analysis of a combined multicenter randomized clinical trial (RCT) and a parallel observational study, 300 patients were screened from 19 centers in Australia and New Zealand. Of these, 166 participants were randomized to surgical or nonsurgical treatment. Participants who declined randomization (n = 134) were included in the parallel observational group with the same treatment options and follow-up. Participants were followed up at 3, 12, and 24 months by a blinded assessor. The 24-month outcomes are reported herein. Data were collected from December 1, 2016, to December 31, 2020, and analyzed from February 4 to October 21, 2021. INTERVENTIONS: Surgical treatment consisting of open reduction and internal fixation using a volar-locking…"
@@ -29687,7 +29675,7 @@
         },
         {
           "name": "Liu CC",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Henessy A",
@@ -29913,7 +29901,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Diabetes Obesity And Metabolism Translational Research Unit"
+        "Diabetes Obesity and Metabolism Translational Research Unit"
       ],
       "keywords": [
         "Type 2 diabetes mellitus",
@@ -29939,7 +29927,7 @@
         },
         {
           "name": "Farkash C",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Simmons D",
@@ -31316,7 +31304,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Paediatric Rheumatology"
+        "Medicine"
       ],
       "keywords": [],
       "abstract": "OBJECTIVES: Dermatomyositis (DM) and juvenile dermatomyositis (JDM) are idiopathic inflammatory myopathies, which can be resistant and unresponsive to initial treatments, leading to severe complications and impaired quality of life. There are few randomised trials in dermatomyositis and the outcomes reported may not be consistent, which can limit decision-making. The aim of this study is to assess the scope and consistency of outcomes reported in randomised trials in dermatomyositis. METHODS: MEDLINE, Embase, PsycINFO and clinicaltrials.gov were searched from 1993-2020 for randomised trials in children and adults with dermatomyositis. The frequency and characteristics of the outcomes reported were analysed and classified. RESULTS: 20 trials were included. Across these trials, a total of 743 outcome measures were reported, which were grouped into 34 outcome domains; of which 17 were clinical, 13 were surrogate/biochemical, and 4 were patient-reported outcomes. The top five most frequently reported outcome domains were muscle inflammation (15 trials, 46 outcome measures), physical function (14 trials, 16 outcome measures), muscle strength (13 trials, 30 outcome measures), global…"
@@ -31384,11 +31372,11 @@
       "authors": [
         {
           "name": "Osuagwu UL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Xu M",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Piya MK",
@@ -31396,7 +31384,7 @@
         },
         {
           "name": "Agho KE",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Simmons D",
@@ -31405,7 +31393,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Admissions",
@@ -31429,7 +31417,7 @@
       "authors": [
         {
           "name": "Zhou J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Ho V",
@@ -31440,7 +31428,7 @@
           "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Gastroenterology"
       ],
@@ -31724,11 +31712,11 @@
       "authors": [
         {
           "name": "Sritharan A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Osuagwu UL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Ratnaweera M",
@@ -31741,8 +31729,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service",
-        "Obesity And Metabolism Translational Research Unit"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "diabetic ketoacidosis",
@@ -31966,11 +31953,11 @@
       "authors": [
         {
           "name": "Gao T",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Agho KE",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Piya MK",
@@ -31982,12 +31969,12 @@
         },
         {
           "name": "Osuagwu UL",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
-        "Macarthur Diabetes Endocrinology And Metabolism Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Australia",
@@ -33217,7 +33204,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Mepolizumab",
@@ -33409,7 +33396,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Rheumatology Unit"
+        "Rheumatology"
       ],
       "keywords": [
         "APLAR guidance",
@@ -33859,7 +33846,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "HbA1c",
@@ -33905,7 +33892,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [
         "Australia",
@@ -33981,7 +33968,7 @@
       "authors": [
         {
           "name": "Liu CC",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Zhang Y",
@@ -33989,7 +33976,7 @@
         },
         {
           "name": "Makris A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Rasmussen HH",
@@ -34778,11 +34765,11 @@
       "authors": [
         {
           "name": "Pawaskar RS",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "MacMillan F",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Ong A",
@@ -34790,10 +34777,10 @@
         },
         {
           "name": "McBride K",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [],
       "keywords": [
         "breast cancer",
@@ -34818,9 +34805,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "Head Of Unit"
-      ],
+      "departments": [],
       "keywords": [
         "Aeroallergens",
         "Australian climate",
@@ -35151,7 +35136,7 @@
         },
         {
           "name": "White R",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
       "campbelltownLed": true,
@@ -35308,23 +35293,23 @@
       "authors": [
         {
           "name": "Osuagwu UL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Sharma S",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Silva D",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Saunders J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Pillay J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Piya MK",
@@ -35337,7 +35322,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Metabolism Translational Research Unit"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "AUSDRISK",
@@ -35442,15 +35427,15 @@
       "authors": [
         {
           "name": "Burt A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Mitchison D",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Doyle K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hay P",
@@ -35458,9 +35443,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "Translational Health Research Institute"
-      ],
+      "departments": [],
       "keywords": [
         "Aboriginal and Torres Strait islander",
         "Diagnosis",
@@ -35584,7 +35567,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Cardiology Liverpool Hospital"
+        "Cardiology"
       ],
       "keywords": [
         "E/e′",
@@ -35868,7 +35851,7 @@
         },
         {
           "name": "Rutagengwa D",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hamilton AE",
@@ -36437,7 +36420,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Intensive Care"
+        "Intensive Care Unit"
       ],
       "keywords": [
         "Delirium",
@@ -36462,7 +36445,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": ""
@@ -36576,7 +36559,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "environment",
@@ -36778,11 +36761,11 @@
       "authors": [
         {
           "name": "Burt A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Mannan H",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Touyz S",
@@ -37071,7 +37054,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Immunology And Allergy",
+        "Immunology & Allergy Unit",
         "Intensive Care Unit",
         "Medicine",
         "Respiratory Medicine"
@@ -37944,11 +37927,11 @@
       "authors": [
         {
           "name": "Zhou J",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Shrestha P",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Qiu Z",
@@ -37956,7 +37939,7 @@
         },
         {
           "name": "Harman DG",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Teoh WC",
@@ -38234,7 +38217,7 @@
         },
         {
           "name": "O'Loughlin A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Tapson JC",
@@ -38278,7 +38261,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [
         "Caesarean section",
@@ -38413,7 +38396,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology And Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [],
       "abstract": "Severe asthma is a high-burden disease. Real-world data on mepolizumab in patients with severe eosinophilic asthma is needed to assess whether the data from randomised controlled trials are applicable in a broader population.The Australian Mepolizumab Registry (AMR) was established with an aim to assess the use, effectiveness and safety of mepolizumab for severe eosinophilic asthma in Australia.Patients (n=309) with severe eosinophilic asthma (median age 60 years, 58% female) commenced mepolizumab. They had poor symptom control (median Asthma Control Questionnaire (ACQ)-5 score of 3.4), frequent exacerbations (median three courses of oral corticosteroids (OCS) in the previous 12 months), and 47% required daily OCS. Median baseline peripheral blood eosinophil level was 590 cells·µL -1 Comorbidities were common: allergic rhinitis 63%, gastro-oesophageal reflux disease 52%, obesity 46%, nasal polyps 34%.Mepolizumab treatment reduced exacerbations requiring OCS compared with the previous year (annualised rate ratio 0.34 (95% CI 0.29-0.41); p<0.001) and hospitalisations (rate ratio 0.46 (95% CI 0.33-0.63); p<0.001). Treatment improved symptom control (median ACQ-5 reduced by 2.0 at 6…"
@@ -38474,7 +38457,6 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Concord Cancer Centre",
         "Macarthur Cancer Therapy Centre"
       ],
       "keywords": [],
@@ -38769,9 +38751,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "Translational Health Research Institute"
-      ],
+      "departments": [],
       "keywords": [
         "Australia",
         "Eating disorders",
@@ -38809,7 +38789,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Macarthur Diabetes Service"
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
       ],
       "keywords": [],
       "abstract": "OBJECTIVE: To compare neonatal hypoglycemia and respiratory morbidity rates in pregnancies complicated by diabetes following early term scheduled cesarean section (ETSCS) with and without maternal corticosteroid administration. RESEARCH DESIGN AND METHODS: In a retrospective cohort study, women with any form of diabetes in pregnancy undergoing ETSCS were included. Primary outcomes were admission rates to the neonatal intensive care unit (NICU) for respiratory distress syndrome (RDS)/transient tachypnea of the newborn (TTN) and/or neonatal hypoglycemia. RESULTS: NICU admission rates for neonatal hypoglycemia were significantly higher (24.2% vs. 4.4%, P = 0.003) and RDS/TTN rates were nonsignificantly higher (15.2% vs. 7.2%, P = 0.209) following corticosteroid administration. CONCLUSIONS: Corticosteroids were not beneficial among women with any form of diabetes in pregnancy undergoing ETSCS and, indeed, may be harmful. In our hospital, we have ceased the use of corticosteroids for women under these circumstances."
@@ -38987,11 +38967,11 @@
       "authors": [
         {
           "name": "Ho V",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Chung L",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Singh A",
@@ -39003,7 +38983,7 @@
         },
         {
           "name": "Abubakar A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Lim SH",
@@ -39023,18 +39003,18 @@
         },
         {
           "name": "Roberts TL",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "de Souza P",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Lee CS",
-          "campbelltown": true
+          "campbelltown": false
         }
       ],
-      "campbelltownLed": true,
+      "campbelltownLed": false,
       "departments": [
         "Macarthur Cancer Therapy Centre"
       ],
@@ -39079,7 +39059,7 @@
         },
         {
           "name": "Makris A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Hennessy A",
@@ -39148,7 +39128,7 @@
       ],
       "campbelltownLed": true,
       "departments": [
-        "Respiratory And Sleep Medicine"
+        "Respiratory and Sleep Medicine"
       ],
       "keywords": [],
       "abstract": "Due to growing recognition of comorbidities, COPD is no longer considered a disease affecting only the respiratory system. Its management now entails the early diagnosis and treatment of comorbidities. However, although many studies have examined the impact of comorbidities on the evolution of COPD and patients' quality of life, very few have explored the means to systematically identify and manage them. The aims of this article are to summarise the state of current knowledge about comorbidities associated with COPD and to propose a possible screening protocol in the outpatient setting, emphasising the areas needing further research."
@@ -39473,11 +39453,11 @@
         },
         {
           "name": "McDonald K",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Harley A",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Abramov G",
@@ -39520,11 +39500,11 @@
       "authors": [
         {
           "name": "Levi OU",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Webb F",
-          "campbelltown": true
+          "campbelltown": false
         },
         {
           "name": "Simmons D",
@@ -39532,9 +39512,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "Obesity And Metabolism Translational Research Unit"
-      ],
+      "departments": [],
       "keywords": [
         "Discharge summary",
         "Hemoglobin A1c",
@@ -39712,7 +39690,7 @@
       ],
       "campbelltownLed": false,
       "departments": [
-        "Immunology/Allergy Unit"
+        "Immunology & Allergy Unit"
       ],
       "keywords": [
         "Allergy",
@@ -40031,9 +40009,7 @@
         }
       ],
       "campbelltownLed": true,
-      "departments": [
-        "The Heart Research Institute"
-      ],
+      "departments": [],
       "keywords": [
         "Calcium",
         "Integrins",
