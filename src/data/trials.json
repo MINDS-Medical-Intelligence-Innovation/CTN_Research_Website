@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T09:42:55.589Z",
+  "generated": "2026-07-10T23:45:47.333Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -83,20 +83,6 @@
       "lastUpdate": "2026-04-20"
     },
     {
-      "nctId": "NCT06987643",
-      "title": "A Clinical Study to Investigate the Effect of Oral Neflamapimod on Motor Recovery After Acute Ischaemic Stroke",
-      "status": "RECRUITING",
-      "phase": "PHASE2",
-      "conditions": [
-        "Moderate to Severe Acute Ischaemic Stroke",
-        "Ischaemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06987643",
-      "briefSummary": "The purpose of this interventional study is to determine whether neflamapimod can improve residual physical disability and/or cognitive dysfunction after Moderate to Severe Acute Ischaemic Stroke.",
-      "lastUpdate": "2026-02-09"
-    },
-    {
       "nctId": "NCT02735707",
       "title": "Randomized, Embedded, Multifactorial Adaptive Platform Trial for Community- Acquired Pneumonia",
       "status": "RECRUITING",
@@ -108,6 +94,20 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT06987643",
+      "title": "A Clinical Study to Investigate the Effect of Oral Neflamapimod on Motor Recovery After Acute Ischaemic Stroke",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Moderate to Severe Acute Ischaemic Stroke",
+        "Ischaemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06987643",
+      "briefSummary": "The purpose of this interventional study is to determine whether neflamapimod can improve residual physical disability and/or cognitive dysfunction after Moderate to Severe Acute Ischaemic Stroke.",
+      "lastUpdate": "2026-07-08"
     },
     {
       "nctId": "NCT05702034",
