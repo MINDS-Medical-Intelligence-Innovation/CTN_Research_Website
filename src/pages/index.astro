@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import render from '../CTN_Hospital.png';
 import StatTile from '../components/StatTile.astro';
 import PublicationCard from '../components/PublicationCard.astro';
 import NewsCard from '../components/NewsCard.astro';
@@ -42,18 +44,13 @@ const newsPosts = (await getCollection('news'))
         and student projects — kept fresh automatically, curated by the people doing the work.
       </p>
 
-      {/*
-        Stand-in for the hospital rendering, ported from the approved N1 Gallery mockup
-        (.render composition). Once src/assets/campbelltown-render.png is committed, swap
-        this whole block for astro:assets — a 3-line change:
-          import { Image } from 'astro:assets';
-          import render from '../assets/campbelltown-render.png';
-          <Image src={render} alt="Artist's impression of Campbelltown Hospital" class="render" />
-        Keep the aspect-ratio/border-radius/shadow on the .render class either way.
-      */}
-      <div class="render" role="img" aria-label="Schematic placeholder for the Campbelltown Hospital rendering, shown complete and uncropped">
-        <span class="tag">Artist&rsquo;s impression — placeholder</span>
-      </div>
+      <Image
+        src={render}
+        alt="Artist's impression of Campbelltown Hospital"
+        class="render"
+        loading="eager"
+        fetchpriority="high"
+      />
     </div>
   </section>
 

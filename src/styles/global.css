@@ -933,6 +933,16 @@ a.card:focus-within,
     linear-gradient(180deg, #e3ebee 0%, #eef0e8 55%, #f0ece0 100%);
 }
 
+/* The real rendering (an <img>) keeps its natural 16:9 ratio so the artwork
+   shows complete and uncropped — the fixed aspect-ratio and painted-gradient
+   background above only apply to the schematic placeholder composition. */
+img.render {
+  aspect-ratio: auto;
+  height: auto;
+  display: block;
+  background: none;
+}
+
 .render .tag {
   position: absolute;
   inset: auto auto 0.7rem 0.7rem;
