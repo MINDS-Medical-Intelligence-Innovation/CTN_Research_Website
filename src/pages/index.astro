@@ -36,24 +36,35 @@ const newsPosts = (await getCollection('news'))
   <section class="hero">
     <div class="wrap hero__inner">
       <p class="eyebrow">Campbelltown Hospital &middot; South Western Sydney</p>
-      <h1>Research at Campbelltown Hospital, South Western Sydney</h1>
+      <h1>The research record of a growing hospital.</h1>
       <p class="lede">
         A single, always-current home for publications, clinical trials, researcher profiles
         and student projects — kept fresh automatically, curated by the people doing the work.
       </p>
-    </div>
-  </section>
 
-  <section class="section section--tight">
-    <div class="wrap">
-      <div class="grid grid--4">
-        <StatTile number={pubsThisYear} label={`Publications in ${currentYear}`} />
-        <StatTile number={totalPubs} label="Total publications tracked" />
-        <StatTile number={recruitingTrials} label="Trials recruiting now" />
-        <StatTile number={activeProjects} label="Active student projects" />
+      {/*
+        Stand-in for the hospital rendering, ported from the approved N1 Gallery mockup
+        (.render composition). Once src/assets/campbelltown-render.png is committed, swap
+        this whole block for astro:assets — a 3-line change:
+          import { Image } from 'astro:assets';
+          import render from '../assets/campbelltown-render.png';
+          <Image src={render} alt="Artist's impression of Campbelltown Hospital" class="render" />
+        Keep the aspect-ratio/border-radius/shadow on the .render class either way.
+      */}
+      <div class="render" role="img" aria-label="Schematic placeholder for the Campbelltown Hospital rendering, shown complete and uncropped">
+        <span class="tag">Artist&rsquo;s impression — placeholder</span>
       </div>
     </div>
   </section>
+
+  <div class="wrap">
+    <div class="stats-band" aria-label="Live site statistics">
+      <StatTile number={pubsThisYear} label={`Publications in ${currentYear}`} note="auto · PubMed" />
+      <StatTile number={totalPubs} label="Total publications tracked" note="since 2020" />
+      <StatTile number={recruitingTrials} label="Trials recruiting now" note="auto · CT.gov" />
+      <StatTile number={activeProjects} label="Active student projects" note="live noticeboard" />
+    </div>
+  </div>
 
   <section class="section section--tight">
     <div class="wrap">
@@ -61,7 +72,7 @@ const newsPosts = (await getCollection('news'))
         <h2>Find your way in</h2>
       </div>
       <div class="grid grid--3">
-        <a class="pathway-card" href={withBase('/students/')}>
+        <a class="pathway-card pathway-card--primary" href={withBase('/students/')}>
           <h3>I'm a student or JMO</h3>
           <p>
             Browse the project noticeboard, find a supervisor, and learn how to get your

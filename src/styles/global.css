@@ -1,44 +1,91 @@
 /* ==========================================================================
-   Campbelltown Hospital Research — global design tokens & base styles
-   Handcrafted CSS, no framework. Palette chosen and contrast-checked for
-   WCAG 2.2 AA (4.5:1 normal text / 3:1 large text & UI components):
-     - charcoal on paper:        ~15:1
-     - white on teal:            ~8.9:1
-     - amber-text on paper:      ~5.0:1
-     - charcoal on amber:        ~4.9:1
-     - white on recruit-green:   ~5.0:1
-     - white on slate:           ~10:1
+   Campbelltown Hospital Research — "N1 Gallery" design tokens & base styles
+   Handcrafted CSS, no framework.
+
+   Near-white gallery ground, oversized tight-tracked Hanken Grotesk display
+   type, generous air, hairline (1px) separation instead of drop shadows,
+   the hospital rendering shown complete and uncropped, copper (--accent)
+   used surgically for CTAs / links / the "Campbelltown-led" badge, IBM Plex
+   Mono for kickers, chips and data-provenance annotations.
+
+   Palette re-checked for WCAG 2.2 AA with a scratch contrast script
+   (node, not committed) — 4.5:1 for body text, 3:1 for large text/UI:
+     LIGHT   ink/bg              17.96:1   muted/bg   4.99:1
+             accent-text/bg       5.90:1   good/bg    5.99:1
+             accent-ink/accent    4.64:1   accent/bg (UI, 3:1 gate) 4.51:1
+     DARK    ink/bg              14.41:1   muted/bg   5.70:1
+             accent/bg (text)     6.75:1   good/bg    8.06:1
+             accent-ink/accent    6.75:1
+   The base accent (#a8642f) clears AA as *body link text* on the light
+   ground only by a hair (4.51:1) — too close to the line once real font
+   rendering/anti-aliasing is accounted for, so a separate, darker
+   --accent-text (#8f5426, 5.9-6.1:1) is used everywhere accent colour
+   renders as text on light grounds (kickers, links, chip labels), while
+   --accent (#a8642f) stays reserved for fills (buttons, CTA pill, primary
+   path card) where white --accent-ink text sits on top. Dark mode's accent
+   already clears 4.5:1 as text, so --accent-text equals --accent there.
    ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   Fonts — self-hosted, no runtime requests to fonts.googleapis.com /
+   fonts.gstatic.com. Downloaded from Google Fonts (latin subset) into
+   public/fonts/; see public/fonts/LICENSE-OFL.txt (SIL OFL 1.1) for both
+   families' full licenses. Referenced with a root-relative url() — the
+   rest of the codebase resolves internal links through the withBase() JS
+   helper (src/utils/base.ts) for BASE_PATH-prefixed (GitHub Pages) builds,
+   but that helper isn't reachable from a static CSS file; the favicon link
+   in BaseLayout.astro has the same limitation (a hardcoded root-absolute
+   href), so this mirrors that existing precedent rather than inventing a
+   new one. Works as-is for the documented default (root/custom-domain)
+   deploy target.
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/hanken-grotesk-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ibm-plex-mono-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/ibm-plex-mono-500.woff2') format('woff2');
+}
+
 :root {
-  /* Colour tokens */
-  --color-teal-900: #0b3d40;
-  --color-teal-700: #0f5257;
-  --color-teal-100: #e3eeee;
-  --color-paper: #fdfbf7;
-  --color-paper-alt: #f4ede2;
-  --color-charcoal: #262322;
-  --color-charcoal-soft: #524d49;
-  --color-border: #e2d9c9;
-  --color-amber: #d97706;
-  --color-amber-text: #b45309;
-  --color-amber-tint: #fdf0dc;
-  --color-green-recruit: #15803d;
-  --color-green-tint: #e6f4ea;
-  --color-slate: #44403c;
-  --color-slate-tint: #eeece9;
-  --color-focus: #0b3d40;
+  /* Colour tokens — light (default) */
+  --bg: #fcfcfa;
+  --surface: #ffffff;
+  --ink: #141412;
+  --muted: #6e6e68;
+  --line: #e8e8e2;
+  --accent: #a8642f;
+  --accent-text: #8f5426;
+  --accent-ink: #ffffff;
+  --good: #3d6b4f;
+  --color-focus: var(--accent);
 
   /* Typography */
-  --font-heading: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif;
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
 
   /* Layout */
   --content-max: 72rem;
   --content-narrow: 46rem;
-  --radius: 0.5rem;
-  --radius-sm: 0.3rem;
+  --radius: 6px;
+  --radius-sm: 4px;
+  --radius-full: 999px;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 1rem;
@@ -46,9 +93,24 @@
   --space-5: 2.5rem;
   --space-6: 4rem;
 
-  --shadow-card: 0 1px 2px rgba(38, 35, 34, 0.06), 0 1px 12px rgba(38, 35, 34, 0.05);
+  --shadow-card: 0 0 0 1px var(--line);
+  --shadow-card-hover: 0 0 0 1px var(--accent);
 
-  color-scheme: light;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191817;
+    --surface: #211f1d;
+    --ink: #ece7df;
+    --muted: #98918a;
+    --line: #35322e;
+    --accent: #d98f4e;
+    --accent-text: #d98f4e;
+    --accent-ink: #191817;
+    --good: #8fb996;
+  }
 }
 
 /* -------------------------------------------------------------------------
@@ -81,11 +143,11 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: 1rem;
   line-height: 1.6;
-  color: var(--color-charcoal);
-  background: var(--color-paper);
+  color: var(--ink);
+  background: var(--bg);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -101,37 +163,42 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-heading);
-  line-height: 1.2;
+  font-family: var(--font-sans);
+  line-height: 1.15;
   font-weight: 700;
+  letter-spacing: -0.015em;
   margin: 0 0 var(--space-3);
-  color: var(--color-charcoal);
+  color: var(--ink);
 }
 
 h1 {
-  font-size: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  font-size: clamp(1.8rem, 1.5rem + 1.5vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 h2 {
-  font-size: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
+  font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.9rem);
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
 }
 
 p {
   margin: 0 0 var(--space-3);
+  max-width: 70ch;
 }
 
 a {
-  color: var(--color-teal-700);
+  color: var(--accent-text);
   text-decoration-thickness: 1.5px;
   text-underline-offset: 0.15em;
 }
 
 a:hover {
-  color: var(--color-teal-900);
+  color: var(--ink);
 }
 
 ul,
@@ -148,8 +215,8 @@ input:focus-visible,
 select:focus-visible,
 summary:focus-visible,
 [tabindex]:focus-visible {
-  outline: 3px solid var(--color-focus);
-  outline-offset: 2px;
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
   border-radius: 2px;
 }
 
@@ -160,8 +227,8 @@ summary:focus-visible,
   position: absolute;
   left: 1rem;
   top: -3rem;
-  background: var(--color-teal-900);
-  color: #fff;
+  background: var(--ink);
+  color: var(--bg);
   padding: 0.6em 1em;
   border-radius: var(--radius-sm);
   z-index: 100;
@@ -214,23 +281,45 @@ main {
   margin-bottom: 0;
 }
 
+.section-heading > a {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.section-heading > a:hover {
+  text-decoration: underline;
+}
+
 .eyebrow {
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--color-teal-700);
+  color: var(--accent-text);
   margin: 0 0 var(--space-2);
 }
 
+.eyebrow a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.eyebrow a:hover {
+  text-decoration: underline;
+}
+
 .lede {
-  font-size: 1.15rem;
-  color: var(--color-charcoal-soft);
-  max-width: 44rem;
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 60ch;
 }
 
 .muted {
-  color: var(--color-charcoal-soft);
+  color: var(--muted);
 }
 
 .visually-hidden {
@@ -286,85 +375,96 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-weight: 600;
   font-size: 0.95rem;
   padding: 0.7em 1.3em;
   border-radius: var(--radius-sm);
-  border: 2px solid transparent;
+  border: 1.5px solid transparent;
   cursor: pointer;
   text-decoration: none;
   line-height: 1.2;
 }
 
 .btn-primary {
-  background: var(--color-teal-700);
-  color: #fff;
+  background: var(--ink);
+  color: var(--bg);
 }
 
 .btn-primary:hover {
-  background: var(--color-teal-900);
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-ink);
 }
 
 .btn-accent {
-  background: var(--color-amber);
-  color: var(--color-charcoal);
+  background: var(--accent);
+  color: var(--accent-ink);
 }
 
 .btn-accent:hover {
-  background: #c26b05;
-  color: var(--color-charcoal);
+  background: var(--ink);
+  color: var(--bg);
 }
 
 .btn-outline {
   background: transparent;
-  border-color: var(--color-teal-700);
-  color: var(--color-teal-700);
+  border-color: var(--ink);
+  color: var(--ink);
 }
 
 .btn-outline:hover {
-  background: var(--color-teal-100);
-  color: var(--color-teal-900);
+  border-color: var(--accent);
+  color: var(--accent-text);
 }
 
 /* -------------------------------------------------------------------------
    Cards
    ------------------------------------------------------------------------- */
 .card {
-  background: #fff;
-  border: 1px solid var(--color-border);
+  background: var(--surface);
+  border: 0;
   border-radius: var(--radius);
   padding: var(--space-4);
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+  transition: box-shadow 0.15s ease;
+}
+
+a.card:hover,
+a.card:focus-within,
+.card:has(a:hover),
+.card:has(a:focus-visible) {
+  box-shadow: var(--shadow-card-hover);
 }
 
 .card h3 {
   margin-bottom: var(--space-1);
+  font-size: 1.02rem;
+  font-weight: 650;
+  line-height: 1.35;
 }
 
 .card h3 a {
-  color: var(--color-charcoal);
+  color: var(--ink);
   text-decoration: none;
 }
 
 .card h3 a:hover {
-  color: var(--color-teal-700);
+  color: var(--accent-text);
   text-decoration: underline;
 }
 
 .card-meta {
-  font-size: 0.9rem;
-  color: var(--color-charcoal-soft);
+  font-size: 0.88rem;
+  color: var(--muted);
 }
 
-/* Pathway cards on the homepage */
+/* Pathway cards on the homepage — first ("primary") card ships accent-filled */
 .pathway-card {
-  background: var(--color-teal-700);
-  color: #fff;
+  background: var(--surface);
+  color: var(--ink);
   border-radius: var(--radius);
   padding: var(--space-4);
   display: flex;
@@ -372,19 +472,20 @@ main {
   gap: var(--space-2);
   text-decoration: none;
   box-shadow: var(--shadow-card);
+  transition: box-shadow 0.15s ease;
 }
 
 .pathway-card:hover {
-  background: var(--color-teal-900);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .pathway-card h3 {
-  color: #fff;
+  color: var(--ink);
   margin-bottom: 0;
 }
 
 .pathway-card p {
-  color: #e3eeee;
+  color: var(--muted);
   margin-bottom: var(--space-2);
 }
 
@@ -392,106 +493,154 @@ main {
   align-self: flex-start;
 }
 
+.pathway-card--primary {
+  background: var(--accent);
+  box-shadow: none;
+}
+
+.pathway-card--primary h3,
+.pathway-card--primary p {
+  color: var(--accent-ink);
+}
+
+.pathway-card--primary p {
+  opacity: 0.92;
+}
+
+.pathway-card--primary .btn-accent {
+  background: var(--accent-ink);
+  color: var(--accent-text);
+}
+
+.pathway-card--primary .btn-accent:hover {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.pathway-card--primary:hover {
+  box-shadow: 0 0 0 1px var(--accent-ink);
+}
+
 /* -------------------------------------------------------------------------
-   Badges / chips
+   Badges / chips — mono, uppercase, outline pills. Copper is reserved for
+   the "Campbelltown-led" badge; recruiting/positive status uses --good;
+   everything else (department, project type, example-data flags) stays
+   neutral so the accent colour reads as meaningful, not decorative.
    ------------------------------------------------------------------------- */
-.badge {
+.badge,
+.chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.35em;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  padding: 0.28em 0.7em;
-  border-radius: 999px;
-  line-height: 1.3;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.32em 0.7em;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  background: transparent;
+  line-height: 1.4;
   white-space: nowrap;
 }
 
 .badge--led {
-  background: var(--color-teal-100);
-  color: var(--color-teal-900);
-  border: 1px solid var(--color-teal-700);
+  border-color: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
 }
 
 .badge--example {
-  background: var(--color-amber);
-  color: var(--color-charcoal);
+  border-style: dashed;
+  border-color: var(--muted);
+  color: var(--muted);
+  font-style: italic;
 }
 
 .badge--recruiting-project {
-  background: var(--color-amber);
-  color: var(--color-charcoal);
+  border-color: var(--good);
+  color: var(--good);
+  font-weight: 600;
 }
 
 .badge--dept {
-  background: var(--color-slate-tint);
-  color: var(--color-slate);
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.78rem;
-  font-weight: 700;
-  padding: 0.28em 0.7em;
-  border-radius: 999px;
-  line-height: 1.3;
-  white-space: nowrap;
+  border-color: var(--line);
+  color: var(--muted);
 }
 
 .chip--recruiting {
-  background: var(--color-green-recruit);
-  color: #fff;
+  border-color: var(--good);
+  color: var(--good);
+  font-weight: 600;
 }
 
 .chip--neutral {
-  background: var(--color-slate);
-  color: #fff;
+  border-color: var(--line);
+  color: var(--muted);
 }
 
 .chip--amber-text {
-  background: var(--color-amber-tint);
-  color: var(--color-amber-text);
-  border: 1px solid var(--color-amber);
+  border-color: var(--line);
+  color: var(--muted);
 }
 
 /* -------------------------------------------------------------------------
-   Stat tiles
+   Stat tiles — laid out as a 1px-gap grid so the gap itself reads as a
+   hairline: the grid background is --line, each tile's background is --bg,
+   so a single pixel of --line shows through between tiles.
    ------------------------------------------------------------------------- */
+.stats-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border-block: 1px solid var(--line);
+}
+
 .stat-tile {
-  background: var(--color-paper-alt);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: var(--space-4);
+  background: var(--bg);
+  padding: 1.4rem 1.5rem;
   text-align: left;
 }
 
 .stat-tile .stat-number {
-  font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
   font-weight: 700;
-  color: var(--color-teal-700);
+  letter-spacing: -0.02em;
+  color: var(--ink);
   line-height: 1;
   display: block;
-  margin-bottom: var(--space-1);
+  margin-bottom: 0.45rem;
 }
 
 .stat-tile .stat-label {
-  color: var(--color-charcoal-soft);
-  font-size: 0.95rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.stat-tile .stat-note {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: 0.85;
+  margin-top: 0.35rem;
 }
 
 /* -------------------------------------------------------------------------
-   Forms / filters
+   Forms / filters — quiet: surface ground, hairline borders, mono labels.
    ------------------------------------------------------------------------- */
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);
   align-items: flex-end;
-  background: var(--color-paper-alt);
-  border: 1px solid var(--color-border);
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: var(--space-3);
   margin-bottom: var(--space-4);
@@ -500,49 +649,59 @@ main {
 .filter-field {
   display: flex;
   flex-direction: column;
-  gap: 0.3em;
+  gap: 0.35em;
   font-size: 0.9rem;
 }
 
 .filter-field label {
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .filter-field select,
-.filter-field input[type="text"] {
+.filter-field input[type='text'] {
   font: inherit;
   padding: 0.5em 0.6em;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  background: #fff;
-  color: var(--color-charcoal);
+  background: var(--bg);
+  color: var(--ink);
 }
 
 .filter-checkbox {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .filter-checkbox input {
   width: 1.15em;
   height: 1.15em;
+  accent-color: var(--accent);
 }
 
 .results-count {
   font-size: 0.9rem;
-  color: var(--color-charcoal-soft);
+  color: var(--muted);
   margin-bottom: var(--space-3);
 }
 
 .empty-state {
   padding: var(--space-5);
   text-align: center;
-  color: var(--color-charcoal-soft);
-  background: var(--color-paper-alt);
-  border: 1px dashed var(--color-border);
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px dashed var(--line);
   border-radius: var(--radius);
 }
 
@@ -550,8 +709,8 @@ main {
    Header
    ------------------------------------------------------------------------- */
 .site-header {
-  border-bottom: 1px solid var(--color-border);
-  background: var(--color-paper);
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
   position: sticky;
   top: 0;
   z-index: 20;
@@ -569,19 +728,24 @@ main {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: var(--color-charcoal);
-  line-height: 1.15;
+  color: var(--ink);
+  line-height: 1.2;
+  gap: 0.15em;
 }
 
 .site-brand strong {
-  font-family: var(--font-heading);
-  font-size: 1.15rem;
-  color: var(--color-teal-900);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
 
 .site-brand span {
-  font-size: 0.75rem;
-  color: var(--color-charcoal-soft);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
 }
 
 .site-nav {
@@ -594,7 +758,8 @@ main {
 .site-nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3);
+  align-items: center;
+  gap: clamp(0.55rem, 1.4vw, var(--space-3));
   list-style: none;
   padding: 0;
   margin: 0;
@@ -602,17 +767,43 @@ main {
 
 .site-nav a {
   text-decoration: none;
-  color: var(--color-charcoal);
-  font-weight: 600;
-  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.85rem;
+  white-space: nowrap;
   padding: 0.3em 0.1em;
-  border-bottom: 2px solid transparent;
 }
 
 .site-nav a:hover,
-.site-nav a[aria-current="page"] {
-  color: var(--color-teal-700);
-  border-bottom-color: var(--color-teal-700);
+.site-nav a[aria-current='page'] {
+  color: var(--ink);
+}
+
+.site-nav a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.site-nav a.nav-cta {
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.site-nav a.nav-cta:hover {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.site-nav a.nav-cta[aria-current='page'] {
+  color: var(--accent-ink);
+}
+
+.site-nav a.nav-cta:focus-visible {
+  text-decoration: none;
+  outline-offset: 2px;
 }
 
 .nav-toggle {
@@ -629,11 +820,11 @@ main {
 }
 
 /* -------------------------------------------------------------------------
-   Footer
+   Footer — hairline top border, mono small print.
    ------------------------------------------------------------------------- */
 .site-footer {
-  border-top: 1px solid var(--color-border);
-  background: var(--color-paper-alt);
+  border-top: 1px solid var(--line);
+  background: var(--bg);
   margin-top: var(--space-6);
 }
 
@@ -654,61 +845,120 @@ main {
 }
 
 .footer-nav a {
-  color: var(--color-charcoal);
-  font-size: 0.9rem;
+  color: var(--muted);
+  font-size: 0.85rem;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .footer-nav a:hover {
-  color: var(--color-teal-700);
+  color: var(--ink);
 }
 
 .footer-disclaimer {
-  font-size: 0.85rem;
-  color: var(--color-charcoal-soft);
-  border-top: 1px solid var(--color-border);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
   padding-top: var(--space-3);
 }
 
 .footer-meta {
-  font-size: 0.8rem;
-  color: var(--color-charcoal-soft);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2) var(--space-4);
 }
 
 /* -------------------------------------------------------------------------
-   Hero
+   Hero (home page) — mono kicker, oversized tight-tracked headline, the
+   rendering shown complete on its own gallery block below.
    ------------------------------------------------------------------------- */
 .hero {
-  background: linear-gradient(180deg, var(--color-teal-100) 0%, var(--color-paper) 100%);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--bg);
 }
 
 .hero__inner {
-  padding-block: var(--space-6);
+  padding-block: clamp(2.5rem, 6vw, 4rem) clamp(2.5rem, 5vw, 3.5rem);
 }
 
 .hero h1 {
-  max-width: 30ch;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.03;
+  max-width: 18ch;
+  text-wrap: balance;
 }
 
 .hero .lede {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
+  margin: 1.25rem 0 2.25rem;
+  max-width: 58ch;
+}
+
+/* The rendering block: schematic stand-in composition. Replace with the
+   real photo once it lands (see the comment in src/pages/index.astro) —
+   swapping is a 3-line change, this class/markup stays put. */
+.render {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 7.5;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 0 0 1px var(--line), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background:
+    radial-gradient(60% 120% at 70% -20%, rgba(169, 188, 198, 0.5), rgba(169, 188, 198, 0) 60%),
+    repeating-linear-gradient(
+        90deg,
+        rgba(166, 74, 42, 0.5) 0 3.2%,
+        rgba(126, 60, 34, 0.42) 3.2% 5%,
+        rgba(240, 235, 224, 0.85) 5% 6.6%
+      )
+      68% 100% / 22% 62% no-repeat,
+    repeating-linear-gradient(
+        90deg,
+        rgba(166, 74, 42, 0.42) 0 3.2%,
+        rgba(126, 60, 34, 0.36) 3.2% 5%,
+        rgba(240, 235, 224, 0.85) 5% 6.6%
+      )
+      18% 100% / 16% 48% no-repeat,
+    linear-gradient(0deg, #ddd3bf 0 58%, rgba(221, 211, 191, 0) 58%) 4% 100% / 17% 76% no-repeat,
+    linear-gradient(0deg, #e9e1cd 0 70%, rgba(233, 225, 205, 0) 70%) 94% 100% / 19% 88% no-repeat,
+    linear-gradient(0deg, #e4dbc6 0 64%, rgba(228, 219, 198, 0) 64%) 44% 100% / 24% 70% no-repeat,
+    linear-gradient(0deg, #d5dcd2 0 12%, rgba(213, 220, 210, 0) 12%),
+    linear-gradient(180deg, #e3ebee 0%, #eef0e8 55%, #f0ece0 100%);
+}
+
+.render .tag {
+  position: absolute;
+  inset: auto auto 0.7rem 0.7rem;
+  font: 500 0.62rem/1.5 var(--font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(20, 20, 18, 0.72);
+  color: #eee;
+  padding: 0.3rem 0.65rem;
+  border-radius: 3px;
 }
 
 /* -------------------------------------------------------------------------
    Page header (non-home pages)
    ------------------------------------------------------------------------- */
 .page-header {
-  border-bottom: 1px solid var(--color-border);
-  background: var(--color-paper-alt);
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
 }
 
 .page-header__inner {
-  padding-block: var(--space-5);
+  padding-block: clamp(2.25rem, 5vw, 3.5rem) clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.page-header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
 /* -------------------------------------------------------------------------
@@ -716,7 +966,7 @@ main {
    ------------------------------------------------------------------------- */
 .divider {
   border: none;
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--line);
   margin: var(--space-5) 0;
 }
 
@@ -747,18 +997,18 @@ main {
   width: 2.25rem;
   height: 2.25rem;
   border-radius: 50%;
-  background: var(--color-teal-700);
-  color: #fff;
+  background: var(--ink);
+  color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-heading);
+  font-family: var(--font-sans);
   font-weight: 700;
 }
 
 .callout {
-  background: var(--color-teal-700);
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-ink);
   border-radius: var(--radius);
   padding: var(--space-4);
   display: flex;
@@ -768,20 +1018,41 @@ main {
   justify-content: space-between;
 }
 
+.callout h2 {
+  color: var(--accent-ink);
+}
+
 .callout p {
-  color: #e3eeee;
+  color: var(--accent-ink);
+  opacity: 0.92;
   margin: 0;
 }
 
 .callout .btn-accent {
   flex: none;
+  background: var(--accent-ink);
+  color: var(--accent-text);
+}
+
+.callout .btn-accent:hover {
+  background: var(--ink);
+  color: var(--bg);
 }
 
 .dev-note {
-  background: var(--color-amber-tint);
-  border: 1px solid var(--color-amber);
-  color: var(--color-charcoal);
-  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  color: var(--ink);
+  border-radius: var(--radius-sm);
   padding: var(--space-3);
   font-size: 0.9rem;
+}
+
+.dev-note code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--bg);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
 }

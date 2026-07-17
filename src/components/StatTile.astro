@@ -2,10 +2,12 @@
 interface Props {
   number: number | string;
   label: string;
+  note?: string;
 }
-const { number, label } = Astro.props;
+const { number, label, note } = Astro.props;
 ---
 <div class="stat-tile">
   <span class="stat-number">{number}</span>
   <span class="stat-label">{label}</span>
+  {note && <span class="stat-note">{note}</span>}
 </div>

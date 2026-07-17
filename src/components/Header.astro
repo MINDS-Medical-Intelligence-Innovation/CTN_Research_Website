@@ -37,6 +37,7 @@ function isCurrent(href: string) {
             <a
               href={withBase(item.href)}
               aria-current={isCurrent(item.href) ? 'page' : undefined}
+              class={item.href === '/students/' ? 'nav-cta' : undefined}
             >
               {item.label}
             </a>
