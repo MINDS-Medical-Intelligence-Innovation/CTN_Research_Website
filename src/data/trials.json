@@ -1,19 +1,19 @@
 {
-  "generated": "2026-07-10T23:45:47.333Z",
+  "generated": "2026-07-17T23:40:47.439Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
-      "nctId": "NCT06940154",
-      "title": "Rademikibart Add-on Treatment of an Acute COPD Exacerbation (Seabreeze STAT COPD)",
+      "nctId": "NCT05920356",
+      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
       "status": "RECRUITING",
-      "phase": "PHASE2",
+      "phase": "PHASE3",
       "conditions": [
-        "COPD Acute Exacerbation"
+        "Non-Small Cell Lung Cancer (NSCLC)"
       ],
       "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06940154",
-      "briefSummary": "This is a Phase 2, multicenter study in adult participants with an acute COPD exacerbation and type 2 inflammation",
-      "lastUpdate": "2026-06-12"
+      "url": "https://clinicaltrials.gov/study/NCT05920356",
+      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
+      "lastUpdate": "2026-07-16"
     },
     {
       "nctId": "NCT05633654",
@@ -26,7 +26,7 @@
       "facility": "Campbelltown Hospital",
       "url": "https://clinicaltrials.gov/study/NCT05633654",
       "briefSummary": "The goal of this study is to find out if the experimental product, sacituzumab govitecan-hziy (SG) in combination with pembrolizumab given after surgery, is effective and safe compared to the treatment of physician's choice (TPC) which includes either pembrolizumab or pembrolizumab plus capecitabine in participants with triple negative breast cancer that still remains after surgery and pre-surgical treatment.",
-      "lastUpdate": "2026-06-10"
+      "lastUpdate": "2026-07-15"
     },
     {
       "nctId": "NCT06310356",
@@ -55,19 +55,6 @@
       "lastUpdate": "2026-06-09"
     },
     {
-      "nctId": "NCT05920356",
-      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer (NSCLC)"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05920356",
-      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-06-04"
-    },
-    {
       "nctId": "NCT06758401",
       "title": "This is a Study to Learn About How the Combination of the Study Medicines Sigvotatug Vedotin Plus Pembrolizumab Works in People With Non-small Cell Lung Cancer With High Levels of PD-L1.",
       "status": "RECRUITING",
@@ -94,6 +81,19 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT06940154",
+      "title": "Rademikibart Add-on Treatment of an Acute COPD Exacerbation (Seabreeze STAT COPD)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "COPD Acute Exacerbation"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06940154",
+      "briefSummary": "This is a Phase 2, multicenter study in adult participants with an acute COPD exacerbation and type 2 inflammation",
+      "lastUpdate": "2026-07-13"
     },
     {
       "nctId": "NCT06987643",
