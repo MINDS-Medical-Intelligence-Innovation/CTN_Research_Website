@@ -70,7 +70,7 @@ jobs:
           # See the BASE_PATH / SITE_URL note at the top of this file: both
           # change together once the dedicated org / custom domain (D8) lands.
           BASE_PATH: /${{ github.event.repository.name }}
-          SITE_URL: https://techycardiac.github.io
+          SITE_URL: https://minds-medical-intelligence-innovation.github.io
         run: npm run build
 
       - name: Upload Pages artifact
