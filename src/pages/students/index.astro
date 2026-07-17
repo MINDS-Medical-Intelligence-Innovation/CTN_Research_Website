@@ -8,7 +8,7 @@ import { withBase } from '../../utils/base';
 const now = new Date();
 const allProjects = await getCollection(
   'projects',
-  ({ data }) => !data.expiryDate || data.expiryDate >= now,
+  ({ data }) => (!data.expiryDate || data.expiryDate >= now) && !data.example,
 );
 const projects = allProjects.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
