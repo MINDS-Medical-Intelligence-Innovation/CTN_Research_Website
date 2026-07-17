@@ -1,41 +1,159 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PersonCard from '../../components/PersonCard.astro';
-import { getCollection } from 'astro:content';
 import { withBase } from '../../utils/base';
+import publicationsData from '../../data/publications.json';
 
-const allPeople = await getCollection('people');
-const visiblePeople = allPeople
-  .filter((p) => p.data.consent === 'granted' || p.data.example)
-  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+// Author index compiled directly from harvested PubMed data — every entry has
+// provenance to the public record. Rich profiles (role, bio, photo) are added
+// separately under the consent process (DECISIONS.md D4); this index lists only
+// bibliographic facts: name-as-published, departments from affiliations, and
+// each author's publications.
+
+// Known name-variant merges (same person publishing under two initial forms).
+const AUTHOR_ALIASES: Record<string, string> = {
+  'Katelaris C': 'Katelaris CH',
+};
+
+// Authors need at least this many harvested publications to appear in the index;
+// single-paper authors remain findable on the Publications wall and via search.
+const MIN_PUBS = 2;
+
+interface AuthorAgg {
+  key: string;
+  pubs: { title: string; year?: number; month?: number; doi?: string; pmid: string }[];
+  led: number;
+  departments: Map<string, number>;
+  years: number[];
+}
+
+const authors = new Map<string, AuthorAgg>();
+for (const pub of publicationsData.items) {
+  for (const a of pub.authors ?? []) {
+    if (!a.campbelltown) continue;
+    const key = AUTHOR_ALIASES[a.name] ?? a.name;
+    let agg = authors.get(key);
+    if (!agg) {
+      agg = { key, pubs: [], led: 0, departments: new Map(), years: [] };
+      authors.set(key, agg);
+    }
+    agg.pubs.push({ title: pub.title, year: pub.year, month: pub.month, doi: pub.doi, pmid: pub.pmid });
+    if (pub.campbelltownLed) agg.led += 1;
+    for (const d of pub.departments ?? []) {
+      agg.departments.set(d, (agg.departments.get(d) ?? 0) + 1);
+    }
+    if (pub.year) agg.years.push(pub.year);
+  }
+}
+
+// "Katelaris CH" -> "C. H. Katelaris"
+function displayName(key: string): string {
+  const m = key.match(/^(.*)\s([A-Z]{1,3})$/);
+  if (!m) return key;
+  const initials = m[2].split('').map((c) => `${c}.`).join(' ');
+  return `${initials} ${m[1]}`;
+}
+
+const indexed = [...authors.values()]
+  .filter((a) => a.pubs.length >= MIN_PUBS)
+  .map((a) => ({
+    ...a,
+    name: displayName(a.key),
+    topDepts: [...a.departments.entries()].sort((x, y) => y[1] - x[1]).slice(0, 2).map(([d]) => d),
+    span:
+      a.years.length > 0
+        ? `${Math.min(...a.years)}–${Math.max(...a.years)}`
+        : '',
+    recent: [...a.pubs]
+      .sort((x, y) => (y.year ?? 0) - (x.year ?? 0) || (y.month ?? 0) - (x.month ?? 0))
+      .slice(0, 5),
+  }))
+  .sort((x, y) => y.pubs.length - x.pubs.length || x.name.localeCompare(y.name));
+
+const totalAuthors = authors.size;
 ---
 
 <BaseLayout
   title="People"
-  description="Researcher profiles from Campbelltown Hospital — browse by department and research theme."
+  description="The publishing researchers of Campbelltown Hospital — an author index compiled automatically from PubMed records."
 >
   <div class="page-header">
     <div class="wrap page-header__inner">
       <p class="eyebrow">People</p>
       <h1>Researchers at Campbelltown Hospital</h1>
       <p class="lede">
-        Profiles are published with each researcher's consent. Auto-generated stubs (see
-        <a href={withBase('/about/')}>About</a>) only go live once a
-        researcher has confirmed they're happy to appear.
+        An author index compiled automatically from PubMed records
+        (2020–present): {totalAuthors} people have published with a Campbelltown
+        Hospital affiliation. Authors with {MIN_PUBS}+ papers are listed below;
+        every paper is on the <a href={withBase('/publications/')}>publications wall</a>.
+        Detailed researcher profiles are added as each researcher confirms theirs
+        — see <a href={withBase('/about/')}>how this site works</a>.
       </p>
     </div>
   </div>
 
   <section class="section" data-pagefind-body>
     <div class="wrap">
-      <p class="results-count">{visiblePeople.length} profile{visiblePeople.length === 1 ? '' : 's'}</p>
-      {visiblePeople.length > 0 ? (
+      <p class="results-count">
+        {indexed.length} authors with {MIN_PUBS}+ publications
+      </p>
+      {indexed.length > 0 ? (
         <div class="grid grid--3">
-          {visiblePeople.map((person) => <PersonCard person={person} />)}
+          {indexed.map((author) => (
+            <article class="card person-card">
+              <h3>{author.name}</h3>
+              {author.topDepts.length > 0 && (
+                <p class="card-meta">{author.topDepts.join(' · ')}</p>
+              )}
+              <p class="card-meta">
+                {author.pubs.length} publication{author.pubs.length === 1 ? '' : 's'}
+                {author.led > 0 && ` · ${author.led} Campbelltown-led`}
+                {author.span && ` · ${author.span}`}
+              </p>
+              <details>
+                <summary>Recent publications</summary>
+                <ul class="tag-list person-pubs">
+                  {author.recent.map((p) => (
+                    <li>
+                      <a
+                        href={p.doi ? `https://doi.org/${p.doi}` : `https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`}
+                        rel="noopener"
+                      >
+                        {p.title}
+                      </a>{' '}
+                      ({p.year})
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </article>
+          ))}
         </div>
       ) : (
-        <p class="empty-state">No published profiles yet — check back soon.</p>
+        <p class="empty-state">No indexed authors yet — check back after the next data harvest.</p>
       )}
+      <p class="card-meta" style="margin-top: 2rem;">
+        Names and departments appear as published in PubMed affiliation data and
+        may lag staff movements. To correct, merge or remove an entry, contact
+        the research website team via the <a href={withBase('/about/')}>About page</a>.
+      </p>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .person-pubs {
+    list-style: none;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  .person-pubs li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  details summary {
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+</style>
