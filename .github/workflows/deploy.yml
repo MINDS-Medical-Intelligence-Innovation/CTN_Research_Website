@@ -6,17 +6,11 @@ name: Deploy to GitHub Pages
 # "GitHub Actions". Without that, this workflow will run but Pages will not
 # actually serve the result.
 #
-# PILOT-PHASE BRANCH NOTE (see docs/DECISIONS.md — the site hasn't merged to
-# `main` yet, and as of this writing the repo has no `main` branch at all: the
-# only branch is `claude/campbelltown-hospital-research-site-nrs4mq`, which
-# `.github/workflows/harvest.yml`'s bot commits also land on). Both `main` and
-# that feature branch are listed as push triggers below so harvest-bot commits
-# and manual pushes actually deploy during the pilot. **Remove the feature
-# branch entry once this repo merges to `main`** — GitHub Actions `schedule`
-# triggers only ever fire on the repository's default branch regardless of
-# this list, so double-check the default branch is set to `main` at that
-# point too. Until then, `workflow_dispatch` ("Run workflow" button) also
-# works for an on-demand deploy from any branch.
+# BRANCH NOTE: deploys fire on pushes to `main`, which must also be the
+# repository's default branch — `.github/workflows/harvest.yml`'s scheduled
+# bot commits land there, and GitHub Actions `schedule` triggers only ever
+# fire on the default branch. `workflow_dispatch` ("Run workflow" button)
+# remains available for an on-demand deploy from any branch.
 #
 # BASE_PATH / SITE_URL NOTE (see docs/DECISIONS.md D8 — custom domain and
 # GitHub org approved but not yet chosen/created):
@@ -37,7 +31,6 @@ on:
   push:
     branches:
       - main
-      - claude/campbelltown-hospital-research-site-nrs4mq # pilot-phase entry — remove after merge to main
   workflow_dispatch: {}
 
 permissions:

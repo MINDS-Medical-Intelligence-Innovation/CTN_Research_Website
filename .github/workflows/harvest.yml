@@ -13,11 +13,10 @@ name: Weekly data harvest
 #     is a mechanical regex parse of author affiliation strings, not an AI
 #     summary, so it stays in the auto-publish tier alongside the other facts.
 #
-# NOTE: this repo is currently on a feature branch, not `main`. The schedule
-# below runs regardless of branch (GitHub Actions schedules only fire on the
-# repository's default branch), so double-check the default branch is set
-# correctly once this merges — see .github/workflows/deploy.yml for the same
-# caveat on the push trigger.
+# NOTE: GitHub Actions schedules only fire on the repository's default
+# branch, so the default branch must stay `main` for this harvest (and the
+# deploys its commits trigger) to keep running — see
+# .github/workflows/deploy.yml for the push-trigger side.
 
 on:
   schedule:

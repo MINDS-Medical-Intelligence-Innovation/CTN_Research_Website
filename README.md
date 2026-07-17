@@ -105,12 +105,10 @@ variable (falling back to a placeholder when unset) for canonical URLs, and supp
 `BASE_PATH=/ctn-research-website/`); `deploy.yml` sets both. Both workflows also cache `npm`
 dependencies (`actions/setup-node`'s `cache: 'npm'`) to speed up runs.
 
-**Deploy trigger note (pilot phase):** as of this writing the repo has no `main` branch — the
-only branch is `claude/campbelltown-hospital-research-site-nrs4mq`, which is also where
-`.github/workflows/harvest.yml`'s scheduled data-harvest commits land. `deploy.yml`'s push
-trigger therefore lists that branch alongside `main` so harvest-bot commits and manual pushes
-actually trigger a deploy during the pilot; that entry is commented as pilot-phase and should be
-removed once this repo merges to `main`.
+**Deploy trigger note:** `deploy.yml` fires on pushes to `main`, which must also be the
+repository's **default branch** — `.github/workflows/harvest.yml`'s scheduled data-harvest
+commits land on the default branch (GitHub Actions schedules only ever run there), and those
+commits are what keep the published site's data fresh.
 
 ## Placeholder inventory
 
