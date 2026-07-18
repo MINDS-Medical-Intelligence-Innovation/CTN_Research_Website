@@ -25,12 +25,12 @@ const EOI_FORM_URL = 'https://forms.office.com/PLACEHOLDER-EOI';
 
 <BaseLayout
   title="Students & JMOs"
-  description="Find a research project, a supervisor, and a research community at Campbelltown Hospital — the project noticeboard for students and JMOs."
+  description="Research projects for students and JMOs at Campbelltown Hospital — current listings, supervisors, and how to submit an expression of interest."
 >
   <div class="page-header">
     <div class="wrap page-header__inner">
       <p class="eyebrow">Students &amp; JMOs</p>
-      <h1>Find a project, find a supervisor</h1>
+      <h1>Research projects for students and JMOs</h1>
       <p class="lede">
         {recruitingCount} of {projects.length} listed project{projects.length === 1 ? '' : 's'}{' '}
         {recruitingCount === 1 ? 'is' : 'are'} recruiting students right now. Listings expire
@@ -79,7 +79,7 @@ const EOI_FORM_URL = 'https://forms.office.com/PLACEHOLDER-EOI';
           {projects.map((project) => <ProjectCard project={project} />)}
         </div>
       ) : (
-        <p class="empty-state">No projects listed right now. Check back next term.</p>
+        <p class="empty-state">No projects are currently listed.</p>
       )}
 
       <p id="project-empty-filtered" class="empty-state" hidden>
@@ -103,7 +103,7 @@ const EOI_FORM_URL = 'https://forms.office.com/PLACEHOLDER-EOI';
           <span class="step-number" aria-hidden="true">2</span>
           <div>
             <strong>Read the group's recent papers.</strong>
-            <p>Check the <a href={withBase('/publications/')}>publications wall</a> filtered to that department so you understand the group's current questions before you reach out.</p>
+            <p>Check the <a href={withBase('/publications/')}>publications page</a> filtered to that department to understand the group's current research questions before making contact.</p>
           </div>
         </li>
         <li>
@@ -128,8 +128,8 @@ const EOI_FORM_URL = 'https://forms.office.com/PLACEHOLDER-EOI';
     <div class="wrap">
       <div class="callout">
         <div>
-          <h2>Ready to express interest?</h2>
-          <p>Tell us your area of interest and availability — we'll match you to a project and supervisor.</p>
+          <h2>Submit an expression of interest</h2>
+          <p>Provide your area of interest and availability, and the research office will match you with a project and supervisor.</p>
         </div>
         <a class="btn btn-accent" href={EOI_FORM_URL} target="_blank" rel="noopener noreferrer">
           Submit an EOI

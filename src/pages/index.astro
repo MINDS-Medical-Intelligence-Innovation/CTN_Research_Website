@@ -38,10 +38,10 @@ const newsPosts = (await getCollection('news'))
   <section class="hero">
     <div class="wrap hero__inner">
       <p class="eyebrow">Campbelltown Hospital &middot; South Western Sydney</p>
-      <h1>The research record of a growing hospital.</h1>
+      <h1>Research at Campbelltown Hospital</h1>
       <p class="lede">
-        A single, always-current home for publications, clinical trials, researcher profiles
-        and student projects — kept fresh automatically, curated by the people doing the work.
+        Publications, clinical trials, researcher profiles and student projects,
+        updated automatically from PubMed and ClinicalTrials.gov.
       </p>
 
       <Image
@@ -59,39 +59,39 @@ const newsPosts = (await getCollection('news'))
       <StatTile number={pubsThisYear} label={`Publications in ${currentYear}`} note="auto · PubMed" />
       <StatTile number={totalPubs} label="Total publications tracked" note="since 2020" />
       <StatTile number={recruitingTrials} label="Trials recruiting now" note="auto · CT.gov" />
-      <StatTile number={activeProjects} label="Active student projects" note="live noticeboard" />
+      <StatTile number={activeProjects} label="Active student projects" note="noticeboard" />
     </div>
   </div>
 
   <section class="section section--tight">
     <div class="wrap">
       <div class="section-heading">
-        <h2>Find your way in</h2>
+        <h2>Get started</h2>
       </div>
       <div class="grid grid--3">
         <a class="pathway-card pathway-card--primary" href={withBase('/students/')}>
-          <h3>I'm a student or JMO</h3>
+          <h3>Students &amp; JMOs</h3>
           <p>
-            Browse the project noticeboard, find a supervisor, and learn how to get your
-            first research project off the ground.
+            Browse the project noticeboard, find a supervisor, and learn how to start a
+            research project.
           </p>
           <span class="btn btn-accent">Find a project</span>
         </a>
         <a class="pathway-card" href={withBase('/people/')}>
-          <h3>I'm a researcher</h3>
+          <h3>Researchers</h3>
           <p>
-            See who's working on what across Campbelltown Hospital, browse by department and
-            theme, and connect with collaborators.
+            Browse the author index by department and research area, and identify
+            potential collaborators across Campbelltown Hospital.
           </p>
           <span class="btn btn-accent">Browse people</span>
         </a>
         <a class="pathway-card" href={withBase('/research/')}>
-          <h3>Our research</h3>
+          <h3>Community &amp; referrers</h3>
           <p>
-            For the community and referrers: what Campbelltown Hospital is researching, and
-            what trials are open now.
+            An overview of research activity at Campbelltown Hospital, including clinical
+            trials currently recruiting.
           </p>
-          <span class="btn btn-accent">Explore research</span>
+          <span class="btn btn-accent">View research</span>
         </a>
       </div>
     </div>
@@ -108,7 +108,7 @@ const newsPosts = (await getCollection('news'))
           {newsPosts.map((post) => <NewsCard post={post} />)}
         </div>
       ) : (
-        <p class="empty-state">No news yet — check back soon.</p>
+        <p class="empty-state">No news posts yet.</p>
       )}
     </div>
   </section>

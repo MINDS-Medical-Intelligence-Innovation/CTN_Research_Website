@@ -46,7 +46,7 @@ const recruitingCount = trials.filter((t) => t.status === 'RECRUITING').length;
           {trials.map((trial) => <TrialCard trial={trial} />)}
         </div>
       ) : (
-        <p class="empty-state">No trials indexed yet. Check back soon.</p>
+        <p class="empty-state">No trials indexed yet.</p>
       )}
 
       <hr class="divider" />

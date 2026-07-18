@@ -22,12 +22,12 @@ const ledCount = publications.filter((p) => p.campbelltownLed).length;
 
 <BaseLayout
   title="Publications"
-  description="The Campbelltown Hospital publications wall, auto-updated from PubMed. Filter by year, department, and Campbelltown-led status."
+  description="Publications with a Campbelltown Hospital affiliation, updated automatically from PubMed. Filter by year, department, and Campbelltown-led status."
 >
   <div class="page-header">
     <div class="wrap page-header__inner">
       <p class="eyebrow">Publications</p>
-      <h1>Publications wall</h1>
+      <h1>Publications</h1>
       <p class="lede">
         {publications.length} publications with a Campbelltown Hospital affiliation,
         {ledCount} of them Campbelltown-led (first, last or corresponding author).
@@ -73,7 +73,7 @@ const ledCount = publications.filter((p) => p.campbelltownLed).length;
           {publications.map((pub) => <PublicationCard publication={pub} />)}
         </div>
       ) : (
-        <p class="empty-state">No publications indexed yet. Check back soon.</p>
+        <p class="empty-state">No publications indexed yet.</p>
       )}
 
       <p id="pub-empty-filtered" class="empty-state" hidden>

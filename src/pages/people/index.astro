@@ -15,7 +15,7 @@ const AUTHOR_ALIASES: Record<string, string> = {
 };
 
 // Authors need at least this many harvested publications to appear in the index;
-// single-paper authors remain findable on the Publications wall and via search.
+// single-paper authors remain findable on the publications page and via search.
 const MIN_PUBS = 2;
 
 interface AuthorAgg {
@@ -74,7 +74,7 @@ const totalAuthors = authors.size;
 
 <BaseLayout
   title="People"
-  description="The publishing researchers of Campbelltown Hospital — an author index compiled automatically from PubMed records."
+  description="An author index for Campbelltown Hospital, compiled automatically from PubMed records."
 >
   <div class="page-header">
     <div class="wrap page-header__inner">
@@ -84,7 +84,7 @@ const totalAuthors = authors.size;
         An author index compiled automatically from PubMed records
         (2020–present): {totalAuthors} people have published with a Campbelltown
         Hospital affiliation. Authors with {MIN_PUBS}+ papers are listed below;
-        every paper is on the <a href={withBase('/publications/')}>publications wall</a>.
+        all papers are listed on the <a href={withBase('/publications/')}>publications page</a>.
         Detailed researcher profiles are added as each researcher confirms theirs
         — see <a href={withBase('/about/')}>how this site works</a>.
       </p>
@@ -129,7 +129,7 @@ const totalAuthors = authors.size;
           ))}
         </div>
       ) : (
-        <p class="empty-state">No indexed authors yet — check back after the next data harvest.</p>
+        <p class="empty-state">No indexed authors yet.</p>
       )}
       <p class="card-meta" style="margin-top: 2rem;">
         Names and departments appear as published in PubMed affiliation data and
