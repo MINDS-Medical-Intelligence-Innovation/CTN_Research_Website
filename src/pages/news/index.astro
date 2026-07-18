@@ -24,7 +24,7 @@ const posts = (await getCollection('news')).sort(
           {posts.map((post) => <NewsCard post={post} />)}
         </div>
       ) : (
-        <p class="empty-state">No news posts yet. Check back soon.</p>
+        <p class="empty-state">No news posts yet.</p>
       )}
     </div>
   </section>

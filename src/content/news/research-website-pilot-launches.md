@@ -1,29 +1,29 @@
 ---
 title: "Research website pilot launches"
 date: 2026-06-15
-summary: "A new independent, clinician-led website brings publications, clinical trials, researcher profiles and student projects from Campbelltown Hospital together in one always-current place."
+summary: "A new independent, clinician-led website brings publications, clinical trials, researcher profiles and student projects from Campbelltown Hospital together in one continuously updated location."
 author: "Research Website Team"
 ---
 
-Today we're switching on a pilot website for research at Campbelltown Hospital. Until now,
-research activity here has been scattered across PubMed, ClinicalTrials.gov, email threads
-and personal knowledge, with no single public home you could point a colleague, a student or
-a prospective collaborator to. This site is a first attempt at fixing that.
+A pilot website for research at Campbelltown Hospital is now live. Until now, research
+activity has been distributed across PubMed, ClinicalTrials.gov and internal records, with
+no single public reference point for colleagues, students or prospective collaborators.
+This site is intended to address that gap.
 
-Three things make it different from a typical hospital webpage. First, the publications wall
-and clinical trials listing update themselves automatically — a weekly pipeline searches
-PubMed and ClinicalTrials.gov for Campbelltown-affiliated work and refreshes the site, so
-there's no page for someone to forget to update. Second, researcher profiles are opt-in: a
-profile only appears once the person it belongs to has confirmed they're happy to be listed,
-in line with the project's decision log. Third, the **Students & JMOs** section is a genuine
-project noticeboard — browse by department, time commitment and skills gained, and see at a
-glance which supervisors are recruiting right now.
+Three features distinguish it from a typical hospital webpage. First, the publications page
+and clinical trials listing update automatically — a weekly pipeline searches PubMed and
+ClinicalTrials.gov for Campbelltown-affiliated work and refreshes the site, so listings do
+not depend on manual updates. Second, researcher profiles are opt-in: a profile only appears
+once the person it belongs to has confirmed they wish to be listed, in line with the
+project's decision log. Third, the **Students & JMOs** section is a project noticeboard:
+listings can be browsed by department, time commitment and skills, and indicate which
+supervisors are currently recruiting.
 
-This is an independent, clinician-led pilot, not an official SWSLHD website — we're building
-it in the open, following the precedent set by other SWSLHD-adjacent resources that live
-outside core NSW Health web infrastructure, and we'll pursue formal endorsement once we can
-show a working product. If you're a Campbelltown researcher, supervisor or JMO with feedback,
-ideas, or a project to list, we'd love to hear from you.
+This is an independent, clinician-led pilot, not an official SWSLHD website. It is being
+developed openly, following the precedent set by other SWSLHD-adjacent resources hosted
+outside core NSW Health web infrastructure, with formal endorsement to be pursued once a
+working product can be demonstrated. Feedback, ideas and project listings from Campbelltown
+researchers, supervisors and JMOs are welcome via the contact details on the About page.
 
 *(Example content — seeded for the pilot build. The research office will keep this and future
 posts current.)*
