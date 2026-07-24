@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T23:40:46.736Z",
+  "generated": "2026-07-24T23:53:42.469Z",
   "source": "pubmed",
   "items": [
     {
@@ -532,7 +532,7 @@
           "campbelltown": false
         },
         {
-          "name": "Del Rio PR",
+          "name": "Rodriguez Del Rio P",
           "campbelltown": false
         },
         {
@@ -1046,6 +1046,198 @@
         "wound healing"
       ],
       "abstract": "Pilonidal disease is commonly managed with surgical excision; however, recurrence remains frequent, particularly following midline closure. Off-midline flap techniques are increasingly favoured for complex or recurrent disease, as they are associated with reduced wound healing duration and lower recurrence rates. This report describes the case of a 37-year-old obese male with chronic pilonidal disease refractory to multiple prior excisions, who underwent wide local excision and reconstruction with a Keystone Design Perforator Island Flap (KDPIF). Initial recovery was satisfactory, although apical wound dehiscence required subsequent operative washout, ultimately resulting in complete healing. KDPIF reconstruction represents a viable option for recurrent or extensive pilonidal disease and should be considered early in complex cases, with meticulous postoperative care to optimize outcomes."
+    },
+    {
+      "pmid": "42477003",
+      "doi": "10.1038/s41523-026-01008-w",
+      "title": "The WinPro trial: window-of-opportunity study of endocrine therapy with micronised progesterone in ER-positive breast cancer.",
+      "journal": "NPJ breast cancer",
+      "journalAbbrev": "NPJ Breast Cancer",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Haggstrom L",
+          "campbelltown": false
+        },
+        {
+          "name": "Middleton K",
+          "campbelltown": false
+        },
+        {
+          "name": "Parker A",
+          "campbelltown": false
+        },
+        {
+          "name": "Segara D",
+          "campbelltown": false
+        },
+        {
+          "name": "Ong A",
+          "campbelltown": true
+        },
+        {
+          "name": "Bingham J",
+          "campbelltown": false
+        },
+        {
+          "name": "Carson EK",
+          "campbelltown": true
+        },
+        {
+          "name": "Kiely BE",
+          "campbelltown": true
+        },
+        {
+          "name": "Sabanathan D",
+          "campbelltown": false
+        },
+        {
+          "name": "Spillane A",
+          "campbelltown": false
+        },
+        {
+          "name": "Saw K",
+          "campbelltown": false
+        },
+        {
+          "name": "Serrano A",
+          "campbelltown": false
+        },
+        {
+          "name": "Lindeman GJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Swarbrick A",
+          "campbelltown": false
+        },
+        {
+          "name": "Coates A",
+          "campbelltown": false
+        },
+        {
+          "name": "Mann GB",
+          "campbelltown": false
+        },
+        {
+          "name": "Tilley W",
+          "campbelltown": false
+        },
+        {
+          "name": "Lim E",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medical Oncology"
+      ],
+      "keywords": [],
+      "abstract": "Progesterone can inhibit tumoural proliferation in oestrogen receptor positive (ER+) breast cancer. The WinPro trial (Australian New Zealand Trials Clinical Trials Registry number: ACTRN12618000928213, date of registration 01/06/2018) was a randomised, multi-centre, phase 2, window-of-opportunity trial evaluating micronised progesterone (MP) in post-menopausal women with early-stage, ER+, progesterone receptor (PR) positive, HER2- breast cancer. Patients were randomised to letrozole, letrozole and MP, or tamoxifen and MP for 14 days preoperatively. The primary endpoint was the percent proportional reduction in Ki67 ('Ki67 suppression') between the two letrozole groups in the per protocol population. From February 2018 to June 2024, 244 patients were enrolled. 189 patients completed per protocol: letrozole (n = 66, 34.9%), letrozole + MP (n = 64, 33.9%), and tamoxifen + MP (n = 59, 31.2%). There was no difference in Ki67 suppression between letrozole (88.2%) versus letrozole + MP (89.2%) (p = 0.39). Ki67 suppression appeared lower with tamoxifen + MP (61.5%). Hot flushes appeared less frequent with letrozole + MP (13.3%) versus letrozole (22.4%) or tamoxifen + MP (20.5%)."
+    },
+    {
+      "pmid": "42478130",
+      "doi": "10.1002/ijc.70665",
+      "title": "Metastatic Colorectal Cancer Diagnosed Before Age 35: A Distinct Subset of Early-Onset Disease?",
+      "journal": "International journal of cancer",
+      "journalAbbrev": "Int J Cancer",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Williams C",
+          "campbelltown": false
+        },
+        {
+          "name": "Jalali A",
+          "campbelltown": false
+        },
+        {
+          "name": "Smith S",
+          "campbelltown": false
+        },
+        {
+          "name": "McLachlan SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Burge M",
+          "campbelltown": false
+        },
+        {
+          "name": "Lim SH",
+          "campbelltown": true
+        },
+        {
+          "name": "Caird S",
+          "campbelltown": false
+        },
+        {
+          "name": "Kim GY",
+          "campbelltown": false
+        },
+        {
+          "name": "Khattak A",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee B",
+          "campbelltown": false
+        },
+        {
+          "name": "Nott L",
+          "campbelltown": false
+        },
+        {
+          "name": "Jennens R",
+          "campbelltown": false
+        },
+        {
+          "name": "Steel S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ma B",
+          "campbelltown": false
+        },
+        {
+          "name": "Mendis S",
+          "campbelltown": false
+        },
+        {
+          "name": "Shapiro J",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong R",
+          "campbelltown": false
+        },
+        {
+          "name": "Harold M",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong V",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibbs P",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medical Oncology"
+      ],
+      "keywords": [
+        "BRAF V600E mutation",
+        "colorectal cancer",
+        "early‐onset",
+        "mismatch repair deficiency",
+        "real‐world evidence"
+      ],
+      "abstract": "The incidence of early-onset colorectal cancer (CRC), commonly defined as diagnosis prior to age 50, is increasing. Studies of patients diagnosed prior to age 35 as a distinct subset of all early-onset patients have yielded inconsistent results. We extracted prospectively collected data from consecutive patients with metastatic colorectal cancer (mCRC) entered in the multi-site Treatment of Recurrent and Advanced Colorectal Cancer (TRACC) Australasian registry. We focused on comparing demographic and clinicopathologic characteristics of those diagnosed < 35Y with remaining early-onset patients (35-49Y) whilst including a comparison to older patients (≥ 50Y) as a reference point. Molecular data were examined from 2015 when testing became reflexive. From July 2009 to December 2023, we identified 4399 patients with mCRC, including 133 (3.0%) < 35Y, and 537 (12%) 35-49Y. The proportion of < 35Y among newly diagnosed mCRC increased per calendar year (odds ratio 1.07, 95% CI 1.02-1.11). Gender, ECOG performance status and primary tumour location were similar for < 35Y and 35-49Y. Compared to 35-49Y, < 35Y had more de novo metastatic disease (79% vs. 70%; p = 0.04), BRAF V600E mutations…"
     },
     {
       "pmid": "42351300",

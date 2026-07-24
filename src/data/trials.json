@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T23:40:47.439Z",
+  "generated": "2026-07-24T23:53:43.766Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -13,7 +13,35 @@
       "facility": "Campbelltown Hospital",
       "url": "https://clinicaltrials.gov/study/NCT05920356",
       "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-07-16"
+      "lastUpdate": "2026-07-23"
+    },
+    {
+      "nctId": "NCT07361302",
+      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07361302",
+      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
+      "lastUpdate": "2026-07-23"
+    },
+    {
+      "nctId": "NCT06758401",
+      "title": "This is a Study to Learn About How the Combination of the Study Medicines Sigvotatug Vedotin Plus Pembrolizumab Works in People With Non-small Cell Lung Cancer With High Levels of PD-L1.",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Carcinoma, Non-Small-Cell Lung (NSCLC)"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06758401",
+      "briefSummary": "The purpose of the study is to compare how the new combination treatment (Sigvotatug Vedotin plus pembrolizumab) works compared to pembrolizumab alone in patients with non-small cell lung cancer (NSCLC) with high levels of PD-L1. This is a protein that acts as a kind of \"brake\" to keep the body's immune responses under control. The study is seeking for participants who: * Are confirmed to have NSCLC (Stage 3 or 4). * Have PD-L1 levels in more than 50% of the cancer cells. All participants in this study will receive pembrolizumab at the study clinic once every 6 weeks as an intravenous (IV)…",
+      "lastUpdate": "2026-07-22"
     },
     {
       "nctId": "NCT05633654",
@@ -40,34 +68,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06310356",
       "briefSummary": "There are a few ongoing large randomized controlled trials (RCT's) on continuous glucose monitoring (CGM) in women with gestational diabetes (GDM) powered for pregnancy outcomes. However, none of these studies included women diagnosed with early GDM. The CORDELIA trial is a Belgian-Australian open-label multi-centric RCT with 16 centers in women with GDM (including both early and late GDM). Women will be randomized 1/1 to either treatment with CGM (intervention group, Freestyle Libre 3 +) or continue with self-monitoring of blood glucose (SMBG) with glucometer in line with normal routine…",
       "lastUpdate": "2026-06-09"
-    },
-    {
-      "nctId": "NCT07361302",
-      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Acute Ischemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT07361302",
-      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
-      "lastUpdate": "2026-06-09"
-    },
-    {
-      "nctId": "NCT06758401",
-      "title": "This is a Study to Learn About How the Combination of the Study Medicines Sigvotatug Vedotin Plus Pembrolizumab Works in People With Non-small Cell Lung Cancer With High Levels of PD-L1.",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer",
-        "Carcinoma, Non-Small-Cell Lung",
-        "Carcinoma, Non-Small-Cell Lung (NSCLC)"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06758401",
-      "briefSummary": "The purpose of the study is to compare how the new combination treatment (Sigvotatug Vedotin plus pembrolizumab) works compared to pembrolizumab alone in patients with non-small cell lung cancer (NSCLC) with high levels of PD-L1. This is a protein that acts as a kind of \"brake\" to keep the body's immune responses under control. The study is seeking for participants who: * Are confirmed to have NSCLC (Stage 3 or 4). * Have PD-L1 levels in more than 50% of the cancer cells. All participants in this study will receive pembrolizumab at the study clinic once every 6 weeks as an intravenous (IV)…",
-      "lastUpdate": "2026-04-20"
     },
     {
       "nctId": "NCT02735707",
