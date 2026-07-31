@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T23:53:42.469Z",
+  "generated": "2026-07-31T23:51:29.939Z",
   "source": "pubmed",
   "items": [
     {
@@ -1238,6 +1238,360 @@
         "real‐world evidence"
       ],
       "abstract": "The incidence of early-onset colorectal cancer (CRC), commonly defined as diagnosis prior to age 50, is increasing. Studies of patients diagnosed prior to age 35 as a distinct subset of all early-onset patients have yielded inconsistent results. We extracted prospectively collected data from consecutive patients with metastatic colorectal cancer (mCRC) entered in the multi-site Treatment of Recurrent and Advanced Colorectal Cancer (TRACC) Australasian registry. We focused on comparing demographic and clinicopathologic characteristics of those diagnosed < 35Y with remaining early-onset patients (35-49Y) whilst including a comparison to older patients (≥ 50Y) as a reference point. Molecular data were examined from 2015 when testing became reflexive. From July 2009 to December 2023, we identified 4399 patients with mCRC, including 133 (3.0%) < 35Y, and 537 (12%) 35-49Y. The proportion of < 35Y among newly diagnosed mCRC increased per calendar year (odds ratio 1.07, 95% CI 1.02-1.11). Gender, ECOG performance status and primary tumour location were similar for < 35Y and 35-49Y. Compared to 35-49Y, < 35Y had more de novo metastatic disease (79% vs. 70%; p = 0.04), BRAF V600E mutations…"
+    },
+    {
+      "pmid": "42535448",
+      "doi": "10.1111/cea.70392",
+      "title": "The National Allergy Centre of Excellence-Addressing Australia's Allergy Burden.",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "journalAbbrev": "Clin Exp Allergy",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Young A",
+          "campbelltown": false
+        },
+        {
+          "name": "Koplin JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Campbell DE",
+          "campbelltown": false
+        },
+        {
+          "name": "Davies JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Edmund H",
+          "campbelltown": false
+        },
+        {
+          "name": "Jamieson T",
+          "campbelltown": false
+        },
+        {
+          "name": "Hornung CJ",
+          "campbelltown": false
+        },
+        {
+          "name": "O'Farrell T",
+          "campbelltown": false
+        },
+        {
+          "name": "West D",
+          "campbelltown": false
+        },
+        {
+          "name": "Kayes E",
+          "campbelltown": false
+        },
+        {
+          "name": "Gray LA",
+          "campbelltown": false
+        },
+        {
+          "name": "Peters RL",
+          "campbelltown": false
+        },
+        {
+          "name": "Gamble L",
+          "campbelltown": false
+        },
+        {
+          "name": "Gwynne K",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee J",
+          "campbelltown": false
+        },
+        {
+          "name": "Lucas M",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "O'Sullivan MD",
+          "campbelltown": false
+        },
+        {
+          "name": "Palmer DJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Trubiano J",
+          "campbelltown": false
+        },
+        {
+          "name": "van Nunen S",
+          "campbelltown": false
+        },
+        {
+          "name": "Vale SL",
+          "campbelltown": false
+        },
+        {
+          "name": "Wanandy T",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett KP",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "Australia has one of the highest rates of food allergy, anaphylaxis hospital admissions and anaphylaxis fatalities worldwide. These trends and sustained advocacy prompted a 2019 Parliamentary Inquiry into Allergies and Anaphylaxis. Among 250 submissions, the Centre for Food Allergy Research called for a national research-coordinating centre and comprehensive allergy research funding. In response to the inquiry, the Australian Government funded the National Allergy Centre of Excellence (NACE) in 2022, and its partner organisation, the National Allergy Council (NAC), to improve health, save lives and reduce the national burden of allergic disease. Here we describe the establishment and early impacts of the NACE. The NACE was established to build critical national research infrastructure and collaboration to transform consumer-centred allergy care. Four interconnected Pillars underpin the plan of action: (1) Transforming Allergy Care, codesigning national trials and embedded clinical research to address knowledge and practice gaps; (2) BioRepository and Discovery, developing Australia's first national Allergy BioRepository (ALBI) to support data-driven discovery; (3) Evidence and…"
+    },
+    {
+      "pmid": "42500618",
+      "doi": "10.4244/AIJ-D-25-00066",
+      "title": "A randomised clinical trial investigating robotic-assisted percutaneous coronary intervention: the PARTY trial.",
+      "journal": "AsiaIntervention",
+      "journalAbbrev": "AsiaIntervention",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Leung J",
+          "campbelltown": false
+        },
+        {
+          "name": "French J",
+          "campbelltown": false
+        },
+        {
+          "name": "Xu J",
+          "campbelltown": false
+        },
+        {
+          "name": "Wales K",
+          "campbelltown": false
+        },
+        {
+          "name": "Kachwalla H",
+          "campbelltown": true
+        },
+        {
+          "name": "Kaddapu K",
+          "campbelltown": true
+        },
+        {
+          "name": "Fares S",
+          "campbelltown": false
+        },
+        {
+          "name": "Dang V",
+          "campbelltown": false
+        },
+        {
+          "name": "Badie T",
+          "campbelltown": true
+        },
+        {
+          "name": "Mussap C",
+          "campbelltown": false
+        },
+        {
+          "name": "Rajaratnam R",
+          "campbelltown": false
+        },
+        {
+          "name": "Leung D",
+          "campbelltown": false
+        },
+        {
+          "name": "Lo S",
+          "campbelltown": false
+        },
+        {
+          "name": "Juergens C",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Cardiology"
+      ],
+      "keywords": [],
+      "abstract": "BACKGROUND: Robotic-assisted percutaneous coronary intervention (R-PCI) allows precise control of percutaneous coronary intervention (PCI) equipment with the operator in a radiation-shielded cockpit. AIMS: We aimed to address the lack of randomised studies investigating this emerging technology. METHODS: In this single-centre, randomised controlled trial, patients with symptomatic coronary disease underwent either R-PCI or manual PCI (M-PCI). The primary endpoint was patient radiation exposure. Secondary outcomes included radiation exposure to the medical team, overall subjective workload, and other procedural characteristics. RESULTS: A total of 148 patients were randomised (72 R-PCI, 76 M-PCI), with a median age of 63.2 years (interquartile range [IQR] 55.5-69.5), and 82.4% were male. In the intention-to-treat analysis, R-PCI numerically reduced patient radiation exposure (230.7 microsieverts [μSv; IQR 104.0-443.7] vs 261.4 µSv [IQR 136.5-531.2]; p=0.14). This reduction became statistically significant in the as-treated analysis (218.5 µSv [IQR 100.0-375.3] vs 264.7 µSv [IQR 136.3-534.8]; p=0.03). R-PCI significantly reduced operator radiation exposure (0.1 µSv [IQR 0.1-0.3] vs…"
+    },
+    {
+      "pmid": "42504446",
+      "doi": "10.1002/ccd.70768",
+      "title": "VERMONT μQFR: Diagnostic Accuracy of Murray Law-Based 2D-μQFR Compared to 3D-μQFR and vFFR.",
+      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+      "journalAbbrev": "Catheter Cardiovasc Interv",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Akrawi D",
+          "campbelltown": true
+        },
+        {
+          "name": "Kadappu K",
+          "campbelltown": true
+        },
+        {
+          "name": "Xu J",
+          "campbelltown": false
+        },
+        {
+          "name": "Badie TYN",
+          "campbelltown": true
+        },
+        {
+          "name": "Gibbs O",
+          "campbelltown": true
+        },
+        {
+          "name": "Kachwalla H",
+          "campbelltown": true
+        },
+        {
+          "name": "Nguyen PTD",
+          "campbelltown": true
+        },
+        {
+          "name": "Kurup R",
+          "campbelltown": true
+        },
+        {
+          "name": "Premawardhana U",
+          "campbelltown": true
+        },
+        {
+          "name": "Huang J",
+          "campbelltown": true
+        },
+        {
+          "name": "Tran H",
+          "campbelltown": true
+        },
+        {
+          "name": "Soosapilla K",
+          "campbelltown": true
+        },
+        {
+          "name": "Basilakis J",
+          "campbelltown": false
+        },
+        {
+          "name": "O'loughlin A",
+          "campbelltown": true
+        },
+        {
+          "name": "Hennessy A",
+          "campbelltown": false
+        },
+        {
+          "name": "Femia G",
+          "campbelltown": false
+        },
+        {
+          "name": "Lo S",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Cardiology"
+      ],
+      "keywords": [
+        "FFR",
+        "Murray law‐based quantitative flow ratio",
+        "angiogram based fractional flow reserve",
+        "fractional flow reserve",
+        "vFFR",
+        "vessel fractional flow reserve",
+        "μQFR"
+      ],
+      "abstract": "BACKGROUND: Murray law-based quantitative flow ratio (μQFR) is an angiography-derived physiological index that utilizes a single angiographic projection with artificial intelligence-guided vessel segmentation. AIMS: To evaluate the diagnostic accuracy and time efficacy of 2D-μQFR against wire-based fractional flow reserve (FFR ≤ 0.80), compare its performance with 3D-μQFR and vessel-FFR (vFFR), and assess feasibility in lesions excluded from vFFR analysis. METHODS: This sub-study of the prospective VERMONT trial analyzed 2D- and 3D-μQFR retrospectively using prospectively acquired angiograms, with wire-based FFR as the reference standard. RESULTS: Among 209 patients with 225 intermediate lesions, 205 lesions were analyzed. 2D-μQFR demonstrated excellent diagnostic accuracy for FFR ≤ 0.80 (AUC 0.95; 95% CI 0.93-0.98), with 93% sensitivity, 92% specificity, 88% positive predictive value (PPV), and 95% negative predictive value (NPV). Inter-observer agreement was excellent (r = 0.94, p < 0.001), and 2D-μQFR analysis was 15.1 min faster than wire-based FFR (1.8 ± 0.7 vs. 16.9 ± 5.4 min, p < 0.001). Diagnostic performance was comparable to that of 3D-μQFR, which achieved an AUC of 0.94…"
+    },
+    {
+      "pmid": "42498690",
+      "doi": "10.1111/ans.70885",
+      "title": "The Vanishing Pouch: Planned Centralisation of Ileal Pouch-Anal Anastomosis for Ulcerative Colitis in Australia-A Regional Consensus Perspective.",
+      "journal": "ANZ journal of surgery",
+      "journalAbbrev": "ANZ J Surg",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Bhorat N",
+          "campbelltown": false
+        },
+        {
+          "name": "Cattanach D",
+          "campbelltown": false
+        },
+        {
+          "name": "Chen M",
+          "campbelltown": false
+        },
+        {
+          "name": "Cheong J",
+          "campbelltown": false
+        },
+        {
+          "name": "Chiam HC",
+          "campbelltown": false
+        },
+        {
+          "name": "Flynn J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hamilton R",
+          "campbelltown": true
+        },
+        {
+          "name": "Joy H",
+          "campbelltown": false
+        },
+        {
+          "name": "Knox R",
+          "campbelltown": false
+        },
+        {
+          "name": "Lamparelli M",
+          "campbelltown": false
+        },
+        {
+          "name": "Mackrill D",
+          "campbelltown": false
+        },
+        {
+          "name": "Naidoo M",
+          "campbelltown": false
+        },
+        {
+          "name": "Prinsloo P",
+          "campbelltown": false
+        },
+        {
+          "name": "Ruggiero B",
+          "campbelltown": false
+        },
+        {
+          "name": "Smith N",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Surgery"
+      ],
+      "keywords": [],
+      "abstract": ""
     },
     {
       "pmid": "42351300",

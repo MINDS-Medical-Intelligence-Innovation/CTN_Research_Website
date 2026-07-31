@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T23:53:43.766Z",
+  "generated": "2026-07-31T23:51:30.745Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -13,7 +13,22 @@
       "facility": "Campbelltown Hospital",
       "url": "https://clinicaltrials.gov/study/NCT05920356",
       "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-07-23"
+      "lastUpdate": "2026-07-30"
+    },
+    {
+      "nctId": "NCT06771050",
+      "title": "ROADMAP Clinical Trial",
+      "status": "RECRUITING",
+      "phase": "PHASE4",
+      "conditions": [
+        "Prosthetic Joint Infections of Hip",
+        "Prosthetic Joint Infections of Knee",
+        "Large Joint Prosthetic Joint Infections"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06771050",
+      "briefSummary": "Artificial joint infections are treated with different types of antibiotics and surgery. The ROADMAP study aims to find out which treatments currently used work best in regards to surgery, antibiotic choice as well as the time taking antibiotics. The study will compare different treatments against each other to see which treatment or treatment combination works to provide the best outcome and cure at 12 months. The study will focus on adults with infected artificial hips and knees. ROADMAP trial looks at normal good clinical care and does not ask any person taking part in the study to have…",
+      "lastUpdate": "2026-07-27"
     },
     {
       "nctId": "NCT07361302",
@@ -83,6 +98,45 @@
       "lastUpdate": "2024-07-12"
     },
     {
+      "nctId": "NCT05702034",
+      "title": "A Study of Milvexian in Participants After an Acute Ischemic Stroke or High-Risk Transient Ischemic Attack- LIBREXIA-STROKE",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Ischemic Stroke; Ischemic Attack, Transient"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05702034",
+      "briefSummary": "The purpose of this study is to evaluate whether milvexian compared to placebo reduce the risk of recurrent ischemic stroke.",
+      "lastUpdate": "2026-07-31"
+    },
+    {
+      "nctId": "NCT06634420",
+      "title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Hereditary Angioedema"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06634420",
+      "briefSummary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
+      "lastUpdate": "2026-07-29"
+    },
+    {
+      "nctId": "NCT06459180",
+      "title": "A Study to Compare Sacituzumab Tirumotecan (MK-2870) Monotherapy Versus Treatment of Physician's Choice as Second-line Treatment for Participants With Recurrent or Metastatic Cervical Cancer (MK-2870-020/TroFuse-020/Gog-3101/ENGOT-cx20)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Cervical Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06459180",
+      "briefSummary": "This study will have two phases: a sacituzumab tirumotecan safety run-in and a Phase 3 portion. The safety run-in phase will be used to evaluate the efficacy and safety of sacituzumab tirumotecan at the dose for evaluation in the Phase 3 portion. The purpose of this study is to compare the efficacy and safety of sacituzumab tirumotecan versus treatment of physician's choice as second-line treatment for participants with recurrent or metastatic cervical cancer in the Phase 3 portion. The primary study hypotheses are that, in the Phase 3 portion, sacituzumab tirumotecan results in a superior…",
+      "lastUpdate": "2026-07-28"
+    },
+    {
       "nctId": "NCT06940154",
       "title": "Rademikibart Add-on Treatment of an Acute COPD Exacerbation (Seabreeze STAT COPD)",
       "status": "ACTIVE_NOT_RECRUITING",
@@ -108,19 +162,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06987643",
       "briefSummary": "The purpose of this interventional study is to determine whether neflamapimod can improve residual physical disability and/or cognitive dysfunction after Moderate to Severe Acute Ischaemic Stroke.",
       "lastUpdate": "2026-07-08"
-    },
-    {
-      "nctId": "NCT05702034",
-      "title": "A Study of Milvexian in Participants After an Acute Ischemic Stroke or High-Risk Transient Ischemic Attack- LIBREXIA-STROKE",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Ischemic Stroke; Ischemic Attack, Transient"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05702034",
-      "briefSummary": "The purpose of this study is to evaluate whether milvexian compared to placebo reduce the risk of recurrent ischemic stroke.",
-      "lastUpdate": "2026-07-06"
     },
     {
       "nctId": "NCT04849728",
@@ -188,19 +229,6 @@
       "lastUpdate": "2026-06-02"
     },
     {
-      "nctId": "NCT06459180",
-      "title": "A Study to Compare Sacituzumab Tirumotecan (MK-2870) Monotherapy Versus Treatment of Physician's Choice as Second-line Treatment for Participants With Recurrent or Metastatic Cervical Cancer (MK-2870-020/TroFuse-020/Gog-3101/ENGOT-cx20)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Cervical Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06459180",
-      "briefSummary": "This study will have two phases: a sacituzumab tirumotecan safety run-in and a Phase 3 portion. The safety run-in phase will be used to evaluate the efficacy and safety of sacituzumab tirumotecan at the dose for evaluation in the Phase 3 portion. The purpose of this study is to compare the efficacy and safety of sacituzumab tirumotecan versus treatment of physician's choice as second-line treatment for participants with recurrent or metastatic cervical cancer in the Phase 3 portion. The primary study hypotheses are that, in the Phase 3 portion, sacituzumab tirumotecan results in a superior…",
-      "lastUpdate": "2026-05-27"
-    },
-    {
       "nctId": "NCT04624204",
       "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
       "status": "ACTIVE_NOT_RECRUITING",
@@ -212,19 +240,6 @@
       "url": "https://clinicaltrials.gov/study/NCT04624204",
       "briefSummary": "Researchers are looking for new ways to treat Limited-Stage Small Cell Lung Cancer (LS-SCLC), a type of lung cancer that has not spread from the lung to other parts of the body. The purpose of this study is to learn if pembrolizumab and olaparib, when given with chemotherapy and radiation treatment (CRT), can be effective in treating LS-SCLC. The researchers want to know if participants who receive CRT and pembrolizumab, with or without olaparib, have a longer overall survival compared to participants who only receive CRT.",
       "lastUpdate": "2026-05-26"
-    },
-    {
-      "nctId": "NCT06634420",
-      "title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Hereditary Angioedema"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06634420",
-      "briefSummary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
-      "lastUpdate": "2026-05-15"
     },
     {
       "nctId": "NCT04136353",
