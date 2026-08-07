@@ -1,7 +1,244 @@
 {
-  "generated": "2026-07-31T23:51:29.939Z",
+  "generated": "2026-08-07T23:22:48.334Z",
   "source": "pubmed",
   "items": [
+    {
+      "pmid": "42201836",
+      "doi": "10.2337/dc26-0470",
+      "title": "Intrapartum and Early Postpartum Use of Automated Insulin Delivery in Type 1 Diabetes: A Prespecified Analysis of the CIRCUIT Randomized Controlled Trial.",
+      "journal": "Diabetes care",
+      "journalAbbrev": "Diabetes Care",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Donovan LE",
+          "campbelltown": false
+        },
+        {
+          "name": "Lemieux P",
+          "campbelltown": false
+        },
+        {
+          "name": "Yamamoto JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Dunlop AD",
+          "campbelltown": false
+        },
+        {
+          "name": "Murphy HR",
+          "campbelltown": false
+        },
+        {
+          "name": "Liu SL",
+          "campbelltown": false
+        },
+        {
+          "name": "Chaput KH",
+          "campbelltown": false
+        },
+        {
+          "name": "Simmons D",
+          "campbelltown": true
+        },
+        {
+          "name": "Bell RC",
+          "campbelltown": false
+        },
+        {
+          "name": "Benham JL",
+          "campbelltown": false
+        },
+        {
+          "name": "Ross GP",
+          "campbelltown": false
+        },
+        {
+          "name": "Nerenberg KA",
+          "campbelltown": false
+        },
+        {
+          "name": "Booth JE",
+          "campbelltown": false
+        },
+        {
+          "name": "Mohammad K",
+          "campbelltown": false
+        },
+        {
+          "name": "Perkins BA",
+          "campbelltown": false
+        },
+        {
+          "name": "Crawford S",
+          "campbelltown": false
+        },
+        {
+          "name": "Tomlinson G",
+          "campbelltown": false
+        },
+        {
+          "name": "Feig DS",
+          "campbelltown": false
+        },
+        {
+          "name": "CIRCUIT Collaborative Group*",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Macarthur Diabetes Endocrinology and Metabolism Service"
+      ],
+      "keywords": [],
+      "abstract": "OBJECTIVE: Following the demonstrated improvement in pregnancy glycemia with Control-IQ closed loop in the Closed-Loop Insulin Delivery by Glucose Responsive Computer Algorithms in Type 1 Diabetes Pregnancies (CIRCUIT) trial, we compared intrapartum and early postpartum glycemic effectiveness and safety with standard care in type 1 diabetes. RESEARCH DESIGN AND METHODS: The primary outcome of this prespecified analysis was percentage of time in pregnancy-specific glucose range (63-140 mg/dL) during the 24 h prior to childbirth, measured by continuous glucose monitoring. A key secondary outcome was percentage of time at <70 mg/dL in the first postpartum week, with additional secondary outcomes including continuous glucose monitoring metrics through 6 weeks postpartum. Analyses were adjusted for baseline measure, insulin delivery mode, and site. RESULTS: In the intrapartum period (24 h before delivery), 39 of 44 (89%) participants continued closed loop. Intravenous insulin was used intrapartum by one (2%) closed-loop participant and 20 (45%) standard-care participants (P < 0.001). Intrapartum closed-loop users spent more time in pregnancy-specific glucose range (79.6% vs. 64.8%)…"
+    },
+    {
+      "pmid": "42546488",
+      "doi": "10.1016/j.jgo.2026.103072",
+      "title": "A comparative analysis of the Vulnerable Elders Survey (VES-13), Geriatric 8 (G8), Modified G8, and Geriatric 6 (G6) tools in older adults with cancer.",
+      "journal": "Journal of geriatric oncology",
+      "journalAbbrev": "J Geriatr Oncol",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Jin RMM",
+          "campbelltown": false
+        },
+        {
+          "name": "Vadali N",
+          "campbelltown": true
+        },
+        {
+          "name": "Puts MTE",
+          "campbelltown": false
+        },
+        {
+          "name": "Pathak N",
+          "campbelltown": false
+        },
+        {
+          "name": "Santiago AT",
+          "campbelltown": false
+        },
+        {
+          "name": "Alibhai SMH",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Cancer",
+        "G6",
+        "G8",
+        "Geriatric assessment",
+        "Modified G8",
+        "Older adults",
+        "VES-13"
+      ],
+      "abstract": "INTRODUCTION: Geriatric assessment (GA) supports treatment decision-making in older adults, but is resource and time intensive. In the Older Adults with Cancer Clinic (OACC) at Princess Margaret Cancer Centre, screening tools such as the Vulnerable Elders Survey (VES-13) and Geriatric 8 (G8, and/or modified versions) may help prioritize patients most in need of a comprehensive GA. However, direct comparisons between tools are limited. This study primarily aimed to compare whether the VES-13, the G8, modified G8, or the 6 item Brief Geriatric Assessment (G6) screening tools are effective in identifying patients that require a GA. Secondarily, we aimed to assess if vulnerable patients, identified by one of the tools, had cancer treatment modifications after the GA. MATERIALS AND METHODS: A retrospective chart review was conducted (n = 349) from September 2018 to December 2023 to collect data including patient characteristics, treatment intent, abnormal GA (defined as either 2+ or 4+ abnormal domains), and proposed and final treatment plan. Logistic regression was used to evaluate the screening tools against abnormal GA and change in treatment plan. RESULTS: Three hundred and…"
+    },
+    {
+      "pmid": "42542980",
+      "doi": "10.1111/hex.70799",
+      "title": "Support in the Shadows: Findings From a Qualitative Study Exploring Fathers' and Non-Birthing Partners' Perceptions and Experiences of Support During a Termination for Medical Reasons.",
+      "journal": "Health expectations : an international journal of public participation in health care and health policy",
+      "journalAbbrev": "Health Expect",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Fogarty S",
+          "campbelltown": false
+        },
+        {
+          "name": "Tindal K",
+          "campbelltown": false
+        },
+        {
+          "name": "Heazell AEP",
+          "campbelltown": false
+        },
+        {
+          "name": "Munk N",
+          "campbelltown": false
+        },
+        {
+          "name": "Boyle FM",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "fathers",
+        "non‐birthing partners",
+        "partners",
+        "termination for foetal abnormalities",
+        "termination for medical reasons"
+      ],
+      "abstract": "BACKGROUND: Termination for medical reasons (TFMR) is an essential aspect of reproductive healthcare. While physical and emotional care of the birthing parent is central within healthcare systems, less is known about the experiences and support needs of non-birthing partners during this process. OBJECTIVE: To explore fathers' and non-birthing partners' perceptions and experiences of support (covering clinical, psychological, and social support) during a TFMR. DESIGN: A qualitative study using semi-structured interviews. SETTING AND PARTICIPANTS: Ten fathers/non-birthing partners who had experienced TFMR in the last 7 years, identified via social media or snowball sampling, were interviewed. ANALYSIS: Data were analysed using inductive thematic analysis and a mixture of semantic and latent coding of the data. RESULTS: An overarching theme of Support in the shadows was identified, capturing how non-birthing partners were consistently present but rarely the focus of explicit or sustained care or support. Three themes were developed under the main theme of support in the shadows: (a) Feeling invisible, (b) seeking whole-person support and (c) partners as a support rather than being…"
+    },
+    {
+      "pmid": "42522152",
+      "doi": "10.1111/1742-6723.70285",
+      "title": "The Sydney Triage to Admission Risk Tool With Artificial Intelligence (START-AI) to Support Decision Making in Emergency Departments: Model Explainability and Feature Importance Analysis.",
+      "journal": "Emergency medicine Australasia : EMA",
+      "journalAbbrev": "Emerg Med Australas",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Dinh M",
+          "campbelltown": false
+        },
+        {
+          "name": "Corbett E",
+          "campbelltown": false
+        },
+        {
+          "name": "Ngo TT",
+          "campbelltown": false
+        },
+        {
+          "name": "Salmon E",
+          "campbelltown": false
+        },
+        {
+          "name": "Khan SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Pethani F",
+          "campbelltown": false
+        },
+        {
+          "name": "Moore N",
+          "campbelltown": true
+        },
+        {
+          "name": "Koprinska I",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "artificial intelligence",
+        "disposition",
+        "emergency",
+        "explainability"
+      ],
+      "abstract": "OBJECTIVE: Evaluate the importance of specific variables contributing to a recently reported Artificial Intelligence (AI) prediction model called Sydney Triage to Admission Risk Tool with Artificial Intelligence (START-AI) to predict inpatient admission from the Emergency Department (ED). METHODS: A model explainability analysis was undertaken using single-centre ED electronic medical record data over 2 years. The START-AI model, which comprises ensemble machine learning and a transformer-based algorithm to enhance the original START tool, was re-run with each feature added sequentially to the model until the full model was complete. Feature importance was calculated using feature permutation or change in area under receiver operator curve (AUROC) and SHapley Additive exPlanations (SHAP) analyses. RESULTS: The original START tool alone had an AUROC of 0.78 (95% CI 0.77, 0.78) for prediction of inpatient admission, reaching an AUROC of 0.90 (95% CI 0.89, 0.90) after all features of the START-AI tool were added sequentially. Features associated with a stepwise increase in cumulative AUROC were triage comments, ED case history notes, any blood test result (in particular, lactate and…"
+    },
     {
       "pmid": "41921037",
       "doi": "10.1093/cid/ciag083",
@@ -1594,6 +1831,61 @@
       "abstract": ""
     },
     {
+      "pmid": "42538565",
+      "doi": "10.1186/s40337-026-01690-y",
+      "title": "The perceived impact of the ANZAED Eating Disorder Credential: perspectives of individuals with eating disorder lived experience.",
+      "journal": "Journal of eating disorders",
+      "journalAbbrev": "J Eat Disord",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "McCormack M",
+          "campbelltown": false
+        },
+        {
+          "name": "Shand T",
+          "campbelltown": false
+        },
+        {
+          "name": "Conti J",
+          "campbelltown": false
+        },
+        {
+          "name": "Heruc G",
+          "campbelltown": false
+        },
+        {
+          "name": "McLean SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Prnjak K",
+          "campbelltown": false
+        },
+        {
+          "name": "Barns R",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Collaborative care",
+        "Credential",
+        "Eating disorders",
+        "Lived experience",
+        "Mixed methods",
+        "Personalised treatment",
+        "Treatment"
+      ],
+      "abstract": "BACKGROUND: In response to individual and systemic barriers hindering the timely and effective treatment of eating disorders (EDs), the Australia & New Zealand Academy for Eating Disorders (ANZAED) introduced an eating disorder credential for clinicians in June 2022. The Credential aims to enhance treatment access, quality, and outcomes. While the Credential has been well received by stakeholders, its effectiveness from the perspective of those with lived experience of an ED needs to be more fully understood. The current study aims to explore the experiences and perspectives of people living with an ED in relation to their treatment experiences provided by Credentialed Eating Disorder Clinicians (credentialed clinicians) and non-credentialed clinicians. METHODS: An exploratory mixed-methods cross-sectional study was conducted involving 100 participants with personal lived experience of an ED. Participants were recruited via Australian eating disorder services and organisations, including the ANZAED and National Eating Disorders Collaboration (NEDC) membership databases, with recruitment information distributed through their email and social media platforms. Participants completed…"
+    },
+    {
       "pmid": "42351300",
       "doi": "10.1186/s40337-026-01658-y",
       "title": "Does renal function decline across multiple hospital admissions? An audit of adolescent and young adults hospitalised with a restrictive eating disorder.",
@@ -2037,99 +2329,6 @@
       ],
       "keywords": [],
       "abstract": ""
-    },
-    {
-      "pmid": "42201836",
-      "doi": "10.2337/dc26-0470",
-      "title": "Intrapartum and Early Postpartum Use of Automated Insulin Delivery in Type 1 Diabetes: A Prespecified Analysis of the CIRCUIT Randomized Controlled Trial.",
-      "journal": "Diabetes care",
-      "journalAbbrev": "Diabetes Care",
-      "year": 2026,
-      "month": 5,
-      "authors": [
-        {
-          "name": "Donovan LE",
-          "campbelltown": false
-        },
-        {
-          "name": "Lemieux P",
-          "campbelltown": false
-        },
-        {
-          "name": "Yamamoto JM",
-          "campbelltown": false
-        },
-        {
-          "name": "Dunlop AD",
-          "campbelltown": false
-        },
-        {
-          "name": "Murphy HR",
-          "campbelltown": false
-        },
-        {
-          "name": "Liu SL",
-          "campbelltown": false
-        },
-        {
-          "name": "Chaput KH",
-          "campbelltown": false
-        },
-        {
-          "name": "Simmons D",
-          "campbelltown": true
-        },
-        {
-          "name": "Bell RC",
-          "campbelltown": false
-        },
-        {
-          "name": "Benham JL",
-          "campbelltown": false
-        },
-        {
-          "name": "Ross GP",
-          "campbelltown": false
-        },
-        {
-          "name": "Nerenberg KA",
-          "campbelltown": false
-        },
-        {
-          "name": "Booth JE",
-          "campbelltown": false
-        },
-        {
-          "name": "Mohammad K",
-          "campbelltown": false
-        },
-        {
-          "name": "Perkins BA",
-          "campbelltown": false
-        },
-        {
-          "name": "Crawford S",
-          "campbelltown": false
-        },
-        {
-          "name": "Tomlinson G",
-          "campbelltown": false
-        },
-        {
-          "name": "Feig DS",
-          "campbelltown": false
-        },
-        {
-          "name": "CIRCUIT Collaborative Group:",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Macarthur Diabetes Endocrinology and Metabolism Service"
-      ],
-      "keywords": [],
-      "abstract": "OBJECTIVE: Following the demonstrated improvement in pregnancy glycemia with Control-IQ closed loop in the Closed loop Insulin delivery by glucose Responsive Computer algorithms In Type 1 diabetes pregnancies (CIRCUIT) trial, we compared intrapartum and early postpartum glycemic effectiveness and safety with standard care in type 1 diabetes. RESEARCH DESIGN AND METHODS: The primary outcome of this prespecified analysis was percentage of time in pregnancy-specific glucose range (63-140 mg/dL) during the 24 h prior to childbirth, measured by continuous glucose monitoring. A key secondary outcome was percentage of time at <70 mg/dL in the first postpartum week, with additional secondary outcomes including continuous glucose monitoring metrics through 6 weeks postpartum. Analyses were adjusted for baseline measure, insulin delivery mode, and site. RESULTS: In the intrapartum period (24 h before delivery), 39 of 44 (89%) participants continued closed loop. Intravenous insulin was used intrapartum by one (2%) closed loop participant and 20 (45%) standard care participants (P < 0.001). Intrapartum closed loop users spent more time in pregnancy-specific glucose range (79.6% vs. 64.8%)…"
     },
     {
       "pmid": "42200301",
