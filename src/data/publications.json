@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T23:22:48.334Z",
+  "generated": "2026-08-14T23:10:50.740Z",
   "source": "pubmed",
   "items": [
     {
@@ -238,6 +238,1375 @@
         "explainability"
       ],
       "abstract": "OBJECTIVE: Evaluate the importance of specific variables contributing to a recently reported Artificial Intelligence (AI) prediction model called Sydney Triage to Admission Risk Tool with Artificial Intelligence (START-AI) to predict inpatient admission from the Emergency Department (ED). METHODS: A model explainability analysis was undertaken using single-centre ED electronic medical record data over 2 years. The START-AI model, which comprises ensemble machine learning and a transformer-based algorithm to enhance the original START tool, was re-run with each feature added sequentially to the model until the full model was complete. Feature importance was calculated using feature permutation or change in area under receiver operator curve (AUROC) and SHapley Additive exPlanations (SHAP) analyses. RESULTS: The original START tool alone had an AUROC of 0.78 (95% CI 0.77, 0.78) for prediction of inpatient admission, reaching an AUROC of 0.90 (95% CI 0.89, 0.90) after all features of the START-AI tool were added sequentially. Features associated with a stepwise increase in cumulative AUROC were triage comments, ED case history notes, any blood test result (in particular, lactate and…"
+    },
+    {
+      "pmid": "41982087",
+      "doi": "10.1111/all.70341",
+      "title": "Urticaria and Angioedema: When East Meets West-and the Middle.",
+      "journal": "Allergy",
+      "journalAbbrev": "Allergy",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Peter J",
+          "campbelltown": false
+        },
+        {
+          "name": "Jindal A",
+          "campbelltown": false
+        },
+        {
+          "name": "Del Giacco S",
+          "campbelltown": false
+        },
+        {
+          "name": "Fomina D",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Hide M",
+          "campbelltown": false
+        },
+        {
+          "name": "Li PH",
+          "campbelltown": false
+        },
+        {
+          "name": "Longhurst HJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Metz M",
+          "campbelltown": false
+        },
+        {
+          "name": "Zhao Z",
+          "campbelltown": false
+        },
+        {
+          "name": "Shamji MH",
+          "campbelltown": false
+        },
+        {
+          "name": "Torres MJ",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [],
+      "abstract": ""
+    },
+    {
+      "pmid": "41649409",
+      "doi": "10.1111/all.70210",
+      "title": "The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria.",
+      "journal": "Allergy",
+      "journalAbbrev": "Allergy",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Zuberbier T",
+          "campbelltown": false
+        },
+        {
+          "name": "Ansari ZA",
+          "campbelltown": false
+        },
+        {
+          "name": "Abdul Latiff AH",
+          "campbelltown": false
+        },
+        {
+          "name": "Abuzakouk MM",
+          "campbelltown": false
+        },
+        {
+          "name": "Agcaoili-De Jesus MS",
+          "campbelltown": false
+        },
+        {
+          "name": "Agondi RC",
+          "campbelltown": false
+        },
+        {
+          "name": "Al-Ahmad M",
+          "campbelltown": false
+        },
+        {
+          "name": "Alangari AA",
+          "campbelltown": false
+        },
+        {
+          "name": "Alhameli H",
+          "campbelltown": false
+        },
+        {
+          "name": "Alonso Bello CD",
+          "campbelltown": false
+        },
+        {
+          "name": "Alshareef S",
+          "campbelltown": false
+        },
+        {
+          "name": "Al-Tamemi S",
+          "campbelltown": false
+        },
+        {
+          "name": "Altrichter S",
+          "campbelltown": false
+        },
+        {
+          "name": "Al Wahshi H",
+          "campbelltown": false
+        },
+        {
+          "name": "Aquilina S",
+          "campbelltown": false
+        },
+        {
+          "name": "Araújo M",
+          "campbelltown": false
+        },
+        {
+          "name": "Arnaout R",
+          "campbelltown": false
+        },
+        {
+          "name": "Asero R",
+          "campbelltown": false
+        },
+        {
+          "name": "Ballmer-Weber B",
+          "campbelltown": false
+        },
+        {
+          "name": "Bangert C",
+          "campbelltown": false
+        },
+        {
+          "name": "Bauer A",
+          "campbelltown": false
+        },
+        {
+          "name": "Ben-Shoshan M",
+          "campbelltown": false
+        },
+        {
+          "name": "Bernstein JA",
+          "campbelltown": false
+        },
+        {
+          "name": "Bindslev-Jensen C",
+          "campbelltown": false
+        },
+        {
+          "name": "Bizjak M",
+          "campbelltown": false
+        },
+        {
+          "name": "Boccon-Gibod I",
+          "campbelltown": false
+        },
+        {
+          "name": "Bonnekoh H",
+          "campbelltown": false
+        },
+        {
+          "name": "Bouillet L",
+          "campbelltown": false
+        },
+        {
+          "name": "Brockow K",
+          "campbelltown": false
+        },
+        {
+          "name": "Brzoza Z",
+          "campbelltown": false
+        },
+        {
+          "name": "Bulatović Ćalasan M",
+          "campbelltown": false
+        },
+        {
+          "name": "Bulkhi A",
+          "campbelltown": false
+        },
+        {
+          "name": "Buttgereit T",
+          "campbelltown": false
+        },
+        {
+          "name": "Bygum A",
+          "campbelltown": false
+        },
+        {
+          "name": "Caballero T",
+          "campbelltown": false
+        },
+        {
+          "name": "Calderon O",
+          "campbelltown": false
+        },
+        {
+          "name": "Campos R",
+          "campbelltown": false
+        },
+        {
+          "name": "Cancian M",
+          "campbelltown": false
+        },
+        {
+          "name": "Carne E",
+          "campbelltown": false
+        },
+        {
+          "name": "Castor MA",
+          "campbelltown": false
+        },
+        {
+          "name": "Cerecedo I",
+          "campbelltown": false
+        },
+        {
+          "name": "Çetinarslan T",
+          "campbelltown": false
+        },
+        {
+          "name": "Cherrez-Ojeda I",
+          "campbelltown": false
+        },
+        {
+          "name": "Chkhikvadze N",
+          "campbelltown": false
+        },
+        {
+          "name": "Chong-Neto HJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Choo K",
+          "campbelltown": false
+        },
+        {
+          "name": "Christoff G",
+          "campbelltown": false
+        },
+        {
+          "name": "Chu CY",
+          "campbelltown": false
+        },
+        {
+          "name": "Ciupka K",
+          "campbelltown": false
+        },
+        {
+          "name": "Conlon N",
+          "campbelltown": false
+        },
+        {
+          "name": "Costa C",
+          "campbelltown": false
+        },
+        {
+          "name": "Craig TJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Criado P",
+          "campbelltown": false
+        },
+        {
+          "name": "Danilycheva I",
+          "campbelltown": false
+        },
+        {
+          "name": "Darlenski R",
+          "campbelltown": false
+        },
+        {
+          "name": "De Arruda Chaves E",
+          "campbelltown": false
+        },
+        {
+          "name": "de Montjoye L",
+          "campbelltown": false
+        },
+        {
+          "name": "Doutre MS",
+          "campbelltown": false
+        },
+        {
+          "name": "Du-Thanh A",
+          "campbelltown": false
+        },
+        {
+          "name": "Ebo D",
+          "campbelltown": false
+        },
+        {
+          "name": "Elkhalifa S",
+          "campbelltown": false
+        },
+        {
+          "name": "Elmariah S",
+          "campbelltown": false
+        },
+        {
+          "name": "El-Shanawany T",
+          "campbelltown": false
+        },
+        {
+          "name": "Ensina LF",
+          "campbelltown": false
+        },
+        {
+          "name": "Ertaş R",
+          "campbelltown": false
+        },
+        {
+          "name": "Fachini Jardim Criado R",
+          "campbelltown": false
+        },
+        {
+          "name": "Ferrer M",
+          "campbelltown": false
+        },
+        {
+          "name": "Ferrucci S",
+          "campbelltown": false
+        },
+        {
+          "name": "Fok JS",
+          "campbelltown": false
+        },
+        {
+          "name": "Fomina D",
+          "campbelltown": false
+        },
+        {
+          "name": "Fonacier L",
+          "campbelltown": false
+        },
+        {
+          "name": "Fouda G",
+          "campbelltown": false
+        },
+        {
+          "name": "Francescantonio I",
+          "campbelltown": false
+        },
+        {
+          "name": "Fukunaga A",
+          "campbelltown": false
+        },
+        {
+          "name": "Galvan Calle CA",
+          "campbelltown": false
+        },
+        {
+          "name": "Garcia E",
+          "campbelltown": false
+        },
+        {
+          "name": "Gáspár K",
+          "campbelltown": false
+        },
+        {
+          "name": "Gelincik A",
+          "campbelltown": false
+        },
+        {
+          "name": "Geng S",
+          "campbelltown": false
+        },
+        {
+          "name": "Godse K",
+          "campbelltown": false
+        },
+        {
+          "name": "Gonçalo M",
+          "campbelltown": false
+        },
+        {
+          "name": "Gotua M",
+          "campbelltown": false
+        },
+        {
+          "name": "Grattan C",
+          "campbelltown": false
+        },
+        {
+          "name": "Grosber M",
+          "campbelltown": false
+        },
+        {
+          "name": "Guidos Fogelbach G",
+          "campbelltown": false
+        },
+        {
+          "name": "Guilarte M",
+          "campbelltown": false
+        },
+        {
+          "name": "Guillod R",
+          "campbelltown": false
+        },
+        {
+          "name": "Hamelmann E",
+          "campbelltown": false
+        },
+        {
+          "name": "Hawkes J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hayama K",
+          "campbelltown": false
+        },
+        {
+          "name": "Heuer R",
+          "campbelltown": false
+        },
+        {
+          "name": "Hide M",
+          "campbelltown": false
+        },
+        {
+          "name": "Hoetzenecker W",
+          "campbelltown": false
+        },
+        {
+          "name": "Inomata N",
+          "campbelltown": false
+        },
+        {
+          "name": "Kang HR",
+          "campbelltown": false
+        },
+        {
+          "name": "Kaplan AP",
+          "campbelltown": false
+        },
+        {
+          "name": "Kapp A",
+          "campbelltown": false
+        },
+        {
+          "name": "Karam M",
+          "campbelltown": false
+        },
+        {
+          "name": "Kasperska-Zajac A",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Kessel A",
+          "campbelltown": false
+        },
+        {
+          "name": "Khoshkhui M",
+          "campbelltown": false
+        },
+        {
+          "name": "Kim B",
+          "campbelltown": false
+        },
+        {
+          "name": "Kinaciyan T",
+          "campbelltown": false
+        },
+        {
+          "name": "Kocatürk E",
+          "campbelltown": false
+        },
+        {
+          "name": "Kolacinska-Flont M",
+          "campbelltown": false
+        },
+        {
+          "name": "Kolkhir P",
+          "campbelltown": false
+        },
+        {
+          "name": "Konstantinou GN",
+          "campbelltown": false
+        },
+        {
+          "name": "Kosnik M",
+          "campbelltown": false
+        },
+        {
+          "name": "Krasowska D",
+          "campbelltown": false
+        },
+        {
+          "name": "Kulthanan K",
+          "campbelltown": false
+        },
+        {
+          "name": "Kumaran MS",
+          "campbelltown": false
+        },
+        {
+          "name": "Kuprys-Lipinska I",
+          "campbelltown": false
+        },
+        {
+          "name": "Labrador M",
+          "campbelltown": false
+        },
+        {
+          "name": "Larco JI",
+          "campbelltown": false
+        },
+        {
+          "name": "Larenas-Linnemann D",
+          "campbelltown": false
+        },
+        {
+          "name": "Latysheva E",
+          "campbelltown": false
+        },
+        {
+          "name": "Lazaridou E",
+          "campbelltown": false
+        },
+        {
+          "name": "Li PH",
+          "campbelltown": false
+        },
+        {
+          "name": "Lima H",
+          "campbelltown": false
+        },
+        {
+          "name": "Lippert U",
+          "campbelltown": false
+        },
+        {
+          "name": "Magerl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Makris M",
+          "campbelltown": false
+        },
+        {
+          "name": "Alves Marcelino J",
+          "campbelltown": false
+        },
+        {
+          "name": "Marzano AV",
+          "campbelltown": false
+        },
+        {
+          "name": "Medina I",
+          "campbelltown": false
+        },
+        {
+          "name": "Meshkova R",
+          "campbelltown": false
+        },
+        {
+          "name": "Micallef D",
+          "campbelltown": false
+        },
+        {
+          "name": "Mohammed Ali R",
+          "campbelltown": false
+        },
+        {
+          "name": "Mortz CG",
+          "campbelltown": false
+        },
+        {
+          "name": "Munoz M",
+          "campbelltown": false
+        },
+        {
+          "name": "Oude Elberink HNG",
+          "campbelltown": false
+        },
+        {
+          "name": "Nakonechna A",
+          "campbelltown": false
+        },
+        {
+          "name": "Nasr I",
+          "campbelltown": false
+        },
+        {
+          "name": "Nast A",
+          "campbelltown": false
+        },
+        {
+          "name": "Netchiporouk E",
+          "campbelltown": false
+        },
+        {
+          "name": "Nettis E",
+          "campbelltown": false
+        },
+        {
+          "name": "Nieto S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ogueta Canales I",
+          "campbelltown": false
+        },
+        {
+          "name": "Okas TL",
+          "campbelltown": false
+        },
+        {
+          "name": "Orfali RL",
+          "campbelltown": false
+        },
+        {
+          "name": "Özkaya E",
+          "campbelltown": false
+        },
+        {
+          "name": "Parisi C",
+          "campbelltown": false
+        },
+        {
+          "name": "Pennitz A",
+          "campbelltown": false
+        },
+        {
+          "name": "Pawankar R",
+          "campbelltown": false
+        },
+        {
+          "name": "Pereira MP",
+          "campbelltown": false
+        },
+        {
+          "name": "Peter J",
+          "campbelltown": false
+        },
+        {
+          "name": "Petkova E",
+          "campbelltown": false
+        },
+        {
+          "name": "Pigatto PD",
+          "campbelltown": false
+        },
+        {
+          "name": "Podder I",
+          "campbelltown": false
+        },
+        {
+          "name": "Popov T",
+          "campbelltown": false
+        },
+        {
+          "name": "Porebski G",
+          "campbelltown": false
+        },
+        {
+          "name": "Pyatilova P",
+          "campbelltown": false
+        },
+        {
+          "name": "Ramon GD",
+          "campbelltown": false
+        },
+        {
+          "name": "Ratti Sisa HA",
+          "campbelltown": false
+        },
+        {
+          "name": "Recto MS",
+          "campbelltown": false
+        },
+        {
+          "name": "Ress K",
+          "campbelltown": false
+        },
+        {
+          "name": "Ridge K",
+          "campbelltown": false
+        },
+        {
+          "name": "Riedl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Ritchie C",
+          "campbelltown": false
+        },
+        {
+          "name": "Rosario Filho N",
+          "campbelltown": false
+        },
+        {
+          "name": "Rosmaninho I",
+          "campbelltown": false
+        },
+        {
+          "name": "Rudenko M",
+          "campbelltown": false
+        },
+        {
+          "name": "Rukhadze M",
+          "campbelltown": false
+        },
+        {
+          "name": "Rutkowski K",
+          "campbelltown": false
+        },
+        {
+          "name": "Sabato V",
+          "campbelltown": false
+        },
+        {
+          "name": "Sahiner UM",
+          "campbelltown": false
+        },
+        {
+          "name": "Saini S",
+          "campbelltown": false
+        },
+        {
+          "name": "Saleh Al Sabbagh F",
+          "campbelltown": false
+        },
+        {
+          "name": "Salman A",
+          "campbelltown": false
+        },
+        {
+          "name": "Salvo F",
+          "campbelltown": false
+        },
+        {
+          "name": "Sanchez J",
+          "campbelltown": false
+        },
+        {
+          "name": "Santucci A",
+          "campbelltown": false
+        },
+        {
+          "name": "Schliemann S",
+          "campbelltown": false
+        },
+        {
+          "name": "Schmid-Grendelmeier P",
+          "campbelltown": false
+        },
+        {
+          "name": "Sekerel BE",
+          "campbelltown": false
+        },
+        {
+          "name": "Serpa F",
+          "campbelltown": false
+        },
+        {
+          "name": "Sheikh F",
+          "campbelltown": false
+        },
+        {
+          "name": "Sheikh J",
+          "campbelltown": false
+        },
+        {
+          "name": "Shendi H",
+          "campbelltown": false
+        },
+        {
+          "name": "Siebenhaar F",
+          "campbelltown": false
+        },
+        {
+          "name": "Sonomjamts M",
+          "campbelltown": false
+        },
+        {
+          "name": "Soria A",
+          "campbelltown": false
+        },
+        {
+          "name": "Sousa Pinto B",
+          "campbelltown": false
+        },
+        {
+          "name": "Staevska M",
+          "campbelltown": false
+        },
+        {
+          "name": "Staubach P",
+          "campbelltown": false
+        },
+        {
+          "name": "Stephan M",
+          "campbelltown": false
+        },
+        {
+          "name": "Stevanovic K",
+          "campbelltown": false
+        },
+        {
+          "name": "Stingeni L",
+          "campbelltown": false
+        },
+        {
+          "name": "Stobiecki M",
+          "campbelltown": false
+        },
+        {
+          "name": "Su Küçük Ö",
+          "campbelltown": false
+        },
+        {
+          "name": "Sussman G",
+          "campbelltown": false
+        },
+        {
+          "name": "Szegedi A",
+          "campbelltown": false
+        },
+        {
+          "name": "Takahagi S",
+          "campbelltown": false
+        },
+        {
+          "name": "Tanaka A",
+          "campbelltown": false
+        },
+        {
+          "name": "Teovska Mitrevska N",
+          "campbelltown": false
+        },
+        {
+          "name": "Thomsen SF",
+          "campbelltown": false
+        },
+        {
+          "name": "Toubi E",
+          "campbelltown": false
+        },
+        {
+          "name": "Tsatsou F",
+          "campbelltown": false
+        },
+        {
+          "name": "Turk M",
+          "campbelltown": false
+        },
+        {
+          "name": "Vadasz Z",
+          "campbelltown": false
+        },
+        {
+          "name": "Valerieva A",
+          "campbelltown": false
+        },
+        {
+          "name": "Valle S",
+          "campbelltown": false
+        },
+        {
+          "name": "Doorn MV",
+          "campbelltown": false
+        },
+        {
+          "name": "Veleiro Perez B",
+          "campbelltown": false
+        },
+        {
+          "name": "Vera Ayala CE",
+          "campbelltown": false
+        },
+        {
+          "name": "Vestergaard C",
+          "campbelltown": false
+        },
+        {
+          "name": "Vieira RJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Maruta CW",
+          "campbelltown": false
+        },
+        {
+          "name": "Wedi B",
+          "campbelltown": false
+        },
+        {
+          "name": "Werner RN",
+          "campbelltown": false
+        },
+        {
+          "name": "Yap EWY",
+          "campbelltown": false
+        },
+        {
+          "name": "Xepapadaki P",
+          "campbelltown": false
+        },
+        {
+          "name": "Xiang YK",
+          "campbelltown": false
+        },
+        {
+          "name": "Ye YM",
+          "campbelltown": false
+        },
+        {
+          "name": "Yong P",
+          "campbelltown": false
+        },
+        {
+          "name": "Yosipovitch G",
+          "campbelltown": false
+        },
+        {
+          "name": "Zalewska-Janowska A",
+          "campbelltown": false
+        },
+        {
+          "name": "Zeyen C",
+          "campbelltown": false
+        },
+        {
+          "name": "Zhao Z",
+          "campbelltown": false
+        },
+        {
+          "name": "Metz M",
+          "campbelltown": false
+        },
+        {
+          "name": "Giménez-Arnau AM",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [
+        "angioedema",
+        "consensus",
+        "evidence‐based",
+        "hives",
+        "itch",
+        "mast cell",
+        "urticaria",
+        "wheals"
+      ],
+      "abstract": "This update and revision of the international guideline for urticaria was developed in accordance with the methods recommended by Cochrane and the Grading of Recommendations Assessment, Development and Evaluation (GRADE) working group. It is an initiative of the Global Allergy and Asthma Excellence Network (GA 2 LEN) and its Urticaria and Angioedema Centers of Reference and Excellence (UCAREs and ACAREs), with the participation of 210 delegates from 107 national and international societies, from 59 countries. The consensus conference was held on December 6th, 2024. This guideline was acknowledged and accepted by the European Union of Medical Specialists (UEMS). Urticaria is a frequent, mast cell-driven disease, defined by a rapid appearance of wheals, angioedema, or both. The lifetime prevalence of acute urticaria is estimated to be approximately 20%. Chronic urticaria, categorized as either chronic spontaneous urticaria or chronic inducible urticaria, is disabling, impairs quality of life, and affects performance at work and school, however, novel therapies are available. This updated version of the international guideline for urticaria covers the definition and classification of…"
+    },
+    {
+      "pmid": "41618059",
+      "doi": "10.1111/all.70207",
+      "title": "International Guideline on the Diagnosis and Management of Pediatric Patients With Hereditary Angioedema.",
+      "journal": "Allergy",
+      "journalAbbrev": "Allergy",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Farkas H",
+          "campbelltown": false
+        },
+        {
+          "name": "Martinez-Saguer I",
+          "campbelltown": false
+        },
+        {
+          "name": "Bork K",
+          "campbelltown": false
+        },
+        {
+          "name": "Germenis AE",
+          "campbelltown": false
+        },
+        {
+          "name": "Grumach AS",
+          "campbelltown": false
+        },
+        {
+          "name": "Horváth HR",
+          "campbelltown": false
+        },
+        {
+          "name": "Luczay A",
+          "campbelltown": false
+        },
+        {
+          "name": "Zanichelli A",
+          "campbelltown": false
+        },
+        {
+          "name": "Magerl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Betschel S",
+          "campbelltown": false
+        },
+        {
+          "name": "Aygören-Pürsün E",
+          "campbelltown": false
+        },
+        {
+          "name": "Bernstein JA",
+          "campbelltown": false
+        },
+        {
+          "name": "Boccon-Gibod I",
+          "campbelltown": false
+        },
+        {
+          "name": "Caballero T",
+          "campbelltown": false
+        },
+        {
+          "name": "Cancian M",
+          "campbelltown": false
+        },
+        {
+          "name": "Christiansen S",
+          "campbelltown": false
+        },
+        {
+          "name": "Cohn DM",
+          "campbelltown": false
+        },
+        {
+          "name": "Contreras F",
+          "campbelltown": false
+        },
+        {
+          "name": "Craig S",
+          "campbelltown": false
+        },
+        {
+          "name": "Isaic C",
+          "campbelltown": false
+        },
+        {
+          "name": "Jindal A",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Longhurst HJ",
+          "campbelltown": false
+        },
+        {
+          "name": "MacGinnitie A",
+          "campbelltown": false
+        },
+        {
+          "name": "Peter J",
+          "campbelltown": false
+        },
+        {
+          "name": "Porebski G",
+          "campbelltown": false
+        },
+        {
+          "name": "Reshef A",
+          "campbelltown": false
+        },
+        {
+          "name": "Van Nguyen D",
+          "campbelltown": false
+        },
+        {
+          "name": "Zuraw B",
+          "campbelltown": false
+        },
+        {
+          "name": "Castaldo AJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Boysen HB",
+          "campbelltown": false
+        },
+        {
+          "name": "Craig T",
+          "campbelltown": false
+        },
+        {
+          "name": "Hereditary Angioedema Working Group (HAWK Group)",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [
+        "C1 inhibitor deficiency",
+        "acute treatment",
+        "bradykinin",
+        "complement test",
+        "comprehensive care",
+        "genetic testing",
+        "hereditary angioedema",
+        "long‐term prophylaxis",
+        "pediatric guideline",
+        "short‐term prophylaxis"
+      ],
+      "abstract": "Hereditary angioedema (HAE) with C1 inhibitor deficiency is a rare disease characterized by unpredictable episodes of tissue swelling (angioedema), which, in most cases, occur first under the age of 18 years, and entail a significant burden of disease not only for the patients but also for their families. Clinical symptoms of HAE are not specific, which may cause difficulties in differential diagnosis. Additionally, if not appropriately treated, HAE attacks can be life-threatening. The international HAE guidelines published so far have focused mainly on adults. A guideline that refers to the age-specific characteristics of pediatric patients, both in terms of diagnosis and management, was therefore needed. The International Steering Committee and Taskforce developed recommendations and provided evidence-based grading based on expert opinion and strength of evidence. Recommendations were presented to, discussed, and electronically voted by healthcare professionals during the 14th C1 Inhibitor Deficiency and Angioedema Workshop in Budapest, Hungary, 2025. This international guideline will ensure early diagnosis, standardized and up-to-date treatment, and promote the availability of…"
+    },
+    {
+      "pmid": "42592660",
+      "doi": "10.1002/ccd.70787",
+      "title": "SCORE-CUT: A Randomized Trial Comparison of Scoring, Cutting, and Non-Compliant Balloon Lesion Preparation Strategies for Drug-Coated Balloon Angioplasty-Rationale and Design.",
+      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+      "journalAbbrev": "Catheter Cardiovasc Interv",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Khandkar C",
+          "campbelltown": false
+        },
+        {
+          "name": "Khialani B",
+          "campbelltown": false
+        },
+        {
+          "name": "Ravindran J",
+          "campbelltown": false
+        },
+        {
+          "name": "Jain P",
+          "campbelltown": false
+        },
+        {
+          "name": "Kurup R",
+          "campbelltown": true
+        },
+        {
+          "name": "Ekmejian A",
+          "campbelltown": false
+        },
+        {
+          "name": "Touma G",
+          "campbelltown": false
+        },
+        {
+          "name": "Cosgrove C",
+          "campbelltown": false
+        },
+        {
+          "name": "Asrress K",
+          "campbelltown": false
+        },
+        {
+          "name": "Selvakumar D",
+          "campbelltown": false
+        },
+        {
+          "name": "Hallani H",
+          "campbelltown": false
+        },
+        {
+          "name": "Liou K",
+          "campbelltown": false
+        },
+        {
+          "name": "Ford T",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong B",
+          "campbelltown": false
+        },
+        {
+          "name": "Fairley S",
+          "campbelltown": false
+        },
+        {
+          "name": "Harding S",
+          "campbelltown": false
+        },
+        {
+          "name": "Yong A",
+          "campbelltown": false
+        },
+        {
+          "name": "Ada C",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "cutting",
+        "drug‐coated balloon",
+        "drug‐eluting",
+        "intravascular ultrasound",
+        "scoring"
+      ],
+      "abstract": "BACKGROUND: Drug-coated balloons (DCB) provide a \"metal-free\" alternative to drug-eluting stents, yet their success is highly dependent on optimal lesion preparation for effective drug transfer and to minimize acute recoil. While scoring balloons (SB) and cutting balloons (CB) are hypothesized to achieve superior plaque modification versus non-compliant balloons (NCBs) through controlled micro-dissections, high-quality randomized evidence in de-novo coronary lesions remains sparse. AIM: SCORE-CUT aims to determine the optimal lesion-preparation strategy prior to DCB angioplasty by directly comparing the efficacy of pre-dilation with NCB, SB, and CB. METHODS: This is a prospective, multi-center, randomized trial conducted across sites in Australia, New Zealand, and Singapore (ACTRN12625001349437). A total of 198 patients with de-novo lesions (2.0-4.0 mm diameter on angiography) are randomized 1:1:1 to undergo lesion preparation with NCB, SB, or CB. Intravascular ultrasound (IVUS) imaging is performed both before and after lesion preparation. The primary endpoint is absolute minimum lumen area (MLA) gain (mm 2 ) on IVUS after lesion preparation, analyzed by an independent, blinded…"
+    },
+    {
+      "pmid": "42578759",
+      "doi": "10.2340/actadv.v106.10.2340/adv-2026-0868",
+      "title": "Redefining Treat-to-target in Atopic Dermatitis: Towards Meaningful, Patient-centred Disease Control - An ISAD Position Paper.",
+      "journal": "Acta dermato-venereologica",
+      "journalAbbrev": "Acta Derm Venereol",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Su J",
+          "campbelltown": false
+        },
+        {
+          "name": "Wollenberg A",
+          "campbelltown": false
+        },
+        {
+          "name": "Funk M",
+          "campbelltown": false
+        },
+        {
+          "name": "Mesarič T",
+          "campbelltown": false
+        },
+        {
+          "name": "Hu B",
+          "campbelltown": false
+        },
+        {
+          "name": "Shipowick T",
+          "campbelltown": false
+        },
+        {
+          "name": "Barta K",
+          "campbelltown": false
+        },
+        {
+          "name": "Belleson K",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong LC",
+          "campbelltown": false
+        },
+        {
+          "name": "Kim KH",
+          "campbelltown": false
+        },
+        {
+          "name": "Chu CY",
+          "campbelltown": false
+        },
+        {
+          "name": "Dhar S",
+          "campbelltown": false
+        },
+        {
+          "name": "Kataoka Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Leong KF",
+          "campbelltown": false
+        },
+        {
+          "name": "Hon KLE",
+          "campbelltown": false
+        },
+        {
+          "name": "Otrofanowei E",
+          "campbelltown": false
+        },
+        {
+          "name": "Foley P",
+          "campbelltown": false
+        },
+        {
+          "name": "Ma L",
+          "campbelltown": false
+        },
+        {
+          "name": "Tay YK",
+          "campbelltown": false
+        },
+        {
+          "name": "Lodén M",
+          "campbelltown": false
+        },
+        {
+          "name": "Yazdabadi A",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibson KA",
+          "campbelltown": false
+        },
+        {
+          "name": "Akikusa JD",
+          "campbelltown": false
+        },
+        {
+          "name": "Östör A",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris C",
+          "campbelltown": true
+        },
+        {
+          "name": "Thien F",
+          "campbelltown": false
+        },
+        {
+          "name": "Futamura M",
+          "campbelltown": false
+        },
+        {
+          "name": "Yotsu R",
+          "campbelltown": false
+        },
+        {
+          "name": "Schmid-Grendelmeier P",
+          "campbelltown": false
+        },
+        {
+          "name": "Taïeb A",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medicine"
+      ],
+      "keywords": [],
+      "abstract": "Treat-to-target strategies link predefined goals to regular assessment and treatment adaptation. In atopic dermatitis, recent initiatives have mainly defined thresholds using clinician- and patient-reported outcomes. This review and position paper critically examines current approaches and proposes priorities for a more clinically meaningful, patient-centred and globally applicable framework. It synthesizes recent consensus and outcome-harmonization initiatives with selected lessons from rheumatoid arthritis and asthma and was informed by multidisciplinary, patient-inclusive discussions at an International Society of Atopic Dermatitis-World Health Organization premeeting. The workshop was not a Delphi or formal consensus exercise; it was used to identify conceptual priorities and implementation challenges for future international consensus work. Current proposals converge partly around severity thresholds and symptom control but insufficiently capture disease instability, comorbidities, family burden, treatment burden and real-world constraints. We propose 4 complementary domains: disease activity; symptoms and function; global patient health and disease impact and longitudinal…"
     },
     {
       "pmid": "41921037",
@@ -1886,6 +3255,69 @@
       "abstract": "BACKGROUND: In response to individual and systemic barriers hindering the timely and effective treatment of eating disorders (EDs), the Australia & New Zealand Academy for Eating Disorders (ANZAED) introduced an eating disorder credential for clinicians in June 2022. The Credential aims to enhance treatment access, quality, and outcomes. While the Credential has been well received by stakeholders, its effectiveness from the perspective of those with lived experience of an ED needs to be more fully understood. The current study aims to explore the experiences and perspectives of people living with an ED in relation to their treatment experiences provided by Credentialed Eating Disorder Clinicians (credentialed clinicians) and non-credentialed clinicians. METHODS: An exploratory mixed-methods cross-sectional study was conducted involving 100 participants with personal lived experience of an ED. Participants were recruited via Australian eating disorder services and organisations, including the ANZAED and National Eating Disorders Collaboration (NEDC) membership databases, with recruitment information distributed through their email and social media platforms. Participants completed…"
     },
     {
+      "pmid": "42588092",
+      "doi": "10.3390/nu18152469",
+      "title": "Gut Microbiome Changes in Preclinical Alzheimer's Disease.",
+      "journal": "Nutrients",
+      "journalAbbrev": "Nutrients",
+      "year": 2026,
+      "month": 7,
+      "authors": [
+        {
+          "name": "Dissanayaka DMS",
+          "campbelltown": false
+        },
+        {
+          "name": "Rainey-Smith SR",
+          "campbelltown": false
+        },
+        {
+          "name": "Sohrabi HR",
+          "campbelltown": false
+        },
+        {
+          "name": "Jayasinghe TN",
+          "campbelltown": false
+        },
+        {
+          "name": "Ho V",
+          "campbelltown": true
+        },
+        {
+          "name": "Jayasena V",
+          "campbelltown": false
+        },
+        {
+          "name": "Taddei K",
+          "campbelltown": false
+        },
+        {
+          "name": "Masters CL",
+          "campbelltown": false
+        },
+        {
+          "name": "Martins RN",
+          "campbelltown": false
+        },
+        {
+          "name": "Fernando WMADB",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Alzheimer’s disease",
+        "dietary patterns",
+        "gut microbiome",
+        "gut–brain axis",
+        "neuroinflammation",
+        "preclinical",
+        "short-chain fatty acids"
+      ],
+      "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder that develops many years before clinical symptoms appear. The biological changes involved in the earliest stages remain poorly understood, particularly during the preclinical stage. Our previous work has identified gradual gut microbial and metabolic changes during this stage, suggesting these may represent early biological shifts that precede disease progression. Recent studies suggest that the gut microbiome may contribute to early AD processes through its effects on immune regulation, metabolism, and gut-brain communication. Changes in gut microbial composition, including reduced levels of short-chain fatty acid (SCFA)-producing bacteria, such as Faecalibacterium , Roseburia , and Eubacterium , have been reported in individuals with AD and mild cognitive impairment. These microbial alterations have also been linked to disrupted metabolic activity, impaired gut barrier function, and increased neuroinflammatory responses. Diet is an important factor influencing gut microbial composition and metabolic activity. Mediterranean, DASH, and prudent dietary patterns are generally associated with beneficial microbial…"
+    },
+    {
       "pmid": "42351300",
       "doi": "10.1186/s40337-026-01658-y",
       "title": "Does renal function decline across multiple hospital admissions? An audit of adolescent and young adults hospitalised with a restrictive eating disorder.",
@@ -2860,71 +4292,6 @@
       "abstract": ""
     },
     {
-      "pmid": "41982087",
-      "doi": "10.1111/all.70341",
-      "title": "Urticaria and Angioedema: When East Meets West-and the Middle.",
-      "journal": "Allergy",
-      "journalAbbrev": "Allergy",
-      "year": 2026,
-      "month": 4,
-      "authors": [
-        {
-          "name": "Peter J",
-          "campbelltown": false
-        },
-        {
-          "name": "Jindal A",
-          "campbelltown": false
-        },
-        {
-          "name": "Del Giacco S",
-          "campbelltown": false
-        },
-        {
-          "name": "Fomina D",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Hide M",
-          "campbelltown": false
-        },
-        {
-          "name": "Li PH",
-          "campbelltown": false
-        },
-        {
-          "name": "Longhurst HJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Metz M",
-          "campbelltown": false
-        },
-        {
-          "name": "Zhao Z",
-          "campbelltown": false
-        },
-        {
-          "name": "Shamji MH",
-          "campbelltown": false
-        },
-        {
-          "name": "Torres MJ",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Immunology & Allergy Unit"
-      ],
-      "keywords": [],
-      "abstract": ""
-    },
-    {
       "pmid": "41937250",
       "doi": "10.1111/cea.70288",
       "title": "Prevalence and Sociodemographic Variation of Allergic Diseases in Australia: Findings From the Australian National Health Survey.",
@@ -3890,920 +5257,6 @@
       "abstract": "BACKGROUND: Allergic rhinitis (AR) is a highly prevalent condition associated with significant morbidity globally. Few recent studies have detailed the experiences of sufferers and explored their perspectives of treatment options. Allergen immunotherapy (AIT) is an effective treatment option that remains underused in eligible patient populations. OBJECTIVE: We sought to describe patient perspectives of AR and treatment options including AIT. METHODS: Twenty-five semistructured interviews were conducted with adult participants at a tertiary hospital center in Sydney, Australia. Authors used an inductive thematic analysis methodology to code and interpret the data. RESULTS: Three major themes emerged from the qualitative thematic analysis: (1) a prolonged journey with symptoms, (2) multiple trials of therapy with incomplete symptom control, and (3) diverse experiences with AIT. Several subthemes were identified: (1) delays to diagnosis and management, (2) underestimating the impact of symptoms, (3) substantially impaired quality of life, (4) limited efficacy of symptomatic pharmacotherapy, (5) perceptions of tolerance and dependence, (6) motivations to access AIT, (7) diverse…"
     },
     {
-      "pmid": "41649409",
-      "doi": "10.1111/all.70210",
-      "title": "The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria.",
-      "journal": "Allergy",
-      "journalAbbrev": "Allergy",
-      "year": 2026,
-      "month": 2,
-      "authors": [
-        {
-          "name": "Zuberbier T",
-          "campbelltown": false
-        },
-        {
-          "name": "Abdul Hameed Ansari Z",
-          "campbelltown": false
-        },
-        {
-          "name": "Abdul Latiff AH",
-          "campbelltown": false
-        },
-        {
-          "name": "Abuzakouk MM",
-          "campbelltown": false
-        },
-        {
-          "name": "Agcaoili-De Jesus MS",
-          "campbelltown": false
-        },
-        {
-          "name": "Agondi RC",
-          "campbelltown": false
-        },
-        {
-          "name": "Al-Ahmad M",
-          "campbelltown": false
-        },
-        {
-          "name": "Alangari AA",
-          "campbelltown": false
-        },
-        {
-          "name": "Alhameli H",
-          "campbelltown": false
-        },
-        {
-          "name": "Alonso Bello CD",
-          "campbelltown": false
-        },
-        {
-          "name": "Alshareef S",
-          "campbelltown": false
-        },
-        {
-          "name": "Al-Tamemi S",
-          "campbelltown": false
-        },
-        {
-          "name": "Altrichter S",
-          "campbelltown": false
-        },
-        {
-          "name": "Al Wahshi H",
-          "campbelltown": false
-        },
-        {
-          "name": "Aquilina S",
-          "campbelltown": false
-        },
-        {
-          "name": "Araújo M",
-          "campbelltown": false
-        },
-        {
-          "name": "Arnaout R",
-          "campbelltown": false
-        },
-        {
-          "name": "Asero R",
-          "campbelltown": false
-        },
-        {
-          "name": "Ballmer-Weber B",
-          "campbelltown": false
-        },
-        {
-          "name": "Bangert C",
-          "campbelltown": false
-        },
-        {
-          "name": "Bauer A",
-          "campbelltown": false
-        },
-        {
-          "name": "Ben-Shoshan M",
-          "campbelltown": false
-        },
-        {
-          "name": "Bernstein JA",
-          "campbelltown": false
-        },
-        {
-          "name": "Bindslev-Jensen C",
-          "campbelltown": false
-        },
-        {
-          "name": "Bizjak M",
-          "campbelltown": false
-        },
-        {
-          "name": "Boccon-Gibod I",
-          "campbelltown": false
-        },
-        {
-          "name": "Bonnekoh H",
-          "campbelltown": false
-        },
-        {
-          "name": "Bouillet L",
-          "campbelltown": false
-        },
-        {
-          "name": "Brockow K",
-          "campbelltown": false
-        },
-        {
-          "name": "Brzoza Z",
-          "campbelltown": false
-        },
-        {
-          "name": "Bulatović Ćalasan M",
-          "campbelltown": false
-        },
-        {
-          "name": "Bulkhi A",
-          "campbelltown": false
-        },
-        {
-          "name": "Buttgereit T",
-          "campbelltown": false
-        },
-        {
-          "name": "Bygum A",
-          "campbelltown": false
-        },
-        {
-          "name": "Caballero T",
-          "campbelltown": false
-        },
-        {
-          "name": "Calderon O",
-          "campbelltown": false
-        },
-        {
-          "name": "Campos R",
-          "campbelltown": false
-        },
-        {
-          "name": "Cancian M",
-          "campbelltown": false
-        },
-        {
-          "name": "Carne E",
-          "campbelltown": false
-        },
-        {
-          "name": "Castor MA",
-          "campbelltown": false
-        },
-        {
-          "name": "Cerecedo I",
-          "campbelltown": false
-        },
-        {
-          "name": "Çetinarslan T",
-          "campbelltown": false
-        },
-        {
-          "name": "Cherrez-Ojeda I",
-          "campbelltown": false
-        },
-        {
-          "name": "Chkhikvadze N",
-          "campbelltown": false
-        },
-        {
-          "name": "Chong-Neto HJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Choo K",
-          "campbelltown": false
-        },
-        {
-          "name": "Christoff G",
-          "campbelltown": false
-        },
-        {
-          "name": "Chu CY",
-          "campbelltown": false
-        },
-        {
-          "name": "Ciupka K",
-          "campbelltown": false
-        },
-        {
-          "name": "Conlon N",
-          "campbelltown": false
-        },
-        {
-          "name": "Costa C",
-          "campbelltown": false
-        },
-        {
-          "name": "Craig T",
-          "campbelltown": false
-        },
-        {
-          "name": "Criado P",
-          "campbelltown": false
-        },
-        {
-          "name": "Danilycheva I",
-          "campbelltown": false
-        },
-        {
-          "name": "Darlenski R",
-          "campbelltown": false
-        },
-        {
-          "name": "De Arruda Chaves E",
-          "campbelltown": false
-        },
-        {
-          "name": "de Montjoye L",
-          "campbelltown": false
-        },
-        {
-          "name": "Doutre MS",
-          "campbelltown": false
-        },
-        {
-          "name": "Du-Thanh A",
-          "campbelltown": false
-        },
-        {
-          "name": "Ebo D",
-          "campbelltown": false
-        },
-        {
-          "name": "Elkhalifa S",
-          "campbelltown": false
-        },
-        {
-          "name": "Elmariah S",
-          "campbelltown": false
-        },
-        {
-          "name": "El-Shanawany T",
-          "campbelltown": false
-        },
-        {
-          "name": "Ensina LF",
-          "campbelltown": false
-        },
-        {
-          "name": "Ertaş R",
-          "campbelltown": false
-        },
-        {
-          "name": "Fachini Jardim Criado R",
-          "campbelltown": false
-        },
-        {
-          "name": "Ferrer M",
-          "campbelltown": false
-        },
-        {
-          "name": "Ferrucci S",
-          "campbelltown": false
-        },
-        {
-          "name": "Fok JS",
-          "campbelltown": false
-        },
-        {
-          "name": "Fomina D",
-          "campbelltown": false
-        },
-        {
-          "name": "Fonacier L",
-          "campbelltown": false
-        },
-        {
-          "name": "Fouda G",
-          "campbelltown": false
-        },
-        {
-          "name": "Francescantonio I",
-          "campbelltown": false
-        },
-        {
-          "name": "Fukunaga A",
-          "campbelltown": false
-        },
-        {
-          "name": "Galvan Calle CA",
-          "campbelltown": false
-        },
-        {
-          "name": "Garcia E",
-          "campbelltown": false
-        },
-        {
-          "name": "Gáspár K",
-          "campbelltown": false
-        },
-        {
-          "name": "Gelincik A",
-          "campbelltown": false
-        },
-        {
-          "name": "Geng S",
-          "campbelltown": false
-        },
-        {
-          "name": "Godse K",
-          "campbelltown": false
-        },
-        {
-          "name": "Gonçalo M",
-          "campbelltown": false
-        },
-        {
-          "name": "Gotua M",
-          "campbelltown": false
-        },
-        {
-          "name": "Grattan C",
-          "campbelltown": false
-        },
-        {
-          "name": "Grosber M",
-          "campbelltown": false
-        },
-        {
-          "name": "Guidos Fogelbach G",
-          "campbelltown": false
-        },
-        {
-          "name": "Guilarte M",
-          "campbelltown": false
-        },
-        {
-          "name": "Guillod R",
-          "campbelltown": false
-        },
-        {
-          "name": "Hamelmann E",
-          "campbelltown": false
-        },
-        {
-          "name": "Hawkes J",
-          "campbelltown": false
-        },
-        {
-          "name": "Hayama K",
-          "campbelltown": false
-        },
-        {
-          "name": "Heuer R",
-          "campbelltown": false
-        },
-        {
-          "name": "Hide M",
-          "campbelltown": false
-        },
-        {
-          "name": "Hoetzenecker W",
-          "campbelltown": false
-        },
-        {
-          "name": "Inomata N",
-          "campbelltown": false
-        },
-        {
-          "name": "Kang HR",
-          "campbelltown": false
-        },
-        {
-          "name": "Kaplan A",
-          "campbelltown": false
-        },
-        {
-          "name": "Kapp A",
-          "campbelltown": false
-        },
-        {
-          "name": "Karam M",
-          "campbelltown": false
-        },
-        {
-          "name": "Kasperska-Zajac A",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Kessel A",
-          "campbelltown": false
-        },
-        {
-          "name": "Khoshkhui M",
-          "campbelltown": false
-        },
-        {
-          "name": "Kim B",
-          "campbelltown": false
-        },
-        {
-          "name": "Kinaciyan T",
-          "campbelltown": false
-        },
-        {
-          "name": "Kocatürk E",
-          "campbelltown": false
-        },
-        {
-          "name": "Kolacinska-Flont M",
-          "campbelltown": false
-        },
-        {
-          "name": "Kolkhir P",
-          "campbelltown": false
-        },
-        {
-          "name": "Konstantinou GN",
-          "campbelltown": false
-        },
-        {
-          "name": "Kosnik M",
-          "campbelltown": false
-        },
-        {
-          "name": "Krasowska D",
-          "campbelltown": false
-        },
-        {
-          "name": "Kulthanan K",
-          "campbelltown": false
-        },
-        {
-          "name": "Kumaran MS",
-          "campbelltown": false
-        },
-        {
-          "name": "Kuprys-Lipinska I",
-          "campbelltown": false
-        },
-        {
-          "name": "Labrador M",
-          "campbelltown": false
-        },
-        {
-          "name": "Larco JI",
-          "campbelltown": false
-        },
-        {
-          "name": "Larenas-Linnemann D",
-          "campbelltown": false
-        },
-        {
-          "name": "Latysheva E",
-          "campbelltown": false
-        },
-        {
-          "name": "Lazaridou E",
-          "campbelltown": false
-        },
-        {
-          "name": "Li PH",
-          "campbelltown": false
-        },
-        {
-          "name": "Lima H",
-          "campbelltown": false
-        },
-        {
-          "name": "Lippert U",
-          "campbelltown": false
-        },
-        {
-          "name": "Magerl M",
-          "campbelltown": false
-        },
-        {
-          "name": "Makris M",
-          "campbelltown": false
-        },
-        {
-          "name": "Alves Marcelino J",
-          "campbelltown": false
-        },
-        {
-          "name": "Marzano AV",
-          "campbelltown": false
-        },
-        {
-          "name": "Medina I",
-          "campbelltown": false
-        },
-        {
-          "name": "Meshkova R",
-          "campbelltown": false
-        },
-        {
-          "name": "Micallef D",
-          "campbelltown": false
-        },
-        {
-          "name": "Mohammed Ali R",
-          "campbelltown": false
-        },
-        {
-          "name": "Mortz CG",
-          "campbelltown": false
-        },
-        {
-          "name": "Munoz M",
-          "campbelltown": false
-        },
-        {
-          "name": "Oude Elberink HNG",
-          "campbelltown": false
-        },
-        {
-          "name": "Nakonechna A",
-          "campbelltown": false
-        },
-        {
-          "name": "Nasr I",
-          "campbelltown": false
-        },
-        {
-          "name": "Nast A",
-          "campbelltown": false
-        },
-        {
-          "name": "Netchiporouk E",
-          "campbelltown": false
-        },
-        {
-          "name": "Nettis E",
-          "campbelltown": false
-        },
-        {
-          "name": "Nieto S",
-          "campbelltown": false
-        },
-        {
-          "name": "Ogueta Canales I",
-          "campbelltown": false
-        },
-        {
-          "name": "Okas TL",
-          "campbelltown": false
-        },
-        {
-          "name": "Orfali RL",
-          "campbelltown": false
-        },
-        {
-          "name": "Özkaya E",
-          "campbelltown": false
-        },
-        {
-          "name": "Parisi C",
-          "campbelltown": false
-        },
-        {
-          "name": "Pennitz A",
-          "campbelltown": false
-        },
-        {
-          "name": "Pawankar R",
-          "campbelltown": false
-        },
-        {
-          "name": "Pereira MP",
-          "campbelltown": false
-        },
-        {
-          "name": "Peter J",
-          "campbelltown": false
-        },
-        {
-          "name": "Petkova E",
-          "campbelltown": false
-        },
-        {
-          "name": "Pigatto PD",
-          "campbelltown": false
-        },
-        {
-          "name": "Podder I",
-          "campbelltown": false
-        },
-        {
-          "name": "Popov T",
-          "campbelltown": false
-        },
-        {
-          "name": "Porebski G",
-          "campbelltown": false
-        },
-        {
-          "name": "Pyatilova P",
-          "campbelltown": false
-        },
-        {
-          "name": "Ramon GD",
-          "campbelltown": false
-        },
-        {
-          "name": "Ratti Sisa HA",
-          "campbelltown": false
-        },
-        {
-          "name": "Recto M",
-          "campbelltown": false
-        },
-        {
-          "name": "Ress K",
-          "campbelltown": false
-        },
-        {
-          "name": "Ridge K",
-          "campbelltown": false
-        },
-        {
-          "name": "Riedl M",
-          "campbelltown": false
-        },
-        {
-          "name": "Ritchie C",
-          "campbelltown": false
-        },
-        {
-          "name": "Rosario Filho N",
-          "campbelltown": false
-        },
-        {
-          "name": "Rosmaninho I",
-          "campbelltown": false
-        },
-        {
-          "name": "Rudenko M",
-          "campbelltown": false
-        },
-        {
-          "name": "Rukhadze M",
-          "campbelltown": false
-        },
-        {
-          "name": "Rutkowski K",
-          "campbelltown": false
-        },
-        {
-          "name": "Sabato V",
-          "campbelltown": false
-        },
-        {
-          "name": "Sahiner UM",
-          "campbelltown": false
-        },
-        {
-          "name": "Saini S",
-          "campbelltown": false
-        },
-        {
-          "name": "Saleh Al Sabbagh F",
-          "campbelltown": false
-        },
-        {
-          "name": "Salman A",
-          "campbelltown": false
-        },
-        {
-          "name": "Salvo F",
-          "campbelltown": false
-        },
-        {
-          "name": "Sanchez J",
-          "campbelltown": false
-        },
-        {
-          "name": "Santucci A",
-          "campbelltown": false
-        },
-        {
-          "name": "Schliemann S",
-          "campbelltown": false
-        },
-        {
-          "name": "Schmid-Grendelmeier P",
-          "campbelltown": false
-        },
-        {
-          "name": "Sekerel BE",
-          "campbelltown": false
-        },
-        {
-          "name": "Serpa F",
-          "campbelltown": false
-        },
-        {
-          "name": "Sheikh F",
-          "campbelltown": false
-        },
-        {
-          "name": "Sheikh J",
-          "campbelltown": false
-        },
-        {
-          "name": "Shendi H",
-          "campbelltown": false
-        },
-        {
-          "name": "Siebenhaar F",
-          "campbelltown": false
-        },
-        {
-          "name": "Sonomjamts M",
-          "campbelltown": false
-        },
-        {
-          "name": "Soria A",
-          "campbelltown": false
-        },
-        {
-          "name": "Sousa Pinto B",
-          "campbelltown": false
-        },
-        {
-          "name": "Staevska M",
-          "campbelltown": false
-        },
-        {
-          "name": "Staubach P",
-          "campbelltown": false
-        },
-        {
-          "name": "Stephan M",
-          "campbelltown": false
-        },
-        {
-          "name": "Stevanovic K",
-          "campbelltown": false
-        },
-        {
-          "name": "Stingeni L",
-          "campbelltown": false
-        },
-        {
-          "name": "Stobiecki M",
-          "campbelltown": false
-        },
-        {
-          "name": "Su Küçük Ö",
-          "campbelltown": false
-        },
-        {
-          "name": "Sussman G",
-          "campbelltown": false
-        },
-        {
-          "name": "Szegedi A",
-          "campbelltown": false
-        },
-        {
-          "name": "Takahagi S",
-          "campbelltown": false
-        },
-        {
-          "name": "Tanaka A",
-          "campbelltown": false
-        },
-        {
-          "name": "Teovska Mitrevska N",
-          "campbelltown": false
-        },
-        {
-          "name": "Thomsen SF",
-          "campbelltown": false
-        },
-        {
-          "name": "Toubi E",
-          "campbelltown": false
-        },
-        {
-          "name": "Tsatsou F",
-          "campbelltown": false
-        },
-        {
-          "name": "Turk M",
-          "campbelltown": false
-        },
-        {
-          "name": "Vadasz Z",
-          "campbelltown": false
-        },
-        {
-          "name": "Valerieva A",
-          "campbelltown": false
-        },
-        {
-          "name": "Valle S",
-          "campbelltown": false
-        },
-        {
-          "name": "Doorn MV",
-          "campbelltown": false
-        },
-        {
-          "name": "Veleiro Perez B",
-          "campbelltown": false
-        },
-        {
-          "name": "Vera Ayala CE",
-          "campbelltown": false
-        },
-        {
-          "name": "Vestergaard C",
-          "campbelltown": false
-        },
-        {
-          "name": "Vieira RJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Maruta CW",
-          "campbelltown": false
-        },
-        {
-          "name": "Wedi B",
-          "campbelltown": false
-        },
-        {
-          "name": "Werner RN",
-          "campbelltown": false
-        },
-        {
-          "name": "Yap EWY",
-          "campbelltown": false
-        },
-        {
-          "name": "Xepapadaki P",
-          "campbelltown": false
-        },
-        {
-          "name": "Xiang Y",
-          "campbelltown": false
-        },
-        {
-          "name": "Ye YM",
-          "campbelltown": false
-        },
-        {
-          "name": "Yong P",
-          "campbelltown": false
-        },
-        {
-          "name": "Yosipovitch G",
-          "campbelltown": false
-        },
-        {
-          "name": "Zalewska-Janowska AZJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Zeyen C",
-          "campbelltown": false
-        },
-        {
-          "name": "Zhao Z",
-          "campbelltown": false
-        },
-        {
-          "name": "Metz M",
-          "campbelltown": false
-        },
-        {
-          "name": "Giménez-Arnau AM",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Immunology & Allergy Unit"
-      ],
-      "keywords": [
-        "angioedema",
-        "consensus",
-        "evidence‐based",
-        "hives",
-        "itch",
-        "mast cell",
-        "urticaria",
-        "wheals"
-      ],
-      "abstract": "This update and revision of the international guideline for urticaria was developed in accordance with the methods recommended by Cochrane and the Grading of Recommendations Assessment, Development and Evaluation (GRADE) working group. It is an initiative of the Global Allergy and Asthma Excellence Network (GA 2 LEN) and its Urticaria and Angioedema Centers of Reference and Excellence (UCAREs and ACAREs), with the participation of 210 delegates from 107 national and international societies, from 59 countries. The consensus conference was held on December 6th, 2024. This guideline was acknowledged and accepted by the European Union of Medical Specialists (UEMS). Urticaria is a frequent, mast cell-driven disease, defined by a rapid appearance of wheals, angioedema, or both. The lifetime prevalence of acute urticaria is estimated to be approximately 20%. Chronic urticaria, categorized as either chronic spontaneous urticaria or chronic inducible urticaria, is disabling, impairs quality of life, and affects performance at work and school, however, novel therapies are available. This updated version of the international guideline for urticaria covers the definition and classification of…"
-    },
-    {
       "pmid": "41634850",
       "doi": "10.1186/s40337-026-01529-6",
       "title": "A qualitative study of lived experience perspectives and experiences of eating disorder treatment with ANZAED Credentialed Eating Disorder Clinicians.",
@@ -5022,166 +5475,6 @@
       ],
       "keywords": [],
       "abstract": "BACKGROUND: Randomized studies have demonstrated superior overall survival (OS) of pembrolizumab (pembro), both alone and in combination with chemotherapy (chemo) over chemo alone in patients with programmed cell death ligand-1 (PD-L1) ≥ 50% advanced non-small cell lung cancer (NSCLC). We reviewed the real-world outcomes of patients who received pembro-chemo versus pembro only. METHODS: This Australian-based retrospective cohort study used data from patients with advanced NSCLC PD-L1 ≥ 50%, diagnosed between January 2016 and July 2021 and had received first-line pembro-chemo or pembro only. Patients with an EGFR/ALK/ROS1 sensitizing mutation were excluded. Cox proportional-hazards model and Kaplan-Meier methods were used to estimate OS and progression-free survival (PFS). RESULTS: Of 111 eligible patients, 25 received pembro-chemo and 86 received pembro only. After a median follow-up of 15.7 months, median (95% CI) OS was not reached in the pembro-chemo group versus 15.6 (9.5-21.7) months in the pembro-only group (HR 0.57, 95% CI 0.28-1.16, p = 0.12). Median PFS was 12.4 (6.5-18.3) versus 9.5 (6.3-12.6) months in pembro-chemo versus pembro-only groups, respectively (HR 0.62, 95%…"
-    },
-    {
-      "pmid": "41618059",
-      "doi": "10.1111/all.70207",
-      "title": "International Guideline on the Diagnosis and Management of Pediatric Patients With Hereditary Angioedema.",
-      "journal": "Allergy",
-      "journalAbbrev": "Allergy",
-      "year": 2026,
-      "month": 1,
-      "authors": [
-        {
-          "name": "Farkas H",
-          "campbelltown": false
-        },
-        {
-          "name": "Martinez-Saguer I",
-          "campbelltown": false
-        },
-        {
-          "name": "Bork K",
-          "campbelltown": false
-        },
-        {
-          "name": "Germenis AE",
-          "campbelltown": false
-        },
-        {
-          "name": "Grumach AS",
-          "campbelltown": false
-        },
-        {
-          "name": "Horváth HR",
-          "campbelltown": false
-        },
-        {
-          "name": "Luczay A",
-          "campbelltown": false
-        },
-        {
-          "name": "Zanichelli A",
-          "campbelltown": false
-        },
-        {
-          "name": "Magerl M",
-          "campbelltown": false
-        },
-        {
-          "name": "Betschel S",
-          "campbelltown": false
-        },
-        {
-          "name": "Aygören-Pürsün E",
-          "campbelltown": false
-        },
-        {
-          "name": "Bernstein JA",
-          "campbelltown": false
-        },
-        {
-          "name": "Boccon-Gibod I",
-          "campbelltown": false
-        },
-        {
-          "name": "Caballero T",
-          "campbelltown": false
-        },
-        {
-          "name": "Cancian M",
-          "campbelltown": false
-        },
-        {
-          "name": "Christiansen S",
-          "campbelltown": false
-        },
-        {
-          "name": "Cohn DM",
-          "campbelltown": false
-        },
-        {
-          "name": "Contreras F",
-          "campbelltown": false
-        },
-        {
-          "name": "Craig S",
-          "campbelltown": false
-        },
-        {
-          "name": "Isaic C",
-          "campbelltown": false
-        },
-        {
-          "name": "Jindal A",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Longhurst HJ",
-          "campbelltown": false
-        },
-        {
-          "name": "MacGinnitie A",
-          "campbelltown": false
-        },
-        {
-          "name": "Peter J",
-          "campbelltown": false
-        },
-        {
-          "name": "Porebski G",
-          "campbelltown": false
-        },
-        {
-          "name": "Reshef A",
-          "campbelltown": false
-        },
-        {
-          "name": "Van Nguyen D",
-          "campbelltown": false
-        },
-        {
-          "name": "Zuraw B",
-          "campbelltown": false
-        },
-        {
-          "name": "Castaldo AJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Boysen HB",
-          "campbelltown": false
-        },
-        {
-          "name": "Craig T",
-          "campbelltown": false
-        },
-        {
-          "name": "Hereditary Angioedema Working Group (HAWK Group)",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Immunology & Allergy Unit"
-      ],
-      "keywords": [
-        "C1 inhibitor deficiency",
-        "acute treatment",
-        "bradykinin",
-        "complement test",
-        "comprehensive care",
-        "genetic testing",
-        "hereditary angioedema",
-        "long‐term prophylaxis",
-        "pediatric guideline",
-        "short‐term prophylaxis"
-      ],
-      "abstract": "Hereditary angioedema (HAE) with C1 inhibitor deficiency is a rare disease characterized by unpredictable episodes of tissue swelling (angioedema), which, in most cases, occur first under the age of 18 years, and entail a significant burden of disease not only for the patients but also for their families. Clinical symptoms of HAE are not specific, which may cause difficulties in differential diagnosis. Additionally, if not appropriately treated, HAE attacks can be life-threatening. The international HAE guidelines published so far have focused mainly on adults. A guideline that refers to the age-specific characteristics of pediatric patients, both in terms of diagnosis and management, was therefore needed. The International Steering Committee and Taskforce developed recommendations and provided evidence-based grading based on expert opinion and strength of evidence. Recommendations were presented to, discussed, and electronically voted by healthcare professionals during the 14th C1 Inhibitor Deficiency and Angioedema Workshop in Budapest, Hungary, 2025. This international guideline will ensure early diagnosis, standardized and up-to-date treatment, and promote the availability of…"
     },
     {
       "pmid": "41261563",

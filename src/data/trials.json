@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T23:22:49.165Z",
+  "generated": "2026-08-14T23:10:51.696Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -13,7 +13,7 @@
       "facility": "Campbelltown Hospital",
       "url": "https://clinicaltrials.gov/study/NCT05920356",
       "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-08-06"
+      "lastUpdate": "2026-08-13"
     },
     {
       "nctId": "NCT05945537",
@@ -109,6 +109,19 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT06326047",
+      "title": "A Research Study Comparing How Well Different Doses of the Medicine NN0519-0130 Lower Blood Sugar in People With Type 2 Diabetes",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06326047",
+      "briefSummary": "This study will look at how well a new medicine called NNC0519-0130 helps people with type 2 diabetes lower their blood sugar and body weight. The study will test up to 7 different doses of NNC0519-0130. Which treatment participant will get is decided by chance. Participants will take 1-3 injections once a week. The study medicine will be injected under skin with a thin needle in the stomach, thigh, or upper arm. The study will last for about 40 weeks.",
+      "lastUpdate": "2026-08-13"
     },
     {
       "nctId": "NCT06459180",
