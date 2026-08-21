@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T23:10:51.696Z",
+  "generated": "2026-08-21T23:12:38.322Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -13,7 +13,20 @@
       "facility": "Campbelltown Hospital",
       "url": "https://clinicaltrials.gov/study/NCT05920356",
       "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-08-13"
+      "lastUpdate": "2026-08-21"
+    },
+    {
+      "nctId": "NCT07361302",
+      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07361302",
+      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
+      "lastUpdate": "2026-08-20"
     },
     {
       "nctId": "NCT05945537",
@@ -42,19 +55,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06771050",
       "briefSummary": "Artificial joint infections are treated with different types of antibiotics and surgery. The ROADMAP study aims to find out which treatments currently used work best in regards to surgery, antibiotic choice as well as the time taking antibiotics. The study will compare different treatments against each other to see which treatment or treatment combination works to provide the best outcome and cure at 12 months. The study will focus on adults with infected artificial hips and knees. ROADMAP trial looks at normal good clinical care and does not ask any person taking part in the study to have…",
       "lastUpdate": "2026-07-27"
-    },
-    {
-      "nctId": "NCT07361302",
-      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Acute Ischemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT07361302",
-      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
-      "lastUpdate": "2026-07-23"
     },
     {
       "nctId": "NCT06758401",
