@@ -9,8 +9,8 @@ backend:
   # TODO: replace with the real "org/repo" once the GitHub organisation from DECISIONS.md D8
   # has been created and this repository has migrated into it. Until that happens this admin
   # screen will fail to authenticate against the placeholder repo below.
-  repo: PLACEHOLDER-ORG/CTN_Research_Website
-  branch: main
+  repo: MINDS-Medical-Intelligence-Innovation/CTN_Research_Website
+  branch: claude/campbelltown-hospital-research-site-nrs4mq
 
 # Uploaded images/files land in public/uploads and are served from /uploads.
 media_folder: public/uploads
