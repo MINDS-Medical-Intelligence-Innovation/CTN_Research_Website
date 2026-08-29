@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T23:12:37.570Z",
+  "generated": "2026-08-29T03:56:54.965Z",
   "source": "pubmed",
   "items": [
     {
@@ -1838,6 +1838,89 @@
         "surgical oncology"
       ],
       "abstract": "OBJECTIVE: To leverage the Treatment of Recurrent and Advanced Colorectal Cancer (TRACC) registry (an Australian cancer database) to explore the ideal timing and sequence of therapies and the factors influencing these decisions in colorectal cancer (CRC) patients with liver-only metastases to inform contemporary decision-making and future trials. STUDY TYPE: Retrospective registry-based cohort study using the TRACC registry. SETTING AND PARTICIPANTS: Consecutive patients with liver-only metastatic CRC enrolled in the TRACC registry. MAIN OUTCOME MEASURES: To explore cancer biology, intended treatment at presentation, actual treatment received and the resultant outcomes for early-onset CRC (EOCRC) (≤ 50 years) and late-onset CRC (LOCRC) (> 50 years) patients with liver-only metastases from a real-world perspective. RESULTS: Between 14 January 2009 and 2 September 2024, 1691 patients with liver-only metastatic CRC were enrolled in TRACC. These included 276 EOCRC patients (16.3%) and 1415 LOCRC patients (83.7%). In the EOCRC subset, there were more females (48.2% vs. 34.5%, p < 0.001), less comorbidity (Charlson comorbidity index score 0, 90% vs. 59%, p < 0.001), more left-sided…"
+    },
+    {
+      "pmid": "42629959",
+      "doi": "10.1111/ajco.70164",
+      "title": "Impact of Immunotherapy Prescribing Restrictions on Time to Systemic Therapy and Outcomes in Metastatic Clear Cell Renal Carcinoma in Australia.",
+      "journal": "Asia-Pacific journal of clinical oncology",
+      "journalAbbrev": "Asia Pac J Clin Oncol",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Jude E",
+          "campbelltown": false
+        },
+        {
+          "name": "Liow E",
+          "campbelltown": false
+        },
+        {
+          "name": "Shapiro J",
+          "campbelltown": false
+        },
+        {
+          "name": "Azad AA",
+          "campbelltown": false
+        },
+        {
+          "name": "Crumbaker M",
+          "campbelltown": false
+        },
+        {
+          "name": "Pranavan G",
+          "campbelltown": false
+        },
+        {
+          "name": "Hocking C",
+          "campbelltown": false
+        },
+        {
+          "name": "Roncolato F",
+          "campbelltown": true
+        },
+        {
+          "name": "Smith A",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong S",
+          "campbelltown": false
+        },
+        {
+          "name": "Anton A",
+          "campbelltown": false
+        },
+        {
+          "name": "Johns J",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibbs P",
+          "campbelltown": false
+        },
+        {
+          "name": "Tran B",
+          "campbelltown": false
+        },
+        {
+          "name": "Weickhardt A",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Macarthur Cancer Therapy Centre"
+      ],
+      "keywords": [
+        "Australia",
+        "IMDC",
+        "PBS",
+        "immunotherapy",
+        "mccRCC"
+      ],
+      "abstract": "INTRODUCTION: Combination immunotherapy (Ipi/Nivo) was approved in Australia in 2019 for metastatic clear cell kidney cancer (mccRCC) patients with International Metastatic Database Consortium (IMDC) intermediate and poor-risk. Although selected patients can safely delay treatment due to indolent disease, delaying treatment beyond 1 year in patients without other IMDC risk factors classifies them as favorable risk and prevents access to Ipi/Nivo. This study investigated the impact of Ipi/Nivo approval on timing of treatment initiation and outcomes. METHODS: Multicenter retrospective cohort study analyzing real-world data from the Kidney canceR Australian registry and Biobank (KRAB) was used to identify patients > 18 years with mccRCC who received systemic therapy. Patient demographics, time to systemic therapy (TTST) from diagnosis of metastatic disease, and outcomes were compared for patients diagnosed with metastatic disease before and from January 2019. RESULTS: A total of 494 patients met study criteria. The 256 patients diagnosed from 2019 had a significant decrease in both mean TTST (3.9 months from 15.3 months) and proportion with TTST ≥ 1 year (8.2% from 27.7%). More…"
     },
     {
       "pmid": "41921037",
