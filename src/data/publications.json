@@ -1,7 +1,86 @@
 {
-  "generated": "2026-08-29T03:56:54.965Z",
+  "generated": "2026-09-05T00:27:21.280Z",
   "source": "pubmed",
   "items": [
+    {
+      "pmid": "42622212",
+      "doi": "10.1161/JAHA.125.045588",
+      "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
+      "journal": "Journal of the American Heart Association",
+      "journalAbbrev": "J Am Heart Assoc",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Kaffes M",
+          "campbelltown": false
+        },
+        {
+          "name": "Damian M",
+          "campbelltown": false
+        },
+        {
+          "name": "Davis SM",
+          "campbelltown": false
+        },
+        {
+          "name": "Donnan GA",
+          "campbelltown": false
+        },
+        {
+          "name": "Santos AD",
+          "campbelltown": true
+        },
+        {
+          "name": "Ertl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Meisel C",
+          "campbelltown": false
+        },
+        {
+          "name": "Montaner J",
+          "campbelltown": false
+        },
+        {
+          "name": "Ranta A",
+          "campbelltown": false
+        },
+        {
+          "name": "Savitz SI",
+          "campbelltown": false
+        },
+        {
+          "name": "Schmitz C",
+          "campbelltown": false
+        },
+        {
+          "name": "Sergot P",
+          "campbelltown": false
+        },
+        {
+          "name": "Turc G",
+          "campbelltown": false
+        },
+        {
+          "name": "Audebert HJ",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "artificial intelligence",
+        "diagnosis",
+        "prehospital",
+        "stroke",
+        "technology",
+        "telemedicine",
+        "ultrasound"
+      ],
+      "abstract": "Effects of stroke therapies area highly time dependent but onset-to-treatment times for recanalizing treatment are mostly beyond optimal time windows. Mobile stroke units shorten time to treatment and improve functional outcome. However, costs and logistical demands preclude their widespread use. There is a pressing need for alternative prehospital diagnostic tools that enable early, on-site treatment and facilitate targeted transport in patients needing interventional therapies. This systematic review aimed at examining the current landscape of noncomputed tomography-based technologies for prehospital stroke diagnosis. We conducted a literature search of original research papers on predetermined technologies and through systematic scouting on PubMed and included papers in English found through MEDLINE and Embase, published until October 2025. Relevant papers not identified by the systematic search but known to the authors were included and indicated as such. The final review included 105 publications evaluating innovations in microwave, transcranial eddy current damping, volumetric impedance phase shift spectroscopy, ultrasound, magnetic resonance imaging, electroencephalography,…"
+    },
     {
       "pmid": "42201836",
       "doi": "10.2337/dc26-0470",
@@ -1650,85 +1729,6 @@
         "immunoglobulin G4"
       ],
       "abstract": "BACKGROUND: Coronary artery aneurysm is a rare but well recognized manifestation of immunoglobulin G4 (IgG4)-related disease, with a paucity of data to guide its management. CASE SUMMARY: A 62-year-old man with known IgG4-related disease diagnosed 2 years prior presented for routine clinic follow-up. Despite being asymptomatic and remaining in serologic remission, imaging demonstrated marked progression of a large right coronary artery aneurysm measuring 62 mm × 72 mm. Given prohibitive operative risks, immunosuppressive therapy was intensified with close imaging follow-up. DISCUSSION: Published experience with IgG4-related coronary artery aneurysm is limited to small case series, with highly variable management strategies and outcomes. To the authors' knowledge, this case represents the largest conservatively managed IgG4-related coronary aneurysm reported. TAKE HOME MESSAGES: IgG4-related coronary aneurysms may progress silently with disassociation between serologic remission and disease progression on imaging. Multidisciplinary decision-making is critical to optimize outcomes in this high-risk condition, particularly with regard to the surveillance strategy in patients who…"
-    },
-    {
-      "pmid": "42622212",
-      "doi": "10.1161/JAHA.125.045588",
-      "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
-      "journal": "Journal of the American Heart Association",
-      "journalAbbrev": "J Am Heart Assoc",
-      "year": 2026,
-      "month": 8,
-      "authors": [
-        {
-          "name": "Kaffes M",
-          "campbelltown": false
-        },
-        {
-          "name": "Damian M",
-          "campbelltown": false
-        },
-        {
-          "name": "Davis SM",
-          "campbelltown": false
-        },
-        {
-          "name": "Donnan GA",
-          "campbelltown": false
-        },
-        {
-          "name": "Santos AD",
-          "campbelltown": true
-        },
-        {
-          "name": "Ertl M",
-          "campbelltown": false
-        },
-        {
-          "name": "Meisel C",
-          "campbelltown": false
-        },
-        {
-          "name": "Montaner J",
-          "campbelltown": false
-        },
-        {
-          "name": "Ranta A",
-          "campbelltown": false
-        },
-        {
-          "name": "Savitz SI",
-          "campbelltown": false
-        },
-        {
-          "name": "Schmitz C",
-          "campbelltown": false
-        },
-        {
-          "name": "Sergot P",
-          "campbelltown": false
-        },
-        {
-          "name": "Turc G",
-          "campbelltown": false
-        },
-        {
-          "name": "Audebert HJ",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "artificial intelligence",
-        "diagnosis",
-        "prehospital",
-        "stroke",
-        "technology",
-        "telemedicine",
-        "ultrasound"
-      ],
-      "abstract": "Effects of stroke therapies area highly time dependent but onset-to-treatment times for recanalizing treatment are mostly beyond optimal time windows. Mobile stroke units shorten time to treatment and improve functional outcome. However, costs and logistical demands preclude their widespread use. There is a pressing need for alternative prehospital diagnostic tools that enable early, on-site treatment and facilitate targeted transport in patients needing interventional therapies. This systematic review aimed at examining the current landscape of noncomputed tomography-based technologies for prehospital stroke diagnosis. We conducted a literature search of original research papers on predetermined technologies and through systematic scouting on PubMed and included papers in English found through MEDLINE and Embase, published until October 2025. Relevant papers not identified by the systematic search but known to the authors were included and indicated as such. The final review included 105 publications evaluating innovations in microwave, transcranial eddy current damping, volumetric impedance phase shift spectroscopy, ultrasound, magnetic resonance imaging, electroencephalography,…"
     },
     {
       "pmid": "42613959",

@@ -1,7 +1,33 @@
 {
-  "generated": "2026-08-29T03:56:55.819Z",
+  "generated": "2026-09-05T00:27:22.262Z",
   "source": "clinicaltrials.gov",
   "items": [
+    {
+      "nctId": "NCT07361302",
+      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07361302",
+      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
+      "lastUpdate": "2026-09-01"
+    },
+    {
+      "nctId": "NCT05646862",
+      "title": "A Study Evaluating the Efficacy and Safety of Inavolisib Plus Fulvestrant Compared With Alpelisib Plus Fulvestrant in Participants With HR-Positive, HER2-Negative, PIK3CA Mutated, Locally Advanced or Metastatic Breast Cancer Post CDK4/6i and Endocrine Combination Therapy",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05646862",
+      "briefSummary": "This is a Phase III, multicenter, randomized, open-label, global study designed to evaluate the efficacy and safety of inavolisib plus fulvestrant compared with alpelisib plus fulvestrant in patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2) -negative, PIK3CA-mutated, locally advanced (LA) or metastatic breast cancer (mBC), who progressed during or after cyclin dependent kinase 4/6i (CDK4/6i)-based therapy. Enrollment for the main study is now complete.",
+      "lastUpdate": "2026-09-01"
+    },
     {
       "nctId": "NCT05920356",
       "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
@@ -14,19 +40,6 @@
       "url": "https://clinicaltrials.gov/study/NCT05920356",
       "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
       "lastUpdate": "2026-08-27"
-    },
-    {
-      "nctId": "NCT07361302",
-      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Acute Ischemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT07361302",
-      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
-      "lastUpdate": "2026-08-20"
     },
     {
       "nctId": "NCT05945537",
@@ -109,6 +122,19 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT03057106",
+      "title": "Durvalumab and Tremelimumab ± Platinum-Based Chemotherapy in Patients With Metastatic Squamous or Non-Squamous NSCLC",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "conditions": [
+        "Lung Cancer Metastatic"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT03057106",
+      "briefSummary": "Durvalumab is a new type of drug for many kinds of cancer. It is considered \"immunotherapy\" and not \"chemotherapy\". Laboratory tests show that it works by allowing the immune system to detect cancer and reactivate the immune response. This may help to slow down the growth of cancer or may cause cancer cells to die. Durvalumab has been shown to shrink tumours in animals and has been studied in more than 5000 people and seems promising. Tremelimumab is a new type of drug for various types of cancers. It works in a similar way to durvalumab and may improve the effect of durvalumab. Tremelimumab…",
+      "lastUpdate": "2026-09-01"
     },
     {
       "nctId": "NCT06459180",
@@ -351,19 +377,6 @@
       "url": "https://clinicaltrials.gov/study/NCT05574010",
       "briefSummary": "This study is to evaluate the Pharmacodynamic (PD), safety, tolerability, Pharmacokinetic (PK), and plasma biomarker response of KAN-101 in participants with Celiac Disease (CeD).",
       "lastUpdate": "2026-03-10"
-    },
-    {
-      "nctId": "NCT03057106",
-      "title": "Durvalumab and Tremelimumab ± Platinum-Based Chemotherapy in Patients With Metastatic Squamous or Non-Squamous NSCLC",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE2",
-      "conditions": [
-        "Lung Cancer Metastatic"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT03057106",
-      "briefSummary": "Durvalumab is a new type of drug for many kinds of cancer. It is considered \"immunotherapy\" and not \"chemotherapy\". Laboratory tests show that it works by allowing the immune system to detect cancer and reactivate the immune response. This may help to slow down the growth of cancer or may cause cancer cells to die. Durvalumab has been shown to shrink tumours in animals and has been studied in more than 5000 people and seems promising. Tremelimumab is a new type of drug for various types of cancers. It works in a similar way to durvalumab and may improve the effect of durvalumab. Tremelimumab…",
-      "lastUpdate": "2026-03-03"
     },
     {
       "nctId": "NCT00066703",
