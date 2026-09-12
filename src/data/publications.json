@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T00:27:21.280Z",
+  "generated": "2026-09-12T00:45:33.753Z",
   "source": "pubmed",
   "items": [
     {
@@ -80,6 +80,203 @@
         "ultrasound"
       ],
       "abstract": "Effects of stroke therapies area highly time dependent but onset-to-treatment times for recanalizing treatment are mostly beyond optimal time windows. Mobile stroke units shorten time to treatment and improve functional outcome. However, costs and logistical demands preclude their widespread use. There is a pressing need for alternative prehospital diagnostic tools that enable early, on-site treatment and facilitate targeted transport in patients needing interventional therapies. This systematic review aimed at examining the current landscape of noncomputed tomography-based technologies for prehospital stroke diagnosis. We conducted a literature search of original research papers on predetermined technologies and through systematic scouting on PubMed and included papers in English found through MEDLINE and Embase, published until October 2025. Relevant papers not identified by the systematic search but known to the authors were included and indicated as such. The final review included 105 publications evaluating innovations in microwave, transcranial eddy current damping, volumetric impedance phase shift spectroscopy, ultrasound, magnetic resonance imaging, electroencephalography,…"
+    },
+    {
+      "pmid": "42714881",
+      "doi": "10.1001/jama.2026.14201",
+      "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
+      "journal": "JAMA",
+      "journalAbbrev": "JAMA",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Peart SR",
+          "campbelltown": false
+        },
+        {
+          "name": "Manley BJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Cheong JLY",
+          "campbelltown": false
+        },
+        {
+          "name": "Oei JL",
+          "campbelltown": false
+        },
+        {
+          "name": "Grobler AC",
+          "campbelltown": false
+        },
+        {
+          "name": "Moore CL",
+          "campbelltown": false
+        },
+        {
+          "name": "Allen RL",
+          "campbelltown": false
+        },
+        {
+          "name": "Alda MG",
+          "campbelltown": false
+        },
+        {
+          "name": "Bell G",
+          "campbelltown": false
+        },
+        {
+          "name": "Bhola K",
+          "campbelltown": false
+        },
+        {
+          "name": "Carman K",
+          "campbelltown": false
+        },
+        {
+          "name": "de Waal K",
+          "campbelltown": false
+        },
+        {
+          "name": "Dombagahawaththage CAN",
+          "campbelltown": false
+        },
+        {
+          "name": "Fan WQ",
+          "campbelltown": false
+        },
+        {
+          "name": "Fang AYW",
+          "campbelltown": false
+        },
+        {
+          "name": "Goyadi PK",
+          "campbelltown": false
+        },
+        {
+          "name": "Houghton KA",
+          "campbelltown": false
+        },
+        {
+          "name": "Jain KF",
+          "campbelltown": true
+        },
+        {
+          "name": "John J",
+          "campbelltown": false
+        },
+        {
+          "name": "Joshi D",
+          "campbelltown": false
+        },
+        {
+          "name": "Kunjunju A",
+          "campbelltown": false
+        },
+        {
+          "name": "Marshall IR",
+          "campbelltown": false
+        },
+        {
+          "name": "Mills JF",
+          "campbelltown": false
+        },
+        {
+          "name": "Nichol J",
+          "campbelltown": false
+        },
+        {
+          "name": "Parkhurst K",
+          "campbelltown": false
+        },
+        {
+          "name": "Priyadarshi A",
+          "campbelltown": false
+        },
+        {
+          "name": "Roberts CT",
+          "campbelltown": false
+        },
+        {
+          "name": "Thomas N",
+          "campbelltown": false
+        },
+        {
+          "name": "Tickell DJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Walsh T",
+          "campbelltown": false
+        },
+        {
+          "name": "Yates KM",
+          "campbelltown": false
+        },
+        {
+          "name": "Ziffer J",
+          "campbelltown": false
+        },
+        {
+          "name": "Davis PG",
+          "campbelltown": false
+        },
+        {
+          "name": "Owen LS",
+          "campbelltown": false
+        },
+        {
+          "name": "AIROPLANE Trial Investigators and the IMPACT Clinical Trials Network for Mothers’ and Babies’ Health",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown. OBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21. DESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025. INTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period. MAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the…"
+    },
+    {
+      "pmid": "42701933",
+      "doi": "10.1007/s12328-026-02446-6",
+      "title": "Flucytosine-induced colitis mimicking a flare of ulcerative colitis: a diagnostic challenge in pulmonary cryptococcal infection.",
+      "journal": "Clinical journal of gastroenterology",
+      "journalAbbrev": "Clin J Gastroenterol",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Jia K",
+          "campbelltown": true
+        },
+        {
+          "name": "O'Neill R",
+          "campbelltown": true
+        },
+        {
+          "name": "Lee C",
+          "campbelltown": true
+        },
+        {
+          "name": "Lin Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Verdon C",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Gastroenterology and Hepatology"
+      ],
+      "keywords": [
+        "Drug-induced colitis",
+        "Flucytosine",
+        "Inflammatory bowel disease",
+        "Ulcerative colitis"
+      ],
+      "abstract": "Flucytosine-induced colitis is exceedingly rare with very few cases reported in the literature. We present a case of a 56-year-old male with history of ulcerative colitis and seronegative spondyloarthropathy who developed abdominal pain, diarrhoea and rectal bleeding following commencement of flucytosine and amphotericin B for cryptococcal empyema. The clinical features and biochemistry initially raised concern for an ulcerative colitis flare. Histopathology demonstrated features of an acute colitis. Subsequent cessation of flucytosine without alteration to management of his underlying ulcerative colitis led to a rapid and complete resolution of symptoms, supporting a diagnosis of flucytosine-induced colitis. This case highlights the importance of considering a drug-induced colitis in patients with inflammatory bowel disease presenting with new or worsening gastrointestinal symptoms. Accurate differentiation from disease flare is essential to avoid unnecessary changes or escalation in immunosuppressive therapy."
     },
     {
       "pmid": "42201836",
@@ -1921,6 +2118,103 @@
         "mccRCC"
       ],
       "abstract": "INTRODUCTION: Combination immunotherapy (Ipi/Nivo) was approved in Australia in 2019 for metastatic clear cell kidney cancer (mccRCC) patients with International Metastatic Database Consortium (IMDC) intermediate and poor-risk. Although selected patients can safely delay treatment due to indolent disease, delaying treatment beyond 1 year in patients without other IMDC risk factors classifies them as favorable risk and prevents access to Ipi/Nivo. This study investigated the impact of Ipi/Nivo approval on timing of treatment initiation and outcomes. METHODS: Multicenter retrospective cohort study analyzing real-world data from the Kidney canceR Australian registry and Biobank (KRAB) was used to identify patients > 18 years with mccRCC who received systemic therapy. Patient demographics, time to systemic therapy (TTST) from diagnosis of metastatic disease, and outcomes were compared for patients diagnosed with metastatic disease before and from January 2019. RESULTS: A total of 494 patients met study criteria. The 256 patients diagnosed from 2019 had a significant decrease in both mean TTST (3.9 months from 15.3 months) and proportion with TTST ≥ 1 year (8.2% from 27.7%). More…"
+    },
+    {
+      "pmid": "42697811",
+      "doi": "10.1016/j.sapharm.2026.08.007",
+      "title": "A formative evaluation of the implementation of a medication management transition of care stewardship service for patients discharged from rural and remote hospitals: A qualitative study of clinicians and patients.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "journalAbbrev": "Res Social Adm Pharm",
+      "year": 2026,
+      "month": 8,
+      "authors": [
+        {
+          "name": "Herath S",
+          "campbelltown": false
+        },
+        {
+          "name": "Haque B",
+          "campbelltown": false
+        },
+        {
+          "name": "Yeung K",
+          "campbelltown": false
+        },
+        {
+          "name": "Jauregui K",
+          "campbelltown": true
+        },
+        {
+          "name": "Chambers B",
+          "campbelltown": false
+        },
+        {
+          "name": "Krogh L",
+          "campbelltown": false
+        },
+        {
+          "name": "Angley M",
+          "campbelltown": false
+        },
+        {
+          "name": "Carter S",
+          "campbelltown": false
+        },
+        {
+          "name": "Elliott R",
+          "campbelltown": false
+        },
+        {
+          "name": "Emadi F",
+          "campbelltown": false
+        },
+        {
+          "name": "Hawthorne D",
+          "campbelltown": false
+        },
+        {
+          "name": "McMillan F",
+          "campbelltown": false
+        },
+        {
+          "name": "Moles R",
+          "campbelltown": false
+        },
+        {
+          "name": "Rigby D",
+          "campbelltown": false
+        },
+        {
+          "name": "Sanfilippo F",
+          "campbelltown": false
+        },
+        {
+          "name": "Yates P",
+          "campbelltown": false
+        },
+        {
+          "name": "Yik J",
+          "campbelltown": false
+        },
+        {
+          "name": "Penm J",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Pharmacy"
+      ],
+      "keywords": [
+        "Home medicines review",
+        "Hospital pharmacy",
+        "Pharmacy practice",
+        "Qualitative research",
+        "Rural and regional healthcare",
+        "Telehealth",
+        "Virtual pharmacy"
+      ],
+      "abstract": "BACKGROUND: The transition of care from the hospital to the home is a period of high risk for medication-related errors. This risk is further increased in hospitals in rural and regional areas, which face unique challenges such as geographical isolation and limited access to healthcare and healthcare providers. AIM: To explore the formative perspectives of key stakeholders towards the implementation of a virtual Transitions of Care Stewardship (TOCS) service to improve medication management upon discharge from rural and regional hospitals, including facilitating a home medicines review (HMR). METHOD: An interview guide was developed using the updated Consolidated Framework for Implementation Research. Key stakeholders were identified through professional networks and local healthcare providers and approached to participate. Semi-structured interviews were conducted in person or virtually (videoconference or teleconference) with patients, pharmacists, medical practitioners, nurses and allied health professionals between August and September 2024. Interviews were audio-recorded, transcribed verbatim, and continued until data saturation was reached. Data analysis was conducted using…"
     },
     {
       "pmid": "41921037",

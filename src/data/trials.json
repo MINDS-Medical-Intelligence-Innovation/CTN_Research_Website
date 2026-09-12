@@ -1,7 +1,33 @@
 {
-  "generated": "2026-09-05T00:27:22.262Z",
+  "generated": "2026-09-12T00:45:34.330Z",
   "source": "clinicaltrials.gov",
   "items": [
+    {
+      "nctId": "NCT05920356",
+      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Non-Small Cell Lung Cancer (NSCLC)"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05920356",
+      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
+      "lastUpdate": "2026-09-11"
+    },
+    {
+      "nctId": "NCT05633654",
+      "title": "Study of Sacituzumab Govitecan-hziy and Pembrolizumab Versus Treatment of Physician's Choice in Patients With Triple Negative Breast Cancer Who Have Residual Invasive Disease After Surgery and Neoadjuvant Therapy (ASCENT-05/AFT-65 OptimICE-RD/GBG 119/NSABP B-63)",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Triple Negative Breast Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05633654",
+      "briefSummary": "The goal of this study is to find out if the experimental product, sacituzumab govitecan-hziy (SG) in combination with pembrolizumab given after surgery, is effective and safe compared to the treatment of physician's choice (TPC) which includes either pembrolizumab or pembrolizumab plus capecitabine in participants with triple negative breast cancer that still remains after surgery and pre-surgical treatment.",
+      "lastUpdate": "2026-09-09"
+    },
     {
       "nctId": "NCT07361302",
       "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
@@ -27,19 +53,6 @@
       "url": "https://clinicaltrials.gov/study/NCT05646862",
       "briefSummary": "This is a Phase III, multicenter, randomized, open-label, global study designed to evaluate the efficacy and safety of inavolisib plus fulvestrant compared with alpelisib plus fulvestrant in patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2) -negative, PIK3CA-mutated, locally advanced (LA) or metastatic breast cancer (mBC), who progressed during or after cyclin dependent kinase 4/6i (CDK4/6i)-based therapy. Enrollment for the main study is now complete.",
       "lastUpdate": "2026-09-01"
-    },
-    {
-      "nctId": "NCT05920356",
-      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer (NSCLC)"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05920356",
-      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-08-27"
     },
     {
       "nctId": "NCT05945537",
@@ -85,19 +98,6 @@
       "lastUpdate": "2026-07-22"
     },
     {
-      "nctId": "NCT05633654",
-      "title": "Study of Sacituzumab Govitecan-hziy and Pembrolizumab Versus Treatment of Physician's Choice in Patients With Triple Negative Breast Cancer Who Have Residual Invasive Disease After Surgery and Neoadjuvant Therapy (ASCENT-05/AFT-65 OptimICE-RD/GBG 119/NSABP B-63)",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Triple Negative Breast Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05633654",
-      "briefSummary": "The goal of this study is to find out if the experimental product, sacituzumab govitecan-hziy (SG) in combination with pembrolizumab given after surgery, is effective and safe compared to the treatment of physician's choice (TPC) which includes either pembrolizumab or pembrolizumab plus capecitabine in participants with triple negative breast cancer that still remains after surgery and pre-surgical treatment.",
-      "lastUpdate": "2026-07-15"
-    },
-    {
       "nctId": "NCT06310356",
       "title": "Continuous Glucose Monitoring for Women With Gestational Diabetes",
       "status": "RECRUITING",
@@ -122,6 +122,19 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT04624204",
+      "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Small Cell Lung Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT04624204",
+      "briefSummary": "Researchers are looking for new ways to treat Limited-Stage Small Cell Lung Cancer (LS-SCLC), a type of lung cancer that has not spread from the lung to other parts of the body. The purpose of this study is to learn if pembrolizumab and olaparib, when given with chemotherapy and radiation treatment (CRT), can be effective in treating LS-SCLC. The researchers want to know if participants who receive CRT and pembrolizumab, with or without olaparib, have a longer overall survival compared to participants who only receive CRT.",
+      "lastUpdate": "2026-09-10"
     },
     {
       "nctId": "NCT03057106",
@@ -279,19 +292,6 @@
       "url": "https://clinicaltrials.gov/study/NCT04739059",
       "briefSummary": "This phase 3b study will evaluate long-term safety and efficacy of CSL312 (also known as garadacimab) when administered subcutaneously (SC)",
       "lastUpdate": "2026-06-02"
-    },
-    {
-      "nctId": "NCT04624204",
-      "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Small Cell Lung Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT04624204",
-      "briefSummary": "Researchers are looking for new ways to treat Limited-Stage Small Cell Lung Cancer (LS-SCLC), a type of lung cancer that has not spread from the lung to other parts of the body. The purpose of this study is to learn if pembrolizumab and olaparib, when given with chemotherapy and radiation treatment (CRT), can be effective in treating LS-SCLC. The researchers want to know if participants who receive CRT and pembrolizumab, with or without olaparib, have a longer overall survival compared to participants who only receive CRT.",
-      "lastUpdate": "2026-05-26"
     },
     {
       "nctId": "NCT04136353",
