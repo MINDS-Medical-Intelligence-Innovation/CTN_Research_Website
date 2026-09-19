@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T00:45:33.753Z",
+  "generated": "2026-09-19T00:44:10.617Z",
   "source": "pubmed",
   "items": [
     {
@@ -277,6 +277,245 @@
         "Ulcerative colitis"
       ],
       "abstract": "Flucytosine-induced colitis is exceedingly rare with very few cases reported in the literature. We present a case of a 56-year-old male with history of ulcerative colitis and seronegative spondyloarthropathy who developed abdominal pain, diarrhoea and rectal bleeding following commencement of flucytosine and amphotericin B for cryptococcal empyema. The clinical features and biochemistry initially raised concern for an ulcerative colitis flare. Histopathology demonstrated features of an acute colitis. Subsequent cessation of flucytosine without alteration to management of his underlying ulcerative colitis led to a rapid and complete resolution of symptoms, supporting a diagnosis of flucytosine-induced colitis. This case highlights the importance of considering a drug-induced colitis in patients with inflammatory bowel disease presenting with new or worsening gastrointestinal symptoms. Accurate differentiation from disease flare is essential to avoid unnecessary changes or escalation in immunosuppressive therapy."
+    },
+    {
+      "pmid": "41183246",
+      "doi": "10.1200/OP-25-00412",
+      "title": "Assessing Patient-Reported Financial, Social, and Time Toxicity in Early-Phase Cancer Clinical Trials in Australia Through a Prospective Multicenter Nonrandomized Cohort Study.",
+      "journal": "JCO oncology practice",
+      "journalAbbrev": "JCO Oncol Pract",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Nindra U",
+          "campbelltown": false
+        },
+        {
+          "name": "Tang J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hong JH",
+          "campbelltown": false
+        },
+        {
+          "name": "Descallar J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hong M",
+          "campbelltown": false
+        },
+        {
+          "name": "Killen A",
+          "campbelltown": false
+        },
+        {
+          "name": "Dubey P",
+          "campbelltown": false
+        },
+        {
+          "name": "Attaullah J",
+          "campbelltown": false
+        },
+        {
+          "name": "Scott G",
+          "campbelltown": false
+        },
+        {
+          "name": "Cooper A",
+          "campbelltown": false
+        },
+        {
+          "name": "Wilkinson K",
+          "campbelltown": false
+        },
+        {
+          "name": "Pal A",
+          "campbelltown": false
+        },
+        {
+          "name": "Teng C",
+          "campbelltown": false
+        },
+        {
+          "name": "Roohullah A",
+          "campbelltown": true
+        },
+        {
+          "name": "Wei J",
+          "campbelltown": false
+        },
+        {
+          "name": "Ng W",
+          "campbelltown": false
+        },
+        {
+          "name": "Lemech C",
+          "campbelltown": false
+        },
+        {
+          "name": "Chua W",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medical Oncology"
+      ],
+      "keywords": [],
+      "abstract": "PURPOSE: Early-phase clinical trials (EP-CTs) provide access to novel therapeutics for patients with limited standard treatment options. Beyond drug-related risks, participants may experience hidden toxicities, including time, financial, and social burdens that often go unmeasured. METHODS: The Patient Experience in Early-Phase Cancer Clinical Trials (PEARLER) study aimed to assess time, financial, and social toxicity (ST) in a prospective, multicenter cohort. Participants completed a time toxicity (TT) survey and the European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire C30 on day 1 of cycles 1-6. Financial toxicity (FT) was assessed using the EORTC scoring manual; ST was evaluated using the social and role functioning domains. Multilevel models examined trends over time. RESULTS: A total of 122 participants (median age 62 years, range, 25-83) were enrolled. Median objective TT was 26%. Only 16% (20/122) reported subjective TT, most commonly during cycles 1-2 (85%). FT was reported by 44% (54/122), but did not significantly change over time ( P = .136). Although 71% (87/122) reported some reduction in social function, social functioning…"
+    },
+    {
+      "pmid": "42754149",
+      "doi": "10.1016/j.jaip.2026.08.044",
+      "title": "An Oral Food Challenge Is Required for Accurate Diagnosis of Peanut Allergy in Infants Prior to Oral Immunotherapy: Evaluation of the Allergy Development to an Accelerated Pathway to Tolerance Peanut Oral Immunotherapy Program.",
+      "journal": "The journal of allergy and clinical immunology. In practice",
+      "journalAbbrev": "J Allergy Clin Immunol Pract",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Brettig TW",
+          "campbelltown": false
+        },
+        {
+          "name": "McDonald E",
+          "campbelltown": false
+        },
+        {
+          "name": "West D",
+          "campbelltown": false
+        },
+        {
+          "name": "Bhatia R",
+          "campbelltown": false
+        },
+        {
+          "name": "Bosi I",
+          "campbelltown": false
+        },
+        {
+          "name": "Cheung A",
+          "campbelltown": false
+        },
+        {
+          "name": "Czech H",
+          "campbelltown": false
+        },
+        {
+          "name": "Ford LS",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "O'Sullivan MD",
+          "campbelltown": false
+        },
+        {
+          "name": "Peake J",
+          "campbelltown": false
+        },
+        {
+          "name": "Preece K",
+          "campbelltown": false
+        },
+        {
+          "name": "Quinn P",
+          "campbelltown": false
+        },
+        {
+          "name": "Smart J",
+          "campbelltown": false
+        },
+        {
+          "name": "Swamy S",
+          "campbelltown": false
+        },
+        {
+          "name": "Wainstein BK",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong M",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett KP",
+          "campbelltown": false
+        },
+        {
+          "name": "of the ADAPT OIT Working Group",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medicine"
+      ],
+      "keywords": [
+        "Delabeling",
+        "Infant",
+        "Oral food challenge",
+        "Oral immunotherapy",
+        "Peanut allergy"
+      ],
+      "abstract": "BACKGROUND: Oral immunotherapy (OIT) practices for food allergy vary globally. Whereas oral food challenges (OFCs) are not routinely performed before OIT, they can prevent unnecessary treatment. In 2024, the Allergy Development to an Accelerated Path to Tolerance (ADAPT) OIT program was established as the first nationally standardized model of care for treatment of peanut allergy. Threshold OFCs (TOFCs) were used to confirm peanut allergy and determine the OIT starting dose. OBJECTIVE: We evaluated the diagnostic accuracy and safety of this approach before starting OIT across the 10 ADAPT public hospital sites. METHODS: Infants aged less than 12 months with a history of Consortium for Food Allergy Research grade 1 to 2 reaction to peanut and sensitization (skin prick test result of 3 mm or greater or peanut/Ara h 2 specific IgE result 0.35 kUA/L or greater) were eligible. A TOFC involved seven escalating doses of 15-1,300 mg peanut protein). Data were collected by retrospective chart review. RESULTS: Between April 2024 and October 2025, we assessed 1,275 infants; 778 underwent TOFC (median age, 13 months). The TOFCs were positive in 65.2% (507 of 778), with median eliciting dose…"
+    },
+    {
+      "pmid": "42736994",
+      "doi": "10.3390/healthcare14172837",
+      "title": "Innovation in Acute Adolescent Mental Healthcare: Evaluating a Responsive and Sustainable Mental Healthcare Model.",
+      "journal": "Healthcare (Basel, Switzerland)",
+      "journalAbbrev": "Healthcare (Basel)",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Thazhissery A",
+          "campbelltown": true
+        },
+        {
+          "name": "Huda MN",
+          "campbelltown": false
+        },
+        {
+          "name": "Diaz AM",
+          "campbelltown": false
+        },
+        {
+          "name": "Bartrop I",
+          "campbelltown": false
+        },
+        {
+          "name": "Cabrera N",
+          "campbelltown": true
+        },
+        {
+          "name": "Eapen V",
+          "campbelltown": true
+        },
+        {
+          "name": "Jairam R",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Gna Ka Lun Inpatient Unit"
+      ],
+      "keywords": [
+        "child and adolescent mental health",
+        "effectiveness",
+        "innovative model of care",
+        "inpatient unit",
+        "outcomes"
+      ],
+      "abstract": "Background and objectives: Despite the substantial global burden of mental illnesses, there remains limited evidence evaluating the effectiveness of inpatient Models of Care (MOCs) for adolescents. This paper compares the effectiveness of an innovative MOC, the Brief Intervention MOC (BIMOC), with the Traditional MOC in an acute adolescent inpatient unit. Comparisons were based on clinical outcome measures and several Key Performance Indicators (KPIs) (length of stay, 28-day readmission rate, 7-day follow-up rate, seclusion rate, and self-harm incidents), which were tracked over the subsequent years to evaluate BIMOC's effectiveness and sustainability. Materials and Methods: A retrospective, single-center, quasi-experimental non-randomized before-and-after study using historical controls was conducted. Clinical outcomes were assessed using the Health of the Nation Outcome Scales for Children and Adolescents (HoNOSCA) and the Children's Global Assessment Scale (CGAS). Service-level KPIs were compared across models. Descriptive statistics, paired-samples t -tests, Cohen's d, and z-tests were used to evaluate changes within models and compare outcomes between models. Results: Within…"
     },
     {
       "pmid": "42201836",
@@ -8131,95 +8370,6 @@
       ],
       "keywords": [],
       "abstract": "INTRODUCTION: Health-related quality of life (HRQoL) is not routine in early phase clinical trials (EP-CTs), which focus on dose-limiting toxicities and safety. However, for clinicians, understanding the impact of such trials on HRQoL is fundamental to consent patients, especially when the benefits on tumor response may be unknown. AIMS AND METHODS: The PEARLER (Patient diversity And experience in eaRLy phase cancEr clinical tRials) study was conducted with a key aim of focusing on assessing HRQoL in participants undergoing EP-CTs using a multi-center prospective cohort setting. All participants completed a baseline demographic survey on Cycle 1 Day 1 with EORTC-QLQ-C30 on Day 1 of Cycles 1 through 6 or end of treatment (EoT). RESULTS: Overall, 122 participants were recruited with median age 62. Median baseline Global Health Status (GHS) was 67 and remained unchanged throughout EP-CT (P = .188). GHS deterioration occurred in 29/122 (24%) while improvement occurred in 16/122 (13%). Median baseline Physical Function Score (PFS) was 87. PFS deterioration occurred in 30/122 (25%) while improvement occurred in 6/122 (5%). Baseline median CFS was 84. Cognitive Function Score (CFS)…"
-    },
-    {
-      "pmid": "41183246",
-      "doi": "10.1200/OP-25-00412",
-      "title": "Assessing Patient-Reported Financial, Social, and Time Toxicity in Early-Phase Cancer Clinical Trials in Australia Through a Prospective Multicenter Nonrandomized Cohort Study.",
-      "journal": "JCO oncology practice",
-      "journalAbbrev": "JCO Oncol Pract",
-      "year": 2025,
-      "month": 11,
-      "authors": [
-        {
-          "name": "Nindra U",
-          "campbelltown": false
-        },
-        {
-          "name": "Tang J",
-          "campbelltown": false
-        },
-        {
-          "name": "Hong JH",
-          "campbelltown": false
-        },
-        {
-          "name": "Descallar J",
-          "campbelltown": false
-        },
-        {
-          "name": "Hong M",
-          "campbelltown": false
-        },
-        {
-          "name": "Killen A",
-          "campbelltown": false
-        },
-        {
-          "name": "Dubey P",
-          "campbelltown": false
-        },
-        {
-          "name": "Attaullah J",
-          "campbelltown": false
-        },
-        {
-          "name": "Scott G",
-          "campbelltown": false
-        },
-        {
-          "name": "Cooper A",
-          "campbelltown": false
-        },
-        {
-          "name": "Wilkinson K",
-          "campbelltown": false
-        },
-        {
-          "name": "Pal A",
-          "campbelltown": false
-        },
-        {
-          "name": "Teng C",
-          "campbelltown": false
-        },
-        {
-          "name": "Roohullah A",
-          "campbelltown": true
-        },
-        {
-          "name": "Wei J",
-          "campbelltown": false
-        },
-        {
-          "name": "Ng W",
-          "campbelltown": false
-        },
-        {
-          "name": "Lemech C",
-          "campbelltown": false
-        },
-        {
-          "name": "Chua W",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Medical Oncology"
-      ],
-      "keywords": [],
-      "abstract": "PURPOSE: Early-phase clinical trials (EP-CTs) provide access to novel therapeutics for patients with limited standard treatment options. Beyond drug-related risks, participants may experience hidden toxicities, including time, financial, and social burdens that often go unmeasured. METHODS: The Patient Experience in Early-Phase Cancer Clinical Trials (PEARLER) study aimed to assess time, financial, and social toxicity (ST) in a prospective, multicenter cohort. Participants completed a time toxicity (TT) survey and the European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire C30 on day 1 of cycles 1-6. Financial toxicity (FT) was assessed using the EORTC scoring manual; ST was evaluated using the social and role functioning domains. Multilevel models examined trends over time. RESULTS: A total of 122 participants (median age 62 years, range, 25-83) were enrolled. Median objective TT was 26%. Only 16% (20/122) reported subjective TT, most commonly during cycles 1-2 (85%). FT was reported by 44% (54/122), but did not significantly change over time ( P = .136). Although 71% (87/122) reported some reduction in social function, social functioning…"
     },
     {
       "pmid": "41240396",

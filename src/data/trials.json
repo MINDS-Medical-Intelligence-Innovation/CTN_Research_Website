@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-12T00:45:34.330Z",
+  "generated": "2026-09-19T00:44:11.310Z",
   "source": "clinicaltrials.gov",
   "items": [
+    {
+      "nctId": "NCT07361302",
+      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07361302",
+      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
+      "lastUpdate": "2026-09-15"
+    },
     {
       "nctId": "NCT05920356",
       "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
@@ -27,19 +40,6 @@
       "url": "https://clinicaltrials.gov/study/NCT05633654",
       "briefSummary": "The goal of this study is to find out if the experimental product, sacituzumab govitecan-hziy (SG) in combination with pembrolizumab given after surgery, is effective and safe compared to the treatment of physician's choice (TPC) which includes either pembrolizumab or pembrolizumab plus capecitabine in participants with triple negative breast cancer that still remains after surgery and pre-surgical treatment.",
       "lastUpdate": "2026-09-09"
-    },
-    {
-      "nctId": "NCT07361302",
-      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Acute Ischemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT07361302",
-      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
-      "lastUpdate": "2026-09-01"
     },
     {
       "nctId": "NCT05646862",
@@ -124,6 +124,45 @@
       "lastUpdate": "2024-07-12"
     },
     {
+      "nctId": "NCT06940141",
+      "title": "Rademikibart Add-on Treatment of an Acute Asthma Exacerbation (Seabreeze STAT Asthma)",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Asthma Acute"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06940141",
+      "briefSummary": "This is a Phase 2, randomized, multicenter study in adult and adolescent participants with asthma and type 2 inflammation",
+      "lastUpdate": "2026-09-16"
+    },
+    {
+      "nctId": "NCT06940154",
+      "title": "Rademikibart Add-on Treatment of an Acute COPD Exacerbation (Seabreeze STAT COPD)",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "COPD Acute Exacerbation"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06940154",
+      "briefSummary": "This is a Phase 2, multicenter study in adult participants with an acute COPD exacerbation and type 2 inflammation",
+      "lastUpdate": "2026-09-16"
+    },
+    {
+      "nctId": "NCT02273375",
+      "title": "Double Blind Placebo Controlled Controlled Study of Adjuvant MEDI4736 In Completely Resected NSCLC",
+      "status": "COMPLETED",
+      "phase": "PHASE3",
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT02273375",
+      "briefSummary": "The purpose of this study is to find out whether it is better to receive a new drug, MEDI4736, or better to receive no further treatment after surgery (and possibly chemotherapy) for lung cancer.",
+      "lastUpdate": "2026-09-14"
+    },
+    {
       "nctId": "NCT04624204",
       "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
       "status": "ACTIVE_NOT_RECRUITING",
@@ -189,19 +228,6 @@
       "lastUpdate": "2026-08-13"
     },
     {
-      "nctId": "NCT06940141",
-      "title": "Rademikibart Add-on Treatment of an Acute Asthma Exacerbation (Seabreeze STAT Asthma)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE2",
-      "conditions": [
-        "Asthma Acute"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06940141",
-      "briefSummary": "This is a Phase 2, randomized, multicenter study in adult and adolescent participants with asthma and type 2 inflammation",
-      "lastUpdate": "2026-08-06"
-    },
-    {
       "nctId": "NCT06634420",
       "title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
       "status": "ACTIVE_NOT_RECRUITING",
@@ -213,19 +239,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06634420",
       "briefSummary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
       "lastUpdate": "2026-07-29"
-    },
-    {
-      "nctId": "NCT06940154",
-      "title": "Rademikibart Add-on Treatment of an Acute COPD Exacerbation (Seabreeze STAT COPD)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE2",
-      "conditions": [
-        "COPD Acute Exacerbation"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06940154",
-      "briefSummary": "This is a Phase 2, multicenter study in adult participants with an acute COPD exacerbation and type 2 inflammation",
-      "lastUpdate": "2026-07-13"
     },
     {
       "nctId": "NCT06987643",
@@ -416,19 +429,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06262399",
       "briefSummary": "This is a follow-up study of subjects who received NTLA-2002 in a previous clinical trial as an observational evaluation of the long-term effects of the investigational therapy.",
       "lastUpdate": "2025-11-28"
-    },
-    {
-      "nctId": "NCT02273375",
-      "title": "Double Blind Placebo Controlled Controlled Study of Adjuvant MEDI4736 In Completely Resected NSCLC",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT02273375",
-      "briefSummary": "The purpose of this study is to find out whether it is better to receive a new drug, MEDI4736, or better to receive no further treatment after surgery (and possibly chemotherapy) for lung cancer.",
-      "lastUpdate": "2025-08-12"
     },
     {
       "nctId": "NCT03685448",
