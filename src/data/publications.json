@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T00:44:10.617Z",
+  "generated": "2026-09-26T01:01:11.669Z",
   "source": "pubmed",
   "items": [
     {
@@ -516,6 +516,155 @@
         "outcomes"
       ],
       "abstract": "Background and objectives: Despite the substantial global burden of mental illnesses, there remains limited evidence evaluating the effectiveness of inpatient Models of Care (MOCs) for adolescents. This paper compares the effectiveness of an innovative MOC, the Brief Intervention MOC (BIMOC), with the Traditional MOC in an acute adolescent inpatient unit. Comparisons were based on clinical outcome measures and several Key Performance Indicators (KPIs) (length of stay, 28-day readmission rate, 7-day follow-up rate, seclusion rate, and self-harm incidents), which were tracked over the subsequent years to evaluate BIMOC's effectiveness and sustainability. Materials and Methods: A retrospective, single-center, quasi-experimental non-randomized before-and-after study using historical controls was conducted. Clinical outcomes were assessed using the Health of the Nation Outcome Scales for Children and Adolescents (HoNOSCA) and the Children's Global Assessment Scale (CGAS). Service-level KPIs were compared across models. Descriptive statistics, paired-samples t -tests, Cohen's d, and z-tests were used to evaluate changes within models and compare outcomes between models. Results: Within…"
+    },
+    {
+      "pmid": "42764356",
+      "doi": "10.1111/ans.70958",
+      "title": "Multidisciplinary Colorectal Cancer Care in Regional Australia: A Practical Pathway.",
+      "journal": "ANZ journal of surgery",
+      "journalAbbrev": "ANZ J Surg",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Bhorat N",
+          "campbelltown": false
+        },
+        {
+          "name": "Cattanach D",
+          "campbelltown": false
+        },
+        {
+          "name": "Chen M",
+          "campbelltown": false
+        },
+        {
+          "name": "Cheong J",
+          "campbelltown": false
+        },
+        {
+          "name": "Chiam HC",
+          "campbelltown": false
+        },
+        {
+          "name": "Flynn J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hamilton R",
+          "campbelltown": true
+        },
+        {
+          "name": "Joy H",
+          "campbelltown": false
+        },
+        {
+          "name": "Knox R",
+          "campbelltown": false
+        },
+        {
+          "name": "Lamparelli M",
+          "campbelltown": false
+        },
+        {
+          "name": "Mackrill D",
+          "campbelltown": false
+        },
+        {
+          "name": "Naidoo M",
+          "campbelltown": false
+        },
+        {
+          "name": "Prinsloo P",
+          "campbelltown": false
+        },
+        {
+          "name": "Ruggiero B",
+          "campbelltown": false
+        },
+        {
+          "name": "Smith N",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Surgery"
+      ],
+      "keywords": [],
+      "abstract": ""
+    },
+    {
+      "pmid": "42785185",
+      "doi": "10.1016/j.explore.2026.103532",
+      "title": "'Built with strong foundations, shaped by care and connection': Qualitative findings about the therapeutic relationship from the helping suppOrt individuals pregnant after experiencing a stillbirth (HOPES) study.",
+      "journal": "Explore (New York, N.Y.)",
+      "journalAbbrev": "Explore (NY)",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Fogarty S",
+          "campbelltown": false
+        },
+        {
+          "name": "Heazell AEP",
+          "campbelltown": false
+        },
+        {
+          "name": "Munk N",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Massage therapy",
+        "Pregnancy after loss",
+        "Therapeutic alliance",
+        "Therapeutic relationships"
+      ],
+      "abstract": "BACKGROUND: Individuals pregnant after a loss want healthcare providers to be knowledgeable, kind and empathetic. The quality of the therapeutic relationship healthcare providers develops impacts psychological well-being as well as the overall experience of maternity care. The experience of the therapeutic relationship and attributes of massage therapists that are important to women receiving massage in a pregnancy after stillbirth are unknown. AIM: To explore how women who received massage therapy during pregnancy after stillbirth experienced the therapeutic relationship, including the therapist attributes and relational elements they valued, and how these contributed to their perceptions the experience of care. METHODS: Mixed methods incorporating semi-structured interviews in a sub-sample of the Helping support women in a Pregnancy after Stillbirth (HOPES) participants (n=33) and the Consultation and Relational Empathy (CARE) questionnaire data. Interview transcripts were analysed using an inductive thematic approach and the CARE data were tallied and reported. FINDINGS: An overarching theme of 'built with strong foundations, shaped by care and connection' was derived. The…"
+    },
+    {
+      "pmid": "42759482",
+      "doi": "10.1016/j.midw.2026.104989",
+      "title": "Restorative connection through support: Qualitative findings from the Helping suppOrt individuals Pregnant after experiencing a stillbirth (HOPES) study.",
+      "journal": "Midwifery",
+      "journalAbbrev": "Midwifery",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Fogarty S",
+          "campbelltown": false
+        },
+        {
+          "name": "Heazell AEP",
+          "campbelltown": false
+        },
+        {
+          "name": "Munk N",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Massage therapy",
+        "Stillbirth",
+        "Termination for medical reason",
+        "Wellbeing"
+      ],
+      "abstract": "BACKGROUND: Stillbirth has profound and enduring effects on women, particularly in subsequent pregnancies, which have a heavy emotional toll. Thus, we conducted a feasibility trial: Helping suppOrt individuals Pregnant after Experiencing a Stillbirth (HOPES). AIM: To present qualitative findings from the HOPES trial, exploring how massage therapy was experienced and perceived by women in a pregnancy after stillbirth. METHODS: A qualitative study incorporating individual interviews and data from the validated patient reported outcome measurement tool: Measure Yourself Concerns and Wellbeing (MYCaW). Semi-structured interviews were conducted in a sub-sample of HOPES participants. Open-ended MYCaW responses were examined using summative content analysis, while interview transcripts were analysed using an inductive thematic approach. FINDINGS: Thirty-three women participating in the HOPES study were interviewed. An overarching theme of restorative connection through support was derived through integrating the MYCaW analysis and the interview sub-themes. Massage therapy supported women to reconnect with themselves in nurturing ways, facilitated adaptive coping, and supported moments of…"
     },
     {
       "pmid": "42201836",

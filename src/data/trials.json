@@ -1,7 +1,35 @@
 {
-  "generated": "2026-09-19T00:44:11.310Z",
+  "generated": "2026-09-26T01:01:12.322Z",
   "source": "clinicaltrials.gov",
   "items": [
+    {
+      "nctId": "NCT05920356",
+      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Non-Small Cell Lung Cancer (NSCLC)"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05920356",
+      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
+      "lastUpdate": "2026-09-25"
+    },
+    {
+      "nctId": "NCT06758401",
+      "title": "This is a Study to Learn About How the Combination of the Study Medicines Sigvotatug Vedotin Plus Pembrolizumab Works in People With Non-small Cell Lung Cancer With High Levels of PD-L1.",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Carcinoma, Non-Small-Cell Lung (NSCLC)"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06758401",
+      "briefSummary": "The purpose of the study is to compare how the new combination treatment (Sigvotatug Vedotin plus pembrolizumab) works compared to pembrolizumab alone in patients with non-small cell lung cancer (NSCLC) with high levels of PD-L1. This is a protein that acts as a kind of \"brake\" to keep the body's immune responses under control. The study is seeking for participants who: * Are confirmed to have NSCLC (Stage 3 or 4). * Have PD-L1 levels in more than 50% of the cancer cells. All participants in this study will receive pembrolizumab at the study clinic once every 6 weeks as an intravenous (IV)…",
+      "lastUpdate": "2026-09-25"
+    },
     {
       "nctId": "NCT07361302",
       "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
@@ -14,19 +42,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07361302",
       "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
       "lastUpdate": "2026-09-15"
-    },
-    {
-      "nctId": "NCT05920356",
-      "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer (NSCLC)"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05920356",
-      "briefSummary": "The primary objectives are to compare progression-free survival (PFS) and overall survival (OS) in participants who receive sotorasib with platinum doublet chemotherapy versus participants who receive pembrolizumab with platinum doublet chemotherapy.",
-      "lastUpdate": "2026-09-11"
     },
     {
       "nctId": "NCT05633654",
@@ -83,21 +98,6 @@
       "lastUpdate": "2026-07-27"
     },
     {
-      "nctId": "NCT06758401",
-      "title": "This is a Study to Learn About How the Combination of the Study Medicines Sigvotatug Vedotin Plus Pembrolizumab Works in People With Non-small Cell Lung Cancer With High Levels of PD-L1.",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Non-Small Cell Lung Cancer",
-        "Carcinoma, Non-Small-Cell Lung",
-        "Carcinoma, Non-Small-Cell Lung (NSCLC)"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06758401",
-      "briefSummary": "The purpose of the study is to compare how the new combination treatment (Sigvotatug Vedotin plus pembrolizumab) works compared to pembrolizumab alone in patients with non-small cell lung cancer (NSCLC) with high levels of PD-L1. This is a protein that acts as a kind of \"brake\" to keep the body's immune responses under control. The study is seeking for participants who: * Are confirmed to have NSCLC (Stage 3 or 4). * Have PD-L1 levels in more than 50% of the cancer cells. All participants in this study will receive pembrolizumab at the study clinic once every 6 weeks as an intravenous (IV)…",
-      "lastUpdate": "2026-07-22"
-    },
-    {
       "nctId": "NCT06310356",
       "title": "Continuous Glucose Monitoring for Women With Gestational Diabetes",
       "status": "RECRUITING",
@@ -122,6 +122,61 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT05702034",
+      "title": "A Study of Milvexian in Participants After an Acute Ischemic Stroke or High-Risk Transient Ischemic Attack- LIBREXIA-STROKE",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Ischemic Stroke; Ischemic Attack, Transient"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05702034",
+      "briefSummary": "The purpose of this study is to evaluate whether milvexian compared to placebo reduce the risk of recurrent ischemic stroke.",
+      "lastUpdate": "2026-09-25"
+    },
+    {
+      "nctId": "NCT04624204",
+      "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Small Cell Lung Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT04624204",
+      "briefSummary": "Researchers are looking for new ways to treat Limited-Stage Small Cell Lung Cancer (LS-SCLC), a type of lung cancer that has not spread from the lung to other parts of the body. The purpose of this study is to learn if pembrolizumab and olaparib, when given with chemotherapy and radiation treatment (CRT), can be effective in treating LS-SCLC. The researchers want to know if participants who receive CRT and pembrolizumab, with or without olaparib, have a longer overall survival compared to participants who only receive CRT.",
+      "lastUpdate": "2026-09-24"
+    },
+    {
+      "nctId": "NCT05025852",
+      "title": "The Effect of In-utero Exposure to Metformin in 5-11 Year Old Offspring of Mothers in the MiTy Trial",
+      "status": "COMPLETED",
+      "phase": null,
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Pregnancy in Diabetic",
+        "Child Obesity",
+        "Child Development"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05025852",
+      "briefSummary": "The incidence of diabetes in pregnancy is rising, with rates of 1 in 7 pregnancies globally. Metformin is used for type 2 diabetes (T2DM) outside of pregnancy and is now increasingly prescribed during pregnancy. There are some concerns as metformin crosses the placenta and effects on offspring exposed during pregnancy are unknown. Animal and human evidence indicate that metformin may create an atypical in-utero environment similar to under-nutrition which has been associated with adult obesity. This is supported by studies in children of mothers treated with metformin in other populations…",
+      "lastUpdate": "2026-09-24"
+    },
+    {
+      "nctId": "NCT06326047",
+      "title": "A Research Study Comparing How Well Different Doses of the Medicine NN0519-0130 Lower Blood Sugar in People With Type 2 Diabetes",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06326047",
+      "briefSummary": "This study will look at how well a new medicine called NNC0519-0130 helps people with type 2 diabetes lower their blood sugar and body weight. The study will test up to 7 different doses of NNC0519-0130. Which treatment participant will get is decided by chance. Participants will take 1-3 injections once a week. The study medicine will be injected under skin with a thin needle in the stomach, thigh, or upper arm. The study will last for about 40 weeks.",
+      "lastUpdate": "2026-09-21"
     },
     {
       "nctId": "NCT06940141",
@@ -163,19 +218,6 @@
       "lastUpdate": "2026-09-14"
     },
     {
-      "nctId": "NCT04624204",
-      "title": "Placebo-controlled, Study of Concurrent Chemoradiation Therapy With Pembrolizumab Followed by Pembrolizumab and Olaparib in Newly Diagnosed Treatment-Naïve Limited-Stage Small Cell Lung Cancer (LS-SCLC) (MK 7339-013/KEYLYNK-013)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Small Cell Lung Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT04624204",
-      "briefSummary": "Researchers are looking for new ways to treat Limited-Stage Small Cell Lung Cancer (LS-SCLC), a type of lung cancer that has not spread from the lung to other parts of the body. The purpose of this study is to learn if pembrolizumab and olaparib, when given with chemotherapy and radiation treatment (CRT), can be effective in treating LS-SCLC. The researchers want to know if participants who receive CRT and pembrolizumab, with or without olaparib, have a longer overall survival compared to participants who only receive CRT.",
-      "lastUpdate": "2026-09-10"
-    },
-    {
       "nctId": "NCT03057106",
       "title": "Durvalumab and Tremelimumab ± Platinum-Based Chemotherapy in Patients With Metastatic Squamous or Non-Squamous NSCLC",
       "status": "ACTIVE_NOT_RECRUITING",
@@ -200,32 +242,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06459180",
       "briefSummary": "This study will have two phases: a sacituzumab tirumotecan safety run-in and a Phase 3 portion. The safety run-in phase will be used to evaluate the efficacy and safety of sacituzumab tirumotecan at the dose for evaluation in the Phase 3 portion. The purpose of this study is to compare the efficacy and safety of sacituzumab tirumotecan versus treatment of physician's choice as second-line treatment for participants with recurrent or metastatic cervical cancer in the Phase 3 portion. The primary study hypotheses are that, in the Phase 3 portion, sacituzumab tirumotecan results in a superior…",
       "lastUpdate": "2026-08-28"
-    },
-    {
-      "nctId": "NCT05702034",
-      "title": "A Study of Milvexian in Participants After an Acute Ischemic Stroke or High-Risk Transient Ischemic Attack- LIBREXIA-STROKE",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Ischemic Stroke; Ischemic Attack, Transient"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05702034",
-      "briefSummary": "The purpose of this study is to evaluate whether milvexian compared to placebo reduce the risk of recurrent ischemic stroke.",
-      "lastUpdate": "2026-08-28"
-    },
-    {
-      "nctId": "NCT06326047",
-      "title": "A Research Study Comparing How Well Different Doses of the Medicine NN0519-0130 Lower Blood Sugar in People With Type 2 Diabetes",
-      "status": "COMPLETED",
-      "phase": "PHASE2",
-      "conditions": [
-        "Diabetes Mellitus, Type 2"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06326047",
-      "briefSummary": "This study will look at how well a new medicine called NNC0519-0130 helps people with type 2 diabetes lower their blood sugar and body weight. The study will test up to 7 different doses of NNC0519-0130. Which treatment participant will get is decided by chance. Participants will take 1-3 injections once a week. The study medicine will be injected under skin with a thin needle in the stomach, thigh, or upper arm. The study will last for about 40 weeks.",
-      "lastUpdate": "2026-08-13"
     },
     {
       "nctId": "NCT06634420",
@@ -583,22 +599,6 @@
       "url": "https://clinicaltrials.gov/study/NCT04483960",
       "briefSummary": "An International Multi-Centre Randomised Adaptive Platform Clinical Trial to Assess the Clinical, Virological and Immunological Outcomes in Patients with SARS-CoV-2 Infection (COVID-19).",
       "lastUpdate": "2024-05-16"
-    },
-    {
-      "nctId": "NCT05025852",
-      "title": "The Effect of In-utero Exposure to Metformin in 5-11 Year Old Offspring of Mothers in the MiTy Trial",
-      "status": "UNKNOWN",
-      "phase": null,
-      "conditions": [
-        "Diabetes Mellitus, Type 2",
-        "Pregnancy in Diabetic",
-        "Child Obesity",
-        "Child Development"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05025852",
-      "briefSummary": "The incidence of diabetes in pregnancy is rising, with rates of 1 in 7 pregnancies globally. Metformin is used for type 2 diabetes (T2DM) outside of pregnancy and is now increasingly prescribed during pregnancy. There are some concerns as metformin crosses the placenta and effects on offspring exposed during pregnancy are unknown. Animal and human evidence indicate that metformin may create an atypical in-utero environment similar to under-nutrition which has been associated with adult obesity. This is supported by studies in children of mothers treated with metformin in other populations…",
-      "lastUpdate": "2024-01-16"
     },
     {
       "nctId": "NCT00470236",
