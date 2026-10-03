@@ -1,7 +1,33 @@
 {
-  "generated": "2026-09-26T01:01:12.322Z",
+  "generated": "2026-10-03T01:30:45.842Z",
   "source": "clinicaltrials.gov",
   "items": [
+    {
+      "nctId": "NCT07361302",
+      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Acute Ischemic Stroke"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07361302",
+      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
+      "lastUpdate": "2026-09-29"
+    },
+    {
+      "nctId": "NCT05646862",
+      "title": "A Study Evaluating the Efficacy and Safety of Inavolisib Plus Fulvestrant Compared With Alpelisib Plus Fulvestrant in Participants With HR-Positive, HER2-Negative, PIK3CA Mutated, Locally Advanced or Metastatic Breast Cancer Post CDK4/6i and Endocrine Combination Therapy",
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05646862",
+      "briefSummary": "This is a Phase III, multicenter, randomized, open-label, global study designed to evaluate the efficacy and safety of inavolisib plus fulvestrant compared with alpelisib plus fulvestrant in patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2) -negative, PIK3CA-mutated, locally advanced (LA) or metastatic breast cancer (mBC), who progressed during or after cyclin dependent kinase 4/6i (CDK4/6i)-based therapy. Enrollment for the main study is now complete.",
+      "lastUpdate": "2026-09-28"
+    },
     {
       "nctId": "NCT05920356",
       "title": "A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)",
@@ -31,19 +57,6 @@
       "lastUpdate": "2026-09-25"
     },
     {
-      "nctId": "NCT07361302",
-      "title": "A Study to Test if Tenecteplase Helps People to Recover From an Acute Stroke When Given More Than 4.5 Hours After the Person Was Last Seen Well",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Acute Ischemic Stroke"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT07361302",
-      "briefSummary": "This study is open to adults who had an acute stroke caused by a clot blocking a blood vessel in the brain (acute ischemic stroke). This study is for people who had an acute stroke or woke up with a stroke and were last seen well more than 4.5 hours before joining the study. Participants need to have imaging that shows there is brain tissue that can still be saved. They also should not be planned to receive a procedure to remove the blood clot. The purpose of this study is to find out whether a medicine called tenecteplase helps people recover from an acute stroke. Tenecteplase is already…",
-      "lastUpdate": "2026-09-15"
-    },
-    {
       "nctId": "NCT05633654",
       "title": "Study of Sacituzumab Govitecan-hziy and Pembrolizumab Versus Treatment of Physician's Choice in Patients With Triple Negative Breast Cancer Who Have Residual Invasive Disease After Surgery and Neoadjuvant Therapy (ASCENT-05/AFT-65 OptimICE-RD/GBG 119/NSABP B-63)",
       "status": "RECRUITING",
@@ -55,19 +68,6 @@
       "url": "https://clinicaltrials.gov/study/NCT05633654",
       "briefSummary": "The goal of this study is to find out if the experimental product, sacituzumab govitecan-hziy (SG) in combination with pembrolizumab given after surgery, is effective and safe compared to the treatment of physician's choice (TPC) which includes either pembrolizumab or pembrolizumab plus capecitabine in participants with triple negative breast cancer that still remains after surgery and pre-surgical treatment.",
       "lastUpdate": "2026-09-09"
-    },
-    {
-      "nctId": "NCT05646862",
-      "title": "A Study Evaluating the Efficacy and Safety of Inavolisib Plus Fulvestrant Compared With Alpelisib Plus Fulvestrant in Participants With HR-Positive, HER2-Negative, PIK3CA Mutated, Locally Advanced or Metastatic Breast Cancer Post CDK4/6i and Endocrine Combination Therapy",
-      "status": "RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Breast Cancer"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT05646862",
-      "briefSummary": "This is a Phase III, multicenter, randomized, open-label, global study designed to evaluate the efficacy and safety of inavolisib plus fulvestrant compared with alpelisib plus fulvestrant in patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2) -negative, PIK3CA-mutated, locally advanced (LA) or metastatic breast cancer (mBC), who progressed during or after cyclin dependent kinase 4/6i (CDK4/6i)-based therapy. Enrollment for the main study is now complete.",
-      "lastUpdate": "2026-09-01"
     },
     {
       "nctId": "NCT05945537",
@@ -122,6 +122,19 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT04562389",
+      "title": "Study of Selinexor in Combination With Ruxolitinib in Myelofibrosis",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Myelofibrosis"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT04562389",
+      "briefSummary": "This is a global, multicenter, 2-part study to evaluate the efficacy and safety of selinexor plus ruxolitinib in JAK inhibitor (JAKi) treatment-naïve myelofibrosis (MF) participants. The study will be conducted in two phases: Phase 1 (open-label) and Phase 3 (double-blind). Phase 1 (enrollment completed) was an open-label evaluation of the safety and recommended Phase 2 dose (RP2D) of selinexor in combination with ruxolitinib and included a dose escalation using a standard 3+3 design (Phase 1a) and a dose expansion part (Phase 1b). Phase 3 (ongoing), double-blind, placebo-controlled part of…",
+      "lastUpdate": "2026-10-01"
     },
     {
       "nctId": "NCT05702034",
@@ -367,19 +380,6 @@
       "url": "https://clinicaltrials.gov/study/NCT00819208",
       "briefSummary": "RATIONALE: Participating in a physical activity program designed to increase free time physical activity and receiving written health education materials may influence the chance of cancer recurring as well as impact on physical fitness, psychological well-being and the quality of life of patients who have undergone surgery and chemotherapy for colon cancer. It is not yet known whether giving a physical activity program together with health education materials is more effective than giving health education materials alone for patients who have undergone colon cancer treatment. PURPOSE: This…",
       "lastUpdate": "2026-04-24"
-    },
-    {
-      "nctId": "NCT04562389",
-      "title": "Study of Selinexor in Combination With Ruxolitinib in Myelofibrosis",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Myelofibrosis"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT04562389",
-      "briefSummary": "This is a global, multicenter, 2-part study to evaluate the efficacy and safety of selinexor plus ruxolitinib in JAK inhibitor (JAKi) treatment-naïve myelofibrosis (MF) participants. The study will be conducted in two phases: Phase 1 (open-label) and Phase 3 (double-blind). Phase 1 (enrollment completed) was an open-label evaluation of the safety and recommended Phase 2 dose (RP2D) of selinexor in combination with ruxolitinib and included a dose escalation using a standard 3+3 design (Phase 1a) and a dose expansion part (Phase 1b). Phase 3 (ongoing), double-blind, placebo-controlled part of…",
-      "lastUpdate": "2026-04-09"
     },
     {
       "nctId": "NCT04846244",

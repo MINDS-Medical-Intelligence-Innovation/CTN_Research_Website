@@ -1,7 +1,509 @@
 {
-  "generated": "2026-09-26T01:01:11.669Z",
+  "generated": "2026-10-03T01:30:45.136Z",
   "source": "pubmed",
   "items": [
+    {
+      "pmid": "42820864",
+      "doi": "10.70962/jhi.20260120",
+      "title": "Management change following NGS diagnosis of inborn errors of immunity: The Australasian experience.",
+      "journal": "Journal of human immunity",
+      "journalAbbrev": "J Hum Immun",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Swamy S",
+          "campbelltown": false
+        },
+        {
+          "name": "Shadur B",
+          "campbelltown": false
+        },
+        {
+          "name": "Hu H",
+          "campbelltown": true
+        },
+        {
+          "name": "Preece K",
+          "campbelltown": false
+        },
+        {
+          "name": "Hsiao KC",
+          "campbelltown": false
+        },
+        {
+          "name": "Blincoe A",
+          "campbelltown": false
+        },
+        {
+          "name": "King J",
+          "campbelltown": false
+        },
+        {
+          "name": "Moseley N",
+          "campbelltown": false
+        },
+        {
+          "name": "McLean-Tooke A",
+          "campbelltown": false
+        },
+        {
+          "name": "Sullivan A",
+          "campbelltown": false
+        },
+        {
+          "name": "McNaughton P",
+          "campbelltown": false
+        },
+        {
+          "name": "Pinzon-Charry A",
+          "campbelltown": false
+        },
+        {
+          "name": "Machado Melo M",
+          "campbelltown": false
+        },
+        {
+          "name": "Kane A",
+          "campbelltown": false
+        },
+        {
+          "name": "Berglund LJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Suan D",
+          "campbelltown": false
+        },
+        {
+          "name": "Masters SL",
+          "campbelltown": false
+        },
+        {
+          "name": "Voskoboinik I",
+          "campbelltown": false
+        },
+        {
+          "name": "Okada S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ma CS",
+          "campbelltown": false
+        },
+        {
+          "name": "Goodnow CC",
+          "campbelltown": false
+        },
+        {
+          "name": "Hsu P",
+          "campbelltown": false
+        },
+        {
+          "name": "Bosi I",
+          "campbelltown": false
+        },
+        {
+          "name": "Urriola N",
+          "campbelltown": false
+        },
+        {
+          "name": "Stoyanov A",
+          "campbelltown": false
+        },
+        {
+          "name": "Lin MW",
+          "campbelltown": false
+        },
+        {
+          "name": "Sinclair J",
+          "campbelltown": false
+        },
+        {
+          "name": "Brothers S",
+          "campbelltown": false
+        },
+        {
+          "name": "Cole T",
+          "campbelltown": false
+        },
+        {
+          "name": "Smart JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Mehr S",
+          "campbelltown": false
+        },
+        {
+          "name": "Richards S",
+          "campbelltown": false
+        },
+        {
+          "name": "Taranto M",
+          "campbelltown": false
+        },
+        {
+          "name": "Wainstein B",
+          "campbelltown": false
+        },
+        {
+          "name": "Frith K",
+          "campbelltown": false
+        },
+        {
+          "name": "Gray PE",
+          "campbelltown": true
+        },
+        {
+          "name": "Tangye SG",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "Inborn errors of immunity (IEIs) are rare monogenic disorders with diverse, often life-limiting manifestations. Next-generation sequencing (NGS) has transformed IEI diagnostics, but data on therapeutic impact remain limited. We conducted a multicenter retrospective study through the Clinical Immunogenomics Research Consortium of Australasia, encompassing 12 hospitals across Australia and New Zealand. Probands with confirmed monogenic IEIs diagnosed by panel, whole-exome, or whole-genome sequencing were included. Among 205 probands with pathogenic variants in 86 genes, NGS findings prompted management changes in 84%: 71.7% major and 12.2% minor. Major changes included recommendation/planning for hematopoietic stem cell transplant (40.8%), initiation of targeted therapies (39.5%), and immunoglobulin replacement or prophylactic antimicrobials (18.4% each). Cascade testing identified 32 affected relatives, including four from probands who themselves did not have a discernible management change, demonstrating the broader impact of molecular diagnosis. Overall, NGS-based diagnosis drove substantial management changes and further defined the Australasian IEI landscape, supporting early…"
+    },
+    {
+      "pmid": "42386477",
+      "doi": "10.1016/j.alit.2026.05.003",
+      "title": "Sustained clinical remission and relapse of severe eosinophilic asthma following long-term mepolizumab treatment.",
+      "journal": "Allergology international : official journal of the Japanese Society of Allergology",
+      "journalAbbrev": "Allergol Int",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Sabin Thomas R",
+          "campbelltown": false
+        },
+        {
+          "name": "Thomas D",
+          "campbelltown": false
+        },
+        {
+          "name": "McDonald VM",
+          "campbelltown": false
+        },
+        {
+          "name": "Harvey ES",
+          "campbelltown": false
+        },
+        {
+          "name": "Bardin P",
+          "campbelltown": false
+        },
+        {
+          "name": "Bowden JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Bowler S",
+          "campbelltown": false
+        },
+        {
+          "name": "Chien J",
+          "campbelltown": false
+        },
+        {
+          "name": "Chung LP",
+          "campbelltown": false
+        },
+        {
+          "name": "Gillman A",
+          "campbelltown": false
+        },
+        {
+          "name": "Hew M",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Katsoulotos GP",
+          "campbelltown": false
+        },
+        {
+          "name": "Langton D",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee J",
+          "campbelltown": false
+        },
+        {
+          "name": "Upham JW",
+          "campbelltown": false
+        },
+        {
+          "name": "Wark PAB",
+          "campbelltown": false
+        },
+        {
+          "name": "Fricker M",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibson PG",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [
+        "Asthma",
+        "Eosinophils",
+        "Mepolizumab",
+        "Relapse",
+        "Remission"
+      ],
+      "abstract": "BACKGROUND: While clinical remission occurs in some patients receiving biologics for severe asthma after one year of treatment, sustaining remission and frequency of relapse are unclear. This study evaluated sustained clinical remission, relapse, and its predictors over two to four years among people with severe asthma receiving mepolizumab. METHODS: Data from 208 patients (median age 59.6 years [52.0, 68.9], 41.3% male) in the Australian Mepolizumab Registry, a real-world prospective severe asthma registry, were analysed. Clinical remission was defined as: mean Asthma Control Questionnaire-5 score ≤1.0, no exacerbations, and no oral corticosteroid use over a 12-month period. Remission and relapse were assessed from 12 to 48 months at 12-month intervals. RESULTS: Of 184 with data available at 24 months, 29.9% (n = 55) achieved remission. 20.1% (35 of 174 with data from baseline to 24 months) sustained remission showing certain degree of stability since treatment initiation, while 9.2% (16/174) relapsed during treatment. Older age, severe disease, obesity, and depression significantly reduced the odds of achieving remission at 24 months. When assessed longitudinally (n = 47 with…"
+    },
+    {
+      "pmid": "41937250",
+      "doi": "10.1111/cea.70288",
+      "title": "Prevalence and Sociodemographic Variation of Allergic Diseases in Australia: Findings From the Australian National Health Survey.",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "journalAbbrev": "Clin Exp Allergy",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Wang Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Koplin JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Davies JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Palmer DJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Trubiano JA",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee J",
+          "campbelltown": false
+        },
+        {
+          "name": "Lucas M",
+          "campbelltown": false
+        },
+        {
+          "name": "O Sullivan M",
+          "campbelltown": false
+        },
+        {
+          "name": "Vale S",
+          "campbelltown": false
+        },
+        {
+          "name": "van Nunen S",
+          "campbelltown": false
+        },
+        {
+          "name": "Wanandy T",
+          "campbelltown": false
+        },
+        {
+          "name": "Campbell DE",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett KP",
+          "campbelltown": false
+        },
+        {
+          "name": "Peters RL",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medicine"
+      ],
+      "keywords": [
+        "National health survey",
+        "allergic rhinitis",
+        "asthma",
+        "drug allergy",
+        "eczema",
+        "food allergy",
+        "prevalence"
+      ],
+      "abstract": "BACKGROUND: The prevalence of allergic diseases across the Australian population, in all regions and age groups, is not well documented. This study aimed to describe the prevalence and distribution of five allergic diseases (allergic rhinitis, asthma, drug allergy, eczema, and food allergy) and examine differences by sociodemographic factors. METHODS: This study used data from the 2022 cross-sectional Australian National Health Survey. The survey randomly selected a sample of 13,095 households (with 17,093 participants) living in private dwellings in all Australian states and territories. Questionnaires were completed via face-to-face interviews. Allergic rhinitis, asthma, drug allergy, eczema, and food allergy were captured as self- or parent-reported long-term health conditions. Weighted estimates and relative standard errors were extracted and analysed. Prevalence was calculated using population data from the Australian 2021 Census. RESULTS: The prevalence of self-reported current allergic rhinitis in Australia was 23.9% (95% CI: 23.1%-24.8%), food allergy was 7.0% (95% CI: 6.5%-7.5%), drug allergy was 5.2% (95% CI: 4.7%-5.6%), eczema was 1.6% (95% CI: 1.3%-1.9%), and diagnosed…"
+    },
+    {
+      "pmid": "41556361",
+      "doi": "10.1093/nutrit/nuaf230",
+      "title": "Relationship Between Hypovitaminosis C, Obesity, and Features of Metabolic Syndrome-A Narrative Review.",
+      "journal": "Nutrition reviews",
+      "journalAbbrev": "Nutr Rev",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Wilson RB",
+          "campbelltown": false
+        },
+        {
+          "name": "Liang Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Kaushal D",
+          "campbelltown": true
+        },
+        {
+          "name": "Carr A",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "GLUT",
+        "Mediterranean diet",
+        "NAFLD",
+        "RDA",
+        "ROS",
+        "SVCT",
+        "Western diet",
+        "antioxidant",
+        "ascorbic acid",
+        "fatty acid oxidation",
+        "free radical",
+        "inflammation",
+        "insulin resistance",
+        "metabolic syndrome",
+        "micronutrient",
+        "obesity",
+        "oxidative stress",
+        "scurvy",
+        "vitamin C"
+      ],
+      "abstract": "This narrative review aimed to review plausible mechanisms for the role of vitamin C (ascorbic acid [AA]) in the maintenance of healthy weight and energy metabolism; examine the evidence for inadequate vitamin C (plasma AA <50 µmol/L), hypovitaminosis C (≤23 µmol/L), and vitamin C deficiency (≤11.4 µmol/L) in the disrupted homeostasis of obesity and metabolic syndrome; and ascertain whether vitamin C supplementation or dietary intervention could potentially treat obesity and the associated features of metabolic syndrome. Vitamin C hypovitaminosis and deficiency are prevalent in developed countries, despite the widespread availability of vitamin C-containing fruit and vegetables and vitamin supplements. Western diets are characterized by highly processed, macronutrient-rich foods, which are deficient in dietary fiber and micronutrients. This contributes to postprandial oxidative stress and gut dysbiosis, leading to profound effects on insulin sensitivity, hyperglycemia, levels of endotoxemia, fatty acid oxidation, adipocyte hypertrophy, and regulation of metabolism and energy balance. The existing in vitro and in vivo preclinical data demonstrate the effectiveness of vitamin C as…"
+    },
+    {
+      "pmid": "42822774",
+      "doi": "10.1016/j.jaad.2026.09.105",
+      "title": "Early use of mepolizumab in DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) syndrome: A prospective multicenter, open-label, pilot study.",
+      "journal": "Journal of the American Academy of Dermatology",
+      "journalAbbrev": "J Am Acad Dermatol",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Yun J",
+          "campbelltown": false
+        },
+        {
+          "name": "Richardson R",
+          "campbelltown": false
+        },
+        {
+          "name": "Hissaria P",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris C",
+          "campbelltown": true
+        },
+        {
+          "name": "Trubiano J",
+          "campbelltown": false
+        },
+        {
+          "name": "Zubrinich C",
+          "campbelltown": false
+        },
+        {
+          "name": "Tong WWY",
+          "campbelltown": false
+        },
+        {
+          "name": "Carr A",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [
+        "Anti-IL5 therapy",
+        "DRESS syndrome",
+        "drug allergy",
+        "drug hypersensitivity",
+        "eosinophils",
+        "mepolizumab",
+        "severe cutaneous adverse reactions"
+      ],
+      "abstract": ""
+    },
+    {
+      "pmid": "42692462",
+      "doi": "10.1111/1742-6723.70341",
+      "title": "Using Sydney Triage to Admission Risk Tool With Artificial Intelligence (START-AI) to Predict Inpatient Admitting Specialty for Emergency Department Patients: Single Centre Deep Learning Analysis.",
+      "journal": "Emergency medicine Australasia : EMA",
+      "journalAbbrev": "Emerg Med Australas",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Dinh M",
+          "campbelltown": false
+        },
+        {
+          "name": "Corbett E",
+          "campbelltown": false
+        },
+        {
+          "name": "Ngo TT",
+          "campbelltown": false
+        },
+        {
+          "name": "Salmon E",
+          "campbelltown": false
+        },
+        {
+          "name": "Khan SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Pethani F",
+          "campbelltown": false
+        },
+        {
+          "name": "Moore N",
+          "campbelltown": true
+        },
+        {
+          "name": "Koprinska I",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "OBJECTIVE: To investigate whether the Sydney Triage to Admission Risk Tool with Artificial Intelligence (START-AI) model could be used to predict specific inpatient admitting teams based on clinical notes. METHODS: This was a pre-trained language model analysis using electronic medical record data from an inner-city tertiary referral hospital emergency department (ED) in Sydney, Australia. All adult patients who were admitted to an inpatient ward between January 2023 and June 2025 were included. A fine-tuned Bidirectional Encoder Representation of Transformer (Bio-ClinicalBERT) used in the original START-AI analysis was trained on ED medical case history notes to predict one of twenty specialist inpatient admitting teams. RESULTS: A total of 40,054 cases were analysed. The overall weighted average area under receiver operating characteristic curve (AUROC) was 0.97 (95% CI: 0.96, 0.98). For individual classes of inpatient admitting teams, AUROC ranged from 0.91 for infectious diseases to 0.99 for psychiatry and gynaecology. The overall weighted average precision (positive predictive value) was moderate at 0.71 (95% CI: 0.71, 0.72). The model correctly classified around three…"
+    },
     {
       "pmid": "42622212",
       "doi": "10.1161/JAHA.125.045588",
@@ -665,6 +1167,108 @@
         "Wellbeing"
       ],
       "abstract": "BACKGROUND: Stillbirth has profound and enduring effects on women, particularly in subsequent pregnancies, which have a heavy emotional toll. Thus, we conducted a feasibility trial: Helping suppOrt individuals Pregnant after Experiencing a Stillbirth (HOPES). AIM: To present qualitative findings from the HOPES trial, exploring how massage therapy was experienced and perceived by women in a pregnancy after stillbirth. METHODS: A qualitative study incorporating individual interviews and data from the validated patient reported outcome measurement tool: Measure Yourself Concerns and Wellbeing (MYCaW). Semi-structured interviews were conducted in a sub-sample of HOPES participants. Open-ended MYCaW responses were examined using summative content analysis, while interview transcripts were analysed using an inductive thematic approach. FINDINGS: Thirty-three women participating in the HOPES study were interviewed. An overarching theme of restorative connection through support was derived through integrating the MYCaW analysis and the interview sub-themes. Massage therapy supported women to reconnect with themselves in nurturing ways, facilitated adaptive coping, and supported moments of…"
+    },
+    {
+      "pmid": "42814486",
+      "doi": "10.25270/jic/26.00208",
+      "title": "A comparison between visual, robotic, and intracoronary imaging lesion length assessment during robotic-assisted percutaneous coronary intervention.",
+      "journal": "The Journal of invasive cardiology",
+      "journalAbbrev": "J Invasive Cardiol",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Leung J",
+          "campbelltown": false
+        },
+        {
+          "name": "French J",
+          "campbelltown": false
+        },
+        {
+          "name": "Xu J",
+          "campbelltown": false
+        },
+        {
+          "name": "Wales K",
+          "campbelltown": false
+        },
+        {
+          "name": "Kachwalla H",
+          "campbelltown": true
+        },
+        {
+          "name": "Kaddapu K",
+          "campbelltown": true
+        },
+        {
+          "name": "Fares S",
+          "campbelltown": false
+        },
+        {
+          "name": "Dang V",
+          "campbelltown": false
+        },
+        {
+          "name": "Badie T",
+          "campbelltown": true
+        },
+        {
+          "name": "Mussap C",
+          "campbelltown": false
+        },
+        {
+          "name": "Rajaratnam R",
+          "campbelltown": false
+        },
+        {
+          "name": "Leung D",
+          "campbelltown": false
+        },
+        {
+          "name": "Lo S",
+          "campbelltown": false
+        },
+        {
+          "name": "Juergens C",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Cardiology"
+      ],
+      "keywords": [
+        "coronary lesions",
+        "intracoronary imaging",
+        "robotic PCI"
+      ],
+      "abstract": "OBJECTIVES: Inaccurate lesion length assessment can lead to adverse clinical outcomes after percutaneous coronary intervention (PCI). Robotic-assisted PCI (R-PCI) may provide more accurate lesion assessment. The authors aimed to compare the accuracy of visual, robotic, and intracoronary imaging-derived lesion length assessment. METHODS: Sixty-three patients (69 lesions) who underwent R-PCI using the CorPath GRX (Siemens Healthineers) system were analyzed. The operator provided a visual estimate of lesion length, which was compared to the measurement using the robotic system. In cases in which intracoronary imaging (ICI) was performed (n=21), the visual and robotic estimates were compared against the ICI measurements, which were considered the gold standard. RESULTS: The median visual length measurement was 23.0 mm (IQR: 18.0-28.0) and the median robotic visual length measurement was 24.0 mm (IQR: 18.7-33.0 mm). In only 10.1% of lesions did the visual and robotic estimates agree. In 66.7% of the lesions, the visual estimate was shorter than the robotic measurement, whereas the visual estimate was longer than the robotic measurement in 23.2% of lesions. Using a threshold of greater…"
+    },
+    {
+      "pmid": "42823273",
+      "doi": "10.1016/j.carrev.2026.09.013",
+      "title": "Editorial: Paclitaxel or sirolimus for in-stent restenosis? What a cross-trial comparison teaches the American operators.",
+      "journal": "Cardiovascular revascularization medicine : including molecular interventions",
+      "journalAbbrev": "Cardiovasc Revasc Med",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Cortese B",
+          "campbelltown": false
+        },
+        {
+          "name": "Kurup R",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Cardiology"
+      ],
+      "keywords": [],
+      "abstract": ""
     },
     {
       "pmid": "42201836",
@@ -3399,105 +4003,6 @@
       "abstract": "BACKGROUND: Cardiopulmonary exercise testing (CPX) provides objective assessment of integrative physiological function and is recommended in international guidelines for the investigation of unexplained dyspnea and exercise intolerance. Despite its clinical value, the implementation of CPX is variable worldwide. No previous studies have described CPX practices in Australia and New Zealand. METHODS: A cross-sectional online survey of health professionals involved in CPX delivery was conducted between May 2023 and September 2024. Laboratories were identified using professional society lists and hospital websites. The 29-question survey explored staffing, training, protocols, and test application. Descriptive analyses were used to summarize closed- and open-ended responses. RESULTS: Fifty-five laboratories completed the survey, of 71 approached. Most services were based in public hospital respiratory departments and used cycle ergometry with individualized ramp protocols. Cardiopulmonary exercise testing was most commonly used for unexplained breathlessness, perioperative assessment, and functional evaluation. One-third of services used fixed work rate protocols, and 62% of…"
     },
     {
-      "pmid": "42386477",
-      "doi": "10.1016/j.alit.2026.05.003",
-      "title": "Sustained clinical remission and relapse of severe eosinophilic asthma following long-term mepolizumab treatment.",
-      "journal": "Allergology international : official journal of the Japanese Society of Allergology",
-      "journalAbbrev": "Allergol Int",
-      "year": 2026,
-      "month": 7,
-      "authors": [
-        {
-          "name": "Sabin Thomas R",
-          "campbelltown": false
-        },
-        {
-          "name": "Thomas D",
-          "campbelltown": false
-        },
-        {
-          "name": "McDonald VM",
-          "campbelltown": false
-        },
-        {
-          "name": "Harvey ES",
-          "campbelltown": false
-        },
-        {
-          "name": "Bardin P",
-          "campbelltown": false
-        },
-        {
-          "name": "Bowden JJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Bowler S",
-          "campbelltown": false
-        },
-        {
-          "name": "Chien J",
-          "campbelltown": false
-        },
-        {
-          "name": "Chung LP",
-          "campbelltown": false
-        },
-        {
-          "name": "Gillman A",
-          "campbelltown": false
-        },
-        {
-          "name": "Hew M",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Katsoulotos GP",
-          "campbelltown": false
-        },
-        {
-          "name": "Langton D",
-          "campbelltown": false
-        },
-        {
-          "name": "Lee J",
-          "campbelltown": false
-        },
-        {
-          "name": "Upham JW",
-          "campbelltown": false
-        },
-        {
-          "name": "Wark PAB",
-          "campbelltown": false
-        },
-        {
-          "name": "Fricker M",
-          "campbelltown": false
-        },
-        {
-          "name": "Gibson PG",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Immunology & Allergy Unit"
-      ],
-      "keywords": [
-        "Asthma",
-        "Eosinophils",
-        "Mepolizumab",
-        "Relapse",
-        "Remission"
-      ],
-      "abstract": "BACKGROUND: While clinical remission occurs in some patients receiving biologics for severe asthma after one year of treatment, sustaining remission and frequency of relapse are unclear. This study evaluated sustained clinical remission, relapse, and its predictors over two to four years among people with severe asthma receiving mepolizumab. METHODS: Data from 208 patients (median age 59.6 years [52.0, 68.9], 41.3% male) in the Australian Mepolizumab Registry, a real-world prospective severe asthma registry, were analysed. Clinical remission was defined as: mean Asthma Control Questionnaire-5 score ≤1.0, no exacerbations, and no oral corticosteroid use over a 12-month period. Remission and relapse were assessed from 12 to 48 months at 12-month intervals. RESULTS: Of 184 with data available at 24 months, 29.9% (n = 55) achieved remission. 20.1% (35 of 174 with data from baseline to 24 months) sustained remission showing certain degree of stability since treatment initiation, while 9.2% (16/174) relapsed during treatment. Older age, severe disease, obesity, and depression significantly reduced the odds of achieving remission at 24 months. When assessed longitudinally (n = 47 with…"
-    },
-    {
       "pmid": "42457595",
       "doi": "10.1111/ans.70865",
       "title": "Complementary Front Doors, Shared Back Door: Integrating Blood-Based CRC Screening Without Overwhelming Colonoscopy-By Far North and Online Colorectal Alliance (FNOCA).",
@@ -5245,91 +5750,6 @@
       "abstract": ""
     },
     {
-      "pmid": "41937250",
-      "doi": "10.1111/cea.70288",
-      "title": "Prevalence and Sociodemographic Variation of Allergic Diseases in Australia: Findings From the Australian National Health Survey.",
-      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
-      "journalAbbrev": "Clin Exp Allergy",
-      "year": 2026,
-      "month": 4,
-      "authors": [
-        {
-          "name": "Wang Y",
-          "campbelltown": false
-        },
-        {
-          "name": "Koplin JJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Davies JM",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Palmer DJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Trubiano JA",
-          "campbelltown": false
-        },
-        {
-          "name": "Lee J",
-          "campbelltown": false
-        },
-        {
-          "name": "Lucas M",
-          "campbelltown": false
-        },
-        {
-          "name": "O Sullivan M",
-          "campbelltown": false
-        },
-        {
-          "name": "Vale S",
-          "campbelltown": false
-        },
-        {
-          "name": "van Nunen S",
-          "campbelltown": false
-        },
-        {
-          "name": "Wanandy T",
-          "campbelltown": false
-        },
-        {
-          "name": "Campbell DE",
-          "campbelltown": false
-        },
-        {
-          "name": "Perrett KP",
-          "campbelltown": false
-        },
-        {
-          "name": "Peters RL",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Medicine"
-      ],
-      "keywords": [
-        "National health survey",
-        "allergic rhinitis",
-        "asthma",
-        "drug allergy",
-        "eczema",
-        "food allergy",
-        "prevalence"
-      ],
-      "abstract": "BACKGROUND: The prevalence of allergic diseases across the Australian population, in all regions and age groups, is not well documented. This study aimed to describe the prevalence and distribution of five allergic diseases (allergic rhinitis, asthma, drug allergy, eczema, and food allergy) and examine differences by sociodemographic factors. METHODS: This study used data from the 2022 cross-sectional Australian National Health Survey. The survey randomly selected a sample of 13,095 households (with 17,093 participants) living in private dwellings in all Australian states and territories. Questionnaires were completed via face-to-face interviews. Allergic rhinitis, asthma, drug allergy, eczema, and food allergy were captured as self- or parent-reported long-term health conditions. Weighted estimates and relative standard errors were extracted and analysed. Prevalence was calculated using population data from the Australian 2021 Census. RESULTS: The prevalence of self-reported current allergic rhinitis in Australia was 23.9% (95% CI: 23.1%-24.8%), food allergy was 7.0% (95% CI: 6.5%-7.5%), drug allergy was 5.2% (95% CI: 4.7%-5.6%), eczema was 1.6% (95% CI: 1.3%-1.9%), and diagnosed…"
-    },
-    {
       "pmid": "41797426",
       "doi": "10.1111/1742-6723.70240",
       "title": "The Sydney Triage to Admission Risk Tool With Artificial Intelligence (START-AI): Prediction of Inpatient Admission From Emergency Departments Using Ensemble Machine Learning.",
@@ -6833,57 +7253,6 @@
         "practice"
       ],
       "abstract": "Background/Objectives : Biofeedback therapy is a technique that trains individuals to change their physiological activity for the purpose of improving their health. Despite its proven efficacy in 70 to 80% of patients in clinical trials, biofeedback is significantly underutilised in clinical practice worldwide. This scoping review aims to synthesise the current evidence on clinicians' attitudes, knowledge, and experiences with anorectal biofeedback, highlight gaps in the existing literature, and guide future research directions. These findings are compared with new local Australian data. Methods : Systematic searches were conducted on five electronic databases including MEDLINE, Embase, CINAHL, Scopus, and APA PsycInfo. Eight articles were retrieved from title and abstract, full text, and reference list screening using Covidence. Results : The scoping review revealed substantial heterogeneity in the clinical indications for biofeedback. Both the scoping review and Australian study reported that over half of clinicians could not accurately define biofeedback or report familiarity with the technique, and that barriers to the implementation of biofeedback included long wait times,…"
-    },
-    {
-      "pmid": "41556361",
-      "doi": "10.1093/nutrit/nuaf230",
-      "title": "Relationship Between Hypovitaminosis C, Obesity, and Features of Metabolic Syndrome-A Narrative Review.",
-      "journal": "Nutrition reviews",
-      "journalAbbrev": "Nutr Rev",
-      "year": 2026,
-      "month": 1,
-      "authors": [
-        {
-          "name": "Wilson RB",
-          "campbelltown": false
-        },
-        {
-          "name": "Liang Y",
-          "campbelltown": false
-        },
-        {
-          "name": "Kaushal D",
-          "campbelltown": true
-        },
-        {
-          "name": "Carr A",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "GLUT",
-        "Mediterranean diet",
-        "NAFLD",
-        "RDA",
-        "ROS",
-        "SVCT",
-        "Western diet",
-        "antioxidant",
-        "ascorbic acid",
-        "fatty acid oxidation",
-        "free radical",
-        "inflammation",
-        "insulin resistance",
-        "metabolic syndrome",
-        "micronutrient",
-        "obesity",
-        "oxidative stress",
-        "scurvy",
-        "vitamin C"
-      ],
-      "abstract": "This narrative review aimed to review plausible mechanisms for the role of vitamin C (ascorbic acid [AA]) in the maintenance of healthy weight and energy metabolism; examine the evidence for inadequate vitamin C (plasma AA <50 µmol/L), hypovitaminosis C (≤23 µmol/L), and vitamin C deficiency (≤11.4 µmol/L) in the disrupted homeostasis of obesity and metabolic syndrome; and ascertain whether vitamin C supplementation or dietary intervention could potentially treat obesity and the associated features of metabolic syndrome. Vitamin C hypovitaminosis and deficiency are prevalent in developed countries, despite the widespread availability of vitamin C-containing fruit and vegetables and vitamin supplements. Western diets are characterized by highly processed, macronutrient-rich foods, which are deficient in dietary fiber and micronutrients. This contributes to postprandial oxidative stress and gut dysbiosis, leading to profound effects on insulin sensitivity, hyperglycemia, levels of endotoxemia, fatty acid oxidation, adipocyte hypertrophy, and regulation of metabolism and energy balance. The existing in vitro and in vivo preclinical data demonstrate the effectiveness of vitamin C as…"
     },
     {
       "pmid": "41501746",
