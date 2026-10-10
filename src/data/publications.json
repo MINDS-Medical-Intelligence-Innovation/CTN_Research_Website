@@ -1,7 +1,128 @@
 {
-  "generated": "2026-10-03T01:30:45.136Z",
+  "generated": "2026-10-10T01:58:00.919Z",
   "source": "pubmed",
   "items": [
+    {
+      "pmid": "42830737",
+      "doi": "10.1016/j.ccrj.2026.100219",
+      "title": "Variation in capability, organisational structure, and treatment processes for critically ill adults with moderate-to-severe traumatic brain injury in Australia and New Zealand.",
+      "journal": "Critical care and resuscitation : journal of the Australasian Academy of Critical Care Medicine",
+      "journalAbbrev": "Crit Care Resusc",
+      "year": 2026,
+      "month": 12,
+      "authors": [
+        {
+          "name": "Taylor JD",
+          "campbelltown": false
+        },
+        {
+          "name": "Battistuzzo CR",
+          "campbelltown": false
+        },
+        {
+          "name": "Kow CY",
+          "campbelltown": false
+        },
+        {
+          "name": "Moore J",
+          "campbelltown": false
+        },
+        {
+          "name": "Shim L",
+          "campbelltown": false
+        },
+        {
+          "name": "Bellapart J",
+          "campbelltown": false
+        },
+        {
+          "name": "Betteridge T",
+          "campbelltown": false
+        },
+        {
+          "name": "Bevan RS",
+          "campbelltown": false
+        },
+        {
+          "name": "Bhonagiri D",
+          "campbelltown": true
+        },
+        {
+          "name": "Chow A",
+          "campbelltown": false
+        },
+        {
+          "name": "Flower O",
+          "campbelltown": false
+        },
+        {
+          "name": "Haydon TP",
+          "campbelltown": false
+        },
+        {
+          "name": "Jeffcote T",
+          "campbelltown": false
+        },
+        {
+          "name": "Mak WY",
+          "campbelltown": false
+        },
+        {
+          "name": "McNamara R",
+          "campbelltown": false
+        },
+        {
+          "name": "Mistry RN",
+          "campbelltown": false
+        },
+        {
+          "name": "Morris IS",
+          "campbelltown": false
+        },
+        {
+          "name": "Senthuran S",
+          "campbelltown": false
+        },
+        {
+          "name": "Sundararajan K",
+          "campbelltown": false
+        },
+        {
+          "name": "Warrillow S",
+          "campbelltown": false
+        },
+        {
+          "name": "Weeden M",
+          "campbelltown": false
+        },
+        {
+          "name": "Young PJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Higgins AM",
+          "campbelltown": false
+        },
+        {
+          "name": "McArthur CJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Udy AA",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Centre variation",
+        "Intensive care",
+        "Neurocritical care",
+        "Quality improvement",
+        "Traumatic brain injury"
+      ],
+      "abstract": "OBJECTIVE: To characterise between-centre variation in capability, organisational structure, and treatment processes for adults with moderate-to-severe traumatic brain injury (msTBI) admitted to intensive care (ICU) in Australia and New Zealand (ANZ). DESIGN: Cross-sectional questionnaire supplemented by linked Australian and New Zealand Intensive Care Society CORE Critical Care Resources Registry descriptors. SETTING: ANZ ICUs treating adults with msTBI, October-December 2025. MAIN OUTCOME MEASURES: Variation in organisational structure and capability, ICU treatment processes, neuroprognostication, withholding or withdrawal of life-sustaining therapy, and fulfilment of selected Australian TBI Quality Indicator Set elements. Heterogeneity was assessed using the index of qualitative variation (IQV) for nominal items and Leik's dispersion for ordinal items; values <0.3 were considered low, 0.3-0.7 moderate, and >0.7 substantial. RESULTS: Moderate or substantial heterogeneity was observed in 39 of 74 measured items (53%). Substantial heterogeneity included neurocritical care subspecialty expertise (IQV 1.00), perceived devastating traumatic brain injury management (IQV 0.99),…"
+    },
     {
       "pmid": "42820864",
       "doi": "10.70962/jhi.20260120",
@@ -503,6 +624,295 @@
       "departments": [],
       "keywords": [],
       "abstract": "OBJECTIVE: To investigate whether the Sydney Triage to Admission Risk Tool with Artificial Intelligence (START-AI) model could be used to predict specific inpatient admitting teams based on clinical notes. METHODS: This was a pre-trained language model analysis using electronic medical record data from an inner-city tertiary referral hospital emergency department (ED) in Sydney, Australia. All adult patients who were admitted to an inpatient ward between January 2023 and June 2025 were included. A fine-tuned Bidirectional Encoder Representation of Transformer (Bio-ClinicalBERT) used in the original START-AI analysis was trained on ED medical case history notes to predict one of twenty specialist inpatient admitting teams. RESULTS: A total of 40,054 cases were analysed. The overall weighted average area under receiver operating characteristic curve (AUROC) was 0.97 (95% CI: 0.96, 0.98). For individual classes of inpatient admitting teams, AUROC ranged from 0.91 for infectious diseases to 0.99 for psychiatry and gynaecology. The overall weighted average precision (positive predictive value) was moderate at 0.71 (95% CI: 0.71, 0.72). The model correctly classified around three…"
+    },
+    {
+      "pmid": "42849489",
+      "doi": "10.1016/S0140-6736(26)01296-1",
+      "title": "Oral deucrictibant for on-demand treatment of hereditary angioedema attacks: a phase 3, multicentre, randomised, double-blind, placebo-controlled crossover trial.",
+      "journal": "Lancet (London, England)",
+      "journalAbbrev": "Lancet",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Riedl MA",
+          "campbelltown": false
+        },
+        {
+          "name": "Li PH",
+          "campbelltown": false
+        },
+        {
+          "name": "Adatia A",
+          "campbelltown": false
+        },
+        {
+          "name": "Cancian M",
+          "campbelltown": false
+        },
+        {
+          "name": "Stobiecki M",
+          "campbelltown": false
+        },
+        {
+          "name": "Valerieva A",
+          "campbelltown": false
+        },
+        {
+          "name": "Grumach AS",
+          "campbelltown": false
+        },
+        {
+          "name": "Lumry WR",
+          "campbelltown": false
+        },
+        {
+          "name": "Soteres DF",
+          "campbelltown": false
+        },
+        {
+          "name": "Brodszki N",
+          "campbelltown": false
+        },
+        {
+          "name": "Fili NL",
+          "campbelltown": false
+        },
+        {
+          "name": "Hakl R",
+          "campbelltown": false
+        },
+        {
+          "name": "Kang HR",
+          "campbelltown": false
+        },
+        {
+          "name": "Karakaya G",
+          "campbelltown": false
+        },
+        {
+          "name": "Kränke B",
+          "campbelltown": false
+        },
+        {
+          "name": "Li HH",
+          "campbelltown": false
+        },
+        {
+          "name": "Peter J",
+          "campbelltown": false
+        },
+        {
+          "name": "Recke A",
+          "campbelltown": false
+        },
+        {
+          "name": "Tachdjian R",
+          "campbelltown": false
+        },
+        {
+          "name": "Triggianese P",
+          "campbelltown": false
+        },
+        {
+          "name": "Zanichelli A",
+          "campbelltown": false
+        },
+        {
+          "name": "Anderson J",
+          "campbelltown": false
+        },
+        {
+          "name": "Aygören-Pürsün E",
+          "campbelltown": false
+        },
+        {
+          "name": "Craig TJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Farkas H",
+          "campbelltown": false
+        },
+        {
+          "name": "Giardino F",
+          "campbelltown": false
+        },
+        {
+          "name": "Giavina-Bianchi P",
+          "campbelltown": false
+        },
+        {
+          "name": "Kim S",
+          "campbelltown": false
+        },
+        {
+          "name": "Kinaciyan T",
+          "campbelltown": false
+        },
+        {
+          "name": "Martinez-Saguer I",
+          "campbelltown": false
+        },
+        {
+          "name": "Perego F",
+          "campbelltown": false
+        },
+        {
+          "name": "Sitz KV",
+          "campbelltown": false
+        },
+        {
+          "name": "Staevska M",
+          "campbelltown": false
+        },
+        {
+          "name": "Wedner HJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Zaragoza-Urdaz RH",
+          "campbelltown": false
+        },
+        {
+          "name": "Zwiener RD",
+          "campbelltown": false
+        },
+        {
+          "name": "Gelincik A",
+          "campbelltown": false
+        },
+        {
+          "name": "Arcoleo F",
+          "campbelltown": false
+        },
+        {
+          "name": "Arnaout R",
+          "campbelltown": false
+        },
+        {
+          "name": "Baptist AP",
+          "campbelltown": false
+        },
+        {
+          "name": "de Albuquerque Campos R",
+          "campbelltown": false
+        },
+        {
+          "name": "Dorr AD",
+          "campbelltown": false
+        },
+        {
+          "name": "Ferriani MPL",
+          "campbelltown": false
+        },
+        {
+          "name": "Fukunaga A",
+          "campbelltown": false
+        },
+        {
+          "name": "Gobert D",
+          "campbelltown": false
+        },
+        {
+          "name": "Gurugama P",
+          "campbelltown": false
+        },
+        {
+          "name": "Hide M",
+          "campbelltown": false
+        },
+        {
+          "name": "Hong DI",
+          "campbelltown": false
+        },
+        {
+          "name": "Inage E",
+          "campbelltown": false
+        },
+        {
+          "name": "Jacobs JS",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Leeman L",
+          "campbelltown": false
+        },
+        {
+          "name": "Lleonart R",
+          "campbelltown": false
+        },
+        {
+          "name": "Magerl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Manning ME",
+          "campbelltown": false
+        },
+        {
+          "name": "Mano S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ooka S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ramos CJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Liu J",
+          "campbelltown": false
+        },
+        {
+          "name": "Zhu L",
+          "campbelltown": false
+        },
+        {
+          "name": "Mendivil J",
+          "campbelltown": false
+        },
+        {
+          "name": "Katbeh U",
+          "campbelltown": false
+        },
+        {
+          "name": "Giannattasio G",
+          "campbelltown": false
+        },
+        {
+          "name": "Crabbé R",
+          "campbelltown": false
+        },
+        {
+          "name": "Yu M",
+          "campbelltown": false
+        },
+        {
+          "name": "Lesage A",
+          "campbelltown": false
+        },
+        {
+          "name": "Lu P",
+          "campbelltown": false
+        },
+        {
+          "name": "Cohn DM",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medicine"
+      ],
+      "keywords": [],
+      "abstract": "BACKGROUND: In hereditary angioedema, a rare bradykinin-mediated condition, oral on-demand treatments facilitating prompt administration and providing rapid, sustained relief and attack resolution remain scant. We investigated the efficacy and safety of deucrictibant, an oral bradykinin B2 receptor antagonist, for on-demand treatment of hereditary angioedema attacks. METHODS: RAPIDe-3 was a phase 3, double-blind, 2 × 2 crossover trial in adolescent and adult participants (aged ≥12 to <18 years and aged ≥18 to ≤75 years, respectively) with hereditary angioedema, at 59 sites across 24 countries on six continents. Eligible participants had hereditary angioedema, including those with normal C1 inhibitor associated with a documented genetic variant, at least two attacks within the last 3 months before screening, and experience with effectively using conventional on-demand therapies for hereditary angioedema attacks. Participants were randomly allocated in a 1:1 ratio to one of two double-blind crossover sequences to treat two attacks with a 20 mg oral deucrictibant immediate-release capsule or placebo as either deucrictibant-placebo or placebo-deucrictibant, stratified by age and use…"
     },
     {
       "pmid": "42622212",

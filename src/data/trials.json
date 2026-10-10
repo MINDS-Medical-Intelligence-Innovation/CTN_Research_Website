@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T01:30:45.842Z",
+  "generated": "2026-10-10T01:58:01.605Z",
   "source": "clinicaltrials.gov",
   "items": [
     {
@@ -122,6 +122,32 @@
       "url": "https://clinicaltrials.gov/study/NCT02735707",
       "briefSummary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia. The purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia. In addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19. REMAP-COVID is a sub-platform of REMAP-CAP that evaluates treatments specific to COVID-19 in the United States of America.",
       "lastUpdate": "2024-07-12"
+    },
+    {
+      "nctId": "NCT06634420",
+      "title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "conditions": [
+        "Hereditary Angioedema"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT06634420",
+      "briefSummary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
+      "lastUpdate": "2026-10-08"
+    },
+    {
+      "nctId": "NCT05752279",
+      "title": "Balanced Multi-Electrolyte Solution Versus Saline Trial for Diabetic KetoAcidosis",
+      "status": "COMPLETED",
+      "phase": "PHASE3",
+      "conditions": [
+        "Diabetic Ketoacidosis"
+      ],
+      "facility": "Campbelltown Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT05752279",
+      "briefSummary": "The goal of this blinded, cluster cross-over, randomised controlled trial is to determine whether fluid therapy with Plasma-Lyte® 148 increases the number of days alive and days out of hospital to day-28 compared to 0.9% sodium chloride ('0.9% saline') in critically ill patients presenting to the Emergency Department (ED) and deemed to require admission to a critical care area (ICU, HDU) with moderate to severe diabetic ketoacidosis (DKA).",
+      "lastUpdate": "2026-10-05"
     },
     {
       "nctId": "NCT04562389",
@@ -255,19 +281,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06459180",
       "briefSummary": "This study will have two phases: a sacituzumab tirumotecan safety run-in and a Phase 3 portion. The safety run-in phase will be used to evaluate the efficacy and safety of sacituzumab tirumotecan at the dose for evaluation in the Phase 3 portion. The purpose of this study is to compare the efficacy and safety of sacituzumab tirumotecan versus treatment of physician's choice as second-line treatment for participants with recurrent or metastatic cervical cancer in the Phase 3 portion. The primary study hypotheses are that, in the Phase 3 portion, sacituzumab tirumotecan results in a superior…",
       "lastUpdate": "2026-08-28"
-    },
-    {
-      "nctId": "NCT06634420",
-      "title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phase": "PHASE3",
-      "conditions": [
-        "Hereditary Angioedema"
-      ],
-      "facility": "Campbelltown Hospital",
-      "url": "https://clinicaltrials.gov/study/NCT06634420",
-      "briefSummary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
-      "lastUpdate": "2026-07-29"
     },
     {
       "nctId": "NCT06987643",
