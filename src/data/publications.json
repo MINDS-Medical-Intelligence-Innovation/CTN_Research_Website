@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T01:58:00.919Z",
+  "generated": "2026-10-17T00:52:45.432Z",
   "source": "pubmed",
   "items": [
     {
@@ -915,6 +915,274 @@
       "abstract": "BACKGROUND: In hereditary angioedema, a rare bradykinin-mediated condition, oral on-demand treatments facilitating prompt administration and providing rapid, sustained relief and attack resolution remain scant. We investigated the efficacy and safety of deucrictibant, an oral bradykinin B2 receptor antagonist, for on-demand treatment of hereditary angioedema attacks. METHODS: RAPIDe-3 was a phase 3, double-blind, 2 × 2 crossover trial in adolescent and adult participants (aged ≥12 to <18 years and aged ≥18 to ≤75 years, respectively) with hereditary angioedema, at 59 sites across 24 countries on six continents. Eligible participants had hereditary angioedema, including those with normal C1 inhibitor associated with a documented genetic variant, at least two attacks within the last 3 months before screening, and experience with effectively using conventional on-demand therapies for hereditary angioedema attacks. Participants were randomly allocated in a 1:1 ratio to one of two double-blind crossover sequences to treat two attacks with a 20 mg oral deucrictibant immediate-release capsule or placebo as either deucrictibant-placebo or placebo-deucrictibant, stratified by age and use…"
     },
     {
+      "pmid": "42592660",
+      "doi": "10.1002/ccd.70787",
+      "title": "SCORE-CUT: A Randomized Trial Comparison of Scoring, Cutting, and Non-Compliant Balloon Lesion Preparation Strategies for Drug-Coated Balloon Angioplasty-Rationale and Design.",
+      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+      "journalAbbrev": "Catheter Cardiovasc Interv",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Khandkar C",
+          "campbelltown": false
+        },
+        {
+          "name": "Khialani B",
+          "campbelltown": false
+        },
+        {
+          "name": "Ravindran J",
+          "campbelltown": false
+        },
+        {
+          "name": "Jain P",
+          "campbelltown": false
+        },
+        {
+          "name": "Kurup R",
+          "campbelltown": true
+        },
+        {
+          "name": "Ekmejian A",
+          "campbelltown": false
+        },
+        {
+          "name": "Touma G",
+          "campbelltown": false
+        },
+        {
+          "name": "Cosgrove C",
+          "campbelltown": false
+        },
+        {
+          "name": "Asrress K",
+          "campbelltown": false
+        },
+        {
+          "name": "Selvakumar D",
+          "campbelltown": false
+        },
+        {
+          "name": "Hallani H",
+          "campbelltown": false
+        },
+        {
+          "name": "Liou K",
+          "campbelltown": false
+        },
+        {
+          "name": "Ford T",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong B",
+          "campbelltown": false
+        },
+        {
+          "name": "Fairley S",
+          "campbelltown": false
+        },
+        {
+          "name": "Harding S",
+          "campbelltown": false
+        },
+        {
+          "name": "Yong A",
+          "campbelltown": false
+        },
+        {
+          "name": "Ada C",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "cutting",
+        "drug‐coated balloon",
+        "drug‐eluting",
+        "intravascular ultrasound",
+        "scoring"
+      ],
+      "abstract": "BACKGROUND: Drug-coated balloons (DCB) provide a \"metal-free\" alternative to drug-eluting stents, yet their success is highly dependent on optimal lesion preparation for effective drug transfer and to minimize acute recoil. While scoring balloons (SB) and cutting balloons (CB) are hypothesized to achieve superior plaque modification versus non-compliant balloons (NCBs) through controlled micro-dissections, high-quality randomized evidence in de-novo coronary lesions remains sparse. AIM: SCORE-CUT aims to determine the optimal lesion-preparation strategy prior to DCB angioplasty by directly comparing the efficacy of pre-dilation with NCB, SB, and CB. METHODS: This is a prospective, multi-center, randomized trial conducted across sites in Australia, New Zealand, and Singapore (ACTRN12625001349437). A total of 198 patients with de-novo lesions (2.0-4.0 mm diameter on angiography) are randomized 1:1:1 to undergo lesion preparation with NCB, SB, or CB. Intravascular ultrasound (IVUS) imaging is performed both before and after lesion preparation. The primary endpoint is absolute minimum lumen area (MLA) gain (mm 2 ) on IVUS after lesion preparation, analyzed by an independent, blinded…"
+    },
+    {
+      "pmid": "42504446",
+      "doi": "10.1002/ccd.70768",
+      "title": "VERMONT μQFR: Diagnostic Accuracy of Murray Law-Based 2D-μQFR Compared to 3D-μQFR and vFFR.",
+      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+      "journalAbbrev": "Catheter Cardiovasc Interv",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Akrawi D",
+          "campbelltown": true
+        },
+        {
+          "name": "Kadappu K",
+          "campbelltown": true
+        },
+        {
+          "name": "Xu J",
+          "campbelltown": false
+        },
+        {
+          "name": "Badie TYN",
+          "campbelltown": true
+        },
+        {
+          "name": "Gibbs O",
+          "campbelltown": true
+        },
+        {
+          "name": "Kachwalla H",
+          "campbelltown": true
+        },
+        {
+          "name": "Nguyen PTD",
+          "campbelltown": true
+        },
+        {
+          "name": "Kurup R",
+          "campbelltown": true
+        },
+        {
+          "name": "Premawardhana U",
+          "campbelltown": true
+        },
+        {
+          "name": "Huang J",
+          "campbelltown": true
+        },
+        {
+          "name": "Tran H",
+          "campbelltown": true
+        },
+        {
+          "name": "Soosapilla K",
+          "campbelltown": true
+        },
+        {
+          "name": "Basilakis J",
+          "campbelltown": false
+        },
+        {
+          "name": "O'loughlin A",
+          "campbelltown": true
+        },
+        {
+          "name": "Hennessy A",
+          "campbelltown": false
+        },
+        {
+          "name": "Femia G",
+          "campbelltown": false
+        },
+        {
+          "name": "Lo S",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Cardiology"
+      ],
+      "keywords": [
+        "FFR",
+        "Murray law‐based quantitative flow ratio",
+        "angiogram based fractional flow reserve",
+        "fractional flow reserve",
+        "vFFR",
+        "vessel fractional flow reserve",
+        "μQFR"
+      ],
+      "abstract": "BACKGROUND: Murray law-based quantitative flow ratio (μQFR) is an angiography-derived physiological index that utilizes a single angiographic projection with artificial intelligence-guided vessel segmentation. AIMS: To evaluate the diagnostic accuracy and time efficacy of 2D-μQFR against wire-based fractional flow reserve (FFR ≤ 0.80), compare its performance with 3D-μQFR and vessel-FFR (vFFR), and assess feasibility in lesions excluded from vFFR analysis. METHODS: This sub-study of the prospective VERMONT trial analyzed 2D- and 3D-μQFR retrospectively using prospectively acquired angiograms, with wire-based FFR as the reference standard. RESULTS: Among 209 patients with 225 intermediate lesions, 205 lesions were analyzed. 2D-μQFR demonstrated excellent diagnostic accuracy for FFR ≤ 0.80 (AUC 0.95; 95% CI 0.93-0.98), with 93% sensitivity, 92% specificity, 88% positive predictive value (PPV), and 95% negative predictive value (NPV). Inter-observer agreement was excellent (r = 0.94, p < 0.001), and 2D-μQFR analysis was 15.1 min faster than wire-based FFR (1.8 ± 0.7 vs. 16.9 ± 5.4 min, p < 0.001). Diagnostic performance was comparable to that of 3D-μQFR, which achieved an AUC of 0.94…"
+    },
+    {
+      "pmid": "42168076",
+      "doi": "10.1016/j.hbpd.2026.05.002",
+      "title": "Hemobilia secondary to ruptured cystic artery pseudoaneurysm: A complication of a retained biliary stent.",
+      "journal": "Hepatobiliary & pancreatic diseases international : HBPD INT",
+      "journalAbbrev": "Hepatobiliary Pancreat Dis Int",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "O'Neill RS",
+          "campbelltown": true
+        },
+        {
+          "name": "Lee C",
+          "campbelltown": true
+        },
+        {
+          "name": "Jia K",
+          "campbelltown": true
+        },
+        {
+          "name": "Verdon C",
+          "campbelltown": true
+        },
+        {
+          "name": "Thilakanathan C",
+          "campbelltown": true
+        },
+        {
+          "name": "Turner I",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Gastroenterology and Hepatology"
+      ],
+      "keywords": [],
+      "abstract": ""
+    },
+    {
+      "pmid": "42885480",
+      "doi": "10.1111/1742-6723.70371",
+      "title": "A Mixed Methods Evaluation of a Model of Care for Domestic Violence Within the Emergency Department.",
+      "journal": "Emergency medicine Australasia : EMA",
+      "journalAbbrev": "Emerg Med Australas",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Haq A",
+          "campbelltown": false
+        },
+        {
+          "name": "Allison KR",
+          "campbelltown": false
+        },
+        {
+          "name": "Rhodes H",
+          "campbelltown": true
+        },
+        {
+          "name": "Coorey CP",
+          "campbelltown": false
+        },
+        {
+          "name": "Edmiston N",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "domestic violence",
+        "emergency department",
+        "model of care",
+        "social work",
+        "trauma‐informed care"
+      ],
+      "abstract": "OBJECTIVE: To describe the scope and extent of the Domestic Violence (DV) Model of Care at Campbelltown Emergency Department (ED). We detail patient population characteristics, means of identifying victim-survivors, care provided, and factors associated with social work review. METHODS: This mixed-methods evaluation utilised (1) retrospective audits of medical records of patients admitted to Campbelltown ED in 2024, who (a) responded affirmatively on the DV Routine Screening (DVRS) tool, and/or (b) were reviewed by social work relating to DV; and (2) semi-structured interviews with 19 clinicians and support workers about their understanding of and role within the model of care. Descriptive analyses quantified the scope and characteristics of the DV patient population and care provision; logistic regression identified factors associated with DVRS-identified patients seeing social work. Thematic analysis of interview data supplemented audit findings. RESULTS: In 2024, 249 ED patients responded affirmatively to the DVRS tool (DV identified prior for 52.2%), and 231 patients were reviewed by social work relating to DV. Victim-survivors were identified through DVRS tool use, explicit…"
+    },
+    {
       "pmid": "42622212",
       "doi": "10.1161/JAHA.125.045588",
       "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
@@ -1679,6 +1947,49 @@
       ],
       "keywords": [],
       "abstract": ""
+    },
+    {
+      "pmid": "42866825",
+      "doi": "10.21037/tau-2026-0603",
+      "title": "Filling the information gap: a validated comparison of ChatGPT, Gemini, and Claude for penile cancer patient education.",
+      "journal": "Translational andrology and urology",
+      "journalAbbrev": "Transl Androl Urol",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Yang J",
+          "campbelltown": true
+        },
+        {
+          "name": "Bushati Y",
+          "campbelltown": true
+        },
+        {
+          "name": "Lorger S",
+          "campbelltown": true
+        },
+        {
+          "name": "Saad J",
+          "campbelltown": true
+        },
+        {
+          "name": "Rathore P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Urology"
+      ],
+      "keywords": [
+        "Penile cancer",
+        "artificial intelligence (AI)",
+        "large language models (LLMs)",
+        "organ preservation",
+        "patient education"
+      ],
+      "abstract": "BACKGROUND: ChatGPT, Gemini, and Claude are three large language models (LLMs) increasingly consulted by patients researching a new cancer diagnosis. Penile cancer is rare, stigmatised, and dominated by decisions around organ preservation and sexual function, which makes the quality of patient-facing information particularly consequential. The aim of this study was to assess the quality of responses generated by these LLMs to patient-oriented questions on penile cancer. METHODS: Fourteen questions reflecting common patient information needs were adapted from established educational resources and refined by senior urology consultant review. Each query was presented to ChatGPT, Gemini, and Claude using an identical patient-centred prompt. Responses (n=42) were anonymised and randomly ordered before being independently reviewed in a consensus meeting by a urology panel using the Quality Analysis of Medical Artificial Intelligence (QAMAI) framework. Comparative analysis used the Friedman test with Bonferroni-corrected pairwise Wilcoxon signed-rank testing. RESULTS: Mean total QAMAI scores were 22.7 for ChatGPT (median, 23; range, 17 to 25), 22.6 for Claude (median, 23; range, 18 to…"
     },
     {
       "pmid": "42201836",
@@ -3055,99 +3366,6 @@
         "short‐term prophylaxis"
       ],
       "abstract": "Hereditary angioedema (HAE) with C1 inhibitor deficiency is a rare disease characterized by unpredictable episodes of tissue swelling (angioedema), which, in most cases, occur first under the age of 18 years, and entail a significant burden of disease not only for the patients but also for their families. Clinical symptoms of HAE are not specific, which may cause difficulties in differential diagnosis. Additionally, if not appropriately treated, HAE attacks can be life-threatening. The international HAE guidelines published so far have focused mainly on adults. A guideline that refers to the age-specific characteristics of pediatric patients, both in terms of diagnosis and management, was therefore needed. The International Steering Committee and Taskforce developed recommendations and provided evidence-based grading based on expert opinion and strength of evidence. Recommendations were presented to, discussed, and electronically voted by healthcare professionals during the 14th C1 Inhibitor Deficiency and Angioedema Workshop in Budapest, Hungary, 2025. This international guideline will ensure early diagnosis, standardized and up-to-date treatment, and promote the availability of…"
-    },
-    {
-      "pmid": "42592660",
-      "doi": "10.1002/ccd.70787",
-      "title": "SCORE-CUT: A Randomized Trial Comparison of Scoring, Cutting, and Non-Compliant Balloon Lesion Preparation Strategies for Drug-Coated Balloon Angioplasty-Rationale and Design.",
-      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
-      "journalAbbrev": "Catheter Cardiovasc Interv",
-      "year": 2026,
-      "month": 8,
-      "authors": [
-        {
-          "name": "Khandkar C",
-          "campbelltown": false
-        },
-        {
-          "name": "Khialani B",
-          "campbelltown": false
-        },
-        {
-          "name": "Ravindran J",
-          "campbelltown": false
-        },
-        {
-          "name": "Jain P",
-          "campbelltown": false
-        },
-        {
-          "name": "Kurup R",
-          "campbelltown": true
-        },
-        {
-          "name": "Ekmejian A",
-          "campbelltown": false
-        },
-        {
-          "name": "Touma G",
-          "campbelltown": false
-        },
-        {
-          "name": "Cosgrove C",
-          "campbelltown": false
-        },
-        {
-          "name": "Asrress K",
-          "campbelltown": false
-        },
-        {
-          "name": "Selvakumar D",
-          "campbelltown": false
-        },
-        {
-          "name": "Hallani H",
-          "campbelltown": false
-        },
-        {
-          "name": "Liou K",
-          "campbelltown": false
-        },
-        {
-          "name": "Ford T",
-          "campbelltown": false
-        },
-        {
-          "name": "Wong B",
-          "campbelltown": false
-        },
-        {
-          "name": "Fairley S",
-          "campbelltown": false
-        },
-        {
-          "name": "Harding S",
-          "campbelltown": false
-        },
-        {
-          "name": "Yong A",
-          "campbelltown": false
-        },
-        {
-          "name": "Ada C",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "cutting",
-        "drug‐coated balloon",
-        "drug‐eluting",
-        "intravascular ultrasound",
-        "scoring"
-      ],
-      "abstract": "BACKGROUND: Drug-coated balloons (DCB) provide a \"metal-free\" alternative to drug-eluting stents, yet their success is highly dependent on optimal lesion preparation for effective drug transfer and to minimize acute recoil. While scoring balloons (SB) and cutting balloons (CB) are hypothesized to achieve superior plaque modification versus non-compliant balloons (NCBs) through controlled micro-dissections, high-quality randomized evidence in de-novo coronary lesions remains sparse. AIM: SCORE-CUT aims to determine the optimal lesion-preparation strategy prior to DCB angioplasty by directly comparing the efficacy of pre-dilation with NCB, SB, and CB. METHODS: This is a prospective, multi-center, randomized trial conducted across sites in Australia, New Zealand, and Singapore (ACTRN12625001349437). A total of 198 patients with de-novo lesions (2.0-4.0 mm diameter on angiography) are randomized 1:1:1 to undergo lesion preparation with NCB, SB, or CB. Intravascular ultrasound (IVUS) imaging is performed both before and after lesion preparation. The primary endpoint is absolute minimum lumen area (MLA) gain (mm 2 ) on IVUS after lesion preparation, analyzed by an independent, blinded…"
     },
     {
       "pmid": "42578759",
@@ -4898,99 +5116,6 @@
       "abstract": "BACKGROUND: Robotic-assisted percutaneous coronary intervention (R-PCI) allows precise control of percutaneous coronary intervention (PCI) equipment with the operator in a radiation-shielded cockpit. AIMS: We aimed to address the lack of randomised studies investigating this emerging technology. METHODS: In this single-centre, randomised controlled trial, patients with symptomatic coronary disease underwent either R-PCI or manual PCI (M-PCI). The primary endpoint was patient radiation exposure. Secondary outcomes included radiation exposure to the medical team, overall subjective workload, and other procedural characteristics. RESULTS: A total of 148 patients were randomised (72 R-PCI, 76 M-PCI), with a median age of 63.2 years (interquartile range [IQR] 55.5-69.5), and 82.4% were male. In the intention-to-treat analysis, R-PCI numerically reduced patient radiation exposure (230.7 microsieverts [μSv; IQR 104.0-443.7] vs 261.4 µSv [IQR 136.5-531.2]; p=0.14). This reduction became statistically significant in the as-treated analysis (218.5 µSv [IQR 100.0-375.3] vs 264.7 µSv [IQR 136.3-534.8]; p=0.03). R-PCI significantly reduced operator radiation exposure (0.1 µSv [IQR 0.1-0.3] vs…"
     },
     {
-      "pmid": "42504446",
-      "doi": "10.1002/ccd.70768",
-      "title": "VERMONT μQFR: Diagnostic Accuracy of Murray Law-Based 2D-μQFR Compared to 3D-μQFR and vFFR.",
-      "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
-      "journalAbbrev": "Catheter Cardiovasc Interv",
-      "year": 2026,
-      "month": 7,
-      "authors": [
-        {
-          "name": "Akrawi D",
-          "campbelltown": true
-        },
-        {
-          "name": "Kadappu K",
-          "campbelltown": true
-        },
-        {
-          "name": "Xu J",
-          "campbelltown": false
-        },
-        {
-          "name": "Badie TYN",
-          "campbelltown": true
-        },
-        {
-          "name": "Gibbs O",
-          "campbelltown": true
-        },
-        {
-          "name": "Kachwalla H",
-          "campbelltown": true
-        },
-        {
-          "name": "Nguyen PTD",
-          "campbelltown": true
-        },
-        {
-          "name": "Kurup R",
-          "campbelltown": true
-        },
-        {
-          "name": "Premawardhana U",
-          "campbelltown": true
-        },
-        {
-          "name": "Huang J",
-          "campbelltown": true
-        },
-        {
-          "name": "Tran H",
-          "campbelltown": true
-        },
-        {
-          "name": "Soosapilla K",
-          "campbelltown": true
-        },
-        {
-          "name": "Basilakis J",
-          "campbelltown": false
-        },
-        {
-          "name": "O'loughlin A",
-          "campbelltown": true
-        },
-        {
-          "name": "Hennessy A",
-          "campbelltown": false
-        },
-        {
-          "name": "Femia G",
-          "campbelltown": false
-        },
-        {
-          "name": "Lo S",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": true,
-      "departments": [
-        "Cardiology"
-      ],
-      "keywords": [
-        "FFR",
-        "Murray law‐based quantitative flow ratio",
-        "angiogram based fractional flow reserve",
-        "fractional flow reserve",
-        "vFFR",
-        "vessel fractional flow reserve",
-        "μQFR"
-      ],
-      "abstract": "BACKGROUND: Murray law-based quantitative flow ratio (μQFR) is an angiography-derived physiological index that utilizes a single angiographic projection with artificial intelligence-guided vessel segmentation. AIMS: To evaluate the diagnostic accuracy and time efficacy of 2D-μQFR against wire-based fractional flow reserve (FFR ≤ 0.80), compare its performance with 3D-μQFR and vessel-FFR (vFFR), and assess feasibility in lesions excluded from vFFR analysis. METHODS: This sub-study of the prospective VERMONT trial analyzed 2D- and 3D-μQFR retrospectively using prospectively acquired angiograms, with wire-based FFR as the reference standard. RESULTS: Among 209 patients with 225 intermediate lesions, 205 lesions were analyzed. 2D-μQFR demonstrated excellent diagnostic accuracy for FFR ≤ 0.80 (AUC 0.95; 95% CI 0.93-0.98), with 93% sensitivity, 92% specificity, 88% positive predictive value (PPV), and 95% negative predictive value (NPV). Inter-observer agreement was excellent (r = 0.94, p < 0.001), and 2D-μQFR analysis was 15.1 min faster than wire-based FFR (1.8 ± 0.7 vs. 16.9 ± 5.4 min, p < 0.001). Diagnostic performance was comparable to that of 3D-μQFR, which achieved an AUC of 0.94…"
-    },
-    {
       "pmid": "42498690",
       "doi": "10.1111/ans.70885",
       "title": "The Vanishing Pouch: Planned Centralisation of Ileal Pouch-Anal Anastomosis for Ulcerative Colitis in Australia-A Regional Consensus Perspective.",
@@ -5960,47 +6085,6 @@
         "PAIN MANAGEMENT"
       ],
       "abstract": "INTRODUCTION: Despite limited evidence of efficacy, opioid analgesics are frequently used by patients for chronic pain while awaiting total hip or knee arthroplasty (THA or TKA). Preoperative use of opioids is problematic as it increases the likelihood of postoperative opioid-related adverse drug events and postoperative complications and is the strongest predictor of persistent opioid use post surgery. Opioid tapering prior to elective surgery has been proposed as a strategy for mitigating harms and improving postoperative outcomes. This protocol describes a randomised clinical trial, which aims to determine the effectiveness of a preoperative pharmacist-partnered opioid tapering programme compared with standard care for patients awaiting elective THA or TKA on postoperative outcomes including persistent opioid use. METHOD AND ANALYSIS: Eligible participants must be aged ≥18 years; awaiting elective unilateral or bilateral THA or TKA; speak and read English; use prescription opioid analgesics at least 4 days a week and have access to internet or telephone. The participants will be excluded if they are undergoing a repeat surgery (same procedure within 6 months), are using opioids…"
-    },
-    {
-      "pmid": "42168076",
-      "doi": "10.1016/j.hbpd.2026.05.002",
-      "title": "Hemobilia secondary to ruptured cystic artery pseudoaneurysm: A complication of a retained biliary stent.",
-      "journal": "Hepatobiliary & pancreatic diseases international : HBPD INT",
-      "journalAbbrev": "Hepatobiliary Pancreat Dis Int",
-      "year": 2026,
-      "month": 5,
-      "authors": [
-        {
-          "name": "O'Neill RS",
-          "campbelltown": true
-        },
-        {
-          "name": "Lee C",
-          "campbelltown": true
-        },
-        {
-          "name": "Jia K",
-          "campbelltown": true
-        },
-        {
-          "name": "Verdon C",
-          "campbelltown": true
-        },
-        {
-          "name": "Thilakanathan C",
-          "campbelltown": true
-        },
-        {
-          "name": "Turner I",
-          "campbelltown": true
-        }
-      ],
-      "campbelltownLed": true,
-      "departments": [
-        "Gastroenterology and Hepatology"
-      ],
-      "keywords": [],
-      "abstract": ""
     },
     {
       "pmid": "41996097",
