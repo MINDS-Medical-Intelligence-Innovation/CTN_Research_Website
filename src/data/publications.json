@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T00:52:45.432Z",
+  "generated": "2026-10-24T01:12:59.209Z",
   "source": "pubmed",
   "items": [
     {
@@ -122,6 +122,41 @@
         "Traumatic brain injury"
       ],
       "abstract": "OBJECTIVE: To characterise between-centre variation in capability, organisational structure, and treatment processes for adults with moderate-to-severe traumatic brain injury (msTBI) admitted to intensive care (ICU) in Australia and New Zealand (ANZ). DESIGN: Cross-sectional questionnaire supplemented by linked Australian and New Zealand Intensive Care Society CORE Critical Care Resources Registry descriptors. SETTING: ANZ ICUs treating adults with msTBI, October-December 2025. MAIN OUTCOME MEASURES: Variation in organisational structure and capability, ICU treatment processes, neuroprognostication, withholding or withdrawal of life-sustaining therapy, and fulfilment of selected Australian TBI Quality Indicator Set elements. Heterogeneity was assessed using the index of qualitative variation (IQV) for nominal items and Leik's dispersion for ordinal items; values <0.3 were considered low, 0.3-0.7 moderate, and >0.7 substantial. RESULTS: Moderate or substantial heterogeneity was observed in 39 of 74 measured items (53%). Substantial heterogeneity included neurocritical care subspecialty expertise (IQV 1.00), perceived devastating traumatic brain injury management (IQV 0.99),…"
+    },
+    {
+      "pmid": "42898180",
+      "doi": "10.1016/j.ijnsa.2026.100697",
+      "title": "Culturally inclusive education for international nursing students in Australia - barriers, educator preparedness and inclusive teaching strategies :An integrative review.",
+      "journal": "International journal of nursing studies advances",
+      "journalAbbrev": "Int J Nurs Stud Adv",
+      "year": 2026,
+      "month": 12,
+      "authors": [
+        {
+          "name": "Johnson D",
+          "campbelltown": false
+        },
+        {
+          "name": "Graf A",
+          "campbelltown": false
+        },
+        {
+          "name": "Betihavas V",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Andragogy",
+        "Australia",
+        "CALD",
+        "Cultural inclusivity",
+        "Curriculum",
+        "Nurse education",
+        "Teaching practices"
+      ],
+      "abstract": "AIM: This review explored and described the state of cultural inclusivity in teaching practices within Australian nursing programs, with particular attention to how those practices shaped the educational experiences of international and other culturally and linguistically diverse nursing students. BACKGROUND: Nursing programs in Australia serve increasingly culturally diverse student cohorts. Cultural inclusion has been a long-standing concern in Australian nursing education, with growing numbers of international and other culturally and linguistically diverse students over the past two decades. Australian qualitative evidence indicates that teaching and learning environments can privilege Western educational and communication norms. Inclusivity is central to student engagement, readiness for practice, and patient safety. DESIGN: An integrative review design was adopted to synthesise qualitative evidence related to cultural inclusivity in Australian nursing education. METHODS: Eligibility permitted qualitative, quantitative and mixed methods empirical studies; all studies meeting the criteria were qualitative. No date limit was applied, which traced how cultural inclusion for…"
     },
     {
       "pmid": "42820864",
@@ -285,6 +320,110 @@
       "departments": [],
       "keywords": [],
       "abstract": "Inborn errors of immunity (IEIs) are rare monogenic disorders with diverse, often life-limiting manifestations. Next-generation sequencing (NGS) has transformed IEI diagnostics, but data on therapeutic impact remain limited. We conducted a multicenter retrospective study through the Clinical Immunogenomics Research Consortium of Australasia, encompassing 12 hospitals across Australia and New Zealand. Probands with confirmed monogenic IEIs diagnosed by panel, whole-exome, or whole-genome sequencing were included. Among 205 probands with pathogenic variants in 86 genes, NGS findings prompted management changes in 84%: 71.7% major and 12.2% minor. Major changes included recommendation/planning for hematopoietic stem cell transplant (40.8%), initiation of targeted therapies (39.5%), and immunoglobulin replacement or prophylactic antimicrobials (18.4% each). Cascade testing identified 32 affected relatives, including four from probands who themselves did not have a discernible management change, demonstrating the broader impact of molecular diagnosis. Overall, NGS-based diagnosis drove substantial management changes and further defined the Australasian IEI landscape, supporting early…"
+    },
+    {
+      "pmid": "42908540",
+      "doi": "10.1016/j.jacig.2026.100784",
+      "title": "Guidelines for the management of adult penicillin allergy in community and specialist settings in Australia and New Zealand: An AGREE II and Delphi-based approach.",
+      "journal": "The journal of allergy and clinical immunology. Global",
+      "journalAbbrev": "J Allergy Clin Immunol Glob",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Lucas M",
+          "campbelltown": false
+        },
+        {
+          "name": "Kehoe J",
+          "campbelltown": false
+        },
+        {
+          "name": "Stiles S",
+          "campbelltown": false
+        },
+        {
+          "name": "Salter SM",
+          "campbelltown": false
+        },
+        {
+          "name": "Loprete J",
+          "campbelltown": false
+        },
+        {
+          "name": "Hornung CJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Martin L",
+          "campbelltown": false
+        },
+        {
+          "name": "Ali SB",
+          "campbelltown": false
+        },
+        {
+          "name": "Farmer RS",
+          "campbelltown": false
+        },
+        {
+          "name": "DeLuca J",
+          "campbelltown": false
+        },
+        {
+          "name": "Fernando S",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris C",
+          "campbelltown": true
+        },
+        {
+          "name": "Kolawole H",
+          "campbelltown": false
+        },
+        {
+          "name": "Trubiano J",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett KP",
+          "campbelltown": false
+        },
+        {
+          "name": "Smith W",
+          "campbelltown": false
+        },
+        {
+          "name": "Thien F",
+          "campbelltown": false
+        },
+        {
+          "name": "Koplin JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Vale S",
+          "campbelltown": false
+        },
+        {
+          "name": "Yun J",
+          "campbelltown": false
+        },
+        {
+          "name": "National Allergy Council Drug Allergy consortium∗",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Penicillin allergy",
+        "delabeling",
+        "drug challenge",
+        "risk stratification"
+      ],
+      "abstract": "BACKGROUND: This guideline was developed in collaboration with the Australasian Society of Clinical Immunology and Allergy (ASCIA), the National Allergy Council and the National Allergy Centre of Excellence (NACE). Despite the abundance of published penicillin allergy guidelines, few have been developed using rigorous evidence-based approaches such as the AGREE II framework. OBJECTIVE: This guideline aims to provide recommendations for the assessment and management of adults with a penicillin allergy label, for Australian health professionals working in both community and specialist settings. METHODS: The guideline was developed using the standardized, evidence-based AGREE II framework, consumer input, and a Delphi-based consensus process, involving a multidisciplinary panel of 27 drug allergy experts. Recommendations were informed by a rapid overview of reviews and existing guidelines. RESULTS: A total of 37 recommendations reached consensus, covering risk stratification, testing protocols, challenge test outcomes, and communication and documentation process. CONCLUSIONS: These adult guidelines will support the implementation of penicillin allergy delabeling programs in community…"
     },
     {
       "pmid": "42386477",
@@ -1183,92 +1322,13 @@
       "abstract": "OBJECTIVE: To describe the scope and extent of the Domestic Violence (DV) Model of Care at Campbelltown Emergency Department (ED). We detail patient population characteristics, means of identifying victim-survivors, care provided, and factors associated with social work review. METHODS: This mixed-methods evaluation utilised (1) retrospective audits of medical records of patients admitted to Campbelltown ED in 2024, who (a) responded affirmatively on the DV Routine Screening (DVRS) tool, and/or (b) were reviewed by social work relating to DV; and (2) semi-structured interviews with 19 clinicians and support workers about their understanding of and role within the model of care. Descriptive analyses quantified the scope and characteristics of the DV patient population and care provision; logistic regression identified factors associated with DVRS-identified patients seeing social work. Thematic analysis of interview data supplemented audit findings. RESULTS: In 2024, 249 ED patients responded affirmatively to the DVRS tool (DV identified prior for 52.2%), and 231 patients were reviewed by social work relating to DV. Victim-survivors were identified through DVRS tool use, explicit…"
     },
     {
-      "pmid": "42622212",
-      "doi": "10.1161/JAHA.125.045588",
-      "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
-      "journal": "Journal of the American Heart Association",
-      "journalAbbrev": "J Am Heart Assoc",
-      "year": 2026,
-      "month": 9,
-      "authors": [
-        {
-          "name": "Kaffes M",
-          "campbelltown": false
-        },
-        {
-          "name": "Damian M",
-          "campbelltown": false
-        },
-        {
-          "name": "Davis SM",
-          "campbelltown": false
-        },
-        {
-          "name": "Donnan GA",
-          "campbelltown": false
-        },
-        {
-          "name": "Santos AD",
-          "campbelltown": true
-        },
-        {
-          "name": "Ertl M",
-          "campbelltown": false
-        },
-        {
-          "name": "Meisel C",
-          "campbelltown": false
-        },
-        {
-          "name": "Montaner J",
-          "campbelltown": false
-        },
-        {
-          "name": "Ranta A",
-          "campbelltown": false
-        },
-        {
-          "name": "Savitz SI",
-          "campbelltown": false
-        },
-        {
-          "name": "Schmitz C",
-          "campbelltown": false
-        },
-        {
-          "name": "Sergot P",
-          "campbelltown": false
-        },
-        {
-          "name": "Turc G",
-          "campbelltown": false
-        },
-        {
-          "name": "Audebert HJ",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "artificial intelligence",
-        "diagnosis",
-        "prehospital",
-        "stroke",
-        "technology",
-        "telemedicine",
-        "ultrasound"
-      ],
-      "abstract": "Effects of stroke therapies area highly time dependent but onset-to-treatment times for recanalizing treatment are mostly beyond optimal time windows. Mobile stroke units shorten time to treatment and improve functional outcome. However, costs and logistical demands preclude their widespread use. There is a pressing need for alternative prehospital diagnostic tools that enable early, on-site treatment and facilitate targeted transport in patients needing interventional therapies. This systematic review aimed at examining the current landscape of noncomputed tomography-based technologies for prehospital stroke diagnosis. We conducted a literature search of original research papers on predetermined technologies and through systematic scouting on PubMed and included papers in English found through MEDLINE and Embase, published until October 2025. Relevant papers not identified by the systematic search but known to the authors were included and indicated as such. The final review included 105 publications evaluating innovations in microwave, transcranial eddy current damping, volumetric impedance phase shift spectroscopy, ultrasound, magnetic resonance imaging, electroencephalography,…"
-    },
-    {
       "pmid": "42714881",
       "doi": "10.1001/jama.2026.14201",
       "title": "Oxygen vs Air at Birth for Moderate- to Late-Preterm Infants: The AIROPLANE Cluster Randomized Crossover Trial.",
       "journal": "JAMA",
       "journalAbbrev": "JAMA",
       "year": 2026,
-      "month": 9,
+      "month": 10,
       "authors": [
         {
           "name": "Peart SR",
@@ -1415,6 +1475,85 @@
       "departments": [],
       "keywords": [],
       "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown. OBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21. DESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025. INTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period. MAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the…"
+    },
+    {
+      "pmid": "42622212",
+      "doi": "10.1161/JAHA.125.045588",
+      "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
+      "journal": "Journal of the American Heart Association",
+      "journalAbbrev": "J Am Heart Assoc",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Kaffes M",
+          "campbelltown": false
+        },
+        {
+          "name": "Damian M",
+          "campbelltown": false
+        },
+        {
+          "name": "Davis SM",
+          "campbelltown": false
+        },
+        {
+          "name": "Donnan GA",
+          "campbelltown": false
+        },
+        {
+          "name": "Santos AD",
+          "campbelltown": true
+        },
+        {
+          "name": "Ertl M",
+          "campbelltown": false
+        },
+        {
+          "name": "Meisel C",
+          "campbelltown": false
+        },
+        {
+          "name": "Montaner J",
+          "campbelltown": false
+        },
+        {
+          "name": "Ranta A",
+          "campbelltown": false
+        },
+        {
+          "name": "Savitz SI",
+          "campbelltown": false
+        },
+        {
+          "name": "Schmitz C",
+          "campbelltown": false
+        },
+        {
+          "name": "Sergot P",
+          "campbelltown": false
+        },
+        {
+          "name": "Turc G",
+          "campbelltown": false
+        },
+        {
+          "name": "Audebert HJ",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "artificial intelligence",
+        "diagnosis",
+        "prehospital",
+        "stroke",
+        "technology",
+        "telemedicine",
+        "ultrasound"
+      ],
+      "abstract": "Effects of stroke therapies area highly time dependent but onset-to-treatment times for recanalizing treatment are mostly beyond optimal time windows. Mobile stroke units shorten time to treatment and improve functional outcome. However, costs and logistical demands preclude their widespread use. There is a pressing need for alternative prehospital diagnostic tools that enable early, on-site treatment and facilitate targeted transport in patients needing interventional therapies. This systematic review aimed at examining the current landscape of noncomputed tomography-based technologies for prehospital stroke diagnosis. We conducted a literature search of original research papers on predetermined technologies and through systematic scouting on PubMed and included papers in English found through MEDLINE and Embase, published until October 2025. Relevant papers not identified by the systematic search but known to the authors were included and indicated as such. The final review included 105 publications evaluating innovations in microwave, transcranial eddy current damping, volumetric impedance phase shift spectroscopy, ultrasound, magnetic resonance imaging, electroencephalography,…"
     },
     {
       "pmid": "42701933",
