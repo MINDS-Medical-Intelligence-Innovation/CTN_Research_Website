@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T01:12:59.209Z",
+  "generated": "2026-10-31T01:54:49.131Z",
   "source": "pubmed",
   "items": [
     {
@@ -663,7 +663,7 @@
     {
       "pmid": "42822774",
       "doi": "10.1016/j.jaad.2026.09.105",
-      "title": "Early use of mepolizumab in DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) syndrome: A prospective multicenter, open-label, pilot study.",
+      "title": "Early use of mepolizumab in Drug Reaction with Eosinophilia and Systemic Symptoms syndrome: A prospective multicenter, open-label, pilot study.",
       "journal": "Journal of the American Academy of Dermatology",
       "journalAbbrev": "J Am Acad Dermatol",
       "year": 2026,
@@ -707,8 +707,8 @@
         "Immunology & Allergy Unit"
       ],
       "keywords": [
-        "Anti-IL5 therapy",
         "DRESS syndrome",
+        "anti-IL-5 therapy",
         "drug allergy",
         "drug hypersensitivity",
         "eosinophils",
@@ -8434,6 +8434,76 @@
         "Precision oncology"
       ],
       "abstract": "BACKGROUND: Presence of RAS mutations in mCRC are negatively correlated with OS. NGS enables detailed information regarding the heterogeneity of RAS mutations including specific amino acid changes as well as variant allele frequency (VAF). Recently, VAF has been postulated to have a role in identifying resistance to treatments in multiple solid tumours but its role as a prognostic marker of OS in mCRC is not established. METHODS: This was a multicentre, retrospective cohort study investigating all patients with NGS confirmed RAS-mutated mCRC between 2021 and 2023. NGS results for VAF were collected and correlated with clinicopathological outcomes. A VAF of > 20 % was considered \"high\" whilst ≤ 20 % was considered \"low.\" RESULTS: 351 patients were screened for presence of NGS-confirmed RAS-mutated mCRC. 124 patents were identified with RAS-mutated mCRC of which 95 patients had reported VAF and thus were included in the final cohort. 62 (65 %) had high VAF on NGS. The median age was 56 (36 - 89) with 61 % (n = 58) being male. All patients had histologically confirmed moderately or poorly differentiated adenocarcinoma and none had evidence of mismatch repair deficiency. The two most…"
+    },
+    {
+      "pmid": "42959048",
+      "doi": "10.3389/fimmu.2026.1934715",
+      "title": "Enteropathy in inborn and acquired errors of immunity: histological patterns and clinical correlates.",
+      "journal": "Frontiers in immunology",
+      "journalAbbrev": "Front Immunol",
+      "year": 2026,
+      "month": null,
+      "authors": [
+        {
+          "name": "Thangarajah M",
+          "campbelltown": false
+        },
+        {
+          "name": "Ojaimi S",
+          "campbelltown": false
+        },
+        {
+          "name": "Kane A",
+          "campbelltown": false
+        },
+        {
+          "name": "Swaminathan S",
+          "campbelltown": false
+        },
+        {
+          "name": "Lin MW",
+          "campbelltown": false
+        },
+        {
+          "name": "Pinzon-Charry A",
+          "campbelltown": false
+        },
+        {
+          "name": "Templeton T",
+          "campbelltown": false
+        },
+        {
+          "name": "McNaughton P",
+          "campbelltown": false
+        },
+        {
+          "name": "Le TA",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Bosco J",
+          "campbelltown": false
+        },
+        {
+          "name": "Berglund LJ",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "common variable immunodeficiency",
+        "enteropathy",
+        "gastrointestinal disease",
+        "histopathology",
+        "immune dysregulation",
+        "inborn errors of immunity"
+      ],
+      "abstract": "INTRODUCTION: Enteropathy is a significant and under-recognised complication of inborn errors of immunity (IEI), frequently misclassified as inflammatory bowel disease (IBD) or coeliac disease due to overlapping and non-specific histopathological findings. Diagnostic criteria remain poorly defined, contributing to substantial diagnostic delay and associated morbidity. METHODS: We conducted a structured literature review and established the AT-SEA (Adult Tertiary Severe Enteropathy Audit) working group, a collaborative network of Australian clinical immunologists operating under the Clinical Immunogenomics Research Consortium Australasia (CIRCA), to characterise the clinicopathological features of IEI-associated enteropathy across a multicentre cohort. RESULTS: Twenty-eight patients were identified. Moderate or severe disease was present in 89%, with malabsorption in 71% and protein-losing enteropathy in 43%. Across 48 biopsy reports, the most frequent histopathological patterns were coeliac-like changes (including villous atrophy, increased intraepithelial lymphocytes and crypt hyperplasia), IBD-like changes, reduced or absent plasma cells, graft versus host disease (GVHD)-like…"
     },
     {
       "pmid": "41460589",
