@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T01:54:49.131Z",
+  "generated": "2026-11-07T02:26:19.012Z",
   "source": "pubmed",
   "items": [
     {
@@ -424,6 +424,710 @@
         "risk stratification"
       ],
       "abstract": "BACKGROUND: This guideline was developed in collaboration with the Australasian Society of Clinical Immunology and Allergy (ASCIA), the National Allergy Council and the National Allergy Centre of Excellence (NACE). Despite the abundance of published penicillin allergy guidelines, few have been developed using rigorous evidence-based approaches such as the AGREE II framework. OBJECTIVE: This guideline aims to provide recommendations for the assessment and management of adults with a penicillin allergy label, for Australian health professionals working in both community and specialist settings. METHODS: The guideline was developed using the standardized, evidence-based AGREE II framework, consumer input, and a Delphi-based consensus process, involving a multidisciplinary panel of 27 drug allergy experts. Recommendations were informed by a rapid overview of reviews and existing guidelines. RESULTS: A total of 37 recommendations reached consensus, covering risk stratification, testing protocols, challenge test outcomes, and communication and documentation process. CONCLUSIONS: These adult guidelines will support the implementation of penicillin allergy delabeling programs in community…"
+    },
+    {
+      "pmid": "42754149",
+      "doi": "10.1016/j.jaip.2026.08.044",
+      "title": "An Oral Food Challenge Routinely Considered for Accurate Diagnosis of Peanut Allergy in Infants Prior to Oral Immunotherapy: Evaluation of the ADAPT Peanut Oral Immunotherapy Program.",
+      "journal": "The journal of allergy and clinical immunology. In practice",
+      "journalAbbrev": "J Allergy Clin Immunol Pract",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Brettig T",
+          "campbelltown": false
+        },
+        {
+          "name": "McDonald E",
+          "campbelltown": false
+        },
+        {
+          "name": "West D",
+          "campbelltown": false
+        },
+        {
+          "name": "Bhatia R",
+          "campbelltown": false
+        },
+        {
+          "name": "Bosi I",
+          "campbelltown": false
+        },
+        {
+          "name": "Cheung A",
+          "campbelltown": false
+        },
+        {
+          "name": "Czech H",
+          "campbelltown": false
+        },
+        {
+          "name": "Ford L",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris C",
+          "campbelltown": true
+        },
+        {
+          "name": "O'Sullivan M",
+          "campbelltown": false
+        },
+        {
+          "name": "Peake J",
+          "campbelltown": false
+        },
+        {
+          "name": "Preece K",
+          "campbelltown": false
+        },
+        {
+          "name": "Quinn P",
+          "campbelltown": false
+        },
+        {
+          "name": "Smart J",
+          "campbelltown": false
+        },
+        {
+          "name": "Swamy S",
+          "campbelltown": false
+        },
+        {
+          "name": "Wainstein B",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong M",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett K",
+          "campbelltown": false
+        },
+        {
+          "name": "ADAPT OIT Working Group",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medicine"
+      ],
+      "keywords": [
+        "Delabeling",
+        "Infant",
+        "Oral food challenge",
+        "Oral immunotherapy",
+        "Peanut allergy"
+      ],
+      "abstract": "BACKGROUND: Oral immunotherapy (OIT) practices for food allergy vary globally. Whereas oral food challenges (OFCs) are not routinely performed before OIT, they can prevent unnecessary treatment. In 2024, the Allergy Development to an Accelerated Path to Tolerance (ADAPT) OIT program was established as the first nationally standardized model of care for treatment of peanut allergy. Threshold OFCs (TOFCs) were used to confirm peanut allergy and determine the OIT starting dose. OBJECTIVE: We evaluated the diagnostic accuracy and safety of this approach before starting OIT across the 10 ADAPT public hospital sites. METHODS: Infants aged less than 12 months with a history of Consortium for Food Allergy Research grade 1 to 2 reaction to peanut and sensitization (skin prick test result of 3 mm or greater or peanut/Ara h 2 specific IgE result 0.35 kUA/L or greater) were eligible. A TOFC involved seven escalating doses of 15-1,300 mg peanut protein). Data were collected by retrospective chart review. RESULTS: Between April 2024 and October 2025, we assessed 1,275 infants; 778 underwent TOFC (median age, 13 months). The TOFCs were positive in 65.2% (507 of 778), with median eliciting dose…"
+    },
+    {
+      "pmid": "42546488",
+      "doi": "10.1016/j.jgo.2026.103072",
+      "title": "A comparative analysis of the Vulnerable Elders Survey (VES-13), Geriatric 8 (G8), Modified G8, and Geriatric 6 (G6) tools in older adults with cancer.",
+      "journal": "Journal of geriatric oncology",
+      "journalAbbrev": "J Geriatr Oncol",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Jin RMM",
+          "campbelltown": false
+        },
+        {
+          "name": "Vadali N",
+          "campbelltown": true
+        },
+        {
+          "name": "Puts MTE",
+          "campbelltown": false
+        },
+        {
+          "name": "Pathak N",
+          "campbelltown": false
+        },
+        {
+          "name": "Santiago AT",
+          "campbelltown": false
+        },
+        {
+          "name": "Alibhai SMH",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Cancer",
+        "G6",
+        "G8",
+        "Geriatric assessment",
+        "Modified G8",
+        "Older adults",
+        "VES-13"
+      ],
+      "abstract": "INTRODUCTION: Geriatric assessment (GA) supports treatment decision-making in older adults, but is resource and time intensive. In the Older Adults with Cancer Clinic (OACC) at Princess Margaret Cancer Centre, screening tools such as the Vulnerable Elders Survey (VES-13) and Geriatric 8 (G8, and/or modified versions) may help prioritize patients most in need of a comprehensive GA. However, direct comparisons between tools are limited. This study primarily aimed to compare whether the VES-13, the G8, modified G8, or the 6 item Brief Geriatric Assessment (G6) screening tools are effective in identifying patients that require a GA. Secondarily, we aimed to assess if vulnerable patients, identified by one of the tools, had cancer treatment modifications after the GA. MATERIALS AND METHODS: A retrospective chart review was conducted (n = 349) from September 2018 to December 2023 to collect data including patient characteristics, treatment intent, abnormal GA (defined as either 2+ or 4+ abnormal domains), and proposed and final treatment plan. Logistic regression was used to evaluate the screening tools against abnormal GA and change in treatment plan. RESULTS: Three hundred and…"
+    },
+    {
+      "pmid": "42535448",
+      "doi": "10.1111/cea.70392",
+      "title": "The National Allergy Centre of Excellence-Addressing Australia's Allergy Burden.",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "journalAbbrev": "Clin Exp Allergy",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Young A",
+          "campbelltown": false
+        },
+        {
+          "name": "Koplin JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Campbell DE",
+          "campbelltown": false
+        },
+        {
+          "name": "Davies JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Edmund H",
+          "campbelltown": false
+        },
+        {
+          "name": "Jamieson T",
+          "campbelltown": false
+        },
+        {
+          "name": "Hornung CJ",
+          "campbelltown": false
+        },
+        {
+          "name": "O'Farrell T",
+          "campbelltown": false
+        },
+        {
+          "name": "West D",
+          "campbelltown": false
+        },
+        {
+          "name": "Kayes E",
+          "campbelltown": false
+        },
+        {
+          "name": "Gray LA",
+          "campbelltown": false
+        },
+        {
+          "name": "Peters RL",
+          "campbelltown": false
+        },
+        {
+          "name": "Gamble L",
+          "campbelltown": false
+        },
+        {
+          "name": "Gwynne K",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee J",
+          "campbelltown": false
+        },
+        {
+          "name": "Lucas M",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "O'Sullivan MD",
+          "campbelltown": false
+        },
+        {
+          "name": "Palmer DJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Trubiano J",
+          "campbelltown": false
+        },
+        {
+          "name": "van Nunen S",
+          "campbelltown": false
+        },
+        {
+          "name": "Vale SL",
+          "campbelltown": false
+        },
+        {
+          "name": "Wanandy T",
+          "campbelltown": false
+        },
+        {
+          "name": "Perrett KP",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "Australia has one of the highest rates of food allergy, anaphylaxis hospital admissions and anaphylaxis fatalities worldwide. These trends and sustained advocacy prompted a 2019 Parliamentary Inquiry into Allergies and Anaphylaxis. Among 250 submissions, the Centre for Food Allergy Research called for a national research-coordinating centre and comprehensive allergy research funding. In response to the inquiry, the Australian Government funded the National Allergy Centre of Excellence (NACE) in 2022, and its partner organisation, the National Allergy Council (NAC), to improve health, save lives and reduce the national burden of allergic disease. Here we describe the establishment and early impacts of the NACE. The NACE was established to build critical national research infrastructure and collaboration to transform consumer-centred allergy care. Four interconnected Pillars underpin the plan of action: (1) Transforming Allergy Care, codesigning national trials and embedded clinical research to address knowledge and practice gaps; (2) BioRepository and Discovery, developing Australia's first national Allergy BioRepository (ALBI) to support data-driven discovery; (3) Evidence and…"
+    },
+    {
+      "pmid": "42226352",
+      "doi": "10.1177/15209156261455567",
+      "title": "Continuous Glucose Monitoring in Pregnant Women with Type 1 Diabetes: Outcomes of a Population-Based Real-World Study.",
+      "journal": "Diabetes technology & therapeutics",
+      "journalAbbrev": "Diabetes Technol Ther",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Price SAL",
+          "campbelltown": false
+        },
+        {
+          "name": "Chee M",
+          "campbelltown": false
+        },
+        {
+          "name": "Earnest A",
+          "campbelltown": false
+        },
+        {
+          "name": "Thomson RL",
+          "campbelltown": false
+        },
+        {
+          "name": "Penno MAS",
+          "campbelltown": false
+        },
+        {
+          "name": "Couper JJ",
+          "campbelltown": false
+        },
+        {
+          "name": "Holmes-Walker J",
+          "campbelltown": false
+        },
+        {
+          "name": "Johnson S",
+          "campbelltown": false
+        },
+        {
+          "name": "Ross G",
+          "campbelltown": false
+        },
+        {
+          "name": "Sweeting A",
+          "campbelltown": false
+        },
+        {
+          "name": "Simmons D",
+          "campbelltown": true
+        },
+        {
+          "name": "Glastras S",
+          "campbelltown": false
+        },
+        {
+          "name": "Shub A",
+          "campbelltown": false
+        },
+        {
+          "name": "Griffin K",
+          "campbelltown": false
+        },
+        {
+          "name": "Graham D",
+          "campbelltown": false
+        },
+        {
+          "name": "Duke A",
+          "campbelltown": false
+        },
+        {
+          "name": "Hg TM",
+          "campbelltown": false
+        },
+        {
+          "name": "ENDIA Study Group",
+          "campbelltown": false
+        },
+        {
+          "name": "Jones T",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "continuous glucose monitoring",
+        "pregnancy",
+        "type 1 diabetes"
+      ],
+      "abstract": "BACKGROUND: Continuous glucose monitoring (CGM) is increasingly used by women with type 1 diabetes (T1D) during pregnancy, but there are limited data on glycemic and pregnancy outcomes in large real-world cohorts. METHODS: We collected glycemic and pregnancy outcome data from women with T1D across Australian centers between 2015 and 2025. The primary outcome was change in HbA1c from the first to the third trimester of pregnancy. Prespecified secondary outcomes included trimester-specific mean HbA1c, the proportion of women achieving HbA1c ≤6.5% (≤48 mmol/L) and ≤7.0% (≤53 mmol/L) in the third trimester, and a range of maternal and neonatal health outcomes. RESULTS: Among 951 women, 456 (48%) were CGM users. Demographics and baseline characteristics were similar between CGM users and nonusers. For the primary outcome, adjusted linear regression models accounting for first-trimester HbA1c and insulin regimen demonstrated that CGM use was independently associated with a greater reduction in HbA1c over pregnancy (adjusted mean difference -0.20%, 95% confidence interval [CI] -0.40 to 0.00, P = 0.037). First-trimester HbA1c was the strongest predictor of HbA1c change ( P < 0.001).After…"
+    },
+    {
+      "pmid": "42200301",
+      "doi": "10.1111/cea.70348",
+      "title": "A Real-World Controlled Multicentre Study Evaluating the Association Between Benralizumab Therapy and Major Outcomes in Severe Asthma.",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "journalAbbrev": "Clin Exp Allergy",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Thomas D",
+          "campbelltown": false
+        },
+        {
+          "name": "McDonald VM",
+          "campbelltown": false
+        },
+        {
+          "name": "Thomas G",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee J",
+          "campbelltown": false
+        },
+        {
+          "name": "Chung LP",
+          "campbelltown": false
+        },
+        {
+          "name": "Peters M",
+          "campbelltown": false
+        },
+        {
+          "name": "Shukla SD",
+          "campbelltown": false
+        },
+        {
+          "name": "Hamada Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Harvey ES",
+          "campbelltown": false
+        },
+        {
+          "name": "Fricker M",
+          "campbelltown": false
+        },
+        {
+          "name": "See H",
+          "campbelltown": false
+        },
+        {
+          "name": "Sabin Thomas R",
+          "campbelltown": false
+        },
+        {
+          "name": "Farah CS",
+          "campbelltown": false
+        },
+        {
+          "name": "Gillman A",
+          "campbelltown": false
+        },
+        {
+          "name": "Katelaris CH",
+          "campbelltown": true
+        },
+        {
+          "name": "Katsoulotos GP",
+          "campbelltown": false
+        },
+        {
+          "name": "Langton D",
+          "campbelltown": false
+        },
+        {
+          "name": "Middleton PG",
+          "campbelltown": false
+        },
+        {
+          "name": "Reynolds P",
+          "campbelltown": false
+        },
+        {
+          "name": "Rimmer J",
+          "campbelltown": false
+        },
+        {
+          "name": "Thien F",
+          "campbelltown": false
+        },
+        {
+          "name": "Vincent S",
+          "campbelltown": false
+        },
+        {
+          "name": "Upham JW",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibson PG",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Immunology & Allergy Unit"
+      ],
+      "keywords": [],
+      "abstract": "BACKGROUND: Real-world data on benralizumab in patients with severe eosinophilic asthma-while controlling for confounding factors-is currently lacking. AIM: This real-world controlled multicentre study evaluated asthma outcomes in patients who received benralizumab compared with a severe asthma cohort who did not receive biologic therapy. METHODS: Two years of data from patients with severe eosinophilic asthma in the Australian Benralizumab Registry (ABenRa) and the Australasian Severe Asthma Registry (ASAR) were included in the analysis. Asthma control questionnaire-5 (ACQ-5) scores, asthma-related quality of life (AQLQ) scores, maintenance oral corticosteroid (OCS) dose, annualised exacerbation rate and clinical remission (ACQ-5 ≤ 1, with no asthma attacks or OCS use for 12 months, assessed at the 24-month follow-up) rates were compared between the groups after adjusting for baseline imbalances. RESULTS: A total of 211 participants from ABenRa (64.5% female; mean age 57.4 ± 14.5 years) and 250 from ASAR (63.1% female; mean age 53.7 ± 14.8 years) were included. ACQ and AQLQ improved significantly in both groups. Participants in the ABenRa showed greater improvements in ACQ at 12-…"
+    },
+    {
+      "pmid": "42989800",
+      "doi": "10.1177/0310057X261500117",
+      "title": "Percutaneous dilatational tracheostomy in adult intensive care: An ANZICS consensus statement.",
+      "journal": "Anaesthesia and intensive care",
+      "journalAbbrev": "Anaesth Intensive Care",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Doshi HP",
+          "campbelltown": true
+        },
+        {
+          "name": "Sundararajan K",
+          "campbelltown": false
+        },
+        {
+          "name": "Subramaniam A",
+          "campbelltown": false
+        },
+        {
+          "name": "Jones D",
+          "campbelltown": false
+        },
+        {
+          "name": "Casamento A",
+          "campbelltown": false
+        },
+        {
+          "name": "Northcott MH",
+          "campbelltown": false
+        },
+        {
+          "name": "Abdelhamid YA",
+          "campbelltown": false
+        },
+        {
+          "name": "Bhonagiri D",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [
+        "Intensive Care Unit"
+      ],
+      "keywords": [
+        "ANZICS",
+        "CICM",
+        "Tracheostomy",
+        "percutaneous dilatational tracheostomy",
+        "position statement",
+        "surgical tracheostomy"
+      ],
+      "abstract": "Percutaneous dilatational tracheostomy (PDT) is a commonly performed procedure in intensive care units; However, the high-quality evidence base guiding many aspects of its practice remains limited, resulting in variation across clinicians and institutions. This statement was drafted by a panel of experts, later reviewed by an expert working group comprising representatives from the Australian and New Zealand Intensive Care Society and the College of Intensive Care Medicine, and endorsed by the boards of both organisations. The recommendations presented are based on the best available evidence and, where evidence is scarce, on structured expert consensus. The scope of this statement is confined to PDT in adult intensive care patients. This document reflects current practice at the time of publication and is intended to be a living document, subject to regular review to include emerging evidence and evolving standards of care. In summary, this consensus statement provides evidence-informed, expert-guided recommendations to standardise PDT practice in adult ICUs across Australia and New Zealand, while acknowledging current variability and gaps in the evidence base."
+    },
+    {
+      "pmid": "42982173",
+      "doi": "10.1016/j.jval.2026.10.009",
+      "title": "Health Economic Evaluations in Immunotherapy and Biologic Treatments for Peanut Allergy: A Systematic Review.",
+      "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+      "journalAbbrev": "Value Health",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Fong AT",
+          "campbelltown": false
+        },
+        {
+          "name": "Jacob JG",
+          "campbelltown": true
+        },
+        {
+          "name": "Protudjer JLP",
+          "campbelltown": false
+        },
+        {
+          "name": "Lloyd M",
+          "campbelltown": false
+        },
+        {
+          "name": "Thyer L",
+          "campbelltown": false
+        },
+        {
+          "name": "Hsu PS",
+          "campbelltown": false
+        },
+        {
+          "name": "Si L",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [
+        "Biologics",
+        "Cost-effective",
+        "Food Allergy",
+        "Health Economics",
+        "Immunotherapy"
+      ],
+      "abstract": "BACKGROUND: The use of immunotherapy and biologics has garnered increased interest as a potential treatment option for managing peanut allergy. OBJECTIVE: To systematically review cost-effectiveness in immunotherapy and biologics in peanut allergy management. METHODS: A literature search was applied to biomedical and health economics databases, including MEDLINE (via Ovid), Embase (via Ovid), PubMed and Cochrane Library, Web of Science, HTA Database, NHS Economic Evaluation Database, EconLit, Scopus, and several grey literature sources. Cost-effectiveness measures including costs, quality-adjusted life years and incremental cost-effectiveness ratios were extracted from the included studies, and the reporting quality of studies was assessed using the CHEERS checklist. Methodology and outcomes of studies were discussed through a narrative synthesis. RESULTS: Eight economic analyses were included. Non-commercial peanut oral immunotherapy was dominant compared to no treatment, while commercially available products and biologics such as omalizumab were generally not cost-effective compared to no treatment. Sensitivity analyses highlighted the impact of health state utility (HSU) and…"
+    },
+    {
+      "pmid": "42983570",
+      "doi": "10.1186/s40337-026-01811-7",
+      "title": "Integrating carers' experiences and barriers to treatment from ANZAED Credentialed Eating Disorder Clinicians and non-credentialed clinicians in Australia.",
+      "journal": "Journal of eating disorders",
+      "journalAbbrev": "J Eat Disord",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "McCormack M",
+          "campbelltown": false
+        },
+        {
+          "name": "Conti J",
+          "campbelltown": false
+        },
+        {
+          "name": "Heruc G",
+          "campbelltown": false
+        },
+        {
+          "name": "McLean SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Prnjak K",
+          "campbelltown": false
+        },
+        {
+          "name": "Barns R",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Carers",
+        "Credential",
+        "Eating Disorders",
+        "Lived experience",
+        "Mixed methods",
+        "Parents",
+        "Treatment"
+      ],
+      "abstract": "BACKGROUND: Eating disorder (ED) rates are rising in Australia, yet many individuals are not accessing timely or appropriate treatment. A key barrier is the availability of clinicians with the clinical knowledge and training to assess, diagnose, and provide timely, safe, and effective eating disorder treatment. The Australia & New Zealand Academy for Eating Disorders (ANZAED) introduced the ANZAED Eating Disorder Credential (the Credential) to address this challenge and ease the burden on individuals living with an eating disorder, their carers', and other supporting health professionals. The current study aims to explore parents' and carers' experience of eating disorder treatment in Australia provided by Credentialed Eating Disorder Clinicians (credentialed clinicians) and non-credentialed clinicians. METHODS: An exploratory mixed-methods cross-sectional study was conducted involving 51 participants who had cared for a young person, family member, or loved one with an ED who received treatment by a credentialed clinician or a non-credentialed clinician. Participants were recruited via Australian eating disorder services and organisations, with recruitment information distributed…"
+    },
+    {
+      "pmid": "42259722",
+      "doi": "10.1016/j.ejso.2026.111791",
+      "title": "International consensus on axillary staging after neoadjuvant chemotherapy in node-positive breast cancer.",
+      "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+      "journalAbbrev": "Eur J Surg Oncol",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Lucocq J",
+          "campbelltown": false
+        },
+        {
+          "name": "Karakatsanis A",
+          "campbelltown": false
+        },
+        {
+          "name": "Kirwan C",
+          "campbelltown": false
+        },
+        {
+          "name": "Boughey J",
+          "campbelltown": false
+        },
+        {
+          "name": "Tseng J",
+          "campbelltown": false
+        },
+        {
+          "name": "Sun SX",
+          "campbelltown": false
+        },
+        {
+          "name": "Gentilini OD",
+          "campbelltown": false
+        },
+        {
+          "name": "Barber M",
+          "campbelltown": false
+        },
+        {
+          "name": "Chagla L",
+          "campbelltown": false
+        },
+        {
+          "name": "Buccimazza I",
+          "campbelltown": false
+        },
+        {
+          "name": "Dick L",
+          "campbelltown": false
+        },
+        {
+          "name": "Masannat Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Dixon JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Kühn T",
+          "campbelltown": false
+        },
+        {
+          "name": "Benson J",
+          "campbelltown": false
+        },
+        {
+          "name": "Elder K",
+          "campbelltown": false
+        },
+        {
+          "name": "NAC-AX Collaborative Group",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "INTRODUCTION: There is a lack of consensus on the eligibility thresholds and technical standards of minimally invasive axillary staging techniques including targeted axillary dissection (TAD), marked lymph node biopsy (MLNB) and sentinel lymph node biopsy (SLNB) in node-positive breast cancer responding to neoadjuvant chemotherapy (NAC). METHODS: Consultant breast surgical oncologists from OECD countries were invited to participate. Statements developed from the literature, guidelines, and steering-committee were distributed to the panellists and consensus was investigated (≥70% agreement). Latent class analysis investigated the association between surgeon characteristics and axillary de-escalation. RESULTS: Of 574 surgeons (97.7% with access to axillary marking/localisation), 471 (82.1%) completed Round 2. The preferred axillary approach in cN1 (82.5% agreement) and cN2a (77.4%) patients converting to ycN0 was TAD, in preference to MLNB or SLNB. Eligibility for TAD was agreed for three or fewer involved nodes pre-NAC (84.1%) but was not agreed for four or more nodes (40.1%). Consensus supported marking only a single pathological node (≥78%), before NAC (93.8%), with localisation…"
     },
     {
       "pmid": "42386477",
@@ -1477,6 +2181,54 @@
       "abstract": "IMPORTANCE: The optimal initial fraction of inspired oxygen (Fio2) for delivery room resuscitation of neonates born at 32 to 35 weeks' gestation is unknown. OBJECTIVE: To compare outcomes for neonates born at 32 to 35 weeks' gestation when initiating resuscitation with Fio2 0.30 vs 0.21. DESIGN, SETTING, AND PARTICIPANTS: Unblinded, cluster randomized crossover trial in 26 Australian maternity hospitals, including tertiary, nontertiary, metropolitan, regional, public, and private sites, using a waiver of informed consent. All neonates born at participating sites at 32 to 35 weeks' gestation without known major congenital anomalies who commenced respiratory support within 3 minutes of birth were enrolled from December 2022 to September 2025, with final follow-up in March 2026. Statistical analysis was conducted on October 29, 2025. INTERVENTION: Sites were randomly assigned to provide initial Fio2 of either 0.30 or 0.21 during the first 3 minutes of delivery room respiratory support. Sites crossed over to provide the alternative initial Fio2 halfway through their recruitment period. MAIN OUTCOMES AND MEASURES: The primary outcome was ongoing respiratory support when leaving the…"
     },
     {
+      "pmid": "42962620",
+      "doi": "10.1016/j.jgo.2026.104655",
+      "title": "Validation of the CARG tool in prediction of chemotherapy completion and side effects in older adults with cancer: A retrospective cohort study.",
+      "journal": "Journal of geriatric oncology",
+      "journalAbbrev": "J Geriatr Oncol",
+      "year": 2026,
+      "month": 10,
+      "authors": [
+        {
+          "name": "Vadali N",
+          "campbelltown": true
+        },
+        {
+          "name": "Lee C",
+          "campbelltown": false
+        },
+        {
+          "name": "Ye XY",
+          "campbelltown": false
+        },
+        {
+          "name": "Ku NW",
+          "campbelltown": false
+        },
+        {
+          "name": "Monginot S",
+          "campbelltown": false
+        },
+        {
+          "name": "Jin R",
+          "campbelltown": false
+        },
+        {
+          "name": "Alibhai SMH",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Chemotherapy toxicity",
+        "G8",
+        "Toxicity prediction",
+        "Vulnerable elders survey"
+      ],
+      "abstract": "INTRODUCTION: Predicting treatment-related toxicity in older adults remains challenging. The Cancer and Aging Research Group (CARG) toxicity tool is one of the most established toxicity prediction tools; however, validation studies have shown variable predictive ability. Our primary objective was to validate the CARG toxicity tool in a cohort of Canadian older adults on systemic therapy. Secondary objectives were to compare the tool's performance with Eastern Cooperative Oncology Group Performance Status (ECOG-PS), Geriatric-8 (G8), and Vulnerable Elders Survey (VES-13) scales and examine whether these tools could predict treatment discontinuation, emergency room (ER) visits, and hospitalizations. MATERIALS AND METHODS: This retrospective analysis included patients aged ≥65 who completed a Comprehensive Geriatric Assessment (CGA) and received systemic therapy at an academic Canadian cancer centre. The area under the receiver operating characteristic curve (AUC) was calculated for the CARG and compared to ECOG-PS, G8, and VES-13. Logistic regression was performed to examine the association of the CARG toxicity tool with Grade ≥ 3 toxicity, ER visits, and hospitalizations. RESULTS:…"
+    },
+    {
       "pmid": "42622212",
       "doi": "10.1161/JAHA.125.045588",
       "title": "Systematic Review on Noncomputed Tomography-Based Technologies for Prehospital Stroke Diagnosis.",
@@ -1685,105 +2437,6 @@
       ],
       "keywords": [],
       "abstract": "PURPOSE: Early-phase clinical trials (EP-CTs) provide access to novel therapeutics for patients with limited standard treatment options. Beyond drug-related risks, participants may experience hidden toxicities, including time, financial, and social burdens that often go unmeasured. METHODS: The Patient Experience in Early-Phase Cancer Clinical Trials (PEARLER) study aimed to assess time, financial, and social toxicity (ST) in a prospective, multicenter cohort. Participants completed a time toxicity (TT) survey and the European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire C30 on day 1 of cycles 1-6. Financial toxicity (FT) was assessed using the EORTC scoring manual; ST was evaluated using the social and role functioning domains. Multilevel models examined trends over time. RESULTS: A total of 122 participants (median age 62 years, range, 25-83) were enrolled. Median objective TT was 26%. Only 16% (20/122) reported subjective TT, most commonly during cycles 1-2 (85%). FT was reported by 44% (54/122), but did not significantly change over time ( P = .136). Although 71% (87/122) reported some reduction in social function, social functioning…"
-    },
-    {
-      "pmid": "42754149",
-      "doi": "10.1016/j.jaip.2026.08.044",
-      "title": "An Oral Food Challenge Is Required for Accurate Diagnosis of Peanut Allergy in Infants Prior to Oral Immunotherapy: Evaluation of the Allergy Development to an Accelerated Pathway to Tolerance Peanut Oral Immunotherapy Program.",
-      "journal": "The journal of allergy and clinical immunology. In practice",
-      "journalAbbrev": "J Allergy Clin Immunol Pract",
-      "year": 2026,
-      "month": 9,
-      "authors": [
-        {
-          "name": "Brettig TW",
-          "campbelltown": false
-        },
-        {
-          "name": "McDonald E",
-          "campbelltown": false
-        },
-        {
-          "name": "West D",
-          "campbelltown": false
-        },
-        {
-          "name": "Bhatia R",
-          "campbelltown": false
-        },
-        {
-          "name": "Bosi I",
-          "campbelltown": false
-        },
-        {
-          "name": "Cheung A",
-          "campbelltown": false
-        },
-        {
-          "name": "Czech H",
-          "campbelltown": false
-        },
-        {
-          "name": "Ford LS",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "O'Sullivan MD",
-          "campbelltown": false
-        },
-        {
-          "name": "Peake J",
-          "campbelltown": false
-        },
-        {
-          "name": "Preece K",
-          "campbelltown": false
-        },
-        {
-          "name": "Quinn P",
-          "campbelltown": false
-        },
-        {
-          "name": "Smart J",
-          "campbelltown": false
-        },
-        {
-          "name": "Swamy S",
-          "campbelltown": false
-        },
-        {
-          "name": "Wainstein BK",
-          "campbelltown": false
-        },
-        {
-          "name": "Wong M",
-          "campbelltown": false
-        },
-        {
-          "name": "Perrett KP",
-          "campbelltown": false
-        },
-        {
-          "name": "of the ADAPT OIT Working Group",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Medicine"
-      ],
-      "keywords": [
-        "Delabeling",
-        "Infant",
-        "Oral food challenge",
-        "Oral immunotherapy",
-        "Peanut allergy"
-      ],
-      "abstract": "BACKGROUND: Oral immunotherapy (OIT) practices for food allergy vary globally. Whereas oral food challenges (OFCs) are not routinely performed before OIT, they can prevent unnecessary treatment. In 2024, the Allergy Development to an Accelerated Path to Tolerance (ADAPT) OIT program was established as the first nationally standardized model of care for treatment of peanut allergy. Threshold OFCs (TOFCs) were used to confirm peanut allergy and determine the OIT starting dose. OBJECTIVE: We evaluated the diagnostic accuracy and safety of this approach before starting OIT across the 10 ADAPT public hospital sites. METHODS: Infants aged less than 12 months with a history of Consortium for Food Allergy Research grade 1 to 2 reaction to peanut and sensitization (skin prick test result of 3 mm or greater or peanut/Ara h 2 specific IgE result 0.35 kUA/L or greater) were eligible. A TOFC involved seven escalating doses of 15-1,300 mg peanut protein). Data were collected by retrospective chart review. RESULTS: Between April 2024 and October 2025, we assessed 1,275 infants; 778 underwent TOFC (median age, 13 months). The TOFCs were positive in 65.2% (507 of 778), with median eliciting dose…"
     },
     {
       "pmid": "42736994",
@@ -2131,6 +2784,122 @@
       "abstract": "BACKGROUND: ChatGPT, Gemini, and Claude are three large language models (LLMs) increasingly consulted by patients researching a new cancer diagnosis. Penile cancer is rare, stigmatised, and dominated by decisions around organ preservation and sexual function, which makes the quality of patient-facing information particularly consequential. The aim of this study was to assess the quality of responses generated by these LLMs to patient-oriented questions on penile cancer. METHODS: Fourteen questions reflecting common patient information needs were adapted from established educational resources and refined by senior urology consultant review. Each query was presented to ChatGPT, Gemini, and Claude using an identical patient-centred prompt. Responses (n=42) were anonymised and randomly ordered before being independently reviewed in a consensus meeting by a urology panel using the Quality Analysis of Medical Artificial Intelligence (QAMAI) framework. Comparative analysis used the Friedman test with Bonferroni-corrected pairwise Wilcoxon signed-rank testing. RESULTS: Mean total QAMAI scores were 22.7 for ChatGPT (median, 23; range, 17 to 25), 22.6 for Claude (median, 23; range, 18 to…"
     },
     {
+      "pmid": "42988678",
+      "doi": "10.1016/j.clcc.2026.09.003",
+      "title": "Real-World Treatment and Outcomes for Patients With Deficient Mismatch Repair Metastatic Colorectal Cancer Following Pembrolizumab Availability in Australia.",
+      "journal": "Clinical colorectal cancer",
+      "journalAbbrev": "Clin Colorectal Cancer",
+      "year": 2026,
+      "month": 9,
+      "authors": [
+        {
+          "name": "Kim GY",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong V",
+          "campbelltown": false
+        },
+        {
+          "name": "Loft M",
+          "campbelltown": false
+        },
+        {
+          "name": "Lee B",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong R",
+          "campbelltown": false
+        },
+        {
+          "name": "Chong G",
+          "campbelltown": false
+        },
+        {
+          "name": "Jalali A",
+          "campbelltown": false
+        },
+        {
+          "name": "Liew MS",
+          "campbelltown": false
+        },
+        {
+          "name": "Rainey N",
+          "campbelltown": false
+        },
+        {
+          "name": "Burge M",
+          "campbelltown": false
+        },
+        {
+          "name": "Hayes T",
+          "campbelltown": false
+        },
+        {
+          "name": "Tebbutt NC",
+          "campbelltown": false
+        },
+        {
+          "name": "McLachlan SA",
+          "campbelltown": false
+        },
+        {
+          "name": "Mandaliya H",
+          "campbelltown": false
+        },
+        {
+          "name": "Sutherland S",
+          "campbelltown": false
+        },
+        {
+          "name": "Wong SF",
+          "campbelltown": false
+        },
+        {
+          "name": "Lim SH",
+          "campbelltown": true
+        },
+        {
+          "name": "Nott L",
+          "campbelltown": false
+        },
+        {
+          "name": "Saqib A",
+          "campbelltown": false
+        },
+        {
+          "name": "van Bavel J",
+          "campbelltown": false
+        },
+        {
+          "name": "Bowers E",
+          "campbelltown": false
+        },
+        {
+          "name": "Johns J",
+          "campbelltown": false
+        },
+        {
+          "name": "Gibbs P",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [
+        "Medical Oncology"
+      ],
+      "keywords": [
+        "Advanced Colorectal Cancer",
+        "Deficient Mismatch Repair",
+        "Immunotherapy",
+        "Real-world data",
+        "Registry data",
+        "biomarker-directed therapy"
+      ],
+      "abstract": "INTRODUCTION: The 5-year follow-up results of KEYNOTE-177 established pembrolizumab as a standard first-line (1L) treatment for deficient mismatch repair (dMMR) metastatic colorectal cancer (mCRC), demonstrating improved response rates, progression-free survival (PFS), and tolerability over chemotherapy. Pembrolizumab became available as a 1L option in Australia following government reimbursement in August 2021. Real-world treatment patterns and outcomes in Australia since then have not previously been reported. PATIENTS AND METHODS: Patients with dMMR mCRC diagnosed from August 1, 2021 to May 30, 2025, were analyzed using data from Treatment of Recurrent and Advanced Colorectal Cancer (TRACC) and TRACC-SELECT, Australian multi-site prospective registries. Clinicopathologic characteristics, treatment patterns, and outcomes were examined. Survival outcomes for 1L pembrolizumab-treated patients were analyzed using Kaplan-Meier. RESULTS: From 36 sites, 120 dMMR mCRC patients were identified; 109 (91%) received systemic treatment. 1L treatment included pembrolizumab (n = 103, 94%), clinical trial enrolment (n = 4, 4%), and chemotherapy (n = 2, 2%). Among pembrolizumab-treated…"
+    },
+    {
       "pmid": "42201836",
       "doi": "10.2337/dc26-0470",
       "title": "Intrapartum and Early Postpartum Use of Automated Insulin Delivery in Type 1 Diabetes: A Prespecified Analysis of the CIRCUIT Randomized Controlled Trial.",
@@ -2222,53 +2991,6 @@
       ],
       "keywords": [],
       "abstract": "OBJECTIVE: Following the demonstrated improvement in pregnancy glycemia with Control-IQ closed loop in the Closed-Loop Insulin Delivery by Glucose Responsive Computer Algorithms in Type 1 Diabetes Pregnancies (CIRCUIT) trial, we compared intrapartum and early postpartum glycemic effectiveness and safety with standard care in type 1 diabetes. RESEARCH DESIGN AND METHODS: The primary outcome of this prespecified analysis was percentage of time in pregnancy-specific glucose range (63-140 mg/dL) during the 24 h prior to childbirth, measured by continuous glucose monitoring. A key secondary outcome was percentage of time at <70 mg/dL in the first postpartum week, with additional secondary outcomes including continuous glucose monitoring metrics through 6 weeks postpartum. Analyses were adjusted for baseline measure, insulin delivery mode, and site. RESULTS: In the intrapartum period (24 h before delivery), 39 of 44 (89%) participants continued closed loop. Intravenous insulin was used intrapartum by one (2%) closed-loop participant and 20 (45%) standard-care participants (P < 0.001). Intrapartum closed-loop users spent more time in pregnancy-specific glucose range (79.6% vs. 64.8%)…"
-    },
-    {
-      "pmid": "42546488",
-      "doi": "10.1016/j.jgo.2026.103072",
-      "title": "A comparative analysis of the Vulnerable Elders Survey (VES-13), Geriatric 8 (G8), Modified G8, and Geriatric 6 (G6) tools in older adults with cancer.",
-      "journal": "Journal of geriatric oncology",
-      "journalAbbrev": "J Geriatr Oncol",
-      "year": 2026,
-      "month": 8,
-      "authors": [
-        {
-          "name": "Jin RMM",
-          "campbelltown": false
-        },
-        {
-          "name": "Vadali N",
-          "campbelltown": true
-        },
-        {
-          "name": "Puts MTE",
-          "campbelltown": false
-        },
-        {
-          "name": "Pathak N",
-          "campbelltown": false
-        },
-        {
-          "name": "Santiago AT",
-          "campbelltown": false
-        },
-        {
-          "name": "Alibhai SMH",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "Cancer",
-        "G6",
-        "G8",
-        "Geriatric assessment",
-        "Modified G8",
-        "Older adults",
-        "VES-13"
-      ],
-      "abstract": "INTRODUCTION: Geriatric assessment (GA) supports treatment decision-making in older adults, but is resource and time intensive. In the Older Adults with Cancer Clinic (OACC) at Princess Margaret Cancer Centre, screening tools such as the Vulnerable Elders Survey (VES-13) and Geriatric 8 (G8, and/or modified versions) may help prioritize patients most in need of a comprehensive GA. However, direct comparisons between tools are limited. This study primarily aimed to compare whether the VES-13, the G8, modified G8, or the 6 item Brief Geriatric Assessment (G6) screening tools are effective in identifying patients that require a GA. Secondarily, we aimed to assess if vulnerable patients, identified by one of the tools, had cancer treatment modifications after the GA. MATERIALS AND METHODS: A retrospective chart review was conducted (n = 349) from September 2018 to December 2023 to collect data including patient characteristics, treatment intent, abnormal GA (defined as either 2+ or 4+ abnormal domains), and proposed and final treatment plan. Logistic regression was used to evaluate the screening tools against abnormal GA and change in treatment plan. RESULTS: Three hundred and…"
     },
     {
       "pmid": "42542980",
@@ -5071,117 +5793,6 @@
       "abstract": "The incidence of early-onset colorectal cancer (CRC), commonly defined as diagnosis prior to age 50, is increasing. Studies of patients diagnosed prior to age 35 as a distinct subset of all early-onset patients have yielded inconsistent results. We extracted prospectively collected data from consecutive patients with metastatic colorectal cancer (mCRC) entered in the multi-site Treatment of Recurrent and Advanced Colorectal Cancer (TRACC) Australasian registry. We focused on comparing demographic and clinicopathologic characteristics of those diagnosed < 35Y with remaining early-onset patients (35-49Y) whilst including a comparison to older patients (≥ 50Y) as a reference point. Molecular data were examined from 2015 when testing became reflexive. From July 2009 to December 2023, we identified 4399 patients with mCRC, including 133 (3.0%) < 35Y, and 537 (12%) 35-49Y. The proportion of < 35Y among newly diagnosed mCRC increased per calendar year (odds ratio 1.07, 95% CI 1.02-1.11). Gender, ECOG performance status and primary tumour location were similar for < 35Y and 35-49Y. Compared to 35-49Y, < 35Y had more de novo metastatic disease (79% vs. 70%; p = 0.04), BRAF V600E mutations…"
     },
     {
-      "pmid": "42535448",
-      "doi": "10.1111/cea.70392",
-      "title": "The National Allergy Centre of Excellence-Addressing Australia's Allergy Burden.",
-      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
-      "journalAbbrev": "Clin Exp Allergy",
-      "year": 2026,
-      "month": 7,
-      "authors": [
-        {
-          "name": "Young A",
-          "campbelltown": false
-        },
-        {
-          "name": "Koplin JJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Campbell DE",
-          "campbelltown": false
-        },
-        {
-          "name": "Davies JM",
-          "campbelltown": false
-        },
-        {
-          "name": "Edmund H",
-          "campbelltown": false
-        },
-        {
-          "name": "Jamieson T",
-          "campbelltown": false
-        },
-        {
-          "name": "Hornung CJ",
-          "campbelltown": false
-        },
-        {
-          "name": "O'Farrell T",
-          "campbelltown": false
-        },
-        {
-          "name": "West D",
-          "campbelltown": false
-        },
-        {
-          "name": "Kayes E",
-          "campbelltown": false
-        },
-        {
-          "name": "Gray LA",
-          "campbelltown": false
-        },
-        {
-          "name": "Peters RL",
-          "campbelltown": false
-        },
-        {
-          "name": "Gamble L",
-          "campbelltown": false
-        },
-        {
-          "name": "Gwynne K",
-          "campbelltown": false
-        },
-        {
-          "name": "Lee J",
-          "campbelltown": false
-        },
-        {
-          "name": "Lucas M",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "O'Sullivan MD",
-          "campbelltown": false
-        },
-        {
-          "name": "Palmer DJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Trubiano J",
-          "campbelltown": false
-        },
-        {
-          "name": "van Nunen S",
-          "campbelltown": false
-        },
-        {
-          "name": "Vale SL",
-          "campbelltown": false
-        },
-        {
-          "name": "Wanandy T",
-          "campbelltown": false
-        },
-        {
-          "name": "Perrett KP",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [],
-      "abstract": "Australia has one of the highest rates of food allergy, anaphylaxis hospital admissions and anaphylaxis fatalities worldwide. These trends and sustained advocacy prompted a 2019 Parliamentary Inquiry into Allergies and Anaphylaxis. Among 250 submissions, the Centre for Food Allergy Research called for a national research-coordinating centre and comprehensive allergy research funding. In response to the inquiry, the Australian Government funded the National Allergy Centre of Excellence (NACE) in 2022, and its partner organisation, the National Allergy Council (NAC), to improve health, save lives and reduce the national burden of allergic disease. Here we describe the establishment and early impacts of the NACE. The NACE was established to build critical national research infrastructure and collaboration to transform consumer-centred allergy care. Four interconnected Pillars underpin the plan of action: (1) Transforming Allergy Care, codesigning national trials and embedded clinical research to address knowledge and practice gaps; (2) BioRepository and Discovery, developing Australia's first national Allergy BioRepository (ALBI) to support data-driven discovery; (3) Evidence and…"
-    },
-    {
       "pmid": "42500618",
       "doi": "10.4244/AIJ-D-25-00066",
       "title": "A randomised clinical trial investigating robotic-assisted percutaneous coronary intervention: the PARTY trial.",
@@ -5626,101 +6237,6 @@
       "abstract": "OBJECTIVE: The aim of this paper is to describe the methods and processes used to develop a theory-informed, dedicated serratus anterior plane block (SAPB) education and training program for Emergency Medicine clinicians. METHODS: This program was informed by Kern's six-step approach to curriculum development. Firstly, expert consensus on education and training was developed using a modified Delphi process. Secondly, contemporary medical literature was incorporated with educational pedagogical theoretical frameworks including Bloom's taxonomy of educational objectives, backwards design, and constructive alignment, scaffolded learning, and segmented learning. Finally, these were aligned with existing national policies around regional anaesthesia in the Emergency Department. RESULTS: The resultant SAPB evidence-based education package is supported by the most current evidence for using the SAPB as a regional anaesthesia procedure for patients with rib fracture pain. It serves as an educational tool for clinicians already proficient in the principles of plane blocks with additional guidance on establishing local workshops for practical education as well as ongoing supervision and…"
     },
     {
-      "pmid": "42226352",
-      "doi": "10.1177/15209156261455567",
-      "title": "Continuous Glucose Monitoring in Pregnant Women with Type 1 Diabetes: Outcomes of a Population-Based Real-World Study.",
-      "journal": "Diabetes technology & therapeutics",
-      "journalAbbrev": "Diabetes Technol Ther",
-      "year": 2026,
-      "month": 6,
-      "authors": [
-        {
-          "name": "Price SAL",
-          "campbelltown": false
-        },
-        {
-          "name": "Chee M",
-          "campbelltown": false
-        },
-        {
-          "name": "Earnest A",
-          "campbelltown": false
-        },
-        {
-          "name": "Thomson RL",
-          "campbelltown": false
-        },
-        {
-          "name": "Penno MAS",
-          "campbelltown": false
-        },
-        {
-          "name": "Couper JJ",
-          "campbelltown": false
-        },
-        {
-          "name": "Holmes-Walker J",
-          "campbelltown": false
-        },
-        {
-          "name": "Johnson S",
-          "campbelltown": false
-        },
-        {
-          "name": "Ross G",
-          "campbelltown": false
-        },
-        {
-          "name": "Sweeting A",
-          "campbelltown": false
-        },
-        {
-          "name": "Simmons D",
-          "campbelltown": true
-        },
-        {
-          "name": "Glastras S",
-          "campbelltown": false
-        },
-        {
-          "name": "Shub A",
-          "campbelltown": false
-        },
-        {
-          "name": "Griffin K",
-          "campbelltown": false
-        },
-        {
-          "name": "Graham D",
-          "campbelltown": false
-        },
-        {
-          "name": "Duke A",
-          "campbelltown": false
-        },
-        {
-          "name": "Hg TM",
-          "campbelltown": false
-        },
-        {
-          "name": "ENDIA Study Group",
-          "campbelltown": false
-        },
-        {
-          "name": "Jones T",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [],
-      "keywords": [
-        "continuous glucose monitoring",
-        "pregnancy",
-        "type 1 diabetes"
-      ],
-      "abstract": "BACKGROUND: Continuous glucose monitoring (CGM) is increasingly used by women with type 1 diabetes (T1D) during pregnancy, but there are limited data on glycemic and pregnancy outcomes in large real-world cohorts. METHODS: We collected glycemic and pregnancy outcome data from women with T1D across Australian centers between 2015 and 2025. The primary outcome was change in HbA1c from the first to the third trimester of pregnancy. Prespecified secondary outcomes included trimester-specific mean HbA1c, the proportion of women achieving HbA1c ≤6.5% (≤48 mmol/L) and ≤7.0% (≤53 mmol/L) in the third trimester, and a range of maternal and neonatal health outcomes. RESULTS: Among 951 women, 456 (48%) were CGM users. Demographics and baseline characteristics were similar between CGM users and nonusers. For the primary outcome, adjusted linear regression models accounting for first-trimester HbA1c and insulin regimen demonstrated that CGM use was independently associated with a greater reduction in HbA1c over pregnancy (adjusted mean difference -0.20%, 95% confidence interval [CI] -0.40 to 0.00, P = 0.037). First-trimester HbA1c was the strongest predictor of HbA1c change ( P < 0.001).After…"
-    },
-    {
       "pmid": "42093212",
       "doi": "10.1111/all.70382",
       "title": "Cost-Effectiveness of Allergen Immunotherapy for Allergic Rhinitis: A Systematic Review.",
@@ -5893,119 +6409,6 @@
       ],
       "keywords": [],
       "abstract": ""
-    },
-    {
-      "pmid": "42200301",
-      "doi": "10.1111/cea.70348",
-      "title": "A Real-World Controlled Multicentre Study Evaluating the Association Between Benralizumab Therapy and Major Outcomes in Severe Asthma.",
-      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
-      "journalAbbrev": "Clin Exp Allergy",
-      "year": 2026,
-      "month": 5,
-      "authors": [
-        {
-          "name": "Thomas D",
-          "campbelltown": false
-        },
-        {
-          "name": "McDonald VM",
-          "campbelltown": false
-        },
-        {
-          "name": "Thomas G",
-          "campbelltown": false
-        },
-        {
-          "name": "Lee J",
-          "campbelltown": false
-        },
-        {
-          "name": "Chung LP",
-          "campbelltown": false
-        },
-        {
-          "name": "Peters M",
-          "campbelltown": false
-        },
-        {
-          "name": "Shukla SD",
-          "campbelltown": false
-        },
-        {
-          "name": "Hamada Y",
-          "campbelltown": false
-        },
-        {
-          "name": "Harvey ES",
-          "campbelltown": false
-        },
-        {
-          "name": "Fricker M",
-          "campbelltown": false
-        },
-        {
-          "name": "See H",
-          "campbelltown": false
-        },
-        {
-          "name": "Sabin Thomas R",
-          "campbelltown": false
-        },
-        {
-          "name": "Farah CS",
-          "campbelltown": false
-        },
-        {
-          "name": "Gillman A",
-          "campbelltown": false
-        },
-        {
-          "name": "Katelaris CH",
-          "campbelltown": true
-        },
-        {
-          "name": "Katsoulotos GP",
-          "campbelltown": false
-        },
-        {
-          "name": "Langton D",
-          "campbelltown": false
-        },
-        {
-          "name": "Middleton PG",
-          "campbelltown": false
-        },
-        {
-          "name": "Reynolds P",
-          "campbelltown": false
-        },
-        {
-          "name": "Rimmer J",
-          "campbelltown": false
-        },
-        {
-          "name": "Thien F",
-          "campbelltown": false
-        },
-        {
-          "name": "Vincent S",
-          "campbelltown": false
-        },
-        {
-          "name": "Upham JW",
-          "campbelltown": false
-        },
-        {
-          "name": "Gibson PG",
-          "campbelltown": false
-        }
-      ],
-      "campbelltownLed": false,
-      "departments": [
-        "Immunology & Allergy Unit"
-      ],
-      "keywords": [],
-      "abstract": "BACKGROUND: Real-world data on benralizumab in patients with severe eosinophilic asthma-while controlling for confounding factors-is currently lacking. AIM: This real-world controlled multicentre study evaluated asthma outcomes in patients who received benralizumab compared with a severe asthma cohort who did not receive biologic therapy. METHODS: Two years of data from patients with severe eosinophilic asthma in the Australian Benralizumab Registry (ABenRa) and the Australasian Severe Asthma Registry (ASAR) were included in the analysis. Asthma control questionnaire-5 (ACQ-5) scores, asthma-related quality of life (AQLQ) scores, maintenance oral corticosteroid (OCS) dose, annualised exacerbation rate and clinical remission (ACQ-5 ≤ 1, with no asthma attacks or OCS use for 12 months, assessed at the 24-month follow-up) rates were compared between the groups after adjusting for baseline imbalances. RESULTS: A total of 211 participants from ABenRa (64.5% female; mean age 57.4 ± 14.5 years) and 250 from ASAR (63.1% female; mean age 53.7 ± 14.8 years) were included. ACQ and AQLQ improved significantly in both groups. Participants in the ABenRa showed greater improvements in ACQ at 12-…"
     },
     {
       "pmid": "42157351",
