@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T02:26:19.012Z",
+  "generated": "2026-11-14T02:46:33.716Z",
   "source": "pubmed",
   "items": [
     {
@@ -157,6 +157,42 @@
         "Teaching practices"
       ],
       "abstract": "AIM: This review explored and described the state of cultural inclusivity in teaching practices within Australian nursing programs, with particular attention to how those practices shaped the educational experiences of international and other culturally and linguistically diverse nursing students. BACKGROUND: Nursing programs in Australia serve increasingly culturally diverse student cohorts. Cultural inclusion has been a long-standing concern in Australian nursing education, with growing numbers of international and other culturally and linguistically diverse students over the past two decades. Australian qualitative evidence indicates that teaching and learning environments can privilege Western educational and communication norms. Inclusivity is central to student engagement, readiness for practice, and patient safety. DESIGN: An integrative review design was adopted to synthesise qualitative evidence related to cultural inclusivity in Australian nursing education. METHODS: Eligibility permitted qualitative, quantitative and mixed methods empirical studies; all studies meeting the criteria were qualitative. No date limit was applied, which traced how cultural inclusion for…"
+    },
+    {
+      "pmid": "42759482",
+      "doi": "10.1016/j.midw.2026.104989",
+      "title": "Restorative connection through support: Qualitative findings from the Helping suppOrt individuals Pregnant after experiencing a stillbirth (HOPES) study.",
+      "journal": "Midwifery",
+      "journalAbbrev": "Midwifery",
+      "year": 2026,
+      "month": 12,
+      "authors": [
+        {
+          "name": "Fogarty S",
+          "campbelltown": false
+        },
+        {
+          "name": "Heazell AEP",
+          "campbelltown": false
+        },
+        {
+          "name": "Munk N",
+          "campbelltown": false
+        },
+        {
+          "name": "Hay P",
+          "campbelltown": true
+        }
+      ],
+      "campbelltownLed": true,
+      "departments": [],
+      "keywords": [
+        "Massage therapy",
+        "Stillbirth",
+        "Termination for medical reason",
+        "Wellbeing"
+      ],
+      "abstract": "BACKGROUND: Stillbirth has profound and enduring effects on women, particularly in subsequent pregnancies, which have a heavy emotional toll. Thus, we conducted a feasibility trial: Helping suppOrt individuals Pregnant after Experiencing a Stillbirth (HOPES). AIM: To present qualitative findings from the HOPES trial, exploring how massage therapy was experienced and perceived by women in a pregnancy after stillbirth. METHODS: A qualitative study incorporating individual interviews and data from the validated patient reported outcome measurement tool: Measure Yourself Concerns and Wellbeing (MYCaW). Semi-structured interviews were conducted in a sub-sample of HOPES participants. Open-ended MYCaW responses were examined using summative content analysis, while interview transcripts were analysed using an inductive thematic approach. FINDINGS: Thirty-three women participating in the HOPES study were interviewed. An overarching theme of restorative connection through support was derived through integrating the MYCaW analysis and the interview sub-themes. Massage therapy supported women to reconnect with themselves in nurturing ways, facilitated adaptive coping, and supported moments of…"
     },
     {
       "pmid": "42820864",
@@ -1128,6 +1164,269 @@
       "departments": [],
       "keywords": [],
       "abstract": "INTRODUCTION: There is a lack of consensus on the eligibility thresholds and technical standards of minimally invasive axillary staging techniques including targeted axillary dissection (TAD), marked lymph node biopsy (MLNB) and sentinel lymph node biopsy (SLNB) in node-positive breast cancer responding to neoadjuvant chemotherapy (NAC). METHODS: Consultant breast surgical oncologists from OECD countries were invited to participate. Statements developed from the literature, guidelines, and steering-committee were distributed to the panellists and consensus was investigated (≥70% agreement). Latent class analysis investigated the association between surgeon characteristics and axillary de-escalation. RESULTS: Of 574 surgeons (97.7% with access to axillary marking/localisation), 471 (82.1%) completed Round 2. The preferred axillary approach in cN1 (82.5% agreement) and cN2a (77.4%) patients converting to ycN0 was TAD, in preference to MLNB or SLNB. Eligibility for TAD was agreed for three or fewer involved nodes pre-NAC (84.1%) but was not agreed for four or more nodes (40.1%). Consensus supported marking only a single pathological node (≥78%), before NAC (93.8%), with localisation…"
+    },
+    {
+      "pmid": "43003101",
+      "doi": "10.1016/S2665-9913(26)00312-7",
+      "title": "The IgG4ward! Foundation guidelines on the treatment of IgG4-related disease.",
+      "journal": "The Lancet. Rheumatology",
+      "journalAbbrev": "Lancet Rheumatol",
+      "year": 2026,
+      "month": 11,
+      "authors": [
+        {
+          "name": "Perugino CA",
+          "campbelltown": false
+        },
+        {
+          "name": "Alexander T",
+          "campbelltown": false
+        },
+        {
+          "name": "Baker MC",
+          "campbelltown": false
+        },
+        {
+          "name": "Brooks D",
+          "campbelltown": false
+        },
+        {
+          "name": "Carruthers MN",
+          "campbelltown": false
+        },
+        {
+          "name": "Chwalisz BK",
+          "campbelltown": false
+        },
+        {
+          "name": "Chen LYC",
+          "campbelltown": false
+        },
+        {
+          "name": "Culver EL",
+          "campbelltown": false
+        },
+        {
+          "name": "Danforth H",
+          "campbelltown": false
+        },
+        {
+          "name": "Della-Torre E",
+          "campbelltown": false
+        },
+        {
+          "name": "Dong L",
+          "campbelltown": false
+        },
+        {
+          "name": "Silva GD",
+          "campbelltown": false
+        },
+        {
+          "name": "Ebbo M",
+          "campbelltown": false
+        },
+        {
+          "name": "El-Saadany H",
+          "campbelltown": false
+        },
+        {
+          "name": "Falaki A",
+          "campbelltown": false
+        },
+        {
+          "name": "Freitag S",
+          "campbelltown": false
+        },
+        {
+          "name": "Gray ST",
+          "campbelltown": false
+        },
+        {
+          "name": "Hart PA",
+          "campbelltown": false
+        },
+        {
+          "name": "Hedgire SS",
+          "campbelltown": false
+        },
+        {
+          "name": "Hernandez-Barco Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Hernández-Molina G",
+          "campbelltown": false
+        },
+        {
+          "name": "Hughes-Hallett A",
+          "campbelltown": false
+        },
+        {
+          "name": "Inoue D",
+          "campbelltown": false
+        },
+        {
+          "name": "Kambadakone AR",
+          "campbelltown": false
+        },
+        {
+          "name": "Kamisawa T",
+          "campbelltown": false
+        },
+        {
+          "name": "Karadag O",
+          "campbelltown": false
+        },
+        {
+          "name": "Katz G",
+          "campbelltown": false
+        },
+        {
+          "name": "Kawano M",
+          "campbelltown": false
+        },
+        {
+          "name": "Keat K",
+          "campbelltown": true
+        },
+        {
+          "name": "Kilian A",
+          "campbelltown": false
+        },
+        {
+          "name": "Kleger A",
+          "campbelltown": false
+        },
+        {
+          "name": "Lanzillotta M",
+          "campbelltown": false
+        },
+        {
+          "name": "Löhr JM",
+          "campbelltown": false
+        },
+        {
+          "name": "Lydston M",
+          "campbelltown": false
+        },
+        {
+          "name": "Martin-Nares E",
+          "campbelltown": false
+        },
+        {
+          "name": "Martinez-Valle F",
+          "campbelltown": false
+        },
+        {
+          "name": "Masamune A",
+          "campbelltown": false
+        },
+        {
+          "name": "Meysami A",
+          "campbelltown": false
+        },
+        {
+          "name": "Murphy P",
+          "campbelltown": false
+        },
+        {
+          "name": "Nakayamada S",
+          "campbelltown": false
+        },
+        {
+          "name": "Okazaki K",
+          "campbelltown": false
+        },
+        {
+          "name": "Park WG",
+          "campbelltown": false
+        },
+        {
+          "name": "Provencher A",
+          "campbelltown": false
+        },
+        {
+          "name": "Provencher K",
+          "campbelltown": false
+        },
+        {
+          "name": "Rebours V",
+          "campbelltown": false
+        },
+        {
+          "name": "Riddle S",
+          "campbelltown": false
+        },
+        {
+          "name": "Saeki T",
+          "campbelltown": false
+        },
+        {
+          "name": "Schleinitz N",
+          "campbelltown": false
+        },
+        {
+          "name": "Sharma A",
+          "campbelltown": false
+        },
+        {
+          "name": "Skelly K",
+          "campbelltown": false
+        },
+        {
+          "name": "Tanaka Y",
+          "campbelltown": false
+        },
+        {
+          "name": "Tomlinson JAP",
+          "campbelltown": false
+        },
+        {
+          "name": "Travers B",
+          "campbelltown": false
+        },
+        {
+          "name": "Tsuboi H",
+          "campbelltown": false
+        },
+        {
+          "name": "Uchida K",
+          "campbelltown": false
+        },
+        {
+          "name": "Umehara H",
+          "campbelltown": false
+        },
+        {
+          "name": "Vaglio A",
+          "campbelltown": false
+        },
+        {
+          "name": "Yamamoto M",
+          "campbelltown": false
+        },
+        {
+          "name": "Yoshifuji H",
+          "campbelltown": false
+        },
+        {
+          "name": "Zhang W",
+          "campbelltown": false
+        },
+        {
+          "name": "Stone JH",
+          "campbelltown": false
+        },
+        {
+          "name": "Khosroshahi A",
+          "campbelltown": false
+        }
+      ],
+      "campbelltownLed": false,
+      "departments": [],
+      "keywords": [],
+      "abstract": "IgG4-related disease is a chronic, immune-mediated, systemic condition that presents as tumour-like masses. Since publication of the last international consensus statement on the treatment of IgG4-related disease in 2015, the related literature has expanded considerably, with two phase 3, randomised, placebo-controlled trials published within the past 2 years. This foundation of evidence for treatment decisions justified new, dedicated treatment guidelines. 62 investigators-comprising 52 physicians, one medical reference librarian, eight patients, and one caregiver from 15 countries across six continents-were assembled to form a treatment guidelines group. The physicians had a broad range of specialties and patient representation spanned the full spectrum of organ involvement. The treatment guidelines group generated 183 candidate questions, which were consolidated into 40 final questions approved by the IgG4ward! Advisory Board. These questions formed the basis of a systematic literature search, led by a medical reference librarian, which informed the development of 28 treatment statements. Supporting evidence for each statement was independently graded using the 2011 Oxford…"
     },
     {
       "pmid": "42386477",
@@ -2601,42 +2900,6 @@
         "Therapeutic relationships"
       ],
       "abstract": "BACKGROUND: Individuals pregnant after a loss want healthcare providers to be knowledgeable, kind and empathetic. The quality of the therapeutic relationship healthcare providers develops impacts psychological well-being as well as the overall experience of maternity care. The experience of the therapeutic relationship and attributes of massage therapists that are important to women receiving massage in a pregnancy after stillbirth are unknown. AIM: To explore how women who received massage therapy during pregnancy after stillbirth experienced the therapeutic relationship, including the therapist attributes and relational elements they valued, and how these contributed to their perceptions the experience of care. METHODS: Mixed methods incorporating semi-structured interviews in a sub-sample of the Helping support women in a Pregnancy after Stillbirth (HOPES) participants (n=33) and the Consultation and Relational Empathy (CARE) questionnaire data. Interview transcripts were analysed using an inductive thematic approach and the CARE data were tallied and reported. FINDINGS: An overarching theme of 'built with strong foundations, shaped by care and connection' was derived. The…"
-    },
-    {
-      "pmid": "42759482",
-      "doi": "10.1016/j.midw.2026.104989",
-      "title": "Restorative connection through support: Qualitative findings from the Helping suppOrt individuals Pregnant after experiencing a stillbirth (HOPES) study.",
-      "journal": "Midwifery",
-      "journalAbbrev": "Midwifery",
-      "year": 2026,
-      "month": 9,
-      "authors": [
-        {
-          "name": "Fogarty S",
-          "campbelltown": false
-        },
-        {
-          "name": "Heazell AEP",
-          "campbelltown": false
-        },
-        {
-          "name": "Munk N",
-          "campbelltown": false
-        },
-        {
-          "name": "Hay P",
-          "campbelltown": true
-        }
-      ],
-      "campbelltownLed": true,
-      "departments": [],
-      "keywords": [
-        "Massage therapy",
-        "Stillbirth",
-        "Termination for medical reason",
-        "Wellbeing"
-      ],
-      "abstract": "BACKGROUND: Stillbirth has profound and enduring effects on women, particularly in subsequent pregnancies, which have a heavy emotional toll. Thus, we conducted a feasibility trial: Helping suppOrt individuals Pregnant after Experiencing a Stillbirth (HOPES). AIM: To present qualitative findings from the HOPES trial, exploring how massage therapy was experienced and perceived by women in a pregnancy after stillbirth. METHODS: A qualitative study incorporating individual interviews and data from the validated patient reported outcome measurement tool: Measure Yourself Concerns and Wellbeing (MYCaW). Semi-structured interviews were conducted in a sub-sample of HOPES participants. Open-ended MYCaW responses were examined using summative content analysis, while interview transcripts were analysed using an inductive thematic approach. FINDINGS: Thirty-three women participating in the HOPES study were interviewed. An overarching theme of restorative connection through support was derived through integrating the MYCaW analysis and the interview sub-themes. Massage therapy supported women to reconnect with themselves in nurturing ways, facilitated adaptive coping, and supported moments of…"
     },
     {
       "pmid": "42814486",
